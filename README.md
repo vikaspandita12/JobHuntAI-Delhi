@@ -17,10 +17,22 @@ Runs entirely on GitHub. No laptop, no Docker, no local install.
 - `main` — holds only the workflow file (needed for scheduled runs)
 - `claude/compare-cursor-repos-E1qVk` — all the code, scrapers, dashboard, data
 
-## Setup (one time, 3 minutes on mobile)
+## Mobile Dashboard
 
-1. **Settings → Secrets → Actions** — add `SMTP_USER`, `SMTP_PASS`, `ANTHROPIC_API_KEY`
+`https://vikaspandita12.github.io/JobHuntAI-Delhi/`
+
+## GitHub Secrets required
+
+| Secret name | What it is |
+|---|---|
+| `JOB` | Vikas's Gmail App Password (vikaspandita111@gmail.com) |
+| `DIKSHASECRET` | Diksha's Gmail App Password (dikshakoul88@gmail.com) |
+| `ANTHROPIC_API_KEY` | Optional — for AI cover letters |
+
+## Setup (one time, on mobile)
+
+1. **Settings → Secrets → Actions** — add `JOB`, `DIKSHASECRET` (done ✓)
 2. **Settings → Pages** — source: branch `claude/compare-cursor-repos-E1qVk` / folder `/docs`
 3. **Actions tab** — tap **Daily Job Scan → Run workflow** for the first run
 
-That's it. The 8 AM IST cron will take over from tomorrow.
+From tomorrow the 8 AM IST cron runs automatically every day.
