@@ -35,14 +35,15 @@ def load_existing(path: Path) -> dict:
 
 
 async def main():
-    from app.scrapers.naukri     import NaukriScraper
-    from app.scrapers.linkedin   import LinkedInScraper
-    from app.scrapers.indeed     import IndeedScraper
-    from app.scrapers.shine      import ShineScraper
-    from app.scrapers.timesjobs  import TimesJobsScraper
-    from app.scrapers.iimjobs    import IIMJobsScraper
-    from app.scrapers.glassdoor  import GlassdoorScraper
-    from app.scrapers.remoteok   import RemoteOKScraper
+    from app.scrapers.adzuna    import AdzunaScraper
+    from app.scrapers.remoteok  import RemoteOKScraper
+    from app.scrapers.naukri    import NaukriScraper
+    from app.scrapers.linkedin  import LinkedInScraper
+    from app.scrapers.indeed    import IndeedScraper
+    from app.scrapers.shine     import ShineScraper
+    from app.scrapers.timesjobs import TimesJobsScraper
+    from app.scrapers.iimjobs   import IIMJobsScraper
+    from app.scrapers.glassdoor import GlassdoorScraper
     from app.matcher  import JobMatcher
     from app.notifier import EmailNotifier
 
@@ -52,7 +53,11 @@ async def main():
     existing_diksha = load_existing(DIKSHA_FILE)
     known_ids = set(existing_vikas) | set(existing_diksha)
 
+    # Adzuna + RemoteOK are reliable (official APIs)
+    # India HTML scrapers are attempted but may be blocked by cloud IP detection
     scrapers = [
+        AdzunaScraper(),
+        RemoteOKScraper(),
         NaukriScraper(),
         LinkedInScraper(),
         IndeedScraper(),
@@ -60,7 +65,6 @@ async def main():
         TimesJobsScraper(),
         IIMJobsScraper(),
         GlassdoorScraper(),
-        RemoteOKScraper(),
     ]
 
     all_jobs = []
@@ -108,7 +112,7 @@ async def main():
         "diksha_total":     len(diksha_sorted),
         "vikas_new_today":  len(vikas_new),
         "diksha_new_today": len(diksha_new),
-        "platforms":        "Naukri, LinkedIn, Indeed, Shine, TimesJobs, IIMJobs, Glassdoor, RemoteOK",
+        "platforms":        "Adzuna, RemoteOK, Naukri, LinkedIn, Indeed, Shine, TimesJobs, IIMJobs, Glassdoor",
     }
     STATS_FILE.write_text(json.dumps(stats, indent=2))
 
