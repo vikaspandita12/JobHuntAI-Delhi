@@ -7,6 +7,11 @@ DELHI_TERMS = {
     "faridabad", "ghaziabad", "greater noida", "manesar",
 }
 
+REMOTE_TERMS = {
+    "remote", "work from home", "wfh", "anywhere", "worldwide",
+    "india ok", "remote (india",
+}
+
 
 class JobMatcher:
     def score_job(self, job: Dict) -> Dict[str, int]:
@@ -17,10 +22,13 @@ class JobMatcher:
         ]).lower()
 
         location = job.get("location", "").lower()
-        is_delhi = any(t in location for t in DELHI_TERMS) or not location.strip()
-        location_factor = 1.0 if is_delhi else 0.2
+        is_delhi  = any(t in location for t in DELHI_TERMS) or not location.strip()
+        is_remote = any(t in location for t in REMOTE_TERMS)
+        # Remote jobs score at full weight (can work from Delhi)
+        # Non-Delhi, non-remote jobs get 0.2x penalty
+        location_factor = 1.0 if (is_delhi or is_remote) else 0.2
 
-        vikas_raw = self._score_profile(text, VIKAS_PROFILE)
+        vikas_raw  = self._score_profile(text, VIKAS_PROFILE)
         diksha_raw = self._score_profile(text, DIKSHA_PROFILE)
 
         return {

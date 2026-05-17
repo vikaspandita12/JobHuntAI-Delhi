@@ -15,18 +15,17 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-DOCS_DIR   = Path("docs")
-VIKAS_FILE = DOCS_DIR / "jobs_vikas.json"
-DIKSHA_FILE= DOCS_DIR / "jobs_diksha.json"
-STATS_FILE = DOCS_DIR / "stats.json"
+DOCS_DIR    = Path("docs")
+VIKAS_FILE  = DOCS_DIR / "jobs_vikas.json"
+DIKSHA_FILE = DOCS_DIR / "jobs_diksha.json"
+STATS_FILE  = DOCS_DIR / "stats.json"
 
-V_MIN = int(os.getenv("VIKAS_MIN_SCORE",  "60"))
-D_MIN = int(os.getenv("DIKSHA_MIN_SCORE", "50"))
-MAX_JOBS = 200  # keep latest 200 per profile
+V_MIN    = int(os.getenv("VIKAS_MIN_SCORE",  "60"))
+D_MIN    = int(os.getenv("DIKSHA_MIN_SCORE", "50"))
+MAX_JOBS = 200
 
 
 def load_existing(path: Path) -> dict:
-    """Load saved jobs keyed by job_id for O(1) dedup."""
     if path.exists() and path.stat().st_size > 2:
         try:
             return {j["job_id"]: j for j in json.loads(path.read_text())}
@@ -36,12 +35,14 @@ def load_existing(path: Path) -> dict:
 
 
 async def main():
-    from app.scrapers.naukri    import NaukriScraper
-    from app.scrapers.linkedin  import LinkedInScraper
-    from app.scrapers.indeed    import IndeedScraper
-    from app.scrapers.shine     import ShineScraper
-    from app.scrapers.timesjobs import TimesJobsScraper
-    from app.scrapers.iimjobs   import IIMJobsScraper
+    from app.scrapers.naukri     import NaukriScraper
+    from app.scrapers.linkedin   import LinkedInScraper
+    from app.scrapers.indeed     import IndeedScraper
+    from app.scrapers.shine      import ShineScraper
+    from app.scrapers.timesjobs  import TimesJobsScraper
+    from app.scrapers.iimjobs    import IIMJobsScraper
+    from app.scrapers.glassdoor  import GlassdoorScraper
+    from app.scrapers.remoteok   import RemoteOKScraper
     from app.matcher  import JobMatcher
     from app.notifier import EmailNotifier
 
@@ -58,6 +59,8 @@ async def main():
         ShineScraper(),
         TimesJobsScraper(),
         IIMJobsScraper(),
+        GlassdoorScraper(),
+        RemoteOKScraper(),
     ]
 
     all_jobs = []
@@ -69,10 +72,9 @@ async def main():
         except Exception as e:
             logger.error(f"{scraper.__class__.__name__} failed: {e}")
 
-    matcher    = JobMatcher()
-    today      = datetime.utcnow().strftime("%Y-%m-%d")
-    vikas_new  = []
-    diksha_new = []
+    matcher = JobMatcher()
+    today   = datetime.utcnow().strftime("%Y-%m-%d")
+    vikas_new, diksha_new = [], []
 
     for job in all_jobs:
         if job["job_id"] in known_ids:
@@ -94,7 +96,6 @@ async def main():
         if added:
             known_ids.add(job["job_id"])
 
-    # Sort by score desc, cap at MAX_JOBS
     vikas_sorted  = sorted(existing_vikas.values(),  key=lambda x: x.get("vikas_score",  0), reverse=True)[:MAX_JOBS]
     diksha_sorted = sorted(existing_diksha.values(), key=lambda x: x.get("diksha_score", 0), reverse=True)[:MAX_JOBS]
 
@@ -107,12 +108,11 @@ async def main():
         "diksha_total":     len(diksha_sorted),
         "vikas_new_today":  len(vikas_new),
         "diksha_new_today": len(diksha_new),
+        "platforms":        "Naukri, LinkedIn, Indeed, Shine, TimesJobs, IIMJobs, Glassdoor, RemoteOK",
     }
     STATS_FILE.write_text(json.dumps(stats, indent=2))
 
-    logger.info(
-        f"Scan complete — Vikas: {len(vikas_new)} new | Diksha: {len(diksha_new)} new"
-    )
+    logger.info(f"Scan complete — Vikas: {len(vikas_new)} new | Diksha: {len(diksha_new)} new")
 
     EmailNotifier().send_daily_digest(vikas_new, diksha_new)
 
