@@ -3,14 +3,14 @@ name: Daily Job Scan — JobHuntAI Delhi
 on:
   schedule:
     - cron: '30 2 * * *'  # 08:00 IST (UTC+5:30) every day
-  workflow_dispatch:        # Tap "Run workflow" on mobile anytime
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
   scan:
-    name: Scan Naukri · LinkedIn · Indeed · Shine · TimesJobs · iimjobs
+    name: Scan Adzuna · RemoteOK · Naukri · LinkedIn · Indeed · Shine · TimesJobs · IIMJobs · Glassdoor
     runs-on: ubuntu-latest
 
     steps:
@@ -29,9 +29,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run job scan across all 6 platforms
+      - name: Run job scan
         env:
           ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          ADZUNA_APP_ID:      ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY:     ${{ secrets.ADZUNA_APP_KEY }}
           VIKAS_SMTP_USER:    vikaspandita111@gmail.com
           VIKAS_SMTP_PASS:    ${{ secrets.JOB }}
           DIKSHA_SMTP_USER:   dikshakoul88@gmail.com
