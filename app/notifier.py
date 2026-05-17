@@ -15,31 +15,41 @@ class EmailNotifier:
     def __init__(self):
         self.host = os.getenv("SMTP_HOST", "smtp.gmail.com")
         self.port = int(os.getenv("SMTP_PORT", "587"))
-        self.user = os.getenv("SMTP_USER", "")
-        self.password = os.getenv("SMTP_PASS", "")
-        self.vikas_email = os.getenv("VIKAS_EMAIL", "vikaspandita1@gmail.com")
-        self.diksha_email = os.getenv("DIKSHA_EMAIL", "dikshakoul88@gmail.com")
+
+        # Vikas sends from vikaspandita111@gmail.com (secret: JOB)
+        self.vikas_smtp_user = os.getenv("VIKAS_SMTP_USER", "")
+        self.vikas_smtp_pass = os.getenv("VIKAS_SMTP_PASS", "")
+        self.vikas_email     = os.getenv("VIKAS_EMAIL", "vikaspandita1@gmail.com")
+
+        # Diksha sends from dikshakoul88@gmail.com (secret: DIKSHASECRET)
+        self.diksha_smtp_user = os.getenv("DIKSHA_SMTP_USER", "")
+        self.diksha_smtp_pass = os.getenv("DIKSHA_SMTP_PASS", "")
+        self.diksha_email     = os.getenv("DIKSHA_EMAIL", "dikshakoul88@gmail.com")
 
     def send_daily_digest(self, vikas_jobs: List[Dict], diksha_jobs: List[Dict]):
-        if not self.user or not self.password:
-            logger.warning("SMTP not configured — skipping email digest")
-            return
-
         today = datetime.today().strftime("%d %b %Y")
 
-        if vikas_jobs:
+        if vikas_jobs and self.vikas_smtp_user and self.vikas_smtp_pass:
             self._send(
+                smtp_user=self.vikas_smtp_user,
+                smtp_pass=self.vikas_smtp_pass,
                 to=self.vikas_email,
                 subject=f"JobHuntAI — {len(vikas_jobs)} new Delhi cybersecurity roles — {today}",
                 html=self._build_html("Vikas", vikas_jobs, "vikas"),
             )
+        elif not self.vikas_smtp_pass:
+            logger.warning("VIKAS_SMTP_PASS (secret: JOB) not set — skipping Vikas email")
 
-        if diksha_jobs:
+        if diksha_jobs and self.diksha_smtp_user and self.diksha_smtp_pass:
             self._send(
+                smtp_user=self.diksha_smtp_user,
+                smtp_pass=self.diksha_smtp_pass,
                 to=self.diksha_email,
                 subject=f"JobHuntAI — {len(diksha_jobs)} new Delhi cloud engineering roles — {today}",
                 html=self._build_html("Diksha", diksha_jobs, "diksha"),
             )
+        elif not self.diksha_smtp_pass:
+            logger.warning("DIKSHA_SMTP_PASS (secret: DIKSHASECRET) not set — skipping Diksha email")
 
     def _build_html(self, name: str, jobs: List[Dict], profile: str) -> str:
         score_key = f"{profile}_score"
@@ -86,18 +96,18 @@ class EmailNotifier:
           </div>
         </body></html>"""
 
-    def _send(self, to: str, subject: str, html: str):
+    def _send(self, smtp_user: str, smtp_pass: str, to: str, subject: str, html: str):
         try:
             msg = MIMEMultipart("alternative")
             msg["Subject"] = subject
-            msg["From"] = self.user
+            msg["From"] = smtp_user
             msg["To"] = to
             msg.attach(MIMEText(html, "html"))
             with smtplib.SMTP(self.host, self.port) as server:
                 server.ehlo()
                 server.starttls()
-                server.login(self.user, self.password)
-                server.sendmail(self.user, to, msg.as_string())
+                server.login(smtp_user, smtp_pass)
+                server.sendmail(smtp_user, to, msg.as_string())
             logger.info(f"Email sent to {to}")
         except Exception as e:
             logger.error(f"Failed to send email to {to}: {e}")
