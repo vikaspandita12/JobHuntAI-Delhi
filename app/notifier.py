@@ -8,6 +8,8 @@ from typing import List, Dict
 
 logger = logging.getLogger(__name__)
 
+DASHBOARD_URL = "https://vikaspandita12.github.io/JobHuntAI-Delhi/"
+
 
 class EmailNotifier:
     def __init__(self):
@@ -61,8 +63,8 @@ class EmailNotifier:
                 </div>
               </div>
               <div style="margin-top:12px;">
-                <a href="{j.get('url','#')}" style="background:#1e3a5f;color:#fff;padding:8px 18px;border-radius:6px;text-decoration:none;font-size:13px;margin-right:8px;">View & Apply &rarr;</a>
-                <a href="http://localhost:8000/cover-letter/{j.get('job_id','')}/{profile}" style="background:#f3f4f6;color:#374151;padding:8px 18px;border-radius:6px;text-decoration:none;font-size:13px;">Generate Cover Letter</a>
+                <a href="{j.get('url','#')}" style="background:#1e3a5f;color:#fff;padding:8px 18px;border-radius:6px;text-decoration:none;font-size:13px;margin-right:8px;">View &amp; Apply &rarr;</a>
+                <a href="{DASHBOARD_URL}" style="background:#f3f4f6;color:#374151;padding:8px 18px;border-radius:6px;text-decoration:none;font-size:13px;">Open Dashboard</a>
               </div>
             </div>"""
 
@@ -75,11 +77,11 @@ class EmailNotifier:
               <p style="margin:6px 0 0;opacity:0.8;">Hi {name}! Your daily job digest &mdash; {today}</p>
             </div>
             <div style="background:#e8f0fe;padding:14px 24px;">
-              <strong>{len(jobs)} new matching roles</strong> found across Naukri, LinkedIn, Indeed &amp; Shine &mdash; Delhi NCR
+              <strong>{len(jobs)} new matching roles</strong> found across Naukri, LinkedIn, Indeed, Shine, TimesJobs &amp; IIMJobs &mdash; Delhi NCR
             </div>
             <div style="padding:8px 0;">{cards}</div>
             <div style="background:#f3f4f6;padding:16px;border-radius:0 0 12px 12px;text-align:center;font-size:12px;color:#9ca3af;">
-              JobHuntAI &bull; Pune &rarr; Delhi Relocation 2025 &bull; <a href="http://localhost:8000" style="color:#6b7280;">Open Dashboard</a>
+              JobHuntAI &bull; Pune &rarr; Delhi NCR Relocation &bull; <a href="{DASHBOARD_URL}" style="color:#6b7280;">Open Mobile Dashboard</a>
             </div>
           </div>
         </body></html>"""
