@@ -1,0 +1,51 @@
+name: Daily Job Scan — JobHuntAI Delhi
+
+on:
+  schedule:
+    - cron: '30 2 * * *'  # 8:00 AM IST (UTC+5:30) every day
+  workflow_dispatch:        # Tap "Run workflow" on mobile anytime
+
+permissions:
+  contents: write           # needed to push JSON results back
+
+jobs:
+  scan:
+    name: Scan Naukri · LinkedIn · Indeed · Shine · TimesJobs · iimjobs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: claude/compare-cursor-repos-E1qVk
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run job scan across all platforms
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SMTP_USER:         ${{ secrets.SMTP_USER }}
+          SMTP_PASS:         ${{ secrets.SMTP_PASS }}
+          VIKAS_EMAIL:       ${{ secrets.VIKAS_EMAIL }}
+          DIKSHA_EMAIL:      ${{ secrets.DIKSHA_EMAIL }}
+          VIKAS_MIN_SCORE:   60
+          DIKSHA_MIN_SCORE:  50
+        run: python -m app.scan_runner
+
+      - name: Commit & push updated job data
+        run: |
+          git config user.name  "JobHuntAI Bot"
+          git config user.email "jobhunt-ai@noreply.github.com"
+          git add docs/
+          git diff --staged --quiet || (
+            git commit -m "scan $(date +'%Y-%m-%d %H:%M UTC') — jobs updated" &&
+            git push origin claude/compare-cursor-repos-E1qVk
+          )

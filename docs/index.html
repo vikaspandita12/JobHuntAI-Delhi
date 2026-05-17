@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#1e3a5f">
+  <title>JobHuntAI Delhi</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f1f5f9;min-height:100vh;padding-bottom:76px}
+
+    /* Header */
+    .hdr{background:#1e3a5f;color:#fff;padding:12px 16px 10px;position:sticky;top:0;z-index:20}
+    .hdr-row{display:flex;align-items:center;justify-content:space-between}
+    .hdr h1{font-size:18px;font-weight:700;letter-spacing:-.3px}
+    .hdr-sub{font-size:11px;opacity:.65;margin-top:2px}
+    .refresh-btn{background:rgba(255,255,255,.15);border:none;color:#fff;padding:6px 12px;border-radius:20px;font-size:12px;cursor:pointer}
+
+    /* Tabs */
+    .tabs{display:flex;background:#fff;border-bottom:2px solid #e2e8f0;position:sticky;top:62px;z-index:19}
+    .tab{flex:1;padding:11px 6px;font-size:14px;font-weight:600;border:none;background:none;cursor:pointer;color:#64748b;position:relative;transition:color .15s}
+    .tab.on{color:#1e3a5f}
+    .tab.on::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:2px;background:#1e3a5f}
+    .cnt{display:inline-block;background:#e2e8f0;color:#475569;font-size:11px;padding:1px 7px;border-radius:99px;margin-left:3px;vertical-align:middle}
+    .tab.on .cnt{background:#dbeafe;color:#1e40af}
+
+    /* Stats row */
+    .stats{display:flex;background:#fff;border-bottom:1px solid #f1f5f9}
+    .st{flex:1;text-align:center;padding:7px 2px;border-right:1px solid #f1f5f9}
+    .st:last-child{border:none}
+    .sv{font-size:19px;font-weight:700;color:#1e3a5f}
+    .sl{font-size:9px;color:#94a3b8;text-transform:uppercase;letter-spacing:.4px}
+
+    /* Filters */
+    .filters{display:flex;gap:7px;padding:9px 12px;background:#fff;border-bottom:1px solid #e2e8f0;overflow-x:auto}
+    .fc{padding:5px 14px;border-radius:99px;border:1.5px solid #e2e8f0;font-size:13px;font-weight:500;cursor:pointer;white-space:nowrap;background:#fff;color:#475569}
+    .fc.on{background:#1e3a5f;color:#fff;border-color:#1e3a5f}
+
+    /* Job list */
+    .list{padding:10px 10px 6px}
+    .card{background:#fff;border-radius:12px;margin-bottom:10px;border:1px solid #e2e8f0;overflow:hidden}
+    .card.applied{opacity:.5}
+    .card.skipped{opacity:.3}
+
+    .card-body{padding:13px 13px 0}
+    .row1{display:flex;gap:11px;align-items:flex-start}
+    .score-wrap{text-align:center;min-width:46px}
+    .score{width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:#fff;flex-shrink:0}
+    .slbl{font-size:9px;color:#94a3b8;margin-top:2px}
+    .info{flex:1;min-width:0}
+    .title{font-size:15px;font-weight:600;color:#1e293b;line-height:1.3;word-break:break-word}
+    .company{font-size:13px;color:#374151;font-weight:500;margin-top:2px}
+    .chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+    .chip{font-size:11px;padding:2px 8px;border-radius:6px}
+    .ch-loc{background:#f8fafc;color:#6b7280}
+    .ch-src{background:#eff6ff;color:#1d4ed8}
+    .ch-sal{background:#f0fdf4;color:#166534}
+    .ch-new{background:#fef9c3;color:#854d0e;font-weight:600}
+    .ch-date{background:#faf5ff;color:#6d28d9}
+
+    /* Action buttons */
+    .actions{display:flex;gap:0;border-top:1px solid #f1f5f9;margin-top:11px}
+    .ab{flex:1;padding:11px 6px;border:none;font-size:13px;font-weight:600;cursor:pointer;background:#fff;color:#374151;border-right:1px solid #f1f5f9}
+    .ab:last-child{border-right:none}
+    .ab.apply{background:#1e3a5f;color:#fff;font-size:14px;text-decoration:none;text-align:center;display:block;flex:2}
+    .ab.done{background:#f0fdf4;color:#166534}
+    .ab.skip{background:#fefce8;color:#854d0e}
+    .ab.applied-tag{background:#dcfce7;color:#166534;flex:2;cursor:default}
+
+    /* Empty / loading */
+    .empty,.loading{text-align:center;padding:50px 20px;color:#94a3b8}
+    .empty h3{font-size:17px;color:#cbd5e1;margin-bottom:6px}
+    .empty p,.loading{font-size:13px}
+
+    /* Bottom bar */
+    .btmbar{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid #e2e8f0;padding:9px 12px 18px;display:flex;gap:9px;z-index:20}
+    .bscan{flex:2;padding:12px;background:#1e3a5f;color:#fff;border:none;border-radius:10px;font-size:14px;font-weight:700;cursor:pointer}
+    .bemail{flex:1;padding:12px;background:#f0f9ff;color:#0369a1;border:1.5px solid #bae6fd;border-radius:10px;font-size:13px;font-weight:600;cursor:pointer}
+
+    /* Toast */
+    .toast{position:fixed;bottom:85px;left:50%;transform:translateX(-50%);background:#1e293b;color:#fff;padding:10px 18px;border-radius:10px;font-size:13px;z-index:99;opacity:0;transition:opacity .25s;pointer-events:none;white-space:nowrap;max-width:90vw;text-align:center}
+    .toast.show{opacity:1}
+  </style>
+</head>
+<body>
+
+<div class="hdr">
+  <div class="hdr-row">
+    <div>
+      <h1>JobHuntAI Delhi</h1>
+      <div class="hdr-sub" id="scanInfo">Checking for jobs...</div>
+    </div>
+    <button class="refresh-btn" onclick="reload()">&#8635; Refresh</button>
+  </div>
+</div>
+
+<div class="tabs">
+  <button class="tab on" onclick="switchTab('vikas',this)">Vikas <span class="cnt" id="cv">0</span></button>
+  <button class="tab"    onclick="switchTab('diksha',this)">Diksha <span class="cnt" id="cd">0</span></button>
+</div>
+
+<div class="stats">
+  <div class="st"><div class="sv" id="s1">-</div><div class="sl">Total</div></div>
+  <div class="st"><div class="sv" id="s2" style="color:#f59e0b">-</div><div class="sl">New</div></div>
+  <div class="st"><div class="sv" id="s3" style="color:#22c55e">-</div><div class="sl">Applied</div></div>
+  <div class="st"><div class="sv" id="s4" style="color:#8b5cf6">-</div><div class="sl">Today</div></div>
+</div>
+
+<div class="filters">
+  <button class="fc on" onclick="setFilter('all',this)">All</button>
+  <button class="fc"    onclick="setFilter('new',this)">New</button>
+  <button class="fc"    onclick="setFilter('applied',this)">Applied ✓</button>
+  <button class="fc"    onclick="setFilter('skipped',this)">Skipped</button>
+</div>
+
+<div class="list" id="list"><div class="loading">Loading jobs...</div></div>
+
+<div class="btmbar">
+  <button class="bscan" onclick="goActions()">&#9654; Run Scan on GitHub</button>
+  <button class="bemail" onclick="emailHint()">&#9993; Email</button>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+let tab='vikas', filter='all';
+let data={vikas:[],diksha:[]};
+const sk=id=>localStorage.getItem('jh_'+id)||'new';
+const ss=(id,s)=>localStorage.setItem('jh_'+id,s);
+const sc=s=>s>=80?'#22c55e':s>=60?'#f59e0b':'#94a3b8';
+const today=()=>new Date().toISOString().slice(0,10);
+
+async function reload(){
+  try{
+    const ts='?t='+Date.now();
+    const [v,d,s]=await Promise.all([
+      fetch('jobs_vikas.json'+ts).then(r=>r.ok?r.json():[]).catch(()=>[]),
+      fetch('jobs_diksha.json'+ts).then(r=>r.ok?r.json():[]).catch(()=>[]),
+      fetch('stats.json'+ts).then(r=>r.ok?r.json():{}).catch(()=>{}),
+    ]);
+    data.vikas=v||[]; data.diksha=d||[];
+    document.getElementById('cv').textContent=data.vikas.length;
+    document.getElementById('cd').textContent=data.diksha.length;
+    if(s&&s.last_scan) document.getElementById('scanInfo').textContent='Last scan: '+s.last_scan;
+    render();
+  }catch(e){
+    document.getElementById('list').innerHTML='<div class="empty"><h3>Could not load jobs</h3><p>Run a scan first via the button below.</p></div>';
+  }
+}
+
+function render(){
+  const jobs=data[tab];
+  const sk2=tab+'_score';
+  let list=jobs.filter(j=>{
+    const st=sk(j.job_id);
+    if(filter==='all') return st!=='skipped';
+    return st===filter;
+  });
+  const el=document.getElementById('list');
+  // update stats
+  const td=today();
+  document.getElementById('s1').textContent=jobs.length;
+  document.getElementById('s2').textContent=jobs.filter(j=>sk(j.job_id)==='new').length;
+  document.getElementById('s3').textContent=jobs.filter(j=>sk(j.job_id)==='applied').length;
+  document.getElementById('s4').textContent=jobs.filter(j=>j.scanned_date===td).length;
+  if(!list.length){
+    el.innerHTML='<div class="empty"><h3>No jobs here</h3><p>Try a different filter or run a scan.</p></div>';
+    return;
+  }
+  el.innerHTML=list.map(j=>{
+    const score=j[sk2]||0;
+    const state=sk(j.job_id);
+    const isNew=j.scanned_date===td;
+    const applyRow=state==='applied'
+      ?`<span class="ab applied-tag">&#10003; Applied</span>`
+      :`<a class="ab apply" href="${j.url||'#'}" target="_blank" rel="noopener" onclick="markApplied('${j.job_id}')">Apply &rarr;</a>`;
+    const markBtn=state!=='applied'?`<button class="ab done" onclick="mark('${j.job_id}','applied')">&#10003; Done</button>`:''
+    const skipBtn=state==='new'?`<button class="ab skip" onclick="mark('${j.job_id}','skipped')">Skip</button>`:''
+    return `<div class="card ${state}" id="c-${j.job_id}">
+      <div class="card-body">
+        <div class="row1">
+          <div class="score-wrap">
+            <div class="score" style="background:${sc(score)}">${score}</div>
+            <div class="slbl">Match</div>
+          </div>
+          <div class="info">
+            <div class="title">${j.title||''}</div>
+            <div class="company">${j.company||''}</div>
+            <div class="chips">
+              ${j.location?`<span class="chip ch-loc">&#128205; ${j.location}</span>`:''}
+              <span class="chip ch-src">${j.source||''}</span>
+              ${j.salary&&j.salary!=='Not disclosed'?`<span class="chip ch-sal">${j.salary}</span>`:''}
+              ${isNew?`<span class="chip ch-new">NEW TODAY</span>`:''}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="actions">${applyRow}${markBtn}${skipBtn}</div>
+    </div>`;
+  }).join('');
+}
+
+function mark(id,state){ss(id,state);render();}
+function markApplied(id){setTimeout(()=>{ss(id,'applied');render();},600);}
+function switchTab(t,el){tab=t;document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));el.classList.add('on');render();}
+function setFilter(f,el){filter=f;document.querySelectorAll('.fc').forEach(x=>x.classList.remove('on'));el.classList.add('on');render();}
+
+function toast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg;t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),3500);
+}
+
+function goActions(){
+  toast('Opening GitHub Actions — tap Run workflow');
+  setTimeout(()=>window.open('https://github.com/vikaspandita12/pentestai/actions','_blank'),400);
+}
+function emailHint(){toast('Email is sent automatically after each scan to both emails.');}
+
+reload();
+setInterval(reload,5*60*1000);
+</script>
+</body>
+</html>
