@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code branch (all scraper code lives here)
+      - name: Checkout code branch
         uses: actions/checkout@v4
         with:
           ref: claude/compare-cursor-repos-E1qVk
@@ -31,16 +31,18 @@ jobs:
 
       - name: Run job scan across all 6 platforms
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          SMTP_USER:         ${{ secrets.SMTP_USER }}
-          SMTP_PASS:         ${{ secrets.SMTP_PASS }}
-          VIKAS_EMAIL:       ${{ secrets.VIKAS_EMAIL }}
-          DIKSHA_EMAIL:      ${{ secrets.DIKSHA_EMAIL }}
-          VIKAS_MIN_SCORE:   60
-          DIKSHA_MIN_SCORE:  50
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          VIKAS_SMTP_USER:    vikaspandita111@gmail.com
+          VIKAS_SMTP_PASS:    ${{ secrets.JOB }}
+          DIKSHA_SMTP_USER:   dikshakoul88@gmail.com
+          DIKSHA_SMTP_PASS:   ${{ secrets.DIKSHASECRET }}
+          VIKAS_EMAIL:        vikaspandita1@gmail.com
+          DIKSHA_EMAIL:       dikshakoul88@gmail.com
+          VIKAS_MIN_SCORE:    60
+          DIKSHA_MIN_SCORE:   50
         run: python -m app.scan_runner
 
-      - name: Commit and push updated job data back to working branch
+      - name: Commit and push updated job data
         run: |
           git config user.name  "JobHuntAI Bot"
           git config user.email "jobhunt-ai@noreply.github.com"
