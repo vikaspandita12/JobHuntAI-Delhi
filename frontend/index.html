@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JobHuntAI Delhi</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f1f5f9; color: #1e293b; }
+    header { background: #1e3a5f; color: #fff; padding: 18px 32px; display: flex; align-items: center; justify-content: space-between; }
+    header h1 { font-size: 20px; font-weight: 700; }
+    header p { font-size: 13px; opacity: 0.75; margin-top: 2px; }
+    .badge { background: #f59e0b; color: #fff; font-size: 11px; padding: 2px 8px; border-radius: 9999px; font-weight: 600; }
+    .controls { padding: 18px 32px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; background: #fff; border-bottom: 1px solid #e2e8f0; }
+    .tab { padding: 8px 20px; border-radius: 8px; border: 2px solid #e2e8f0; background: #fff; cursor: pointer; font-weight: 600; font-size: 14px; transition: all .15s; }
+    .tab.active { background: #1e3a5f; color: #fff; border-color: #1e3a5f; }
+    .tab:hover:not(.active) { border-color: #94a3b8; }
+    select, button { padding: 8px 14px; border-radius: 8px; border: 1px solid #e2e8f0; font-size: 14px; cursor: pointer; }
+    button.primary { background: #1e3a5f; color: #fff; border: none; font-weight: 600; }
+    button.primary:hover { background: #16324f; }
+    button.secondary { background: #f8fafc; }
+    .stats-bar { display: flex; gap: 16px; padding: 14px 32px; background: #f8fafc; border-bottom: 1px solid #e2e8f0; flex-wrap: wrap; }
+    .stat { text-align: center; }
+    .stat .val { font-size: 22px; font-weight: 700; color: #1e3a5f; }
+    .stat .lbl { font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: .5px; }
+    .divider { width: 1px; background: #e2e8f0; }
+    main { padding: 20px 32px; max-width: 1100px; margin: 0 auto; }
+    .loading { text-align: center; padding: 60px; color: #94a3b8; font-size: 15px; }
+    .grid { display: grid; gap: 14px; }
+    .card { background: #fff; border-radius: 12px; border: 1px solid #e2e8f0; padding: 18px 20px; display: flex; gap: 16px; align-items: flex-start; transition: box-shadow .15s; }
+    .card:hover { box-shadow: 0 4px 20px rgba(0,0,0,.07); }
+    .card.applied { opacity: .55; }
+    .card.skipped { opacity: .4; }
+    .score-ring { min-width: 52px; text-align: center; }
+    .score-ring .num { width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 15px; color: #fff; margin: 0 auto; }
+    .score-ring .label { font-size: 10px; color: #94a3b8; margin-top: 3px; }
+    .card-body { flex: 1; min-width: 0; }
+    .card-body h3 { font-size: 16px; font-weight: 600; color: #1e3a5f; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .card-body .company { font-weight: 600; color: #374151; font-size: 14px; margin-top: 2px; }
+    .meta { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
+    .meta span { font-size: 12px; color: #6b7280; display: flex; align-items: center; gap: 4px; }
+    .chip { background: #eff6ff; color: #1d4ed8; font-size: 11px; padding: 2px 8px; border-radius: 9999px; font-weight: 500; }
+    .actions { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+    .btn { padding: 6px 14px; border-radius: 7px; font-size: 13px; font-weight: 500; cursor: pointer; border: none; transition: background .12s; text-decoration: none; display: inline-block; }
+    .btn-apply { background: #1e3a5f; color: #fff; }
+    .btn-apply:hover { background: #16324f; }
+    .btn-mark { background: #dcfce7; color: #166534; }
+    .btn-mark:hover { background: #bbf7d0; }
+    .btn-skip { background: #fef9c3; color: #854d0e; }
+    .btn-skip:hover { background: #fef08a; }
+    .btn-cover { background: #ede9fe; color: #5b21b6; }
+    .btn-cover:hover { background: #ddd6fe; }
+    .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.5); z-index: 100; align-items: center; justify-content: center; }
+    .modal-overlay.open { display: flex; }
+    .modal { background: #fff; border-radius: 14px; padding: 28px; max-width: 620px; width: 95%; max-height: 85vh; overflow-y: auto; position: relative; }
+    .modal h2 { font-size: 18px; margin-bottom: 14px; color: #1e3a5f; }
+    .modal pre { white-space: pre-wrap; font-family: inherit; font-size: 14px; line-height: 1.7; color: #374151; background: #f8fafc; padding: 16px; border-radius: 8px; }
+    .modal-close { position: absolute; top: 16px; right: 18px; background: none; border: none; font-size: 22px; cursor: pointer; color: #94a3b8; }
+    .modal .copy-btn { margin-top: 12px; background: #1e3a5f; color: #fff; padding: 8px 18px; border-radius: 8px; border: none; cursor: pointer; font-size: 13px; }
+    .empty { text-align: center; padding: 60px 20px; color: #94a3b8; }
+    .empty h3 { font-size: 18px; margin-bottom: 8px; color: #cbd5e1; }
+    @media (max-width: 600px) { header { flex-direction: column; gap: 6px; } main { padding: 14px; } .controls { padding: 12px; } .stats-bar { padding: 10px 14px; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>JobHuntAI Delhi</h1>
+    <p>Vikas Pandita (Cybersecurity) &amp; Diksha Koul (Cloud Engineering) &mdash; Pune &rarr; Delhi NCR</p>
+  </div>
+  <div style="display:flex;gap:10px;">
+    <button class="primary" onclick="triggerScan()">Scan Now</button>
+    <button class="secondary" onclick="sendDigest()">Send Email</button>
+  </div>
+</header>
+
+<div class="stats-bar" id="statsBar">Loading stats...</div>
+
+<div class="controls">
+  <button class="tab active" data-profile="vikas" onclick="switchProfile('vikas', this)">Vikas — Cybersecurity</button>
+  <button class="tab" data-profile="diksha" onclick="switchProfile('diksha', this)">Diksha — Cloud</button>
+  <div class="divider" style="height:32px;"></div>
+  <select id="statusFilter" onchange="loadJobs()">
+    <option value="">All statuses</option>
+    <option value="new">New</option>
+    <option value="applied">Applied</option>
+    <option value="skipped">Skipped</option>
+  </select>
+</div>
+
+<main>
+  <div id="jobGrid" class="grid"><div class="loading">Loading jobs...</div></div>
+</main>
+
+<div class="modal-overlay" id="coverModal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">&times;</button>
+    <h2 id="modalTitle">Cover Letter</h2>
+    <pre id="modalBody">Generating...</pre>
+    <button class="copy-btn" onclick="copyLetter()">Copy to Clipboard</button>
+  </div>
+</div>
+
+<script>
+  let currentProfile = 'vikas';
+
+  async function api(path, method='GET', body=null) {
+    const opts = { method, headers: { 'Content-Type': 'application/json' } };
+    if (body) opts.body = JSON.stringify(body);
+    const r = await fetch(path, opts);
+    return r.json();
+  }
+
+  async function loadStats() {
+    try {
+      const s = await api('/stats');
+      document.getElementById('statsBar').innerHTML = `
+        <div class="stat"><div class="val">${s.total}</div><div class="lbl">Total Jobs</div></div>
+        <div class="divider"></div>
+        <div class="stat"><div class="val" style="color:#f59e0b">${s.new}</div><div class="lbl">New</div></div>
+        <div class="divider"></div>
+        <div class="stat"><div class="val" style="color:#22c55e">${s.applied}</div><div class="lbl">Applied</div></div>
+        <div class="divider"></div>
+        <div class="stat"><div class="val" style="color:#6b7280">${s.skipped}</div><div class="lbl">Skipped</div></div>
+        <div class="divider"></div>
+        <div class="stat"><div class="val" style="color:#3b82f6">${s.vikas_matches}</div><div class="lbl">Vikas Matches</div></div>
+        <div class="divider"></div>
+        <div class="stat"><div class="val" style="color:#8b5cf6">${s.diksha_matches}</div><div class="lbl">Diksha Matches</div></div>
+      `;
+    } catch(e) {}
+  }
+
+  async function loadJobs() {
+    const status = document.getElementById('statusFilter').value;
+    const grid = document.getElementById('jobGrid');
+    grid.innerHTML = '<div class="loading">Loading...</div>';
+    try {
+      const data = await api(`/jobs?profile=${currentProfile}&status=${status}`);
+      if (!data.jobs || data.jobs.length === 0) {
+        grid.innerHTML = `<div class="empty"><h3>No jobs found</h3><p>Click "Scan Now" to discover new roles, or change the filter.</p></div>`;
+        return;
+      }
+      grid.innerHTML = data.jobs.map(j => renderCard(j)).join('');
+    } catch(e) {
+      grid.innerHTML = '<div class="loading">Error loading jobs. Is the server running?</div>';
+    }
+  }
+
+  function scoreColor(s) {
+    if (s >= 80) return '#22c55e';
+    if (s >= 60) return '#f59e0b';
+    return '#94a3b8';
+  }
+
+  function renderCard(j) {
+    const scoreKey = currentProfile + '_score';
+    const score = j[scoreKey] || 0;
+    const appliedBtn = j.status === 'applied' ? '<span class="chip" style="background:#dcfce7;color:#166534;">Applied</span>' : `<button class="btn btn-mark" onclick="markJob('${j.job_id}','apply')">Mark Applied</button>`;
+    const skipBtn = j.status === 'skipped' ? '' : `<button class="btn btn-skip" onclick="markJob('${j.job_id}','skip')">Skip</button>`;
+    return `
+      <div class="card ${j.status}" id="card-${j.job_id}">
+        <div class="score-ring">
+          <div class="num" style="background:${scoreColor(score)}">${score}</div>
+          <div class="label">Match</div>
+        </div>
+        <div class="card-body">
+          <h3>${j.title}</h3>
+          <div class="company">${j.company}</div>
+          <div class="meta">
+            <span>&#128205; ${j.location}</span>
+            <span class="chip">${j.source}</span>
+            ${j.salary && j.salary !== 'Not disclosed' ? `<span>&#128176; ${j.salary}</span>` : ''}
+            ${j.posted_date ? `<span>&#128197; ${j.posted_date}</span>` : ''}
+          </div>
+          <div class="actions">
+            <a class="btn btn-apply" href="${j.url}" target="_blank" rel="noopener">View &amp; Apply &rarr;</a>
+            ${appliedBtn}
+            ${skipBtn}
+            <button class="btn btn-cover" onclick="getCoverLetter('${j.job_id}','${j.title}')">Cover Letter</button>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  async function markJob(jobId, action) {
+    await api(`/jobs/${jobId}/${action === 'apply' ? 'apply' : 'skip'}`, 'POST');
+    loadJobs();
+    loadStats();
+  }
+
+  async function getCoverLetter(jobId, title) {
+    document.getElementById('modalTitle').textContent = `Cover Letter — ${title}`;
+    document.getElementById('modalBody').textContent = 'Generating with Claude AI...';
+    document.getElementById('coverModal').classList.add('open');
+    try {
+      const data = await api(`/cover-letter/${jobId}/${currentProfile}`);
+      document.getElementById('modalBody').textContent = data.cover_letter || 'Generation failed.';
+    } catch(e) {
+      document.getElementById('modalBody').textContent = 'Failed to generate. Check your ANTHROPIC_API_KEY in .env';
+    }
+  }
+
+  function closeModal() { document.getElementById('coverModal').classList.remove('open'); }
+
+  function copyLetter() {
+    navigator.clipboard.writeText(document.getElementById('modalBody').textContent);
+    const btn = document.querySelector('.copy-btn');
+    btn.textContent = 'Copied!';
+    setTimeout(() => btn.textContent = 'Copy to Clipboard', 2000);
+  }
+
+  async function triggerScan() {
+    const btn = document.querySelector('.primary');
+    btn.textContent = 'Scanning...';
+    btn.disabled = true;
+    try {
+      await api('/scan', 'POST');
+      setTimeout(() => { loadJobs(); loadStats(); btn.textContent = 'Scan Now'; btn.disabled = false; }, 15000);
+    } catch(e) { btn.textContent = 'Scan Now'; btn.disabled = false; }
+  }
+
+  async function sendDigest() {
+    await api('/notify', 'POST');
+    alert('Email digest sent to vikaspandita1@gmail.com and dikshakoul88@gmail.com');
+  }
+
+  function switchProfile(profile, el) {
+    currentProfile = profile;
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    el.classList.add('active');
+    loadJobs();
+  }
+
+  document.getElementById('coverModal').addEventListener('click', function(e) {
+    if (e.target === this) closeModal();
+  });
+
+  loadStats();
+  loadJobs();
+  setInterval(() => { loadStats(); }, 60000);
+</script>
+</body>
+</html>
