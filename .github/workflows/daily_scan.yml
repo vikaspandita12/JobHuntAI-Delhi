@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '30 2 * * *'  # 08:00 IST (UTC+5:30) every day
   workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
   contents: write
@@ -32,8 +34,7 @@ jobs:
       - name: Run job scan
         env:
           ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
-          ADZUNA_APP_ID:      ${{ secrets.ADZUNA_APP_ID }}
-          ADZUNA_APP_KEY:     ${{ secrets.ADZUNA_APP_KEY }}
+          ADZUNA:             ${{ secrets.ADZUNA }}
           VIKAS_SMTP_USER:    vikaspandita111@gmail.com
           VIKAS_SMTP_PASS:    ${{ secrets.JOB }}
           DIKSHA_SMTP_USER:   dikshakoul88@gmail.com
