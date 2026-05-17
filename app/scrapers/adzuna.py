@@ -7,8 +7,9 @@ import httpx
 
 logger = logging.getLogger(__name__)
 
-APP_ID  = os.getenv("ADZUNA_APP_ID", "")
-APP_KEY = os.getenv("ADZUNA_APP_KEY", "")
+# App ID is not sensitive (public identifier)
+APP_ID  = os.getenv("ADZUNA_APP_ID", "d80946bc")
+APP_KEY = os.getenv("ADZUNA_APP_KEY") or os.getenv("ADZUNA", "")
 BASE    = "https://api.adzuna.com/v1/api/jobs/in/search"
 
 VIKAS_QUERIES = [
@@ -35,8 +36,8 @@ DIKSHA_QUERIES = [
 
 class AdzunaScraper:
     async def fetch_jobs(self) -> List[Dict]:
-        if not APP_ID or not APP_KEY:
-            logger.warning("ADZUNA_APP_ID / ADZUNA_APP_KEY not set — skipping Adzuna")
+        if not APP_KEY:
+            logger.warning("ADZUNA secret not set — skipping Adzuna")
             return []
 
         jobs = []
@@ -61,15 +62,15 @@ class AdzunaScraper:
 
     async def _search(self, client: httpx.AsyncClient, query: str, location: str) -> List[Dict]:
         params = {
-            "app_id":       APP_ID,
-            "app_key":      APP_KEY,
+            "app_id":           APP_ID,
+            "app_key":          APP_KEY,
             "results_per_page": 10,
-            "what":         query,
-            "where":        location,
-            "country":      "in",
-            "content-type": "application/json",
-            "max_days_old": 30,
-            "sort_by":      "date",
+            "what":             query,
+            "where":            location,
+            "country":          "in",
+            "content-type":     "application/json",
+            "max_days_old":     30,
+            "sort_by":          "date",
         }
         r = await client.get(f"{BASE}/1", params=params)
         if r.status_code != 200:
