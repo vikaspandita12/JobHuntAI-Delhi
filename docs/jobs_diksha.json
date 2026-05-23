@@ -60,6 +60,22 @@
     "scanned_date": "2026-05-17"
   },
   {
+    "job_id": "li_579c04d034",
+    "title": "Cloud Engineer III (Infra/DevOps/AWS/Azure",
+    "company": "Insight",
+    "location": "Gurugram, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/cloud-engineer-iii-infra-devops-aws-azure-at-insight-4418122932?position=3&pageNum=0&refId=n67z8WTrZ4M2UqI2K0nSEQ%3D%3D&trackingId=oW2nQo2LvXGOQp5scIfKxw%3D%3D",
+    "description": "Cloud Engineer III (Infra/DevOps/AWS/Azure at Insight — Gurugram, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-05-22",
+    "suggested_profile": "diksha",
+    "vikas_score": 4,
+    "diksha_score": 60,
+    "status": "new",
+    "scanned_date": "2026-05-23"
+  },
+  {
     "job_id": "rok_1131345",
     "title": "Engineer Software",
     "company": "Calabrio",
@@ -88,5 +104,21 @@
     "diksha_score": 52,
     "status": "new",
     "scanned_date": "2026-05-22"
+  },
+  {
+    "job_id": "li_e740e71822",
+    "title": "SENIOR DEVOPS ENGINEER - AWS",
+    "company": "Happiest Minds Technologies",
+    "location": "Noida, Uttar Pradesh, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/senior-devops-engineer-aws-at-happiest-minds-technologies-4418101760?position=10&pageNum=0&refId=n67z8WTrZ4M2UqI2K0nSEQ%3D%3D&trackingId=ZMOT4ssRWg56EwiMpgx0ug%3D%3D",
+    "description": "SENIOR DEVOPS ENGINEER - AWS at Happiest Minds Technologies — Noida, Uttar Pradesh, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-05-22",
+    "suggested_profile": "diksha",
+    "vikas_score": 2,
+    "diksha_score": 52,
+    "status": "new",
+    "scanned_date": "2026-05-23"
   }
 ]
