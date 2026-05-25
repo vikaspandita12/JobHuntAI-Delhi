@@ -45,6 +45,21 @@
     "scanned_date": "2026-05-17"
   },
   {
+    "job_id": "rok_1131089",
+    "title": "Senior Cloud Architect ML AI",
+    "company": "DoiT",
+    "location": "Remote (India OK)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-04-12",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-cloud-architect-ml-ai-doit-1131089",
+    "source": "RemoteOK",
+    "description": "<p><strong>Location</strong><strong><br></strong>Our <strong>Senior Cloud Architect, ML/AI</strong> will be an integral part of our global Forward Deployment Engineering team. This role is based remotely in the US, Colombia, Mexico, Canada, the UK, Ireland, Estonia, Sweden, the Netherlands, and Israel. The job is also open to contractors in Eastern Europe or Portugal.&nbsp;&nbsp;&nbsp;</p>\n<p><strong>About DoiT<br></strong>DoiT is a global technology company that works with cloud-driven organizations to leverage public cloud to drive business growth and innovation. We combine data, technology, and human expertise to ensure our customers operate in a well-architected and scalable stateâfrom planning to production.</p>\n<p>Delivering <strong>DoiT Cloud Intelligence</strong>, the only solution that integrates advanced technology with human intelligence, we help our customers solve complex multicloud problems and drive efficiency. With decades of multicloud experience, we have specializations in Kubernetes, GenAI, CloudOps, and more. An award-winning strategic partner of AWS, Google Cloud, and Microsoft Azure, we work alongside more than 4,000 customers worldwide.</p>\n<p><strong>The Opportunity<br></strong>As a <strong>Senior Cloud Architect, ML/AI</strong>, you will be part of our global Forward Deployed Engineering organization, working with rapidly growing companies in EMEA and around the world. Depending on business needs, this role may be aligned to either <strong>Field Engineering</strong> (pre-sales + GTM) or <strong>FDE Delivery</strong> (install base, product adoption, customer health), with a common technical bar and shared <br/><br/>Please mention the word **INTELLIGENT** and tag ROjox when applying to show you read the job post completely (#ROjox). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+    "vikas_score": 6,
+    "diksha_score": 62,
+    "status": "new",
+    "scanned_date": "2026-05-25"
+  },
+  {
     "job_id": "rok_1131479",
     "title": "Senior Backend Engineer",
     "company": "Akuity",
@@ -74,6 +89,36 @@
     "diksha_score": 60,
     "status": "new",
     "scanned_date": "2026-05-23"
+  },
+  {
+    "job_id": "rok_1131251",
+    "title": "Senior Cloud Engineer",
+    "company": "DV Trading",
+    "location": "Remote (India OK)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-04-22",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-cloud-engineer-dv-trading-1131251",
+    "source": "RemoteOK",
+    "description": "<p><strong>About Us</strong>:</p><p>Founded 20 years ago and headquartered in Chicago, the DV Group of financial services firms has grown to more than 600 people operating throughout North America, Europe and Asia. Since spinning out of a large brokerage firm in 2016, DV Trading has rapidly scaled as an independent proprietary trading firm utilizing its own capital, trading strategies, and risk management methodologies to provide liquidity to worldwide financial markets and hedging opportunities to commodity producers and users. Now, DV group affiliates include two broker dealers, a cryptocurrency market making firm, and a bourgeoning investment adviser.</p><p><strong>Overview: </strong></p><p>DV Trading is seeking a Senior Cloud Infrastructure Engineer to lead the design, buildout, and operation of firm-wide cloud infrastructure supporting all trading desks and research platforms. This role owns core shared cloud capabilities across the firm while also providing specialized infrastructure support to the crypto desk. It requires deep expertise in cloud networking, distributed systems, and infrastructure placement, with strong engineering judgment in environments where latency, operational risk, and security posture directly impact PnL.&nbsp;</p><p><strong>Job Responsibilities:</strong></p><ul><li>Firm-Wide Cloud Platform<ul><li>Own the architecture and operation of cloud infrastructure supporting latency-sensitive trading systems across all desks.</li><li>Design VPC and network topologies with explicit routing, isolation, and traffic control; partner with the network team to build a robust, highly available, and latency-optimized global network, including Direct Connect to DV office locations and hybrid connectivity across cloud providers (Cloud Interconnect, VPN, Transit Gateway).&nbsp;</li><li>Define compute placement strategies, including cluster placement groups and locality-aware scheduling.</li><li>Build and maintain shared platform capabilities that enable engineering teams across the firm to self-serve reliably and safely.</li><li>Own FinOps visibility and cost optimization frameworks across all trading and research workloads.&nbsp;</li><li>Serve as the primary escalation point for cloud infrastructure incidents firm-wide, owning issues from detection through resolution.&nbsp;</li><li>Define firm-wide observability s</li></ul></li></ul><br/><br/>Please mention the word **IMPRESSIVENESS** and tag ROjox when applying to show you read the job post completely (#ROjox). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+    "vikas_score": 2,
+    "diksha_score": 60,
+    "status": "new",
+    "scanned_date": "2026-05-25"
+  },
+  {
+    "job_id": "rok_1131329",
+    "title": "ML Engineer",
+    "company": "Trunk Tools, Inc.",
+    "location": "Remote (India OK)",
+    "salary": "183000",
+    "posted_date": "2026-04-26",
+    "url": "https://remoteOK.com/remote-jobs/remote-ml-engineer-trunk-tools-inc-1131329",
+    "source": "RemoteOK",
+    "description": "<p style=\"min-height:1.5em\">At Trunk Tools, weâre the leading AI company revolutionizing construction, the second-largest industry on earth. We recently raised a $40M Series B led by Insight Partners, bringing our total funding to $70M from top-tier investors including Redpoint and Innovation Endeavors. This new round is fueling our next phase of growth as we scale AI agents across the jobsite.</p><p style=\"min-height:1.5em\">Our mission is to build the future of construction through intelligent automation. Despite being a $13+ trillion industry, construction still runs largely on analog processes, weâre changing that by embedding AI directly into field operations.</p><p style=\"min-height:1.5em\">Founded by builders and technologists (Stanford, MIT), our team has delivered software used by over 140,000 field professionals, impacting millions of users and contributing to $10B+ in built projects. Many of us come from the field ourselves, giving us a deep understanding of the industryâs unique challenges.</p><p style=\"min-height:1.5em\">After years of building the âbrainâ of construction, weâre now launching production-ready AI agents, starting with intelligent document processing and Q&amp;A, and rapidly expanding into core operational workflows. Our team has doubled in the past year, and with 65+ employees (25+ engineers), weâre scaling fast and entering a period of hypergrowth. This is a rare opportunity to join at an inflection point.</p><h2><strong>What you will do and achieve:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Own and evolve core parts of our AI platform, spanning search, retrieval, and multi-agent orchestration.</p></li><li><p style=\"min-height:1.5em\">Lead the design and build-out of a multi-agent system, including defining new agent âpillarsâ and how they collaborate in production.</p></li><li><p style=\"min-height:1.5em\">Architect and scale document processing pipelines (Kubernetes-based), including ingestion, parsing, chunking, indexing, and structured data extraction across heterogeneous document types.</p></li><li><p style=\"min-height:1.5em\">Design and iterate on search and retrieval systems (ranking, query understanding, QA) grounded in real user behavior and product needs.</p></li><li><p style=\"min-height:1.5em\">Help build and expand our knowledge graph, modeling entities and relationships to power downstream reasoning and retrieval.</p></li><li><p style=\"min-height:1.5em\">Drive ambiguous, high-impact projects end-to-end, from problem definition through experimentation and productionization.</p></li><li><p style=\"min-height:1.5em\">Establish and improve evaluation and experimentation frameworks to measure system quality and guide iteration.</p></li><li><p style=\"min-height:1.5em\">Write clean, maintainable, production-grade code and raise the bar for engineering quality across the team.</p></li></ul><h2><strong>Who you are:</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">7+ years of experience building and shipping production ML/AI systems.</p></li><li><p style=\"min-height:1.5em\">Proven track record of<strong> leading complex, ambiguous projects</strong> and driving them to impact.</p></li><li><p style=\"min-height:1.5em\">Strong experience with <strong>agentic systems, LLM-based applications, or orchestration frameworks.</strong></p></li><li><p style=\"min-height:1.5em\">Deep experience in<strong> document processing pipelines</strong> (e.g., parsing, chunking, indexing, structured extraction), ideally in distributed systems (Kubernetes or similar).</p></li><li><p style=\"min-height:1.5em\">Experience building or working with <strong>knowledge graphs / provenance graphs</strong> and modeling relationships between entities.</p></li><li><p style=\"min-height:1.5em\">Background in one or more of: search/ranking systems, NLP, recommendation systems, or large-scale data/ML infrastructure.</p></li><li><p style=\"min-height:1.5em\">Strong coding skills (Python, Go, or similar) with an emphasis on production systems.</p></li><li><p style=\"min-height:1.5em\">Highly analytical, product-minded, and comfortable using data to drive decisions.</p></li><li><p style=\"min-height:1.5em\"><em>Bonus</em>: experience in construction or other document-heavy industries.</p></li></ul><p style=\"min-height:1.5em\"><strong>What we offer</strong></p><p style=\"min-height:1.5em\">ðï¸ A close-knit and collaborative early-stage startup environment where every voice is heard and every opinion matters</p><p style=\"min-height:1.5em\">ð° Competitive salary and stock option equity packages</p><p style=\"min-height:1.5em\">ð¥  4 Medical Plans to choose from including 100% covered option. Plus Dental and Vision Insurance!</p><p style=\"min-height:1.5em\">ð¤ Learning &amp; Growth stipend </p><p style=\"min-height:1.5em\">ð  Flexible long-term work options (remote and hybrid)</p><p style=\"min-height:1.5em\">ð¥¨ Free lunch provided in the office in NYC &amp; Austin - youâll never go hungry with us! </p><p style=\"min-height:1.5em\">ð« Unlimited PTO; We truly believe in work-life balance and that hard work should be balanced with time for rest and rejuvenation</p><p style=\"min-height:1.5em\">ð IRL / In-Person retreats throughout the year</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><em><strong>Please note:</strong> All official communication from Trunk Tools will come from an email address ending in <strong>@</strong></em><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://trunk.tools\"><em><strong>trunk.tools</strong></em></a><em>. If you receive outreach from any other domain, please disregard it or report it to us.</em></p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><em>At Trunk Tools, weâre working hard to build a more productive and safer environment within the construction industry, and we strive to live by these same values here at Trunk Tools HQ. As an equal-opportunity employer, we are committed to building an inclusive environment where you can be you. We work hard to evaluate all employees and job applicants consistently, without regard to race, color, religion, gender, national origin, age, disability, pregnancy, gender expression or identity, sexual orientation, or any other legally protected class.Â </em></p><br/><br/>Please mention the word **EMINENT** and tag ROjox when applying to show you read the job post completely (#ROjox). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+    "vikas_score": 2,
+    "diksha_score": 58,
+    "status": "new",
+    "scanned_date": "2026-05-25"
   },
   {
     "job_id": "rok_1131345",
@@ -120,5 +165,35 @@
     "diksha_score": 52,
     "status": "new",
     "scanned_date": "2026-05-23"
+  },
+  {
+    "job_id": "rok_1131468",
+    "title": "Senior Platform Engineer",
+    "company": "saas.group",
+    "location": "Remote, Europe",
+    "salary": "Not disclosed",
+    "posted_date": "2026-05-05",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-platform-engineer-saas-group-1131468",
+    "source": "RemoteOK",
+    "description": "This role is part of our ScraperAPI team, one of our growing brands at saas.group.\n\nScraperAPI is an enterprise-scale web scraping solution, trusted by businesses across a wide range of industries to extract crucial data at scale. From e-commerce, travel to real estate and market research, we support companies in turning the web into actionable insights. We're currently on an exciting growth journey, scaling rapidly as demand for reliable, high-performance web scraping and data keeps rising.\n\n<strong>Profile Overview</strong>\n\nWe are seeking a talented Senior Platform Engineer to join our focused engineering team. We're building a product that handles billions of requests per month for businesses that depend on it. Web data is increasingly central to how companies make decisions, and our infrastructure is what makes accessing it seamless and reliable at scale. You won't be following someone else's roadmap, you'll be building it.\n\n<strong>Your immediate impact in the first 3-6 months will be:</strong>\n<ul>\n<li>Explore and assess the infrastructure architecture, collecting risks and opportunities that need to be addressed</li>\n<li>Build and maintain a platform roadmap based on your findings, prioritising the work that matters most</li>\n<li>Support the consolidation of two infrastructure stacks into a unified platform, helping shape how the migration happens</li>\n<li>Help the engineering team increase its maturity around AI usage and standardise development environment tooling and processes</li>\n</ul>\n<strong>Your responsibilities</strong>\n<ul>\n<li>Own the platform roadmap: identify what needs to be fixed, what needs to be built, and drive it forward. This is not a ticket-following role</li>\n<li>Lead cost management efforts across our infrastructure, including proxy costs which are among our highest expenses. Identify optimisation opportunities and implement them without compromising performance or security</li>\n<li>Ensure the reliability, scalability and performance of our infrastructure through robust monitoring, alerting and disaster recovery strategie<br/><br/>Please mention the word **STURDIER** and tag ROjox when applying to show you read the job post completely (#ROjox). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+    "vikas_score": 4,
+    "diksha_score": 50,
+    "status": "new",
+    "scanned_date": "2026-05-25"
+  },
+  {
+    "job_id": "rok_1131145",
+    "title": "Senior Solutions Architect",
+    "company": "540",
+    "location": "Remote (India OK)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-04-16",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-solutions-architect-540-1131145",
+    "source": "RemoteOK",
+    "description": "540 is seeking a Senior Solutions Architect to support our partnership with Google and the DoW in building new capabilities for an Air Force integration platform. This platform leverages Google Cloud, Apigee, and Kubernetes to enable scalable, secure, and mission-critical systems. \n\nIn this role, you will lead technical architecture efforts and drive the design and delivery of complex, distributed systems. A key focus of this work is enabling disconnected operations (offline-first) capabilities that ensure platform reliability and continuity in degraded or low-connectivity environments supporting Air Force operations.\n\n<strong>Location</strong>: Remote within the continental United States<br><strong>Citizenship &amp; Clearance Requirement</strong>: per client requirements, candidates must be a U.S. Citizen with the ability to obtain a DoD Secret clearance<br><strong>Education Requirement: </strong>Bachelorâs Degree in Computer Science or related engineering field (preferred)<br><strong>540 Internal Thrive Level: </strong>Senior Solutions Architect\n\n<strong>WHY 540?</strong>\n\n540 is a forward-thinking company that the government turns to in order to #getshitdone. We donât just talk about innovation â we deliver it. We break down barriers, build impactful technology, and solve mission-critical problems.\n\n<strong>HOW YOUâLL DRIVE IMPACT</strong>\n<ul>\n<li>Lead the architecture and delivery of an Air Force integration platform built on Google Cloud, Apigee, and Kubernetes</li>\n<li>Design and guide implementation of scalable, secure, and maintainable cloud architectures</li>\n<li>Partner with engineers, architects, and product stakeholders to translate mission needs into technical solutions and platform capabilities</li>\n<li>Support engineering teams in designing, building, and troubleshooting distributed systems and cloud-native applications</li>\n<li>Drive architectural decisions across cloud, networking, system design, and service integrations, and define conflict reso<br/><br/>Please mention the word **HARDIER** and tag ROjox when applying to show you read the job post completely (#ROjox). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+    "vikas_score": 2,
+    "diksha_score": 50,
+    "status": "new",
+    "scanned_date": "2026-05-25"
   }
 ]
