@@ -136,6 +136,22 @@
     "scanned_date": "2026-05-25"
   },
   {
+    "job_id": "li_9e143928f2",
+    "title": "Senior DevOps Engineer (Noida)– Azure Cloud Transformation & AI Automation",
+    "company": "TechioSoft Systems",
+    "location": "Noida, Uttar Pradesh, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/senior-devops-engineer-noida-%E2%80%93-azure-cloud-transformation-ai-automation-at-techiosoft-systems-4434779414?position=1&pageNum=0&refId=WYQcwauUXonGdZ7QjgqLTw%3D%3D&trackingId=4Li0eSjoJTYNIGudbkX9Eg%3D%3D",
+    "description": "Senior DevOps Engineer (Noida)– Azure Cloud Transformation & AI Automation at TechioSoft Systems — Noida, Uttar Pradesh, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-06-29",
+    "suggested_profile": "diksha",
+    "vikas_score": 2,
+    "diksha_score": 60,
+    "status": "new",
+    "scanned_date": "2026-06-30"
+  },
+  {
     "job_id": "rok_1131329",
     "title": "ML Engineer",
     "company": "Trunk Tools, Inc.",
@@ -368,5 +384,37 @@
     "diksha_score": 50,
     "status": "new",
     "scanned_date": "2026-06-27"
+  },
+  {
+    "job_id": "li_8207ac05e7",
+    "title": "Cloud Devops Engineer",
+    "company": "Capgemini",
+    "location": "Gurgaon, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/cloud-devops-engineer-at-capgemini-4425473621?position=2&pageNum=0&refId=WYQcwauUXonGdZ7QjgqLTw%3D%3D&trackingId=yax%2BLOG9z8vVcijiI%2BAYQw%3D%3D",
+    "description": "Cloud Devops Engineer at Capgemini — Gurgaon, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-06-29",
+    "suggested_profile": "diksha",
+    "vikas_score": 0,
+    "diksha_score": 50,
+    "status": "new",
+    "scanned_date": "2026-06-30"
+  },
+  {
+    "job_id": "li_3784a6df76",
+    "title": "Manager - Devops cloud Engineer",
+    "company": "Golden Opportunities",
+    "location": "Noida, Uttar Pradesh, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/manager-devops-cloud-engineer-at-golden-opportunities-4433662371?position=6&pageNum=0&refId=WYQcwauUXonGdZ7QjgqLTw%3D%3D&trackingId=SNx0AHyl2Sz22ZLa6Vc5Jg%3D%3D",
+    "description": "Manager - Devops cloud Engineer at Golden Opportunities — Noida, Uttar Pradesh, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-06-29",
+    "suggested_profile": "diksha",
+    "vikas_score": 0,
+    "diksha_score": 50,
+    "status": "new",
+    "scanned_date": "2026-06-30"
   }
 ]
