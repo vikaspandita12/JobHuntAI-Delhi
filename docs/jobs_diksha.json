@@ -261,6 +261,54 @@
     "scanned_date": "2026-07-11"
   },
   {
+    "job_id": "li_a67490cb84",
+    "title": "AWS Cloud with DevOps Engineer (7+years)",
+    "company": "MindBrain",
+    "location": "Delhi, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/aws-cloud-with-devops-engineer-7%2Byears-at-mindbrain-4442018244?position=6&pageNum=0&refId=ZSN%2BiSzO%2BMe0lVFYfyvGxw%3D%3D&trackingId=LN%2FM8VBtVvmoh5TX95JgRg%3D%3D",
+    "description": "AWS Cloud with DevOps Engineer (7+years) at MindBrain — Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-07-20",
+    "suggested_profile": "diksha",
+    "vikas_score": 2,
+    "diksha_score": 56,
+    "status": "new",
+    "scanned_date": "2026-07-20"
+  },
+  {
+    "job_id": "li_a832e9a497",
+    "title": "Senior DevOps Engineer — Cloud Infrastructure & Observability",
+    "company": "Sciometrix",
+    "location": "Gurugram, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/senior-devops-engineer-%E2%80%94-cloud-infrastructure-observability-at-sciometrix-4442519558?position=3&pageNum=0&refId=6VIpyAszE25S6IdVzzXw%2FA%3D%3D&trackingId=LobS68onpjGNolF8vRAsiw%3D%3D",
+    "description": "Senior DevOps Engineer — Cloud Infrastructure & Observability at Sciometrix — Gurugram, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-07-19",
+    "suggested_profile": "diksha",
+    "vikas_score": 0,
+    "diksha_score": 56,
+    "status": "new",
+    "scanned_date": "2026-07-20"
+  },
+  {
+    "job_id": "li_f4fdaa0196",
+    "title": "AWS Cloud with DevOps Engineer (7+years)",
+    "company": "MindBrain",
+    "location": "Delhi, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/aws-cloud-with-devops-engineer-7%2Byears-at-mindbrain-4442018244?position=9&pageNum=0&refId=6VIpyAszE25S6IdVzzXw%2FA%3D%3D&trackingId=R23Q2JPmZF52p%2FzBxbD2dg%3D%3D",
+    "description": "AWS Cloud with DevOps Engineer (7+years) at MindBrain — Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-07-20",
+    "suggested_profile": "diksha",
+    "vikas_score": 2,
+    "diksha_score": 56,
+    "status": "new",
+    "scanned_date": "2026-07-20"
+  },
+  {
     "job_id": "rok_1131633",
     "title": "Chief Technology Officer",
     "company": "Access Softek",
@@ -672,5 +720,21 @@
     "diksha_score": 50,
     "status": "new",
     "scanned_date": "2026-07-17"
+  },
+  {
+    "job_id": "li_7231008270",
+    "title": "Senior AWS Cloud Engineer",
+    "company": "Connor, Clark & Lunn Financial Group (CC&L)",
+    "location": "Gurugram, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/senior-aws-cloud-engineer-at-connor-clark-lunn-financial-group-cc-l-4406602767?position=6&pageNum=0&refId=6VIpyAszE25S6IdVzzXw%2FA%3D%3D&trackingId=9i71nJ%2BpQC91sosO%2FiqcZA%3D%3D",
+    "description": "Senior AWS Cloud Engineer at Connor, Clark & Lunn Financial Group (CC&L) — Gurugram, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-07-19",
+    "suggested_profile": "diksha",
+    "vikas_score": 2,
+    "diksha_score": 50,
+    "status": "new",
+    "scanned_date": "2026-07-20"
   }
 ]
