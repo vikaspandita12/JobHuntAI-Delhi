@@ -1357,5 +1357,37 @@
     "diksha_score": 50,
     "status": "new",
     "scanned_date": "2026-09-11"
+  },
+  {
+    "job_id": "li_a2372074ad",
+    "title": "Azure DevOps Engineer",
+    "company": "R Systems",
+    "location": "Noida, Uttar Pradesh, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/azure-devops-engineer-at-r-systems-4468536090?position=1&pageNum=0&refId=86lAYw1pbjDE3KyyoENDbw%3D%3D&trackingId=tfhGne1ev7Jux7nuUGMOVA%3D%3D",
+    "description": "Azure DevOps Engineer at R Systems — Noida, Uttar Pradesh, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-09-22",
+    "suggested_profile": "diksha",
+    "vikas_score": 2,
+    "diksha_score": 50,
+    "status": "new",
+    "scanned_date": "2026-09-22"
+  },
+  {
+    "job_id": "li_09b83e9ae2",
+    "title": "Site Reliability Engineer/ Expert/ Specialist (Must have strong experience in Windows Server, Azure and AKS)",
+    "company": "SITA",
+    "location": "Delhi, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/site-reliability-engineer-expert-specialist-must-have-strong-experience-in-windows-server-azure-and-aks-at-sita-4439601904?position=6&pageNum=0&refId=86lAYw1pbjDE3KyyoENDbw%3D%3D&trackingId=lyp7teNC5O50R68vpV66Mg%3D%3D",
+    "description": "Site Reliability Engineer/ Expert/ Specialist (Must have strong experience in Windows Server, Azure and AKS) at SITA — Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-09-21",
+    "suggested_profile": "diksha",
+    "vikas_score": 2,
+    "diksha_score": 50,
+    "status": "new",
+    "scanned_date": "2026-09-22"
   }
 ]
