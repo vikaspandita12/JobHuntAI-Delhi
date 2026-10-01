@@ -673,6 +673,38 @@
     "scanned_date": "2026-09-17"
   },
   {
+    "job_id": "li_93fa3f7b63",
+    "title": "Cloud & Infrastructure Engineer — Azure",
+    "company": "Vylqora Technologies Pvt Ltd",
+    "location": "Faridabad, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/cloud-infrastructure-engineer-%E2%80%94-azure-at-vylqora-technologies-pvt-ltd-4472150324?position=6&pageNum=0&refId=MGV%2Fwe4SdPo5cmqE2hoo%2Fg%3D%3D&trackingId=T%2FtvIiDcElEQielTMPvS7Q%3D%3D",
+    "description": "Cloud & Infrastructure Engineer — Azure at Vylqora Technologies Pvt Ltd — Faridabad, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-09-30",
+    "suggested_profile": "diksha",
+    "vikas_score": 2,
+    "diksha_score": 52,
+    "status": "new",
+    "scanned_date": "2026-10-01"
+  },
+  {
+    "job_id": "li_08c221632c",
+    "title": "HCL DRYiCE Product (Noida)_Sr. AWS Devops Engineer",
+    "company": "HCLSoftware",
+    "location": "Noida, Uttar Pradesh, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/hcl-dryice-product-noida-sr-aws-devops-engineer-at-hclsoftware-4473744847?position=10&pageNum=0&refId=MGV%2Fwe4SdPo5cmqE2hoo%2Fg%3D%3D&trackingId=l%2BIrecPZfbOBN8BgWaAOIw%3D%3D",
+    "description": "HCL DRYiCE Product (Noida)_Sr. AWS Devops Engineer at HCLSoftware — Noida, Uttar Pradesh, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-09-30",
+    "suggested_profile": "diksha",
+    "vikas_score": 2,
+    "diksha_score": 52,
+    "status": "new",
+    "scanned_date": "2026-10-01"
+  },
+  {
     "job_id": "rok_1131468",
     "title": "Senior Platform Engineer",
     "company": "saas.group",
@@ -1533,5 +1565,21 @@
     "diksha_score": 50,
     "status": "new",
     "scanned_date": "2026-09-30"
+  },
+  {
+    "job_id": "li_d7912175ca",
+    "title": "Cloud Architect (AWS & GCP)- CCOE",
+    "company": "Gartner",
+    "location": "Gurgaon, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/cloud-architect-aws-gcp-ccoe-at-gartner-4472339872?position=7&pageNum=0&refId=VN0aC2XL%2F%2BkSsJ0cJQRMRw%3D%3D&trackingId=oEMYVnteRseocEBUuG2Ajg%3D%3D",
+    "description": "Cloud Architect (AWS & GCP)- CCOE at Gartner — Gurgaon, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-09-30",
+    "suggested_profile": "diksha",
+    "vikas_score": 4,
+    "diksha_score": 50,
+    "status": "new",
+    "scanned_date": "2026-10-01"
   }
 ]
