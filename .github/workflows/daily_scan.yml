@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   scan:
-    name: Scan Adzuna · RemoteOK · Naukri · LinkedIn · Indeed · Shine · TimesJobs · IIMJobs · Glassdoor
+    name: Scan FreeHire · JSearch · HN · Adzuna · RemoteOK · LinkedIn · Naukri · and more
     runs-on: ubuntu-latest
 
     steps:
@@ -33,6 +33,8 @@ jobs:
         env:
           ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
           ADZUNA:             ${{ secrets.ADZUNA }}
+          JSEARCH_API_KEY:    ${{ secrets.JSEARCH_API_KEY }}
+          JSEARCH_HOST:       rapidapi
           VIKAS_SMTP_USER:    vikaspandita111@gmail.com
           VIKAS_SMTP_PASS:    ${{ secrets.JOB }}
           DIKSHA_SMTP_USER:   dikshakoul88@gmail.com
