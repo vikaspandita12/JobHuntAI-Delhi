@@ -69,7 +69,7 @@ def write_public_profiles():
 async def run_source(scraper):
     name = scraper.__class__.__name__.replace("Scraper", "")
     try:
-        jobs = await asyncio.wait_for(scraper.fetch_jobs(), timeout=240)
+        jobs = await asyncio.wait_for(scraper.fetch_jobs(), timeout=600)
         logger.info(f"{name}: {len(jobs)} fetched")
         return name, jobs, None
     except Exception as e:
@@ -78,18 +78,14 @@ async def run_source(scraper):
 
 
 async def main():
-    from app.scrapers.freehire  import FreeHireScraper
-    from app.scrapers.hn_hiring import HNHiringScraper
-    from app.scrapers.jsearch   import JSearchScraper
-    from app.scrapers.adzuna    import AdzunaScraper
-    from app.scrapers.remoteok  import RemoteOKScraper
-    from app.scrapers.linkedin  import LinkedInScraper
-    from app.scrapers.naukri    import NaukriScraper
-    from app.scrapers.indeed    import IndeedScraper
-    from app.scrapers.shine     import ShineScraper
-    from app.scrapers.timesjobs import TimesJobsScraper
-    from app.scrapers.iimjobs   import IIMJobsScraper
-    from app.scrapers.glassdoor import GlassdoorScraper
+    from app.scrapers.freehire      import FreeHireScraper
+    from app.scrapers.jobspy_source import JobSpyScraper
+    from app.scrapers.jsearch       import JSearchScraper
+    from app.scrapers.hn_hiring     import HNHiringScraper
+    from app.scrapers.remote_boards import RemoteBoardsScraper
+    from app.scrapers.adzuna        import AdzunaScraper
+    from app.scrapers.remoteok      import RemoteOKScraper
+    from app.scrapers.linkedin      import LinkedInScraper
     from app.matcher  import JobMatcher
     from app.notifier import EmailNotifier
 
@@ -109,10 +105,12 @@ async def main():
 
     # Legal APIs first (reliable from GitHub's servers); HTML scrapers are best-effort
     scrapers = [
-        FreeHireScraper(), JSearchScraper(), HNHiringScraper(), AdzunaScraper(),
-        RemoteOKScraper(), LinkedInScraper(), NaukriScraper(), IndeedScraper(),
-        ShineScraper(), TimesJobsScraper(), IIMJobsScraper(), GlassdoorScraper(),
+        FreeHireScraper(), JobSpyScraper(), JSearchScraper(), HNHiringScraper(),
+        RemoteBoardsScraper(), AdzunaScraper(), RemoteOKScraper(), LinkedInScraper(),
     ]
+    # Retired after months of 0 results from GitHub's servers (blocked / page changed):
+    # indeed.py, glassdoor.py, naukri.py, shine.py, timesjobs.py, iimjobs.py — JobSpy covers
+    # Indeed, Glassdoor and Naukri properly now. Files kept for reference.
     results = [await run_source(s) for s in scrapers]
 
     today = datetime.utcnow().strftime("%Y-%m-%d")

@@ -1,117 +1,68 @@
-# JobHuntAI Delhi — Automated Job Discovery Platform
+# JobHuntAI Delhi
 
-AI-powered job hunting assistant for **Vikas Pandita** (Cybersecurity) and **Diksha Koul** (Cloud Engineering) — targeting **Delhi NCR** roles.
+Automated job discovery for **Vikas Pandita** (Cybersecurity — CISO / Head of Security) and **Diksha Koul** (Cloud Engineering — Azure / AWS / DevOps), targeting **Delhi NCR** and remote roles open to India.
 
-## What it does
+Runs entirely on GitHub: a scheduled GitHub Actions scan every day at **8:00 AM IST**, results on a mobile dashboard served by GitHub Pages. No laptop, no Docker.
 
-- **Daily 8 AM scan** — Naukri, LinkedIn, Indeed, Shine, TimesJobs, iimjobs for Delhi NCR jobs
-- **Smart scoring** — ranks every job against each profile (0–100 match score)
-- **Email digest** — sends ranked job list daily to both emails with direct Apply links
-- **Cover letter AI** — generates tailored cover letters via Claude in seconds
-- **Application tracker** — dashboard to track new / applied / skipped jobs
+**Dashboard:** https://vikaspandita12.github.io/JobHuntAI-Delhi/
 
----
+## Job sources
 
-## Quick Start (2 commands, no Docker)
+| Source | What it covers | Type | Key needed | Code |
+|---|---|---|---|---|
+| **FreeHire** | Jobs read directly from company career pages (Greenhouse, Lever, Workday, Ashby…) plus Naukri, iimjobs, hirist listings | Public JSON API | No | `app/scrapers/freehire.py` |
+| **JobSpy** | LinkedIn, Indeed India, Naukri, Glassdoor, Google Jobs in one call | Open-source package | No | `app/scrapers/jobspy_source.py` |
+| **JSearch** | Google for Jobs index — LinkedIn, Naukri, Indeed, Glassdoor, company sites | API (free tier ~200 calls/month) | `JSEARCH_API_KEY` (optional) | `app/scrapers/jsearch.py` |
+| **Hacker News "Who is hiring?"** | Monthly startup hiring thread, filtered to India / remote-worldwide, with hiring emails | Algolia HN API | No | `app/scrapers/hn_hiring.py` |
+| **Remotive, Jobicy, Himalayas** | Remote jobs with stated country eligibility | Public JSON APIs | No | `app/scrapers/remote_boards.py` |
+| **RemoteOK** | Remote tech jobs | Public JSON API | No | `app/scrapers/remoteok.py` |
+| **Adzuna India** | Aggregated Indian job boards | API | `ADZUNA` | `app/scrapers/adzuna.py` |
+| **LinkedIn (guest pages)** | Public LinkedIn job search, past week | HTML | No | `app/scrapers/linkedin.py` |
 
-```bash
-# 1. One-time setup
-bash setup.sh
+Retired (blocked from GitHub's servers or page layout changed, 0 results for months): direct HTML scrapers for Indeed, Glassdoor, Naukri, Shine, TimesJobs and iimjobs. JobSpy and FreeHire now cover those boards. The files stay in `app/scrapers/` for reference.
 
-# 2. Edit your keys in .env (takes 1 minute)
-nano .env
+The dashboard's **⋯ → Sources in the last scan** shows how many jobs each source found and kept.
 
-# 3. Start the app
-bash start.sh
-```
+## Open-source projects and packages
 
-Then open **http://localhost:8000** in your browser.
+| Project / package | Version | Used for | Licence |
+|---|---|---|---|
+| [JobSpy](https://github.com/speedyapply/JobSpy) (`python-jobspy`) | 1.4.1 | Multi-board scraping: LinkedIn, Indeed, Naukri, Glassdoor, Google Jobs | MIT |
+| [Dossier](https://github.com/AienTech/dossier) | — | Design ideas only: explainable fit score with reasons / red flags / gaps, application board, "Write it with Claude" handoff, job sources (FreeHire, HN, JSearch, Adzuna). Re-implemented in Python/JS; no code copied | AGPL-3.0 |
+| [httpx](https://github.com/encode/httpx) | 0.27.2 | Async HTTP for all API sources | BSD-3 |
+| [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) + [lxml](https://lxml.de) | 4.12.3 / 5.3.0 | HTML parsing (LinkedIn guest pages) | MIT / BSD |
+| [pandas](https://pandas.pydata.org) | via JobSpy | JobSpy's result table | BSD-3 |
+| [anthropic](https://github.com/anthropics/anthropic-sdk-python) | 0.34.2 | Optional cover letters in the local server mode | MIT |
+| FastAPI, uvicorn, APScheduler, Jinja2 | see `requirements.txt` | Optional local server mode (`start.sh`) — not used by the daily scan | MIT / BSD |
 
----
+## How a scan works
 
-## .env Configuration
+1. `.github/workflows/daily_scan.yml` (on `main`) runs `python -m app.scan_runner` from the `claude/compare-cursor-repos-E1qVk` branch.
+2. Every source is queried; each job is scored for both profiles by `app/matcher.py`: a 0–100 fit with a band (Excellent / Good / Possible / Poor), reasons, red flags (seniority mismatch, sales roles, location, country-locked remote) and **gaps** (what the posting asks for that the profile doesn't show).
+3. Saved jobs are re-scored, the same posting from several sources is shown once, and the results are written to `docs/*.json`.
+4. Both people get an email digest; the dashboard updates.
 
-```bash
-# Anthropic API — for Claude cover letter generation
-ANTHROPIC_API_KEY=sk-ant-your-key-here
+## Dashboard
 
-# Gmail SMTP — for daily email digests
-# Use a Gmail App Password: myaccount.google.com/apppasswords
-SMTP_USER=your.email@gmail.com
-SMTP_PASS=your_gmail_app_password
-```
+- **Jobs:** search, filters, fit reasons, red flags and gaps per job.
+- **Board:** Saved → Applied → Interview → Offer → Rejected, with notes and interview dates.
+- **Insights:** funnel, applications per week, follow-ups due, upcoming interviews.
+- **Resume:** base resume from the profile, 3 themes, Save as PDF.
+- **✍️ Tailor / Interview prep / Follow-up email:** opens a new Claude chat with the posting and the profile, told to use only facts from the profile.
 
-That's it. Emails go to **vikaspandita1@gmail.com** and **dikshakoul88@gmail.com** automatically.
+Tracking data (saved jobs, stages, notes) stays in the browser of the device you use; ⋯ → Export / Import moves it between devices.
 
----
+## Secrets (Settings → Secrets and variables → Actions)
 
-## Job Platforms Covered
+| Secret | Purpose |
+|---|---|
+| `JOB` | Gmail App Password for vikaspandita111@gmail.com (sends the digest) |
+| `DIKSHASECRET` | Gmail App Password for dikshakoul88@gmail.com |
+| `ADZUNA` | Adzuna API key (app id is public, set in code) |
+| `JSEARCH_API_KEY` | Optional — RapidAPI key for JSearch |
+| `ANTHROPIC_API_KEY` | Optional — local cover-letter mode only |
 
-| Platform | Vikas (Cybersecurity) | Diksha (Cloud) |
-|----------|----------------------|----------------|
-| Naukri   | 8 searches           | 8 searches     |
-| LinkedIn | 6 searches           | 5 searches     |
-| Indeed   | 5 searches           | 5 searches     |
-| Shine    | 3 searches           | 3 searches     |
-| TimesJobs| 5 searches           | 3 searches     |
-| iimjobs  | 5 searches (IIM alumni tier) | 3 searches |
+## Branches
 
-**Total: 60 search queries run every morning at 8 AM IST**
-
----
-
-## Dashboard Features
-
-- **Vikas tab** — cybersecurity roles sorted by match score
-- **Diksha tab** — cloud engineering roles sorted by match score
-- **Match score** (0–100) — green ≥80, amber ≥60, grey <60
-- **View & Apply** — opens the job directly
-- **Mark Applied** / **Skip** — tracks your pipeline
-- **Cover Letter** — generates Claude-powered personalised letter
-- **Scan Now** — manual trigger anytime
-- **Send Email** — send digest immediately
-
----
-
-## API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET  | `/` | Dashboard UI |
-| GET  | `/jobs?profile=vikas` | Jobs for Vikas |
-| GET  | `/jobs?profile=diksha` | Jobs for Diksha |
-| POST | `/scan` | Trigger manual scan |
-| GET  | `/cover-letter/{job_id}/{profile}` | Generate cover letter |
-| POST | `/jobs/{job_id}/apply` | Mark as applied |
-| POST | `/jobs/{job_id}/skip` | Skip job |
-| POST | `/notify` | Send email digest now |
-| GET  | `/stats` | Application statistics |
-| GET  | `/docs` | Interactive API docs |
-
----
-
-## Target Roles
-
-### Vikas Pandita — Cybersecurity Leadership
-- CISO, Head of Cybersecurity, VP Security, Director InfoSec, Security Architect
-- 14+ years | Big 4 (Deloitte, KPMG, EY, TCS) | IOC Olympic Games | IIM Kozhikode
-
-### Diksha Koul — Cloud Engineering
-- Cloud Architect, Senior Cloud Engineer, Azure Engineer, DevOps Lead, Platform Engineer
-- 7+ years | HCL Technologies, VOIS | Azure/AWS/Terraform | RHCSA 300/300
-
----
-
-## System Requirements
-
-- Python 3.10 or higher
-- Internet connection
-- Gmail account (for email digests)
-- Anthropic API key (for cover letters — optional but recommended)
-
-## Note on Automation
-
-This tool **discovers jobs and prepares applications**. You apply with one click on the Apply link. Automated form-filling on LinkedIn/Naukri violates their ToS and risks account bans — especially harmful for senior roles where profile visibility matters.
-
----
-*Built for Vikas Pandita & Diksha Koul — Pune → Delhi NCR relocation 2025*
+- `main` — the scheduled workflow (GitHub only runs schedules from the default branch) and this README.
+- `claude/compare-cursor-repos-E1qVk` — all code, scrapers, dashboard and data. GitHub Pages serves its `/docs` folder.
