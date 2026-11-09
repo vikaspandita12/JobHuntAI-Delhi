@@ -28,28 +28,28 @@ class EmailNotifier:
 
     def send_daily_digest(self, vikas_jobs: List[Dict], diksha_jobs: List[Dict]):
         today = datetime.today().strftime("%d %b %Y")
+        senders = [(self.vikas_smtp_user, self.vikas_smtp_pass), (self.diksha_smtp_user, self.diksha_smtp_pass)]
+        senders = [(u, p) for u, p in senders if u and p]
+        if not senders:
+            logger.warning("No SMTP credentials set (secrets JOB / DIKSHASECRET) — skipping email")
+            return
 
-        if vikas_jobs and self.vikas_smtp_user and self.vikas_smtp_pass:
-            self._send(
-                smtp_user=self.vikas_smtp_user,
-                smtp_pass=self.vikas_smtp_pass,
-                to=self.vikas_email,
-                subject=f"JobHuntAI — {len(vikas_jobs)} new Delhi cybersecurity roles — {today}",
-                html=self._build_html("Vikas", vikas_jobs, "vikas"),
-            )
-        elif not self.vikas_smtp_pass:
-            logger.warning("VIKAS_SMTP_PASS (secret: JOB) not set — skipping Vikas email")
+        if vikas_jobs:
+            self._send_any(senders, self.vikas_email,
+                           f"JobHuntAI — {len(vikas_jobs)} new Delhi cybersecurity roles — {today}",
+                           self._build_html("Vikas", vikas_jobs, "vikas"))
+        if diksha_jobs:
+            # Her own address first; if Gmail rejects it, send from Vikas's account instead
+            self._send_any(list(reversed(senders)), self.diksha_email,
+                           f"JobHuntAI — {len(diksha_jobs)} new Delhi cloud engineering roles — {today}",
+                           self._build_html("Diksha", diksha_jobs, "diksha"))
 
-        if diksha_jobs and self.diksha_smtp_user and self.diksha_smtp_pass:
-            self._send(
-                smtp_user=self.diksha_smtp_user,
-                smtp_pass=self.diksha_smtp_pass,
-                to=self.diksha_email,
-                subject=f"JobHuntAI — {len(diksha_jobs)} new Delhi cloud engineering roles — {today}",
-                html=self._build_html("Diksha", diksha_jobs, "diksha"),
-            )
-        elif not self.diksha_smtp_pass:
-            logger.warning("DIKSHA_SMTP_PASS (secret: DIKSHASECRET) not set — skipping Diksha email")
+    def _send_any(self, senders, to: str, subject: str, html: str) -> bool:
+        for user, password in senders:
+            if self._send(user, password, to, subject, html):
+                return True
+        logger.error(f"Every sender failed for {to} — regenerate the Gmail App Password secrets")
+        return False
 
     def _build_html(self, name: str, jobs: List[Dict], profile: str) -> str:
         score_key = f"{profile}_score"
@@ -66,6 +66,8 @@ class EmailNotifier:
                   <p style="margin:0;color:#374151;font-weight:600;">{j.get('company','')}</p>
                   <p style="margin:4px 0;color:#6b7280;font-size:13px;">{j.get('location','')} &bull; {j.get('source','')} &bull; {j.get('salary','Not disclosed')}</p>
                   <p style="margin:4px 0;color:#9ca3af;font-size:12px;">Posted: {j.get('posted_date','Recent')}</p>
+                  <p style="margin:6px 0 0;color:#166534;font-size:12px;">{'<br>'.join('✓ ' + r for r in (j.get(f'{profile}_fit') or {}).get('reasons', [])[:2])}</p>
+                  <p style="margin:2px 0 0;color:#b45309;font-size:12px;">{'<br>'.join('⚠ ' + r for r in (j.get(f'{profile}_fit') or {}).get('red_flags', [])[:2])}</p>
                 </div>
                 <div style="text-align:center;min-width:60px;">
                   <div style="background:{score_color};color:#fff;border-radius:50%;width:48px;height:48px;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:15px;margin:0 auto;">{score}</div>
@@ -87,7 +89,7 @@ class EmailNotifier:
               <p style="margin:6px 0 0;opacity:0.8;">Hi {name}! Your daily job digest &mdash; {today}</p>
             </div>
             <div style="background:#e8f0fe;padding:14px 24px;">
-              <strong>{len(jobs)} new matching roles</strong> found across Naukri, LinkedIn, Indeed, Shine, TimesJobs &amp; IIMJobs &mdash; Delhi NCR
+              <strong>{len(jobs)} new matching roles</strong> found across company career pages, LinkedIn, HN, RemoteOK and more &mdash; Delhi NCR
             </div>
             <div style="padding:8px 0;">{cards}</div>
             <div style="background:#f3f4f6;padding:16px;border-radius:0 0 12px 12px;text-align:center;font-size:12px;color:#9ca3af;">
@@ -108,6 +110,8 @@ class EmailNotifier:
                 server.starttls()
                 server.login(smtp_user, smtp_pass)
                 server.sendmail(smtp_user, to, msg.as_string())
-            logger.info(f"Email sent to {to}")
+            logger.info(f"Email sent to {to} from {smtp_user}")
+            return True
         except Exception as e:
-            logger.error(f"Failed to send email to {to}: {e}")
+            logger.error(f"Failed to send email to {to} from {smtp_user}: {e}")
+            return False

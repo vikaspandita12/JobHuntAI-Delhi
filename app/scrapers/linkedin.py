@@ -41,7 +41,7 @@ class LinkedInScraper:
                     params = {
                         "keywords": s["q"],
                         "location": s["location"],
-                        "f_TPR": "r86400",
+                        "f_TPR": "r604800",  # past week; dedup drops repeats
                         "f_E": s["exp"],
                         "position": 1,
                         "pageNum": 0,

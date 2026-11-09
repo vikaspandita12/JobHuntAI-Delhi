@@ -33,7 +33,7 @@ class RemoteOKScraper:
                             continue
                         raw_loc = item.get("location") or ""
                         location = (
-                            "Remote (India OK)"
+                            "Remote (worldwide)"
                             if raw_loc.lower() in ("", "worldwide", "anywhere", "remote")
                             else raw_loc
                         )
