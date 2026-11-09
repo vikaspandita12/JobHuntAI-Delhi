@@ -19,6 +19,17 @@ WRONG_FUNCTION = re.compile(
     r"talent acquisition|customer success|teacher|trainer|tutor|content writer|copywriter)\b", re.I)
 JUNIOR = re.compile(r"\b(intern|internship|trainee|fresher|graduate|junior|jr\.?|entry[- ]level|associate)\b", re.I)
 
+# Requirements we look for in postings; anything here the profile doesn't show is a gap
+GAP_VOCAB = {
+    "vikas": ["CISSP", "CISM", "CISA", "CRISC", "CCSP", "OSCP", "SOC 2", "HIPAA", "GDPR", "DPDP",
+              "RBI", "SEBI", "IRDAI", "PCI DSS", "ISO 27001", "NIST CSF", "OT security", "Kubernetes",
+              "Python", "Forensics", "Red Team", "PAM", "Okta", "Fortinet", "Palo Alto", "Zscaler",
+              "Data Privacy", "Business Continuity", "MBA"],
+    "diksha": ["GCP", "Kubernetes", "AKS", "EKS", "OpenShift", "Ansible", "Jenkins", "GitLab", "Azure DevOps",
+               "ArgoCD", "Helm", "Python", "Go", "Java", "Prometheus", "Grafana", "Datadog", "CKA",
+               "AZ-305", "AZ-400", "Solutions Architect Professional", "VMware", "Networking", "Kafka"],
+}
+
 PROFILE_RULES = {
     "vikas": {
         "profile": VIKAS_PROFILE,
@@ -132,5 +143,9 @@ class JobMatcher:
         if not desc.strip():
             reasons.append("Only the title was available; open the posting to confirm.")
 
+        have = " ".join(prof["key_skills"] + prof["target_keywords"] + prof.get("certifications", []) + prof.get("education", [])).lower()
+        gaps = [g for g in GAP_VOCAB[who]
+                if re.search(rf"(?<![\w]){re.escape(g)}(?![\w])", desc, re.I) and g.lower() not in have]
+
         s = int(max(0, min(cap, round(score))))
-        return {"score": s, "band": band(s), "reasons": reasons[:4], "red_flags": flags[:3]}
+        return {"score": s, "band": band(s), "reasons": reasons[:4], "red_flags": flags[:3], "gaps": gaps[:6]}

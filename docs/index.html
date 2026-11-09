@@ -1,260 +1,546 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="theme-color" content="#1e3a5f">
-  <title>JobHuntAI Delhi</title>
-  <style>
-    *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f1f5f9;min-height:100vh;padding-bottom:84px;color:#1e293b}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#1e3a5f">
+<title>JobHuntAI Delhi</title>
+<style>
+:root{
+  --navy:#1e3a5f;--ink:#1e293b;--ink2:#475569;--muted:#94a3b8;--line:#e2e8f0;--bg:#f1f5f9;--card:#fff;
+  --bar:#2563eb;--bar-track:#dbeafe;--good:#15803d;--warn:#b45309;--bad:#b91c1c;--claude:#9a3412;--claude-bg:#fdf4ec;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--ink);padding-bottom:calc(70px + env(safe-area-inset-bottom))}
+button,select,input,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+.wrap{max-width:880px;margin:0 auto}
 
-    .hdr{background:#1e3a5f;color:#fff;padding:12px 16px 10px;position:sticky;top:0;z-index:20}
-    .hdr-row{display:flex;align-items:center;justify-content:space-between;gap:8px}
-    .hdr h1{font-size:18px;font-weight:700}
-    .hdr-sub{font-size:11px;opacity:.7;margin-top:2px}
-    .refresh-btn{background:rgba(255,255,255,.15);border:none;color:#fff;padding:7px 12px;border-radius:20px;font-size:12px}
+/* header */
+.hdr{background:var(--navy);color:#fff;position:sticky;top:0;z-index:30}
+.hdr .wrap{padding:10px 14px 10px}
+.hrow{display:flex;align-items:center;gap:10px}
+.hdr h1{font-size:17px;font-weight:700;flex:1}
+.hsub{font-size:11px;opacity:.7}
+.hbtn{background:rgba(255,255,255,.14);border:none;color:#fff;padding:7px 11px;border-radius:18px;font-size:12px}
+.seg{display:flex;background:rgba(255,255,255,.12);border-radius:10px;padding:3px;margin-top:9px}
+.seg button{flex:1;border:none;background:none;color:#cbd5e1;padding:7px;border-radius:8px;font-size:13px;font-weight:600}
+.seg button.on{background:#fff;color:var(--navy)}
 
-    .tabs{display:flex;background:#fff;border-bottom:2px solid #e2e8f0}
-    .tab{flex:1;padding:11px 6px;font-size:14px;font-weight:600;border:none;background:none;color:#64748b;position:relative}
-    .tab.on{color:#1e3a5f}
-    .tab.on::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:2px;background:#1e3a5f}
-    .cnt{display:inline-block;background:#e2e8f0;color:#475569;font-size:11px;padding:1px 7px;border-radius:99px;margin-left:3px}
-    .tab.on .cnt{background:#dbeafe;color:#1e40af}
+/* views */
+.view{display:none;padding:10px}
+.view.on{display:block}
+h2{font-size:15px;margin:14px 4px 8px;color:var(--ink2)}
+.empty{text-align:center;padding:40px 16px;color:var(--muted);font-size:13px}
 
-    .stats{display:flex;background:#fff;border-bottom:1px solid #f1f5f9}
-    .st{flex:1;text-align:center;padding:7px 2px;border-right:1px solid #f1f5f9}
-    .st:last-child{border:none}
-    .sv{font-size:18px;font-weight:700;color:#1e3a5f}
-    .sl{font-size:9px;color:#94a3b8;text-transform:uppercase;letter-spacing:.4px}
+/* jobs toolbar */
+.tool{display:flex;gap:8px;margin-bottom:8px}
+.search{flex:1;border:1.5px solid var(--line);border-radius:10px;padding:9px 11px;background:#fff;font-size:14px}
+.sel{border:1.5px solid var(--line);border-radius:10px;padding:8px;background:#fff;font-size:13px}
+.chips{display:flex;gap:7px;overflow-x:auto;padding:2px 0 8px}
+.fc{padding:6px 12px;border-radius:99px;border:1.5px solid var(--line);font-size:13px;white-space:nowrap;background:#fff;color:var(--ink2)}
+.fc.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.count{font-size:12px;color:var(--muted);margin:0 4px 8px}
 
-    .filters{display:flex;gap:7px;padding:9px 12px;background:#fff;border-bottom:1px solid #e2e8f0;overflow-x:auto}
-    .fc{padding:6px 13px;border-radius:99px;border:1.5px solid #e2e8f0;font-size:13px;font-weight:500;white-space:nowrap;background:#fff;color:#475569}
-    .fc.on{background:#1e3a5f;color:#fff;border-color:#1e3a5f}
+/* job card */
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:9px;overflow:hidden}
+.cbody{display:flex;gap:11px;padding:12px;cursor:pointer}
+.score{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:#fff;flex-shrink:0}
+.band{font-size:9px;color:var(--ink2);text-align:center;margin-top:3px}
+.info{flex:1;min-width:0}
+.title{font-size:15px;font-weight:600;line-height:1.3}
+.co{font-size:13px;color:var(--ink2);margin-top:2px}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+.tag{font-size:11px;padding:2px 8px;border-radius:6px;background:#f8fafc;color:#64748b}
+.t-src{background:#eff6ff;color:#1d4ed8}.t-sal{background:#f0fdf4;color:#166534}
+.t-new{background:#fef9c3;color:#854d0e;font-weight:600}.t-stage{background:#ede9fe;color:#5b21b6;font-weight:600}
+.cact{display:flex;border-top:1px solid #f1f5f9}
+.ab{flex:1;padding:11px 4px;border:none;border-right:1px solid #f1f5f9;background:#fff;font-size:13px;font-weight:600;text-align:center;text-decoration:none;color:#334155}
+.ab:last-child{border-right:none}
+.ab.pri{background:var(--navy);color:#fff}
+.ab.cl{background:var(--claude-bg);color:var(--claude)}
+.ab.saved{color:#5b21b6}
 
-    .list{padding:10px 10px 6px}
-    .card{background:#fff;border-radius:12px;margin-bottom:10px;border:1px solid #e2e8f0;overflow:hidden}
-    .card.skipped,.card.rejected{opacity:.45}
-    .card-body{padding:13px 13px 0}
-    .row1{display:flex;gap:11px;align-items:flex-start}
-    .score-wrap{text-align:center;min-width:48px}
-    .score{width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:#fff}
-    .slbl{font-size:9px;color:#64748b;margin-top:3px;line-height:1.1}
-    .info{flex:1;min-width:0}
-    .title{font-size:15px;font-weight:600;line-height:1.3;word-break:break-word}
-    .company{font-size:13px;color:#374151;font-weight:500;margin-top:2px}
-    .chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
-    .chip{font-size:11px;padding:2px 8px;border-radius:6px;background:#f8fafc;color:#6b7280}
-    .ch-src{background:#eff6ff;color:#1d4ed8}
-    .ch-sal{background:#f0fdf4;color:#166534}
-    .ch-new{background:#fef9c3;color:#854d0e;font-weight:600}
-    .ch-stage{background:#ede9fe;color:#5b21b6;font-weight:600}
+/* board */
+.board{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px}
+.col{flex:0 0 82%;max-width:300px;scroll-snap-align:start;background:#e8edf3;border-radius:12px;padding:9px}
+@media(min-width:760px){.col{flex:1 1 0;max-width:none}}
+.colh{display:flex;justify-content:space-between;font-size:13px;font-weight:700;color:var(--ink2);padding:2px 4px 8px}
+.bcard{background:#fff;border-radius:10px;padding:10px;margin-bottom:8px;border:1px solid var(--line)}
+.bcard .title{font-size:14px}
+.bmeta{font-size:11px;color:var(--muted);margin-top:4px}
+.bmove{display:flex;gap:6px;margin-top:8px}
+.bmove button{flex:1;border:1px solid var(--line);background:#f8fafc;border-radius:8px;padding:6px;font-size:12px}
 
-    details.why{margin:9px 0 0;font-size:12.5px;line-height:1.45}
-    details.why summary{color:#475569;font-weight:600;list-style:none;cursor:pointer;padding:4px 0}
-    details.why summary::-webkit-details-marker{display:none}
-    .ok{color:#166534;margin-top:3px}
-    .flag{color:#b45309;margin-top:3px}
+/* insights */
+.tiles{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+@media(min-width:620px){.tiles{grid-template-columns:repeat(4,1fr)}}
+.tile{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px}
+.tl{font-size:12px;color:var(--ink2)}
+.tv{font-size:24px;font-weight:650;margin-top:2px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 12px 8px;margin-top:10px}
+.panel h3{font-size:14px;margin-bottom:8px}
+.panel .hint{font-size:12px;color:var(--muted);margin-bottom:8px}
+.frow{display:grid;grid-template-columns:86px 1fr 40px;align-items:center;gap:8px;margin:7px 0;font-size:13px}
+.ftrack{height:14px;background:var(--bar-track);border-radius:4px;overflow:hidden}
+.ffill{height:100%;background:var(--bar);border-radius:0 4px 4px 0}
+.fv{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink2)}
+.tip{font-size:12px;color:var(--ink2);min-height:18px;margin-top:4px}
+.li{display:flex;justify-content:space-between;gap:8px;padding:9px 0;border-top:1px solid #f1f5f9;font-size:13px;cursor:pointer}
+.li:first-of-type{border-top:none}
+.li small{color:var(--muted)}
 
-    .actions{display:flex;border-top:1px solid #f1f5f9;margin-top:11px}
-    .ab{flex:1;padding:12px 4px;border:none;font-size:13px;font-weight:600;background:#fff;color:#374151;border-right:1px solid #f1f5f9;text-align:center;text-decoration:none;display:block}
-    .ab:last-child{border-right:none}
-    .ab.apply{background:#1e3a5f;color:#fff;flex:1.4}
-    .ab.claude{background:#fdf4ec;color:#9a3412}
-    .ab.mail{background:#f0f9ff;color:#0369a1}
-    select.ab{appearance:none;-webkit-appearance:none;background:#f8fafc;color:#334155}
+/* resume */
+.rtool{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.resume{background:#fff;border:1px solid var(--line);border-radius:6px;padding:28px 26px;line-height:1.45;font-size:13.5px}
+.resume h1{font-size:24px}
+.resume .rrole{color:var(--ink2);font-size:14px;margin-top:2px}
+.resume .rcontact{font-size:12.5px;color:var(--ink2);margin-top:4px}
+.resume h4{font-size:12px;text-transform:uppercase;letter-spacing:.08em;margin:18px 0 6px;color:var(--navy);border-bottom:1.5px solid var(--line);padding-bottom:3px}
+.resume ul{padding-left:18px}.resume li{margin:3px 0}
+.resume .skills{display:flex;flex-wrap:wrap;gap:5px}
+.resume .skills span{border:1px solid var(--line);border-radius:5px;padding:1px 7px;font-size:12px}
+.resume.modern{border-top:8px solid var(--navy)}
+.resume.modern h4{color:#fff;background:var(--navy);border:none;padding:3px 8px;border-radius:3px}
+.resume.compact{font-size:12px;padding:20px 20px}
+.resume.compact h4{margin-top:12px}
+.resume.compact .skills{display:block}.resume.compact .skills span{border:none;padding:0}
+.resume.compact .skills span:not(:last-child)::after{content:" · "}
 
-    .empty,.loading{text-align:center;padding:50px 20px;color:#94a3b8;font-size:13px}
-    .empty h3{font-size:17px;color:#94a3b8;margin-bottom:6px}
+/* sheet */
+.scrim{position:fixed;inset:0;background:rgba(15,23,42,.45);z-index:50;display:none}
+.sheet{position:fixed;left:0;right:0;bottom:0;max-height:92vh;overflow-y:auto;background:#fff;border-radius:16px 16px 0 0;z-index:51;display:none;padding:14px 16px calc(24px + env(safe-area-inset-bottom))}
+@media(min-width:760px){.sheet{left:50%;transform:translateX(-50%);width:720px;bottom:3vh;border-radius:16px;max-height:90vh}}
+.scrim.on,.sheet.on{display:block}
+.grab{width:40px;height:4px;background:var(--line);border-radius:4px;margin:0 auto 10px}
+.shead{display:flex;gap:12px;align-items:flex-start}
+.close{margin-left:auto;border:none;background:#f1f5f9;border-radius:50%;width:32px;height:32px;font-size:16px;flex-shrink:0}
+.sec{margin-top:14px}
+.sec h5{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:6px}
+.ok{color:var(--good);font-size:13px;margin:3px 0}
+.flag{color:var(--warn);font-size:13px;margin:3px 0}
+.gap{display:inline-block;background:#fff7ed;color:#9a3412;border:1px solid #fed7aa;border-radius:6px;padding:2px 8px;font-size:12px;margin:0 5px 5px 0}
+.desc{font-size:13px;color:#334155;white-space:pre-wrap;max-height:220px;overflow:auto;background:#f8fafc;border-radius:8px;padding:10px}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.btn{border:1.5px solid var(--line);background:#fff;border-radius:10px;padding:11px 8px;font-size:13.5px;font-weight:600;text-align:center;text-decoration:none;color:#334155;display:block}
+.btn.pri{background:var(--navy);border-color:var(--navy);color:#fff}
+.btn.cl{background:var(--claude-bg);border-color:#fed7aa;color:var(--claude)}
+.field{width:100%;border:1.5px solid var(--line);border-radius:10px;padding:9px 10px;font-size:14px;background:#fff}
+textarea.field{min-height:84px;resize:vertical}
+.lbl{font-size:12px;color:var(--ink2);margin:8px 0 4px;display:block}
+.hist{font-size:12px;color:var(--muted)}
 
-    .health{margin:4px 10px 12px;background:#fff;border:1px solid #e2e8f0;border-radius:12px;font-size:12.5px}
-    .health summary{padding:11px 13px;font-weight:600;color:#475569;list-style:none}
-    .health table{width:100%;border-collapse:collapse}
-    .health td{padding:6px 13px;border-top:1px solid #f1f5f9}
-    .health td.n{text-align:right;color:#475569;font-variant-numeric:tabular-nums}
-    .health .bad{color:#b91c1c}
+/* bottom nav */
+.nav{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--line);display:flex;z-index:40;padding-bottom:env(safe-area-inset-bottom)}
+.nav button{flex:1;border:none;background:none;padding:9px 2px 8px;font-size:11px;color:var(--muted);display:flex;flex-direction:column;align-items:center;gap:2px}
+.nav button b{font-size:18px;font-weight:400;line-height:1}
+.nav button.on{color:var(--navy);font-weight:700}
 
-    .btmbar{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid #e2e8f0;padding:9px 12px 18px;display:flex;gap:9px;z-index:20}
-    .bscan{flex:1;padding:12px;background:#1e3a5f;color:#fff;border:none;border-radius:10px;font-size:14px;font-weight:700}
+.toast{position:fixed;bottom:84px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:9px 15px;border-radius:10px;font-size:13px;z-index:99;opacity:0;transition:opacity .2s;pointer-events:none;max-width:90vw;text-align:center}
+.toast.on{opacity:1}
 
-    .toast{position:fixed;bottom:90px;left:50%;transform:translateX(-50%);background:#1e293b;color:#fff;padding:10px 16px;border-radius:10px;font-size:13px;z-index:99;opacity:0;transition:opacity .25s;pointer-events:none;max-width:90vw;text-align:center}
-    .toast.show{opacity:1}
-  </style>
+@media print{
+  body{background:#fff;padding:0}
+  .hdr,.nav,.rtool,.toast,.view:not(#v-resume){display:none!important}
+  #v-resume{display:block!important;padding:0}
+  .resume{border:none;padding:0}
+}
+</style>
 </head>
 <body>
 
-<div class="hdr">
-  <div class="hdr-row">
-    <div>
-      <h1>JobHuntAI Delhi</h1>
-      <div class="hdr-sub" id="scanInfo">Loading…</div>
-    </div>
-    <button class="refresh-btn" onclick="reload()">&#8635; Refresh</button>
+<header class="hdr"><div class="wrap">
+  <div class="hrow">
+    <div style="flex:1"><h1>JobHuntAI Delhi</h1><div class="hsub" id="scanInfo">Loading…</div></div>
+    <button class="hbtn" data-act="add">＋ Add job</button>
+    <button class="hbtn" data-act="menu">⋯</button>
   </div>
-</div>
+  <div class="seg" id="who">
+    <button data-who="vikas" class="on">Vikas · Security</button>
+    <button data-who="diksha">Diksha · Cloud</button>
+  </div>
+</div></header>
 
-<div class="tabs">
-  <button class="tab on" onclick="switchTab('vikas',this)">Vikas <span class="cnt" id="cv">0</span></button>
-  <button class="tab"    onclick="switchTab('diksha',this)">Diksha <span class="cnt" id="cd">0</span></button>
-</div>
+<main class="wrap">
+  <section class="view on" id="v-jobs">
+    <div class="tool">
+      <input class="search" id="q" type="search" placeholder="Search title, company, skill…" aria-label="Search jobs">
+      <select class="sel" id="sort" aria-label="Sort"><option value="fit">Best fit</option><option value="new">Newest</option></select>
+    </div>
+    <div class="chips" id="jobChips"></div>
+    <div class="count" id="jobCount"></div>
+    <div id="jobList"></div>
+  </section>
 
-<div class="stats">
-  <div class="st"><div class="sv" id="s1">-</div><div class="sl">Jobs</div></div>
-  <div class="st"><div class="sv" id="s2" style="color:#f59e0b">-</div><div class="sl">New today</div></div>
-  <div class="st"><div class="sv" id="s3" style="color:#22c55e">-</div><div class="sl">Applied</div></div>
-  <div class="st"><div class="sv" id="s4" style="color:#8b5cf6">-</div><div class="sl">Interviews</div></div>
-</div>
+  <section class="view" id="v-board"><div class="board" id="board"></div></section>
 
-<div class="filters" id="filters"></div>
+  <section class="view" id="v-insights"><div id="insights"></div></section>
 
-<div class="list" id="list"><div class="loading">Loading jobs…</div></div>
+  <section class="view" id="v-resume">
+    <div class="rtool">
+      <select class="sel" id="theme" aria-label="Resume theme">
+        <option value="classic">Classic</option><option value="modern">Modern</option><option value="compact">Compact</option>
+      </select>
+      <input class="field" style="flex:1;min-width:200px" id="contact" placeholder="Contact line — e.g. email · phone · LinkedIn (kept on this device)">
+      <button class="btn pri" data-act="print">⬇ Save as PDF</button>
+    </div>
+    <div id="resume"></div>
+  </section>
+</main>
 
-<details class="health" id="health" hidden>
-  <summary>Sources in the last scan ▾</summary>
-  <table id="healthTable"></table>
-</details>
+<nav class="nav">
+  <button data-view="jobs" class="on"><b>🔍</b>Jobs</button>
+  <button data-view="board"><b>📋</b>Board</button>
+  <button data-view="insights"><b>📊</b>Insights</button>
+  <button data-view="resume"><b>📄</b>Resume</button>
+</nav>
 
-<div class="btmbar">
-  <button class="bscan" onclick="goActions()">&#9654; Run a scan on GitHub</button>
-</div>
-
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true"></div>
 <div class="toast" id="toast"></div>
+<input type="file" id="importFile" accept="application/json" hidden>
 
 <script>
-// Application stages, as on Dossier's board: draft → applied → interview → offer
-const STAGES = [
-  ['new','New'], ['applied','Applied'], ['interview','Interview'],
-  ['offer','Offer'], ['rejected','Rejected'], ['skipped','Skipped'],
-];
-const FILTERS = [['active','Open'], ['strong','Good fit+'], ...STAGES];
-let tab='vikas', filter='active';
-let data={vikas:[],diksha:[]}, profiles={}, stats={};
+'use strict';
+/* ---------- state ---------- */
+const STAGES = [['saved','Saved'],['applied','Applied'],['interview','Interview'],['offer','Offer'],['rejected','Rejected'],['skipped','Skipped']];
+const BOARD = ['saved','applied','interview','offer','rejected'];
+const stageName = s => (STAGES.find(x=>x[0]===s)||[,'New'])[1];
+const DELHI = /\b(delhi|ncr|noida|gurgaon|gurugram|faridabad|ghaziabad)\b/i;
+const REMOTE = /\b(remote|anywhere|worldwide|virtual)\b/i;
 
-const stageOf = id => { try { return localStorage.getItem('jh_'+id) || 'new'; } catch { return 'new'; } };
-const setStage = (id,s) => { try { localStorage.setItem('jh_'+id, s); } catch {} };
-const color = s => s>=85?'#16a34a':s>=70?'#22c55e':s>=50?'#f59e0b':'#94a3b8';
-const today = () => new Date().toISOString().slice(0,10);
+let who = 'vikas', view = 'jobs', chip = 'open', data = {vikas:[],diksha:[]}, stats = {}, profiles = {};
+let store = load();
+
+function load(){
+  let s; try { s = JSON.parse(localStorage.getItem('jh2')||'null'); } catch {}
+  s = s || {apps:{}, prefs:{}};
+  // migrate the older one-word stage keys
+  try {
+    for (let i = localStorage.length-1; i >= 0; i--) {
+      const k = localStorage.key(i);
+      if (k && k.startsWith('jh_')) {
+        const id = k.slice(3), st = localStorage.getItem(k);
+        if (st && st !== 'new' && !s.apps[id]) s.apps[id] = {stage: st==='applied'?'applied':st, history:[{stage:st, at:Date.now()}], notes:'', migrated:true};
+        localStorage.removeItem(k);
+      }
+    }
+  } catch {}
+  return s;
+}
+function save(){ try { localStorage.setItem('jh2', JSON.stringify(store)); } catch {} }
+const app = id => store.apps[id];
+const stageOf = id => app(id)?.stage || 'new';
+
+function setStage(job, stage){
+  const id = job.job_id;
+  const a = store.apps[id] || (store.apps[id] = {history:[], notes:''});
+  a.who = a.who || who;
+  // keep a frozen copy so the board survives the job leaving the daily feed
+  a.job = snapshot(job);
+  if (a.stage !== stage) a.history.push({stage, at: Date.now()});
+  a.stage = stage;
+  save();
+}
+function snapshot(j){ const {job_id,title,company,location,url,source,via,salary,apply_email,description} = j;
+  return {job_id,title,company,location,url,source,via,salary,apply_email,description:(description||'').slice(0,1500),
+          [who+'_score']: j[who+'_score'], [who+'_fit']: j[who+'_fit']}; }
+
+/* ---------- helpers ---------- */
+const $ = s => document.querySelector(s);
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl = u => /^https?:\/\//i.test(u||'') ? u : '#';
+const scoreColor = s => s>=85?'#15803d':s>=70?'#22c55e':s>=50?'#d97706':'#94a3b8';
+const today = () => new Date().toISOString().slice(0,10);
+const days = t => Math.floor((Date.now()-t)/864e5);
+function toast(m){ const t=$('#toast'); t.textContent=m; t.classList.add('on'); clearTimeout(toast.h); toast.h=setTimeout(()=>t.classList.remove('on'),2200); }
 
+function allJobs(){
+  // feed jobs + jobs you saved/added that are no longer in the feed
+  const feed = data[who], ids = new Set(feed.map(j=>j.job_id));
+  const kept = Object.entries(store.apps).filter(([id,a]) => (a.who||'vikas')===who && a.job && !ids.has(id)).map(([,a]) => a.job);
+  return feed.concat(kept);
+}
+const findJob = id => allJobs().find(j=>j.job_id===id) || store.apps[id]?.job;
+
+/* ---------- data ---------- */
 async function reload(){
-  const ts='?t='+Date.now();
-  const get = (f, d) => fetch(f+ts).then(r=>r.ok?r.json():d).catch(()=>d);
-  const [v,d,s,p] = await Promise.all([get('jobs_vikas.json',[]), get('jobs_diksha.json',[]), get('stats.json',{}), get('profiles.json',{})]);
-  data.vikas=v||[]; data.diksha=d||[]; stats=s||{}; profiles=p||{};
-  document.getElementById('cv').textContent=data.vikas.length;
-  document.getElementById('cd').textContent=data.diksha.length;
-  document.getElementById('scanInfo').textContent = stats.last_scan ? 'Last scan: '+stats.last_scan : 'No scan yet';
-  renderFilters(); render(); renderHealth();
+  const ts='?t='+Date.now(), get=(f,d)=>fetch(f+ts).then(r=>r.ok?r.json():d).catch(()=>d);
+  [data.vikas, data.diksha, stats, profiles] = await Promise.all([get('jobs_vikas.json',[]),get('jobs_diksha.json',[]),get('stats.json',{}),get('profiles.json',{})]);
+  $('#scanInfo').textContent = stats.last_scan ? `Updated ${stats.last_scan} · ${(data.vikas.length)} + ${(data.diksha.length)} jobs` : 'No scan yet';
+  render();
 }
+function render(){ ({jobs:renderJobs, board:renderBoard, insights:renderInsights, resume:renderResume})[view](); }
 
-function renderFilters(){
-  document.getElementById('filters').innerHTML = FILTERS.map(([k,l]) =>
-    `<button class="fc ${k===filter?'on':''}" onclick="setFilter('${k}')">${l}</button>`).join('');
-}
-
-function render(){
-  const jobs=data[tab], key=tab+'_score', fitKey=tab+'_fit', td=today();
-  document.getElementById('s1').textContent=jobs.length;
-  document.getElementById('s2').textContent=jobs.filter(j=>j.scanned_date===td).length;
-  document.getElementById('s3').textContent=jobs.filter(j=>['applied','interview','offer'].includes(stageOf(j.job_id))).length;
-  document.getElementById('s4').textContent=jobs.filter(j=>stageOf(j.job_id)==='interview').length;
-
-  const list = jobs.filter(j => {
-    const st=stageOf(j.job_id);
-    if (filter==='active') return !['skipped','rejected'].includes(st);
-    if (filter==='strong') return (j[key]||0)>=70 && !['skipped','rejected'].includes(st);
-    return st===filter;
+/* ---------- Jobs ---------- */
+const CHIPS = [['open','Open'],['strong','Good fit+'],['today','New today'],['delhi','Delhi NCR'],['remote','Remote'],['saved','Saved'],['skipped','Skipped']];
+function renderJobs(){
+  $('#jobChips').innerHTML = CHIPS.map(([k,l])=>`<button class="fc ${k===chip?'on':''}" data-chip="${k}">${l}</button>`).join('');
+  const q = $('#q').value.trim().toLowerCase(), key = who+'_score', td = today();
+  let list = allJobs().filter(j => {
+    const st = stageOf(j.job_id);
+    if (chip==='skipped') return st==='skipped';
+    if (st==='skipped' || st==='rejected') return false;
+    if (chip==='strong' && (j[key]||0) < 70) return false;
+    if (chip==='today' && j.scanned_date !== td) return false;
+    if (chip==='delhi' && !DELHI.test(j.location||'')) return false;
+    if (chip==='remote' && !REMOTE.test(j.location||'')) return false;
+    if (chip==='saved' && st==='new') return false;
+    if (q && !`${j.title} ${j.company} ${j.location} ${j.source} ${j.description}`.toLowerCase().includes(q)) return false;
+    return true;
   });
-  const el=document.getElementById('list');
-  if(!list.length){ el.innerHTML='<div class="empty"><h3>Nothing here</h3>Try another filter, or run a scan.</div>'; return; }
-
-  el.innerHTML = list.map(j => {
-    const score=j[key]||0, fit=j[fitKey]||{}, st=stageOf(j.job_id), id=esc(j.job_id);
-    const reasons=(fit.reasons||[]).map(r=>`<div class="ok">✓ ${esc(r)}</div>`).join('');
-    const flags=(fit.red_flags||[]).map(r=>`<div class="flag">⚠ ${esc(r)}</div>`).join('');
-    const stageSel = `<select class="ab" aria-label="Stage" onchange="mark('${id}',this.value)">${
-      STAGES.map(([k,l])=>`<option value="${k}" ${k===st?'selected':''}>${l}</option>`).join('')}</select>`;
-    const mail = j.apply_email ? `<button class="ab mail" onclick="emailFor('${id}')">✉ Email</button>` : '';
-    return `<div class="card ${st}">
-      <div class="card-body">
-        <div class="row1">
-          <div class="score-wrap">
-            <div class="score" style="background:${color(score)}">${score}</div>
-            <div class="slbl">${esc((fit.band||'').replace(' fit',''))}</div>
-          </div>
-          <div class="info">
-            <div class="title">${esc(j.title)}</div>
-            <div class="company">${esc(j.company)}</div>
-            <div class="chips">
-              ${j.location?`<span class="chip">📍 ${esc(j.location)}</span>`:''}
-              <span class="chip ch-src">${esc(j.source)}${j.via?' · '+esc(j.via):''}</span>
-              ${j.salary&&j.salary!=='Not disclosed'?`<span class="chip ch-sal">${esc(j.salary)}</span>`:''}
-              ${j.scanned_date===td?'<span class="chip ch-new">NEW TODAY</span>':''}
-              ${st!=='new'?`<span class="chip ch-stage">${esc(STAGES.find(s=>s[0]===st)?.[1]||st)}</span>`:''}
-            </div>
-          </div>
+  list.sort($('#sort').value==='new'
+    ? (a,b)=>String(b.posted_date||b.scanned_date).localeCompare(String(a.posted_date||a.scanned_date))
+    : (a,b)=>(b[key]||0)-(a[key]||0));
+  $('#jobCount').textContent = `${list.length} job${list.length===1?'':'s'}`;
+  $('#jobList').innerHTML = list.length ? list.map(card).join('') : '<div class="empty">No jobs match. Try another filter.</div>';
+}
+function card(j){
+  const key=who+'_score', fit=j[who+'_fit']||{}, s=j[key], st=stageOf(j.job_id), id=esc(j.job_id);
+  return `<div class="card">
+    <div class="cbody" data-open="${id}">
+      <div><div class="score" style="background:${s==null?'#94a3b8':scoreColor(s)}">${s??'–'}</div><div class="band">${esc((fit.band||'').replace(' fit',''))}</div></div>
+      <div class="info">
+        <div class="title">${esc(j.title)}</div><div class="co">${esc(j.company)}</div>
+        <div class="tags">
+          ${j.location?`<span class="tag">📍 ${esc(j.location)}</span>`:''}
+          <span class="tag t-src">${esc(j.source)}${j.via?' · '+esc(j.via):''}</span>
+          ${j.salary&&j.salary!=='Not disclosed'?`<span class="tag t-sal">${esc(j.salary)}</span>`:''}
+          ${j.scanned_date===today()?'<span class="tag t-new">NEW</span>':''}
+          ${st!=='new'?`<span class="tag t-stage">${stageName(st)}</span>`:''}
+          ${(fit.gaps||[]).length?`<span class="tag" style="color:#9a3412">${fit.gaps.length} gap${fit.gaps.length>1?'s':''}</span>`:''}
         </div>
-        ${reasons||flags?`<details class="why"><summary>Why this score ▾</summary>${reasons}${flags}</details>`:''}
       </div>
-      <div class="actions">
-        <a class="ab apply" href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener">Apply →</a>
-        <button class="ab claude" onclick="tailor('${id}')">✍️ Tailor</button>
-        ${mail}
-        ${stageSel}
-      </div>
+    </div>
+    <div class="cact">
+      <a class="ab pri" href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener" data-applied="${id}">Apply →</a>
+      <button class="ab cl" data-tailor="${id}">✍️ Tailor</button>
+      <button class="ab ${st!=='new'?'saved':''}" data-save="${id}">${st==='new'?'☆ Save':'★ '+stageName(st)}</button>
+    </div>
+  </div>`;
+}
+
+/* ---------- Board ---------- */
+function renderBoard(){
+  const apps = Object.entries(store.apps).filter(([,a]) => (a.who||'vikas')===who && BOARD.includes(a.stage) && a.job);
+  $('#board').innerHTML = BOARD.map(stage => {
+    const items = apps.filter(([,a])=>a.stage===stage).sort((x,y)=>(y[1].history.at(-1)?.at||0)-(x[1].history.at(-1)?.at||0));
+    const i = BOARD.indexOf(stage);
+    return `<div class="col"><div class="colh"><span>${stageName(stage)}</span><span>${items.length}</span></div>
+      ${items.map(([id,a]) => `<div class="bcard">
+        <div data-open="${esc(id)}" style="cursor:pointer"><div class="title">${esc(a.job.title)}</div><div class="co">${esc(a.job.company)}</div>
+        <div class="bmeta">${a.interview?'📅 '+esc(new Date(a.interview).toLocaleString([], {dateStyle:'medium',timeStyle:'short'}))+' · ':''}${days(a.history.at(-1)?.at||Date.now())}d in ${stageName(stage).toLowerCase()}</div></div>
+        <div class="bmove">
+          ${i>0?`<button data-move="${esc(id)}" data-to="${BOARD[i-1]}">← ${stageName(BOARD[i-1])}</button>`:''}
+          ${i<BOARD.length-2?`<button data-move="${esc(id)}" data-to="${BOARD[i+1]}">${stageName(BOARD[i+1])} →</button>`:''}
+        </div></div>`).join('') || '<div class="bmeta" style="padding:6px 4px">Nothing here yet</div>'}
     </div>`;
   }).join('');
 }
 
-function renderHealth(){
-  const s=stats.sources; if(!s) return;
-  document.getElementById('health').hidden=false;
-  document.getElementById('healthTable').innerHTML = '<tr><td><b>Source</b></td><td class="n"><b>Found</b></td><td class="n"><b>Kept</b></td></tr>' +
-    Object.entries(s).map(([n,v])=>`<tr><td class="${v.fetched?'':'bad'}">${esc(n)}${v.error?' ⚠':''}</td><td class="n">${v.fetched}</td><td class="n">${v.matched}</td></tr>`).join('');
+/* ---------- Insights ---------- */
+function renderInsights(){
+  const jobs = allJobs(), key = who+'_score';
+  const apps = Object.values(store.apps).filter(a => (a.who||'vikas')===who);
+  const reached = st => apps.filter(a => a.history.some(h => !['rejected','skipped'].includes(h.stage) && BOARD.indexOf(h.stage) >= BOARD.indexOf(st))).length;
+  const funnel = [['Found', jobs.length], ['Saved', reached('saved')], ['Applied', reached('applied')], ['Interview', reached('interview')], ['Offer', reached('offer')]];
+  const max = Math.max(1, funnel[0][1]);
+
+  // applications per week, last 8 weeks
+  const weekStart = d => { const x = new Date(d); x.setHours(0,0,0,0); x.setDate(x.getDate() - ((x.getDay()+6)%7)); return x.getTime(); };
+  const now = weekStart(Date.now()), weeks = [...Array(8)].map((_,i) => now - (7-i)*7*864e5);
+  const counts = weeks.map(w => apps.filter(a => a.history.some(h => h.stage==='applied' && weekStart(h.at)===w)).length);
+  const W=320,H=120,pad=18,bw=(W-pad*2)/8, top=Math.max(1,...counts);
+  const bars = counts.map((c,i)=>{ const h = c ? Math.max(4,(H-30)*c/top) : 0, x = pad+i*bw+4, y = H-18-h;
+    const label = new Date(weeks[i]).toLocaleDateString([], {day:'numeric',month:'short'});
+    return `<g class="wk" data-tip="Week of ${label}: ${c} application${c===1?'':'s'}">
+      <rect x="${pad+i*bw}" y="0" width="${bw}" height="${H}" fill="transparent"/>
+      ${h?`<path d="M${x},${H-18} v${-(h-4)} q0,-4 4,-4 h${bw-16} q4,0 4,4 v${h-4} z" fill="var(--bar)"/>`:''}
+      ${i===7||c===top&&c>0?`<text x="${x+(bw-8)/2}" y="${y-4}" font-size="10" text-anchor="middle" fill="#475569">${c}</text>`:''}
+      ${i%2===1?`<text x="${x+(bw-8)/2}" y="${H-4}" font-size="9" text-anchor="middle" fill="#94a3b8">${label}</text>`:''}</g>`; }).join('');
+
+  const fresh = jobs.filter(j => stageOf(j.job_id)==='new' && (j[key]||0) >= 70).sort((a,b)=>b[key]-a[key]).slice(0,5);
+  const follow = apps.filter(a => a.stage==='applied' && days(a.history.at(-1).at) >= 7);
+  const inter = apps.filter(a => a.stage==='interview' && a.interview).sort((a,b)=>a.interview.localeCompare(b.interview));
+  const item = (j, right) => `<div class="li" data-open="${esc(j.job_id)}"><span>${esc(j.title)}<br><small>${esc(j.company)}</small></span><small>${right}</small></div>`;
+
+  $('#insights').innerHTML = `
+    <div class="tiles">
+      <div class="tile"><div class="tl">Jobs found</div><div class="tv">${jobs.length}</div></div>
+      <div class="tile"><div class="tl">Applied</div><div class="tv">${funnel[2][1]}</div></div>
+      <div class="tile"><div class="tl">Interviews</div><div class="tv">${funnel[3][1]}</div></div>
+      <div class="tile"><div class="tl">Offers</div><div class="tv">${funnel[4][1]}</div></div>
+    </div>
+    <div class="panel"><h3>Your funnel</h3>
+      ${funnel.map(([l,v])=>`<div class="frow" title="${l}: ${v}"><span>${l}</span><div class="ftrack"><div class="ffill" style="width:${(v/max*100).toFixed(1)}%"></div></div><span class="fv">${v}</span></div>`).join('')}
+    </div>
+    <div class="panel"><h3>Applications per week</h3>
+      <svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Applications per week for the last 8 weeks: ${counts.join(', ')}">
+        <line x1="${pad}" x2="${W-pad}" y1="${H-18}" y2="${H-18}" stroke="#e2e8f0"/>${bars}</svg>
+      <div class="tip" id="wkTip">Tap a bar for details</div>
+    </div>
+    <div class="panel"><h3>Worth a look next</h3><div class="hint">Good fits you haven't saved yet</div>
+      ${fresh.map(j=>item(j, j[key])).join('') || '<div class="hint">All caught up.</div>'}</div>
+    <div class="panel"><h3>Follow up</h3><div class="hint">Applied 7+ days ago with no reply</div>
+      ${follow.map(a=>item(a.job, days(a.history.at(-1).at)+'d')).join('') || '<div class="hint">Nothing to chase.</div>'}</div>
+    <div class="panel"><h3>Upcoming interviews</h3>
+      ${inter.map(a=>item(a.job, esc(new Date(a.interview).toLocaleString([], {dateStyle:'medium',timeStyle:'short'})))).join('') || '<div class="hint">Add a date in a job\'s detail sheet.</div>'}</div>`;
 }
 
-const findJob = id => data[tab].find(j=>j.job_id===id);
-
-// Dossier's "Write it with Claude": hand the posting + profile to a new claude.ai chat
-function tailor(id){
-  const j=findJob(id), p=profiles[tab];
-  if(!j) return;
-  const facts = p ? JSON.stringify(p, null, 1) : '(profile not loaded — paste my CV)';
-  const prompt =
-`I'm applying for this job. Using ONLY facts from my profile below — never invent experience, employers, numbers or certifications — write:
-1. A match summary: which requirements I meet (with the evidence from my profile) and which ones my profile doesn't show (gaps).
-2. A tailored resume headline, 4-line professional summary and the 6 most relevant bullet points, reworded for this posting.
-3. A cover letter under 300 words, confident and specific, mentioning I'm relocating to Delhi NCR.
-4. A short email to send with the application${j.apply_email?' to '+j.apply_email:''}.
-
-JOB: ${j.title} — ${j.company} (${j.location})
-Link: ${j.url}
-Posting:
-${(j.description||'(only the title is available — open the link)').slice(0,1500)}
-
-MY PROFILE:
-${facts}`;
-  window.open('https://claude.ai/new?q='+encodeURIComponent(prompt), '_blank', 'noopener');
+/* ---------- Resume ---------- */
+function renderResume(){
+  const p = profiles[who];
+  if (!p) { $('#resume').innerHTML = '<div class="empty">Profile loads after the next scan.</div>'; return; }
+  const theme = store.prefs['theme_'+who] || 'classic', contact = store.prefs['contact_'+who] || '';
+  $('#theme').value = theme; if (document.activeElement !== $('#contact')) $('#contact').value = contact;
+  const summary = `${p.current_role} at ${p.current_company} with ${p.years_experience}+ years of experience. ${p.relocation_note || ''}`;
+  $('#resume').innerHTML = `<article class="resume ${esc(theme)}">
+    <h1>${esc(p.name)}</h1><div class="rrole">${esc(p.current_role)} · ${esc(p.current_company)}</div>
+    ${contact?`<div class="rcontact">${esc(contact)}</div>`:''}
+    <h4>Summary</h4><p>${esc(summary)}</p>
+    <h4>Key achievements</h4><ul>${(p.key_achievements||[]).map(a=>`<li>${esc(a)}</li>`).join('')}</ul>
+    <h4>Skills</h4><div class="skills">${(p.key_skills||[]).slice(0,36).map(s=>`<span>${esc(s)}</span>`).join('')}</div>
+    <h4>Certifications</h4><ul>${(p.certifications||[]).map(c=>`<li>${esc(c)}</li>`).join('')}</ul>
+    <h4>Education</h4><ul>${(p.education||[]).map(e=>`<li>${esc(e)}</li>`).join('')}</ul>
+  </article>`;
 }
 
-function emailFor(id){
-  const j=findJob(id), p=profiles[tab]||{};
-  const subject=`Application: ${j.title}`;
-  const body=`Hello,\n\nI'd like to apply for the ${j.title} role at ${j.company}. I'm ${p.current_role||''} at ${p.current_company||''} with ${p.years_experience||''}+ years of experience, relocating to Delhi NCR.\n\nMy resume is attached. I'd welcome a conversation.\n\nBest regards,\n${p.name||''}`;
-  location.href=`mailto:${encodeURIComponent(j.apply_email)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+/* ---------- detail sheet ---------- */
+function openSheet(id){
+  const j = findJob(id); if (!j) return;
+  const a = app(id) || {}, fit = j[who+'_fit'] || {}, s = j[who+'_score'], st = stageOf(id);
+  $('#sheet').innerHTML = `<div class="grab"></div>
+    <div class="shead">
+      <div><div class="score" style="background:${s==null?'#94a3b8':scoreColor(s)}">${s??'–'}</div></div>
+      <div class="info"><div class="title">${esc(j.title)}</div><div class="co">${esc(j.company)} · ${esc(j.location)}</div>
+        <div class="tags"><span class="tag t-src">${esc(j.source)}${j.via?' · '+esc(j.via):''}</span>${j.salary&&j.salary!=='Not disclosed'?`<span class="tag t-sal">${esc(j.salary)}</span>`:''}${fit.band?`<span class="tag">${esc(fit.band)}</span>`:''}</div></div>
+      <button class="close" data-act="close" aria-label="Close">✕</button>
+    </div>
+    <div class="sec btns">
+      <a class="btn pri" href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener" data-applied="${esc(id)}">Apply →</a>
+      <button class="btn cl" data-tailor="${esc(id)}">✍️ Tailor resume + letter</button>
+      <button class="btn" data-prompt="prep" data-id="${esc(id)}">🎤 Interview prep</button>
+      <button class="btn" data-prompt="follow" data-id="${esc(id)}">↩ Follow-up email</button>
+      ${j.apply_email?`<button class="btn" data-mail="${esc(id)}">✉ Email ${esc(j.apply_email)}</button>`:''}
+    </div>
+    <div class="sec"><h5>Tone for Claude</h5>
+      <select class="field" id="tone"><option>Confident and concise</option><option>Formal</option><option>Warm and personable</option><option>Bold, results-first</option></select></div>
+    ${(fit.reasons||[]).length||(fit.red_flags||[]).length?`<div class="sec"><h5>How you match</h5>${(fit.reasons||[]).map(r=>`<div class="ok">✓ ${esc(r)}</div>`).join('')}${(fit.red_flags||[]).map(r=>`<div class="flag">⚠ ${esc(r)}</div>`).join('')}</div>`:''}
+    ${(fit.gaps||[]).length?`<div class="sec"><h5>Gaps — asked for, not in your profile</h5>${fit.gaps.map(g=>`<span class="gap">${esc(g)}</span>`).join('')}</div>`:''}
+    <div class="sec"><h5>Track it</h5>
+      <label class="lbl" for="stageSel">Stage</label>
+      <select class="field" id="stageSel" data-id="${esc(id)}"><option value="new" ${st==='new'?'selected':''}>Not saved</option>${STAGES.map(([k,l])=>`<option value="${k}" ${k===st?'selected':''}>${l}</option>`).join('')}</select>
+      <label class="lbl" for="interview">Interview date</label>
+      <input class="field" type="datetime-local" id="interview" data-id="${esc(id)}" value="${esc(a.interview||'')}">
+      <label class="lbl" for="notes">Private notes</label>
+      <textarea class="field" id="notes" data-id="${esc(id)}" placeholder="Recruiter name, salary discussed, next step…">${esc(a.notes||'')}</textarea>
+      ${(a.history||[]).length?`<div class="hist" style="margin-top:6px">${a.history.map(h=>`${stageName(h.stage)} · ${new Date(h.at).toLocaleDateString()}`).join(' → ')}</div>`:''}
+    </div>
+    ${j.description?`<div class="sec"><h5>Posting</h5><div class="desc">${esc(j.description)}</div></div>`:''}`;
+  $('#scrim').classList.add('on'); $('#sheet').classList.add('on'); $('#sheet').scrollTop = 0;
+}
+function closeSheet(){ $('#scrim').classList.remove('on'); $('#sheet').classList.remove('on'); render(); }
+
+/* ---------- Claude handoff (Dossier's "Write it with Claude") ---------- */
+function facts(){ const p = profiles[who]; return p ? JSON.stringify(p, null, 1) : '(profile not loaded — I will paste my CV)'; }
+function posting(j){ return `JOB: ${j.title} — ${j.company} (${j.location})\nLink: ${j.url}\nPosting:\n${(j.description||'(only the title is available — open the link)').slice(0,1500)}`; }
+function askClaude(kind, j){
+  const tone = $('#tone')?.value || 'Confident and concise', gaps = (j[who+'_fit']||{}).gaps||[];
+  const rules = 'Use ONLY facts from my profile below — never invent experience, employers, numbers or certifications.';
+  const prompts = {
+    tailor: `I'm applying for this job. ${rules} Tone: ${tone}. Write:
+1. Match summary: requirements I meet (with evidence from my profile) and gaps my profile doesn't show${gaps.length?' (my tool flagged: '+gaps.join(', ')+')':''}, with an honest way to address each gap.
+2. A tailored resume headline, a 4-line professional summary and the 6 most relevant achievement bullets, reworded for this posting.
+3. A cover letter under 300 words that mentions I'm relocating to Delhi NCR.
+4. A short email to send with the application${j.apply_email?' to '+j.apply_email:''}.`,
+    prep: `I have an interview for this job. ${rules} Prepare me: the 10 questions they're most likely to ask for this role and seniority, a strong answer outline for each drawn from my real achievements, 3 thoughtful questions to ask them, and how to handle my gaps${gaps.length?' ('+gaps.join(', ')+')':''}.`,
+    follow: `I applied for this job a while ago and haven't heard back. ${rules} Tone: ${tone}. Write a short, polite follow-up email (under 120 words) that restates my single strongest fit for this role.`,
+  };
+  window.open('https://claude.ai/new?q='+encodeURIComponent(`${prompts[kind]}\n\n${posting(j)}\n\nMY PROFILE:\n${facts()}`), '_blank', 'noopener');
 }
 
-function mark(id,s){ setStage(id,s); render(); toast('Moved to '+(STAGES.find(x=>x[0]===s)||[,s])[1]); }
-function switchTab(t,el){ tab=t; document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on')); el.classList.add('on'); render(); }
-function setFilter(f){ filter=f; renderFilters(); render(); }
-function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),2500); }
-function goActions(){ window.open('https://github.com/vikaspandita12/JobHuntAI-Delhi/actions/workflows/daily_scan.yml','_blank','noopener'); }
+function emailFor(j){
+  const p = profiles[who]||{};
+  const body = `Hello,\n\nI'd like to apply for the ${j.title} role at ${j.company}. I'm ${p.current_role||''} at ${p.current_company||''} with ${p.years_experience||''}+ years of experience, and I'm relocating to Delhi NCR.\n\nMy resume is attached. I'd welcome a conversation.\n\nBest regards,\n${p.name||''}`;
+  location.href = `mailto:${encodeURIComponent(j.apply_email)}?subject=${encodeURIComponent('Application: '+j.title)}&body=${encodeURIComponent(body)}`;
+}
+
+/* ---------- add job / menu ---------- */
+function openAdd(){
+  $('#sheet').innerHTML = `<div class="grab"></div><div class="shead"><div class="title">Add a job you found</div><button class="close" data-act="close" aria-label="Close">✕</button></div>
+    <div class="sec"><label class="lbl">Job title</label><input class="field" id="a-title" placeholder="Head of Information Security">
+    <label class="lbl">Company</label><input class="field" id="a-co">
+    <label class="lbl">Location</label><input class="field" id="a-loc" placeholder="Gurugram">
+    <label class="lbl">Link</label><input class="field" id="a-url" type="url" placeholder="https://…">
+    <label class="lbl">Paste the posting</label><textarea class="field" id="a-desc" style="min-height:140px"></textarea></div>
+    <div class="sec btns"><button class="btn pri" data-act="addSave">Save to board</button><button class="btn" data-act="close">Cancel</button></div>`;
+  $('#scrim').classList.add('on'); $('#sheet').classList.add('on');
+}
+function addSave(){
+  const t = $('#a-title').value.trim(); if (!t) return toast('Add a title first');
+  const j = {job_id:'me_'+Date.now(), title:t, company:$('#a-co').value.trim(), location:$('#a-loc').value.trim(), url:$('#a-url').value.trim(),
+             description:$('#a-desc').value.trim(), source:'Added by you', scanned_date:today()};
+  setStage(j,'saved'); closeSheet(); toast('Saved to your board'); openSheet(j.job_id);
+}
+function openMenu(){
+  $('#sheet').innerHTML = `<div class="grab"></div><div class="shead"><div class="title">Your data</div><button class="close" data-act="close" aria-label="Close">✕</button></div>
+    <div class="sec hint" style="font-size:13px;color:#475569">Saved jobs, stages, notes and interview dates live on this device. Export them to move to another phone or laptop.</div>
+    <div class="sec btns"><button class="btn" data-act="export">⬇ Export</button><button class="btn" data-act="import">⬆ Import</button>
+    <button class="btn" data-act="scan">▶ Run a scan</button><button class="btn" data-act="refresh">↻ Reload jobs</button></div>
+    ${stats.sources?`<div class="sec"><h5>Sources in the last scan</h5>${Object.entries(stats.sources).map(([n,v])=>`<div class="li"><span>${esc(n)}${v.error?' ⚠':''}</span><small>${v.fetched} found · ${v.matched} kept</small></div>`).join('')}</div>`:''}`;
+  $('#scrim').classList.add('on'); $('#sheet').classList.add('on');
+}
+
+/* ---------- events (delegated) ---------- */
+document.addEventListener('click', e => {
+  const t = e.target.closest('[data-view],[data-who],[data-chip],[data-open],[data-save],[data-tailor],[data-prompt],[data-mail],[data-move],[data-act],[data-applied],.wk');
+  if (!t) return;
+  const d = t.dataset;
+  if (d.view){ view=d.view; document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('on',b===t)); document.querySelectorAll('.view').forEach(v=>v.classList.toggle('on',v.id==='v-'+view)); render(); scrollTo(0,0); }
+  else if (d.who){ who=d.who; document.querySelectorAll('#who button').forEach(b=>b.classList.toggle('on',b===t)); render(); }
+  else if (d.chip){ chip=d.chip; render(); }
+  else if (d.open){ openSheet(d.open); }
+  else if (d.save){ const j=findJob(d.save), st=stageOf(d.save); setStage(j, st==='new'?'saved':st); if(st!=='new') openSheet(d.save); else { toast('Saved — see it on your Board'); render(); } }
+  else if (d.tailor){ askClaude('tailor', findJob(d.tailor)); }
+  else if (d.prompt){ askClaude(d.prompt, findJob(d.id)); }
+  else if (d.mail){ emailFor(findJob(d.mail)); }
+  else if (d.move){ setStage(store.apps[d.move].job, d.to); render(); toast('Moved to '+stageName(d.to)); }
+  else if (d.applied){ const j=findJob(d.applied); if (['new','saved'].includes(stageOf(d.applied))) setTimeout(()=>{ if (confirm('Did you apply? Move it to Applied?')) { setStage(j,'applied'); render(); } }, 1200); }
+  else if (t.classList.contains('wk')){ $('#wkTip').textContent = t.dataset.tip; }
+  else switch (d.act) {
+    case 'close': closeSheet(); break;
+    case 'add': openAdd(); break;
+    case 'addSave': addSave(); break;
+    case 'menu': openMenu(); break;
+    case 'print': window.print(); break;
+    case 'refresh': closeSheet(); reload(); toast('Reloaded'); break;
+    case 'scan': window.open('https://github.com/vikaspandita12/JobHuntAI-Delhi/actions/workflows/daily_scan.yml','_blank','noopener'); break;
+    case 'export': { const b=new Blob([JSON.stringify(store,null,1)],{type:'application/json'}); const a=document.createElement('a'); a.href=URL.createObjectURL(b); a.download=`jobhunt-${today()}.json`; a.click(); break; }
+    case 'import': $('#importFile').click(); break;
+  }
+});
+$('#scrim').addEventListener('click', closeSheet);
+document.addEventListener('mouseover', e => { const w = e.target.closest('.wk'); if (w) $('#wkTip').textContent = w.dataset.tip; });
+document.addEventListener('change', e => {
+  const t = e.target;
+  if (t.id==='stageSel'){ const j=findJob(t.dataset.id); if (t.value==='new'){ delete store.apps[t.dataset.id]; save(); } else setStage(j, t.value); toast('Stage: '+(t.value==='new'?'Not saved':stageName(t.value))); }
+  else if (t.id==='interview'){ const j=findJob(t.dataset.id); if (stageOf(t.dataset.id)!=='interview') setStage(j,'interview'); store.apps[t.dataset.id].interview=t.value; save(); toast('Interview saved'); }
+  else if (t.id==='theme'){ store.prefs['theme_'+who]=t.value; save(); renderResume(); }
+  else if (t.id==='sort'){ render(); }
+  else if (t.id==='importFile' && t.files[0]){ t.files[0].text().then(txt=>{ const s=JSON.parse(txt); if(!s.apps) throw 0; store={apps:{...store.apps,...s.apps},prefs:{...store.prefs,...(s.prefs||{})}}; save(); render(); toast('Imported '+Object.keys(s.apps).length+' saved jobs'); }).catch(()=>toast('That file isn\'t a JobHunt export')); t.value=''; }
+});
+document.addEventListener('input', e => {
+  const t = e.target;
+  if (t.id==='q') renderJobs();
+  else if (t.id==='notes'){ const j=findJob(t.dataset.id); if (stageOf(t.dataset.id)==='new') setStage(j,'saved'); store.apps[t.dataset.id].notes=t.value; save(); }
+  else if (t.id==='contact'){ store.prefs['contact_'+who]=t.value; save(); clearTimeout(renderResume.h); renderResume.h=setTimeout(renderResume,400); }
+});
+document.addEventListener('keydown', e => { if (e.key==='Escape') closeSheet(); });
 
 reload();
-setInterval(reload, 5*60*1000);
+setInterval(reload, 10*60*1000);
 </script>
 </body>
 </html>

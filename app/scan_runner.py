@@ -38,7 +38,7 @@ def load_existing(path: Path) -> dict:
 def apply_fit(job: dict, matcher, who: str) -> int:
     f = matcher.fit(job, who)
     job[f"{who}_score"] = f["score"]
-    job[f"{who}_fit"] = {"band": f["band"], "reasons": f["reasons"], "red_flags": f["red_flags"]}
+    job[f"{who}_fit"] = {"band": f["band"], "reasons": f["reasons"], "red_flags": f["red_flags"], "gaps": f["gaps"]}
     return f["score"]
 
 
