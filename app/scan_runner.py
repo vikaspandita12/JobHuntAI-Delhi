@@ -23,7 +23,7 @@ STATS_FILE  = DOCS_DIR / "stats.json"
 
 V_MIN    = int(os.getenv("VIKAS_MIN_SCORE",  "60"))
 D_MIN    = int(os.getenv("DIKSHA_MIN_SCORE", "50"))
-MAX_JOBS = 200
+MAX_JOBS = 300
 
 
 def load_existing(path: Path) -> dict:

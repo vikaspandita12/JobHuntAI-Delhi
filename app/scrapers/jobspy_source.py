@@ -9,7 +9,8 @@ from typing import Dict, List
 
 logger = logging.getLogger(__name__)
 
-SITES = ["linkedin", "indeed", "naukri", "glassdoor", "google"]
+# glassdoor and google answer 403 / nothing to GitHub-hosted runners, so they are off
+SITES = ["linkedin", "indeed", "naukri"]
 PRETTY = {"linkedin": "LinkedIn", "indeed": "Indeed", "naukri": "Naukri", "glassdoor": "Glassdoor",
           "google": "Google Jobs", "zip_recruiter": "ZipRecruiter"}
 

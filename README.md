@@ -11,7 +11,7 @@ Runs entirely on GitHub: a scheduled GitHub Actions scan every day at **8:00 AM 
 | Source | What it covers | Type | Key needed | Code |
 |---|---|---|---|---|
 | **FreeHire** | Jobs read directly from company career pages (Greenhouse, Lever, Workday, Ashby…) plus Naukri, iimjobs, hirist listings | Public JSON API | No | `app/scrapers/freehire.py` |
-| **JobSpy** | LinkedIn, Indeed India, Naukri, Glassdoor, Google Jobs in one call | Open-source package | No | `app/scrapers/jobspy_source.py` |
+| **JobSpy** | LinkedIn, Indeed India and Naukri in one call (its Glassdoor and Google Jobs scrapers are blocked from GitHub's servers, so they're off) | Open-source package | No | `app/scrapers/jobspy_source.py` |
 | **JSearch** | Google for Jobs index — LinkedIn, Naukri, Indeed, Glassdoor, company sites | API (free tier ~200 calls/month) | `JSEARCH_API_KEY` (optional) | `app/scrapers/jsearch.py` |
 | **Hacker News "Who is hiring?"** | Monthly startup hiring thread, filtered to India / remote-worldwide, with hiring emails | Algolia HN API | No | `app/scrapers/hn_hiring.py` |
 | **Remotive, Jobicy, Himalayas** | Remote jobs with stated country eligibility | Public JSON APIs | No | `app/scrapers/remote_boards.py` |
@@ -19,7 +19,7 @@ Runs entirely on GitHub: a scheduled GitHub Actions scan every day at **8:00 AM 
 | **Adzuna India** | Aggregated Indian job boards | API | `ADZUNA` | `app/scrapers/adzuna.py` |
 | **LinkedIn (guest pages)** | Public LinkedIn job search, past week | HTML | No | `app/scrapers/linkedin.py` |
 
-Retired (blocked from GitHub's servers or page layout changed, 0 results for months): direct HTML scrapers for Indeed, Glassdoor, Naukri, Shine, TimesJobs and iimjobs. JobSpy and FreeHire now cover those boards. The files stay in `app/scrapers/` for reference.
+Retired (blocked from GitHub's servers or page layout changed, 0 results for months): direct HTML scrapers for Indeed, Glassdoor, Naukri, Shine, TimesJobs and iimjobs. JobSpy now covers Indeed and Naukri; for Glassdoor listings add the optional JSearch key. The files stay in `app/scrapers/` for reference.
 
 The dashboard's **⋯ → Sources in the last scan** shows how many jobs each source found and kept.
 
@@ -27,7 +27,7 @@ The dashboard's **⋯ → Sources in the last scan** shows how many jobs each so
 
 | Project / package | Version | Used for | Licence |
 |---|---|---|---|
-| [JobSpy](https://github.com/speedyapply/JobSpy) (`python-jobspy`) | 1.4.1 | Multi-board scraping: LinkedIn, Indeed, Naukri, Glassdoor, Google Jobs | MIT |
+| [JobSpy](https://github.com/speedyapply/JobSpy) (`python-jobspy`) | 1.4.1 | Multi-board scraping: LinkedIn, Indeed, Naukri | MIT |
 | [Dossier](https://github.com/AienTech/dossier) | — | Design ideas only: explainable fit score with reasons / red flags / gaps, application board, "Write it with Claude" handoff, job sources (FreeHire, HN, JSearch, Adzuna). Re-implemented in Python/JS; no code copied | AGPL-3.0 |
 | [httpx](https://github.com/encode/httpx) | 0.27.2 | Async HTTP for all API sources | BSD-3 |
 | [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) + [lxml](https://lxml.de) | 4.12.3 / 5.3.0 | HTML parsing (LinkedIn guest pages) | MIT / BSD |
