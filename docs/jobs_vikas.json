@@ -1,18 +1,282 @@
 [
   {
-    "job_id": "rok_1130926",
-    "title": "Product Security Manager",
-    "company": "MoonPay",
-    "location": "United States (East Coast Time Zone) - Remote",
+    "job_id": "fh_chief-information-security-officer-consultant-knowledge-arti",
+    "title": "Chief Information Security Officer Consultant",
+    "company": "knowledge Artisan",
+    "location": "Faridabad; Haryana",
     "salary": "Not disclosed",
-    "posted_date": "2026-03-28",
-    "url": "https://remoteOK.com/remote-jobs/remote-product-security-manager-moonpay-1130926",
-    "source": "RemoteOK",
-    "description": "<p><b style=\"font-size: 16px;\">About MoonPay</b></p><p><br></p><p><span style=\"font-size: 16px;\">Hi, weâre MoonPay. Weâre here to onboard the world to the decentralized economy by making digital money move as universally and effortlessly as the internet.</span></p><p><br></p><p><b style=\"font-size: 16px;\">Why?</b></p><p><br></p><p><span style=\"font-size: 16px;\">Because crypto, stablecoins and blockchain arenât just technologies. Theyâre tools for global financial empowerment. They give people and businesses more control over their money, their digital assets, and their future, opening access to legacy financial systems that have been out of reach for many.</span></p><p><br></p><p><b style=\"font-size: 16px;\">What we do</b></p><p><span style=\"font-size: 16px;\">MoonPay is a unified payments platform for digital currency. We make it easy for anyone, anywhere, to buy, sell, swap and pay in digital currencies as easy as sending an email. That simplicity is intentional, our focus is reducing complexity so people can participate confidently, without needing to be crypto experts. We power the entire flow between fiat and crypto end to end, with compliance, identity checks, fraud prevention, and settlement all built in. This end-to-end approach reflects how we work internally: with accountability, rigor, and trust built into everything we ship.</span></p><p><br></p><p><b style=\"font-size: 16px;\">Proven at scale</b></p><p><br></p><p><span style=\"font-size: 16px;\">Trusted by over 30 million customers and over 500 ecosystem partners, our secure, enterprise-grade platform is driving mainstream crypto adoption worldwide. Behind those numbers are millions of real people and organizations relying on MoonPay every day. </span></p><p><br></p><p><span style=\"font-size: 16px;\">We collaborate with innovative brands and projects to build secure, scalable solutions for a blockchain-powered future. This is an opportunity to help shape systems, not just scale them. And weâre committed to doing it right. Fully licensed in the U.S. and regulated across the UK, EU, Canada, and Australia, because trust and compliance are non-negotiable. </span></p><p><br></p><p><span style=\"font-size: 16px;\">But weâre just getting started. Weâve launched a consumer app that makes crypto accessible, intuitive, and usable for everyone, and itâs growing fast. Weâre iterating every day to make it the best it can be. </span></p><p><br></p><p><span style=\"font-size: 16px;\">If you believe financial freedom should be for everyone. If you believe in building a fairer, more open financial system - we want you with us. To build systems that benefit all, we need contributions from all, regardless of background. </span></p><p><br></p><p><span style=\"font-size: 16px;\">Come build the future of payments and the decentralized economy with MoonPay. Letâs make financial freedom and autonomy the new normal.</span></p>\\n<p></p><p><br></p><b>About the Opportunity </b><div>\n<p>As the Product Security Manager, you will play a pivotal role in securing the infrastructure that powers the Web3 economy. You will lead and scale two high-impact teams: Application Security and Vulnerability Management &amp; Automation.</p>\n<br>Your mission is to ensure that security is woven into the fabric of our product development lifecycle, empowering our engineers to build fast without compromising on safety. You will be a mentor, a strategist, and a leader helping MoonPay maintain its reputation as the most trusted brand in the space.<br><br>You are a natural leader able to influence different parts of the business with security initiatives and negotiate the best security solutions for new challenges and unexplored territories</div><p><br></p><b>What you will do</b><div>\n<ul>\n<li>\n<p><strong>Lead and Mentor:</strong> Oversee the day-to-day operations and career development of the Application Security and Vulnerability Management &amp; Automation teams.</p>\n</li>\n<li>\n<p><strong>Security Strategy:</strong> Define the roadmap for product security, focusing on scalable automation and proactive defense mechanisms.</p>\n</li>\n<li>\n<p><strong>Vulnerability Management:</strong> Drive the end-to-end lifecycle of vulnerability discovery, triaging, and remediation across our entire ecosystem.</p>\n</li>\n<li>\n<p><strong>Application Security: </strong>Improve security tooling (SAST, DAST, SCA) into CI/CD pipelines and lead threat modeling sessions and penetration testing for new features.</p>\n</li>\n<li>\n<p><strong>Cross-Functional Collaboration:</strong> Partner with Engineering and Product leaders and help and influence with security topics new business units and acquisitions to prioritize security debt and promote a culture of Security by Design.</p>\n</li>\n<li>\n<p><strong>Incident Response:</strong> Lead high-priority security incidents and investigations and improve processes, manage team rotas and escalations.</p>\n</li>\n<li>\n<p><strong>Regulatory and Compliance: </strong>Support organisation maintain or acquire new critical certifications such as SOC2, PCI, CIS TOP 18, ISO27001.</p>\n</li>\n</ul>\n</div><p><br></p><b>About You </b><div>\n<ul>\n<li>\n<p><strong>Experienced Leader:</strong> You have a proven track record of managing technical security teams in high-growth, cloud-native environments.</p>\n</li>\n<li>\n<p><strong>Adaptive in Ambiguity:</strong> As our team moves at a very fast pace, you must be comfortable navigating ambiguity and resolving unclear or evolving topics effectively.</p>\n</li>\n<li>\n<p><strong>Technical Depth:</strong> You possess a strong background in application security, penetration testing and software engineering.</p>\n</li>\n<li>\n<p><strong>Automation Mindset:</strong> You believe that manual processes are bugs and have experience building or implementing automated security scanning and reporting tools.</p>\n</li>\n<li>\n<p><strong>Strategic Thinker:</strong> You can balance immediate tactical needs with long-term security goals.</p>\n</li>\n<li>\n<p><strong>Web3 Enthusiast:</strong> You are curious about (or experienced in) blockchain technology, smart contract security, and the unique challenges of the Web3 landscape.</p>\n</li>\n</ul>\n</div><p><br></p><b>What you will be working with/onâ¦</b><div>\n<p>The Product Security team operates within a cutting-edge technological environment and focuses on several critical areas to ensure the highest level of security for our platform and products.</p>\n<ul>\n<li>\n<p><strong>Modern Tech Stack and Infrastructure: </strong>We leverage an advanced cloud infrastructure designed for high scalability and resilience. Our development and deployment processes are built upon robust CI/CD environments, necessitating security integration at every stage, from code commit to production deployment. This involves securing containers, serverless components, and sophisticated cloud-native networking configurations.</p>\n</li>\n<li>\n<p><strong>Scalable Automation Frameworks:</strong> To effectively manage security risks across a rapidly expanding codebase and infrastructure, we utilize and develop both custom-built and industry-standard tools for vulnerability management. This includes automated security testing, dependency scanning, misconfiguration detection, and streamlined vulnerability triage and remediation workflows, all designed to operate effectively at scale.</p>\n</li>\n<li>\n<p><strong>Securing the Next Generation of Features:</strong> A major strategic focus is on securing our next generation of AI-enabled features. This involves proactive security measures related to Large Language Models (LLMs) and other AI components. Our goal is to ensure data privacy and integrity within all model interactions and maintain compliance with responsible AI principles.</p>\n</li>\n<li>\n<p><strong>Diverse and Proactive Application Security Services:</strong> We offer a full spectrum of proactive security guidance and services tailored to the needs of various engineering and business lines. This includes comprehensive penetration testing (both internal and external), in-depth threat modeling during the design phase of new features, security architecture reviews, and the development of secure coding standards. These services are provided across a wide variety of applications and business lines, from core financial services to new user-facing products.</p>\n</li>\n<li>\n<p><strong>Continuous Improvement and Security Posture Enhancement:</strong> We maintain a strong commitment to the principle of continuous improvement. This involves constantly exploring and identifying opportunities to level up the security posture across the entire organization. This includes enhancing tooling, refining processes, developing and delivering security training to engineering teams, and driving large-scale security initiatives.</p>\n</li>\n<li>\n<p><strong>Secure Development Lifecycle Guidance:</strong> A core responsibility is to guide engineering teams on adopting best practices for the secure development and deployment of their applications. This encompasses promoting a security-first culture, embedding security requirements into the SDLC, providing timely consultation on security issues, and helping teams implement security controls effectively.</p>\n</li>\n</ul>\n</div><p><br></p><p></p>\\n<div>$209.66 - $220.70 a year</div>\\n<p><b style=\"font-size: 24px\">BLOCK Values </b></p><p><br></p><p><span style=\"font-size: 16px\">Weâre looking for people who live our core values, those who strive for excellence and want to leave a lasting legacy&nbsp;on the global financial system. Our values:</span></p><p><br></p><p><b><span style=\"font-size: 16px\">B</span></b><span style=\"font-size: 16px\"> - Be Hungry</span></p><p><b><span style=\"font-size: 16px\">L</span></b><span style=\"font-size: 16px\"> - Level Up</span></p><p><b><span style=\"font-size: 16px\">O</span></b><span style=\"font-size: 16px\"> - Own It</span></p><p><b><span style=\"font-size: 16px\">C</span></b><span style=\"font-size: 16px\"> - Crypto Curious</span></p><p><b><span style=\"font-size: 16px\">K</span></b><span style=\"font-size: 16px\"> - Kaizen</span></p><p><br></p><p><span style=\"font-size: 16px\">Research has shown that women are less likely than men to apply for this role if they do not have experience in 100% of these areas. Please know that this list is indicative, and that we would still love to hear from you even if you feel that you are only a 75% match. Skills can be learnt, diversity cannot.</span></p><p><br></p><p><span style=\"font-size: 24px\"><b>Benefits &amp; Perks ð¡</b></span></p><p><br></p><p><b style=\"font-size: 12pt\">ð°</b><b style=\"font-size: 16px\">Competitive salary package </b></p><p><br></p><p><b style=\"font-size: 12pt\">ð¤ </b><b style=\"font-size: 16px\">Equity package: </b><span style=\"font-size: 16px\">We believe financial freedom starts with our employees, so all employees have ownership at MoonPay</span></p><p><br></p><p><span style=\"font-size: 16px\">ð </span><b style=\"font-size: 16px\">Pay for performance equity bonus: </b><span style=\"font-size: 16px\">Those who drive outsized outcomes receive outsized rewards </span></p><p><br></p><p><b>ð  <span style=\"font-size: 16px\">Moonshot award.</span></b><span style=\"font-size: 16px\"> We honor exceptional impact - 10 employees twice a year, each earning a $250,000 equity grant.</span></p><p><br></p><p><span style=\"font-size: 16px\">ð </span><b style=\"font-size: 16px\">Unlimited holidays: </b><span style=\"font-size: 16px\">We give you the autonomy to choose when to work (and when to switch off)</span></p><p><br></p><p><span style=\"font-size: 16px\">ð </span><b style=\"font-size: 16px\">Hybrid working schedule: </b><span style=\"font-size: 16px\">Work fully remotely or your nearest Moonbase, the choice is yours </span></p><p><br></p><p><span style=\"font-size: 16px\">ð©º </span><b style=\"font-size: 16px\">Private Healthcare benefits: </b><span style=\"font-size: 16px\">To protect you and your loved ones </span></p><p><br></p><p><span style=\"font-size: 16px\">ð¼ </span><b style=\"font-size: 16px\">Enhanced parental leave: </b><span style=\"font-size: 16px\">So you can spend more time with your loved ones without a second thought</span></p><p><br></p><p><span style=\"font-size: 16px\">ð </span><b style=\"font-size: 16px\">Annual training budget: </b><span style=\"font-size: 16px\">We support your training journey every step of the way </span></p><p><br></p><p><span style=\"font-size: 16px\">ðª </span><b style=\"font-size: 16px\">Home office setup allowance: </b><span style=\"font-size: 16px\">Create the home office of your dreams </span></p><p><br></p><p><span style=\"font-size: 16px\">ð </span><b style=\"font-size: 16px\">Remote working allowance: </b><span style=\"font-size: 16px\">Those working fully remotely get a little extra for utilities </span></p><p><br></p><p><span style=\"font-size: 16px\">ð° </span><b style=\"font-size: 16px\">Monthly budget to spend on our products and zero fee crypto transactions: </b><span style=\"font-size: 16px\">Cultivate your inner DEGEN </span></p><p><br></p><p><span style=\"font-size: 16px\">ð° </span><b style=\"font-size: 16px\">Employee referral programme: </b><span style=\"font-size: 16px\">Great people know great people, refer them to receive 10K in USDC </span></p><p><br></p><p><span style=\"font-size: 16px\">âï¸ </span><b style=\"font-size: 16px\">Regular remote company offsites: </b><span style=\"font-size: 16px\">Meet your colleagues regularly for high impact in person sessions and hackathons </span></p><p><br></p><p><b style=\"font-size: 16px\">ð Working in a disruptive and fast-growing company where excellence is rewarded </b></p><p><br></p><p><br></p><p><br></p><p><b><u><span style=\"font-size: 18px\">Commitment To Diversity</span></u></b></p><p><br></p><p><span style=\"font-size: 16px\">At MoonPay we believe that every voice matters. We strive to create a mindful and respectful environment where everyone can bring their authentic self to work, and experience a culture that is free of harassment, racism, and discrimination. Thatâs why we are committed to diversity and inclusion in the workplace and are a proud equal opportunity employer. We prohibit discrimination and harassment of any kind based on race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, protected veteran status or any other characteristic protected by law. This policy applies to all employment practices within our organization, including, but not limited to, hiring, recruiting, promotion, termination, layoff, and leave of absence. </span></p><p><br></p><p><span style=\"font-size: 16px\">MoonPay is also committed to providing reasonable accommodations in our job application procedures for qualified individuals with disabilities. Please inform our Talent Team if you need any assistance completing any forms or to otherwise participate in the application process.</span></p><p><br></p><br/><br/>Please mention the word **COMPREHENSIVE** and tag ROjox when applying to show you read the job post completely (#ROjox). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-    "vikas_score": 76,
-    "diksha_score": 18,
+    "posted_date": "2026-10-16",
+    "url": "https://www.iimjobs.com/j/chief-information-security-officer-consultant-1740346?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "iimjobs",
+    "description": "*About the Opportunity:*\n\nWe are hiring on behalf of a management and technology advisory firm that provides strategic consulting, governance, risk management, cybersecurity, and business transformation services to organizations. The firm works with clients to strengthen enterprise security, manage technology risks, and establish robust governance and compliance frameworks.\n\nThe organization is seeking a highly experienced Chief Information Security Officer (CISO) Consultant to provide strategic cybersecurity leadership, assess enterprise security maturity, establish security governance frameworks, and guide organizations in protecting their critical information assets.\n\nThis is a senior-level consulting engagement suitable for experienced CISO professionals, independent consultants, cybersecurity advisors, and freelance security leaders who can work on a contractual basis for three days per week.\n\n*Key Responsibilities:*\n\n- Develop and implement enterprise-wide cybersecurity strategies aligned with business objectives.\n\n- Define the organization's information security vision, roadmap, policies, standards, and operating models.\n\n- Conduct cybersecurity maturity assessments and identify gaps in people, processes, and technology.\n\n- Advise senior management, executive leadership, and boards on cyber risks, security investments, and risk mitigation priorities.\n\n- Establish security metrics, KPIs, KRIs, and executive-level security reporting.\n\n- Establish and oversee information ",
+    "vikas_score": 100,
+    "vikas_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title matches a target role: “Chief Information Security Officer”.",
+        "Seniority fits (Chief).",
+        "Posting asks for skills in the profile: DevSecOps, DLP, SIEM, EDR, XDR.",
+        "Based in Delhi NCR (Faridabad; Haryana)."
+      ],
+      "red_flags": []
+    },
+    "diksha_score": 40,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Microsoft Azure, AWS, IAM, Monitoring.",
+        "Based in Delhi NCR (Faridabad; Haryana)."
+      ],
+      "red_flags": [
+        "A stretch: the title is a step or two above Deputy Manager."
+      ]
+    },
     "status": "new",
-    "scanned_date": "2026-05-25"
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_chief-information-security-officer-cyber-security-knowledge-",
+    "title": "Chief Information Security Officer - Cyber Security",
+    "company": "knowledge Artisan",
+    "location": "Faridabad; Haryana",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-16",
+    "url": "https://www.hirist.tech/j/chief-information-security-officer-cyber-security-1678935?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "hirist",
+    "description": "*About the Opportunity:*\n\nWe are hiring on behalf of a management and technology advisory firm that provides strategic consulting, governance, risk management, cybersecurity, and business transformation services to organizations. The firm works with clients to strengthen enterprise security, manage technology risks, and establish robust governance and compliance frameworks.\n\nThe organization is seeking a highly experienced Chief Information Security Officer (CISO) Consultant to provide strategic cybersecurity leadership, assess enterprise security maturity, establish security governance frameworks, and guide organizations in protecting their critical information assets.\n\nThis is a senior-level consulting engagement suitable for experienced CISO professionals, independent consultants, cybersecurity advisors, and freelance security leaders who can work on a contractual basis for three days per week.\n\n*Key Responsibilities:*\n\n*1. Cybersecurity Strategy and Leadership:*\n\n- Develop and implement enterprise-wide cybersecurity strategies aligned with business objectives.\n\n- Define the organization's information security vision, roadmap, policies, standards, and operating models.\n\n- Conduct cybersecurity maturity assessments and identify gaps in people, processes, and technology.\n\n- Advise senior management, executive leadership, and boards on cyber risks, security investments, and risk mitigation priorities.\n\n- Establish security metrics, KPIs, KRIs, and executive-level security rep",
+    "vikas_score": 100,
+    "vikas_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title matches a target role: “Chief Information Security Officer”.",
+        "Seniority fits (Chief).",
+        "Posting asks for skills in the profile: DevSecOps, DLP, SIEM, EDR, XDR.",
+        "Based in Delhi NCR (Faridabad; Haryana)."
+      ],
+      "red_flags": []
+    },
+    "diksha_score": 32,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Microsoft Azure, AWS, IAM, Monitoring.",
+        "Based in Delhi NCR (Faridabad; Haryana)."
+      ],
+      "red_flags": [
+        "A stretch: the title is a step or two above Deputy Manager."
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_security-architect-cloud-katiyan-consulting-services-r6qu2lp",
+    "title": "Security Architect Cloud",
+    "company": "Katiyan Consulting Services",
+    "location": "Delhi / NCR",
+    "salary": "INR 2,000,000–3,000,000",
+    "posted_date": "2026-11-04",
+    "url": "https://www.naukri.com/job-listings-security-architect-cloud-katiyan-consulting-services-delhi-ncr-10-to-20-years-041126026883?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "naukri",
+    "description": "Lead enterprise security architecture across infrastructure, applications, networks, identity and cloud. Design security solutions, integrate SOC technologies, drive Zero Trust, threat modelling, risk assessments and security governance.\n\n*Required Candidate profile*\n\n10+ Exp of cybersecurity, expertise in Security Architecture, Ent. Security, SOC, SIEM, SOAR, EDR/XDR, IAM/PAM, Cloud Security, Network Security and security frameworks. CISSP, CISM or CCSP preferred.",
+    "vikas_score": 98,
+    "vikas_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title matches a target role: “Security Architect”.",
+        "Posting asks for skills in the profile: SIEM, SOAR, EDR, XDR, Threat Modelling.",
+        "Based in Delhi NCR (Delhi / NCR)."
+      ],
+      "red_flags": []
+    },
+    "diksha_score": 74,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Cloud).",
+        "Seniority fits (Architect).",
+        "Posting asks for skills in the profile: IAM.",
+        "Based in Delhi NCR (Delhi / NCR)."
+      ],
+      "red_flags": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_head-information-security-grc-data-privacy-hindusthan-engine",
+    "title": "Head - Information Security/GRC & Data Privacy",
+    "company": "Hindusthan Engineering & Industries",
+    "location": "Delhi; Delhi; Bhopal; MP",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-16",
+    "url": "https://www.iimjobs.com/j/head-information-security-grc-data-privacy-1740376?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "iimjobs",
+    "description": "*Job Opening:* Head - Information Security, GRC & Data Privacy\n\n*Location:* Delhi / Bhopal\n\n*Job Type:* Full-Time, Onsite\n\n*Experience:* 5 - 10 Years\n\n*Industry:* Group of Companies / University\n\n*Job Summary:*\n\nWe are seeking an experienced professional to lead Information Security, Governance, Risk & Compliance (GRC), and Data Privacy across group companies and the university. The role will focus on cybersecurity governance, DPDPA compliance, IT risk management, audits, and implementation of security and privacy frameworks.\n\n*Key Responsibilities:*\n\n- Develop and implement information security policies, governance frameworks, and cyber risk management practices.\n\n- Lead compliance with the Digital Personal Data Protection Act (DPDPA) and applicable privacy regulations.\n\n- Manage IT GRC programs and compliance with ISO 27001, SOC 2, NIST, and other relevant frameworks.\n\n- Oversee internal and external IT audits, risk assessments, vulnerability management, and remediation.\n\n- Conduct third-party/vendor security assessments and monitor cloud and SaaS security.\n\n- Establish data privacy controls, risk registers, and security awareness programs.\n\n- Coordinate with IT teams across group companies and the university to strengthen security and compliance.\n\n*Eligibility Criteria:*\n\n- 5 - 10 years of relevant experience in Information Security, Cybersecurity, IT Risk, GRC, or Data Privacy.\n\n- Experience in DPDPA/GDPR compliance, ISO 27001, security audits, and risk management.\n\n- Exp",
+    "vikas_score": 92,
+    "vikas_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Head).",
+        "Posting asks for skills in the profile: Vulnerability Management, Cloud Security, ISO 27001, NIST, GRC.",
+        "Based in Delhi NCR (Delhi; Delhi; Bhopal; MP)."
+      ],
+      "red_flags": []
+    },
+    "diksha_score": 24,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Delhi; Delhi; Bhopal; MP)."
+      ],
+      "red_flags": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_senior-security-architect-talent-destination-private-limited",
+    "title": "Senior Security Architect",
+    "company": "Talent Destination private Limited",
+    "location": "Delhi, Delhi-NCR Region",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-03",
+    "url": "https://www.shine.com/jobs/senior-security-architect/talent-destination-private-limited/20000587?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "shine",
+    "description": "We are seeking a highly skilled Senior Security Architect to join our team in the Delhi-NCR region. The ideal candidate will have extensive experience in designing and implementing security architectures that align with enterprise security goals. As a Senior Security Architect, you will be responsible for developing high-level designs (HLD) and low-level designs (LLD) for security solutions, ensuring that they meet the organization's security requirements and compliance standards. Key Responsibilities: - Design and implement security architectures that protect enterprise systems and data. - Collaborate with cross-functional teams to integrate security into all aspects of the IT infrastructure. - Conduct risk assessments and security audits to identify vulnerabilities and recommend mitigation strategies. - Develop and maintain security policies, standards, and procedures. - Stay updated on the latest security trends, threats, and technologies to ensure the organization remains secure. - Provide guidance and mentorship to junior security staff and other stakeholders on security best practices. Required Skills: - Proven experience in security architecture and enterprise security. - Strong knowledge of cybersecurity principles and practices. - Proficiency in developing high-level and low-level security designs. - Familiarity with security information and event management (SIEM) and security orchestration, automation, and response (SOAR) solutions. - Experience with network securi",
+    "vikas_score": 91,
+    "vikas_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title matches a target role: “Security Architect”.",
+        "Posting asks for skills in the profile: SIEM, SOAR, Security Architecture, TOGAF, SABSA.",
+        "Based in Delhi NCR (Delhi, Delhi-NCR Region)."
+      ],
+      "red_flags": []
+    },
+    "diksha_score": 44,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: Automation.",
+        "Based in Delhi NCR (Delhi, Delhi-NCR Region)."
+      ],
+      "red_flags": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_manager-global-it-security-operations-lonza-z63qf5iv",
+    "title": "Manager, Global IT Security Operations",
+    "company": "Lonza",
+    "location": "IN - Gurugram",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-30",
+    "url": "https://lonza.wd3.myworkdayjobs.com/Lonza_Careers/job/IN---Gurugram/Manager--Global-IT-Security-Operations_R80254?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "workday",
+    "description": "*Position* - Manager, Global IT Security Operations\n\n*Location* - Gurugram (Hybrid)\n\nThe Manager, Global IT Security Risk Management is responsible for leading the operational management and continuous improvement of Lonza's information security risk management program. This role ensures cybersecurity and technology risks are identified, assessed, documented, monitored, and managed in alignment with business objectives, regulatory requirements, and organizational risk appetite.\n\nReporting to the Global Head of IT Security & Compliance, the incumbent will partner with business leaders, IT teams, procurement, legal, quality, compliance, audit functions, customers, and external providers to strengthen security governance, enhance risk visibility, and drive a consistent enterprise-wide approach to cybersecurity risk management.\n\nSuccess in this role is demonstrated through improved risk governance, strengthened compliance posture, reduction of unmanaged risk exposure, and delivery of meaningful insights that enable informed business decision-making.\n\n*What you will get:*\n\n* An agile career and dynamic working culture.\n* An inclusive and ethical workplace.\n* Compensation programs that recognize high performance.\n* A variety of benefits dependent on role and location.\n\n*What You’ll Do*\n\n*Information Security Risk Management*\n\n* Lead and continuously improve the IT security risk management program.\n* Conduct risk assessments, maintain the security risk register, and drive mitigation",
+    "vikas_score": 89,
+    "vikas_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Global).",
+        "Posting asks for skills in the profile: DLP, ISO 27001, NIST, PAM.",
+        "Based in Delhi NCR (IN - Gurugram)."
+      ],
+      "red_flags": []
+    },
+    "diksha_score": 28,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Manager).",
+        "Posting asks for skills in the profile: Agile.",
+        "Based in Delhi NCR (IN - Gurugram)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_information-security-manager-cybersecurity-noida-niit-techno",
+    "title": "Information Security Manager / Cybersecurity (Noida)",
+    "company": "NIIT Technologies",
+    "location": "Noida, Uttar Pradesh",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-05",
+    "url": "https://www.shine.com/jobs/information-security-manager-cybersecurity-noida/niit-technologies/20021601?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "shine",
+    "description": "Information Security Manager / Cybersecurity (Noida) Company: NIIT Technologies Job Location: Noida, Uttar Pradesh, India Employment Type: Full-time Experience Required: 12 - 17 years Job Title: Information Security Manager Key Skills : SOC, Incident Response, Vulnerability, GRC, IAM, Email Security, Stakeholder management, EDR Experience : 12 - 17 Years Location : Greater Noida We at Coforge are hiring Information Security Manager with hands-on experience in the following skillset Please find below JD : Lead and manage a diverse team of cybersecurity professionals across multiple portfolios, including GRC, Security Operations (SOC), Incident Response, Vulnerability Management, IAM, Security Engineering, and Compliance. Own and drive ISO 27001, SWIFT CSP, COSO , and other regulatory/compliance programs, including audits, assessments, and remediation activities. Conduct enterprise-wide risk assessments and develop risk mitigation strategies aligned with business objectives. Oversee vulnerability management, threat monitoring, remediation tracking, and continuous security improvement efforts. Manage security technologies such as SIEM, DLP, EDR/XDR, Firewalls, IAM, and Identity Governance solutions. Lead cyber incident management, crisis response, root cause analysis, and post-incident reviews. Establish and maintain security governance frameworks, policies, standards, and procedures. Ensure secure configurations and security best practices across infrastructure, applications, c",
+    "vikas_score": 80,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: DLP, SIEM, EDR, XDR, Incident Response.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh)."
+      ],
+      "red_flags": []
+    },
+    "diksha_score": 47,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Manager).",
+        "Posting asks for skills in the profile: IAM, Monitoring.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh)."
+      ],
+      "red_flags": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_senior-siem-engineer-information-security-incedo-technology-",
+    "title": "Senior SIEM Engineer - Information Security",
+    "company": "Incedo Technology Solutions Ltd.",
+    "location": "Gurgaon/Gurugram",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-29",
+    "url": "https://www.hirist.tech/j/senior-siem-engineer-information-security-1681084?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "hirist",
+    "description": "*Role Overview :*\n\nWe are looking for a Senior SIEM Engineer with strong hands-on experience in SIEM platform administration, log integration, parsing, detection engineering, and performance optimization within an enterprise SOC/MSSP environment.\n\n*Key Responsibilities :*\n\n- Administer, maintain, and optimize enterprise SIEM platforms.\n\n- Onboard log sources and develop custom parsers, field extraction, and log normalization.\n\n- Develop, tune, and optimize correlation rules, detection use cases, and threat-hunting queries aligned with MITRE ATT&CK.\n\n- Create searches, dashboards, and reports while reducing false positives.\n\n- Monitor SIEM health, event processing, indexing, storage, and system performance.\n\n- Troubleshoot production issues, support upgrades, patching, and critical incidents.\n\n- Integrate security logs from firewalls, IDS/IPS, EDR, Windows/Linux, cloud, applications, and identity platforms.\n\n- Ensure log collection using Syslog, CEF, LEEF, JSON, XML, and custom formats.\n\n- Support automation, SOAR integrations, documentation, and continuous service improvement.\n\n*Required Technical Skills:*\n\n- SIEM Engineering: Platform administration, log onboarding, parsing, normalization, event correlation, and troubleshooting.\n\n- Detection Engineering: Correlation rules, use-case development, rule tuning, threat hunting, and MITRE ATT&CK.\n\n- Platform Management: Health monitoring, performance optimization, indexing, storage, upgrades, and capacity planning.\n\n- Security Tec",
+    "vikas_score": 80,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: SIEM, SOAR, EDR, MITRE ATT&CK, Cloud Security.",
+        "Based in Delhi NCR (Gurgaon/Gurugram)."
+      ],
+      "red_flags": []
+    },
+    "diksha_score": 65,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: AWS, PowerShell, Scripting, Automation, Storage.",
+        "Based in Delhi NCR (Gurgaon/Gurugram)."
+      ],
+      "red_flags": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
   },
   {
     "job_id": "rok_1131111",
@@ -24,54 +288,262 @@
     "url": "https://remoteOK.com/remote-jobs/remote-director-it-security-octave-1131111",
     "source": "RemoteOK",
     "description": "<div><h3>About the Company:</h3>\n<p>Octave is a modern behavioral health practice creating a new standard for care delivery that's both high-quality and accessible. With in-person and virtual clinics in multiple states, the company offers evidence-based individual, couples, and family therapy, while pioneering relationships with payers to make care more affordable through insurance. By raising the bar on how care is delivered and how providers are supported, we are building a sustainable system that values equity, affordability, and effectiveness.</p>\n<h3>Job Summary:&nbsp;</h3>\n<p>As the Director of IT &amp; Security, you are the primary architect of the company's technological resilience and security posture. You provide the strategic vision for a scalable, secure corporate infrastructure that enables rapid business growth while maintaining rigorous compliance. You are not just managing systems; you are owning the overall strategy for risk mitigation, technical governance, and the evolution of the modern workplace.</p>\n<h3>Management Responsibilities:&nbsp;</h3>\n<ul>\n<li>Develops, coordinates, and implements&nbsp; systems, policies, procedures, and productivity standards.</li>\n<li>Foster a positive and collaborative work environment.</li>\n<li>Oversee the planning, execution, and completion of projects and initiatives within the team.</li>\n<li>Establish and monitor operational processes and workflows to enhance efficiency and productivity.</li>\n<li>Implement best practices, monitor key performance indicators (KPIs), and develop strategies to achieve operational excellence.</li>\n<li>Ensures a safe, secure, and compliant work environment.</li>\n<li>Build and manage a high-performing team, including hiring, training, and development.</li>\n<li>Provide leadership to the team, including setting goals/objectives, providing guidance/feedback, and ensuring the team's overall success.</li>\n<li>Identify skill gaps within the team and develop strategies for filling those gaps. Support employee development through training, mentoring, and coaching. Identify high-potential employees and create succession plans.</li>\n</ul>\n<h3>Duties &amp; Responsibilities:&nbsp;</h3>\n<ul>\n<li>Define and own the company IT and security strategy, aligning infrastructure, systems, and risk posture with company growth, product evolution, and regulatory requirements.</li>\n<li>Build, lead, and scale a high-performing IT and Security organization, establishing clear operating models, priorities, and accountability across IT and security operations.</li>\n<li>Oversee end-to-end IT operations and employee technology experience, including onboarding/offboarding, identity and access management, device lifecycle, and enterprise tooling.</li>\n<li>Own and mature the security program, including governance, risk management, security architecture, vulnerability management, and threat detection and response (SOC).</li>\n<li>Drive the management âin partnership with our compliance committee â of risk, compliance, and audit, leading HIPAA and SOC 2 read</div><br/><br/>Please mention the word **HAPPY** and tag ROjox when applying to show you read the job post completely (#ROjox). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-    "vikas_score": 70,
+    "vikas_score": 78,
     "diksha_score": 4,
     "status": "new",
-    "scanned_date": "2026-05-25"
+    "scanned_date": "2026-05-25",
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Director).",
+        "Posting asks for skills in the profile: Vulnerability Management, Security Architecture.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": []
+    }
   },
   {
-    "job_id": "rok_1131533",
-    "title": "Account Executive Southeast",
-    "company": "Apollo Information Systems",
-    "location": "Remote (India OK)",
-    "salary": "80000",
-    "posted_date": "2026-05-10",
-    "url": "https://remoteOK.com/remote-jobs/remote-account-executive-southeast-apollo-information-systems-1131533",
-    "source": "RemoteOK",
-    "description": "<p style=\"min-height:1.5em\"><strong>About Apollo</strong></p><p style=\"min-height:1.5em\">Apollo Information Systems is a cybersecurity services company delivering comprehensive security and compliance programs to organizations that need measurable protection without the burden of building it alone. Backed by a Series A investment led by Syn Ventures, Apollo is pioneering a cybersecurity-as-a-service model that replaces fragmented tools and episodic engagements with unified, outcome-driven security programs.</p><p style=\"min-height:1.5em\">Through Apollo Aegis - a subscription-based cybersecurity and compliance platform - and a full portfolio of managed security, advisory, assessment, incident response, and offensive security services, Apollo helps organizations reduce risk, simplify operations, and maintain continuous compliance. Apollo's primary markets include state and local government, K-12 and higher education, and mid-market enterprises, with deep specialization in election security.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Our Culture</strong></p><p style=\"min-height:1.5em\">We are growing rapidly and have significant expansion plans and growth capital. We foster a collaborative environment where deep cybersecurity expertise meets business acumen, enabling our professionals to solve complex security challenges while building lasting client partnerships. We pride ourselves on our integrity and ethics. Youâll find smart, professional, mission-driven, hardworking, genuinely kind and good colleagues here. We primarily work remotely but have a hub in Denver.</p><p style=\"min-height:1.5em\"><strong>Position Overview:</strong></p><p style=\"min-height:1.5em\">We are looking for a high-performing, self-driven Account Executive to grow our cybersecurity business across State, Local Government, and Education (SLED) accounts throughout the Southeastern Region. The ideal candidate is a public sector sales professional with a deep understanding of the cybersecurity services landscape who has a proven ability to open doors, build relationships, and close complex deals. </p><p style=\"min-height:1.5em\">Partnering closely with the a Senior AE, this individual will co-own the Southeastern SLED region, bringing both strategic thinking and execution to drive pipeline, revenue, and long-term client success. This is a hunter role at its core: the right candidate thrives on business development, takes ownership of their territory, and brings a consultative approach to helping public sector clients solve their most pressing security challenges.</p><p style=\"min-height:1.5em\"><strong>Key Responsibilities:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Partner with Sales Manager to expand Southeastern SLED accounts from prospecting and discovery through proposal, negotiation, and close</p></li><li><p style=\"min-height:1.5em\">Execute on a territory business plan that identifies target accounts, key opportunities, and a clear path to meeting or exceeding quota</p></li><li><p style=\"min-height:1.5em\">Drive new business development through outbound prospecting, networking, industry events, partner relationships, and referrals</p></li><li><p style=\"min-height:1.5em\">Engage with state agencies, municipalities, school districts, and higher education institutions to uncover cybersecurity needs and align Apollo solutions accordingly</p></li><li><p style=\"min-height:1.5em\">Build and maintain strong, trust-based relationships with key stakeholders, including CISOs, CIOs, IT Directors, and procurement officers</p></li><li><p style=\"min-height:1.5em\">Collaborate with the Sales Manager to align on territory strategy, pipeline reviews, forecasting, and go-to-market priorities</p></li><li><p style=\"min-height:1.5em\">Work cross-functionally with technical, service delivery, and marketing teams to develop tailored proposals and solutions for SLED clients</p></li><li><p style=\"min-height:1.5em\">Navigate public sector procurement processes, including RFPs, cooperative purchasing vehicles, and state contracts, to remove barriers and accelerate deal velocity</p></li><li><p style=\"min-height:1.5em\">Identify and develop contracting vehicles (e.g., DIR, TIPS, NCPA) that enable scalable, repeatable sales across the Southeastern SLED market</p></li><li><p style=\"min-height:1.5em\">Manage and grow an active pipeline in CRM, maintaining accurate opportunity data, activity logs, and forecasts</p></li><li><p style=\"min-height:1.5em\">Identify upsell and cross-sell opportunities within existing accounts to expand Apollo's footprint and deepen client relationships</p></li><li><p style=\"min-height:1.5em\">Provide market intelligence and client feedback to internal teams to inform product development and service offerings</p></li><li><p style=\"min-height:1.5em\">Represent Apollo at relevant industry conferences, government forums, and association events across Texas</p></li></ul><p style=\"min-height:1.5em\"><strong>Qualifications</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Required</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Demonstrated success selling cybersecurity solutions: MSSP, MDR, SOC-as-a-Service, or security product/VAR experience strongly preferred</p></li><li><p style=\"min-height:1.5em\">Familiarity with public sector procurement processes, such as DIR contracts, cooperative purchasing vehicles, etc.</p></li><li><p style=\"min-height:1.5em\">Proven track record of consistently meeting or exceeding quota in a hunter/business development role</p></li><li><p style=\"min-height:1.5em\">Experience selling to and navigating complex organizations with multiple stakeholders and long sales cycles</p></li><li><p style=\"min-height:1.5em\">Strong command of consultative and solution-based selling methodologies (e.g., MEDDIC, Challenger, or similar)</p></li><li><p style=\"min-height:1.5em\">Excellent communication, presentation, and negotiation skills</p></li><li><p style=\"min-height:1.5em\">Self-starter mentality with the ability to manage a territory independently</p></li></ul></li><li><p style=\"min-height:1.5em\">Preferred</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Existing relationships with State agencies, municipalities, or school districts/higher education institutions</p></li><li><p style=\"min-height:1.5em\">Experience working with or for an MSSP or cybersecurity VAR</p></li><li><p style=\"min-height:1.5em\">Familiarity with security frameworks relevant to the public sector (NIST, CMMC, TX-RAMP, etc.)</p></li><li><p style=\"min-height:1.5em\">Prior experience using Salesforce or similar CRM platforms</p></li></ul></li></ul><p style=\"min-height:1.5em\"><strong>Expectations:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">At 30 days:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Complete onboarding, including product and services training, internal process orientation, and CRM setup</p></li><li><p style=\"min-height:1.5em\">Develop a working knowledge of Apollo's cybersecurity portfolio and value proposition for SLED clients</p></li><li><p style=\"min-height:1.5em\">Meet with key internal stakeholders (Sales Manager, technical teams, marketing, and service delivery) to understand resources and support available</p></li><li><p style=\"min-height:1.5em\">Begin building a target account list for the Southeastern SLED territory and identify top priority opportunities</p></li></ul></li><li><p style=\"min-height:1.5em\">Within 90 days:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have an active, documented pipeline of qualified opportunities in CRM reflecting real revenue potential</p></li><li><p style=\"min-height:1.5em\">Independently conducting discovery calls, delivering presentations, and advancing opportunities through the sales cycle</p></li><li><p style=\"min-height:1.5em\">Establish or reactivate relationships with key contacts at target accounts across state agencies, municipalities, and education institutions</p></li><li><p style=\"min-height:1.5em\">Identify and initiate pursuit of at least one relevant contracting vehicle or cooperative purchasing opportunity</p></li><li><p style=\"min-height:1.5em\">Deliver a territory business plan to the Sales Manager outlining strategy, key accounts, and 6-month revenue targets</p></li></ul></li><li><p style=\"min-height:1.5em\">By 180 days:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Demonstrate clear pipeline momentum with opportunities in late stages of the sales cycle and initial closed/won business</p></li><li><p style=\"min-height:1.5em\">Be fully self-sufficient in territory management, forecasting, and business development activity</p></li><li><p style=\"min-height:1.5em\">Have established a consistent outreach and relationship-building cadence across target accounts</p></li><li><p style=\"min-height:1.5em\">Contribute actively to team knowledge by sharing market insights, competitive intelligence, and client feedback</p></li><li><p style=\"min-height:1.5em\">Be on track to meet or exceed first-year quota based on pipeline coverage and deal progression</p></li></ul></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Company Values</strong></p><p style=\"min-height:1.5em\">We have created a fantastic corporate culture â our values drive our behaviors. Here are the expectations:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Passion for cybersecurity and a commitment to maintaining the highest standards of security.</p></li><li><p style=\"min-height:1.5em\">Customer Outcomes: Their success is our success, we are business partners</p></li><li><p style=\"min-height:1.5em\">Entrepreneurial Approach: fast decision making, empowerment, focus on results, test and learn</p></li><li><p style=\"min-height:1.5em\">Win Together: Intense Collaboration, no silos</p></li><li><p style=\"min-height:1.5em\">âIntegrity is paramount</p></li></ul><p style=\"min-height:1.5em\"><strong>Why You'll Love Working Here</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Comprehensive medical, dental, and vision coverage, the company covers 100% of employee premiums and 90% of dependent premiums on base plans</p></li><li><p style=\"min-height:1.5em\">Unlimited PTO, 7 paid sick days, and 11 paid holidays</p></li><li><p style=\"min-height:1.5em\">401(k) with 4% company match after 90 days, immediately vested</p></li><li><p style=\"min-height:1.5em\">Companyâpaid life insurance at 1x annual salary</p></li><li><p style=\"min-height:1.5em\">Companyâpaid ShortâTerm Disability (STD) and LongâTerm Disability (LTD) coverage</p></li><li><p style=\"min-height:1.5em\">$125 monthly homeâoffice tech stipend for internet, equipment, and other technology needs</p></li><li><p style=\"min-height:1.5em\">Amazing colleagues, a collaborative environment, and a supportive, growthâfocused culture</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Apollo-IS is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. Apollo-IS provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veteransâ Readjustment Assistance Act.</p><br/><br/>Please mention the word **SHINY** and tag ROjox when applying to show you read the job post completely (#ROjox). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-    "vikas_score": 68,
+    "job_id": "fh_devsecops-sre-lead-national-e-governance-division-negd-digit",
+    "title": "DevSecOps / SRE Lead",
+    "company": "National e-Governance Division (NeGD), Digital India Corporation",
+    "location": "Noida; New Delhi; Delhi / NCR",
+    "salary": "INR 2,000,000–3,000,000",
+    "posted_date": "2026-10-22",
+    "url": "https://www.naukri.com/job-listings-devsecops-sre-lead-national-e-governance-division-negd-digital-india-corporation-noida-new-delhi-delhi-ncr-8-to-13-years-221026018164?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "naukri",
+    "description": "*Educational Qualification*\n\n* B.Tech./B.E. in Computer Science, Information Technology, or related engineering discipline (Must have)\n* M.Tech./M.S. in Computer Science, Information Technology, or related field desirable\n* Certifications in DevOps, SRE, or Cloud Infrastructure (AWS, Azure, GCP, or Kubernetes CKA/CKS) preferred\n* ITIL or equivalent service management certification desirable\n\n*Experience*\n\n* 8+ years in infrastructure engineering, DevOps, or Site Reliability Engineering, with minimum 3 years in a lead or architect role\n* Demonstrated experience running production infrastructure for high-availability platforms at scale\n* Prior experience with government-hosted infrastructure (NIC, MeghRaj) or MeitY-empanelled CSPs preferred\n* Experience with on-premise, hybrid, and sovereign-cloud deployment models\n\n*Key Responsibilities*\n\n* Own the platform infrastructure strategy for the AI capability programme across all six pods, covering CI/CD, environment provisioning, secrets management, observability, and reliability engineering\n* Design and maintain multi-environment infrastructure (development, staging, production) with appropriate isolation, promotion gates, and security controls for classified, internal, and public workloads\n* Define infrastructure-as-code standards (Terraform, Ansible, or equivalent) and drive their adoption across pods\n* Establish the observability stack metrics, logs, tracing, alerting — covering both AI-model and application layers, in coordinat",
+    "vikas_score": 76,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (DevSecOps).",
+        "Posting asks for skills in the profile: DevSecOps, Incident Response, AWS, Azure, GCP.",
+        "Based in Delhi NCR (Noida; New Delhi; Delhi / NCR)."
+      ],
+      "red_flags": []
+    },
+    "diksha_score": 100,
+    "diksha_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title matches a target role: “SRE”.",
+        "Seniority fits (Lead).",
+        "Posting asks for skills in the profile: AWS, Terraform, Infrastructure-as-Code, Bash, Scripting.",
+        "Based in Delhi NCR (Noida; New Delhi; Delhi / NCR)."
+      ],
+      "red_flags": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_hiring-for-information-security-compliance-manager-q-way-tec",
+    "title": "Hiring For Information Security & Compliance Manager",
+    "company": "Q Way Technologies",
+    "location": "Chennai (Remote)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-28",
+    "url": "https://www.naukri.com/job-listings-hiring-for-information-security-compliance-manager-q-way-technologies-chennai-5-to-8-years-170926032936?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "naukri",
+    "description": "*Dear Candidates,*\n\nGreetings From Qway Technologies\n\n*Location:* Hybrid/Remote USA (EST/PST Time Zones)\n*Experience:* 5+ Years\n*Reports To:* Head of Technology\n\n*Job Summary*\n\nWe are looking for an experienced *Information Security & Compliance Manager* to lead our information security and compliance program. The role requires strong hands-on expertise in *Microsoft 365 security, SOC 2 Type 2, risk management, incident response, and security compliance*.\n\nThe ideal candidate should be comfortable working with technical teams as well as presenting security and compliance information to clients and enterprise prospects.\n\n*Key Responsibilities*\n\n* Own and continuously harden the *Microsoft 365 security environment* including Entra ID, Conditional Access, PIM, Defender, Purview, and Intune.\n* Manage *DLP, sensitivity labels, retention, external sharing, identity, endpoint, and access controls*.\n* Lead the *SOC 2 Type 2 program* , including controls, evidence collection, audits, testing, and remediation.\n* Manage *vendor risk assessments, security incidents, business continuity, and disaster recovery*.\n* Oversee security controls and risks associated with *AI-enabled platforms and tools*.\n* Lead security questionnaires, client security reviews, due diligence calls, and enterprise security discussions.\n* Develop security awareness, phishing simulation, onboarding, and security training programs.\n* Maintain security policies, procedures, controls, and compliance documentation.\n\n*Ma",
+    "vikas_score": 75,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: DLP, Incident Response, Azure, ISO 27001, PCI DSS.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": []
+    },
+    "diksha_score": 43,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Manager).",
+        "Posting asks for skills in the profile: Azure AD, IAM, PIM.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "li_77b1dee25c",
+    "title": "Director of Global Security Operations",
+    "company": "MongoDB",
+    "location": "Gurugram, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/director-of-global-security-operations-at-mongodb-4480542077?position=6&pageNum=0&refId=H3H015TrwJbE%2Bpa6OiSpPQ%3D%3D&trackingId=FUq4%2BfZVLOuXxerNcU14Ag%3D%3D",
+    "description": "Director of Global Security Operations at MongoDB — Gurugram, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-07",
+    "suggested_profile": "vikas",
+    "vikas_score": 69,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Director).",
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": []
+    },
     "diksha_score": 0,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field.",
+        "A stretch: the title is a step or two above Deputy Manager."
+      ]
+    },
     "status": "new",
-    "scanned_date": "2026-05-17"
+    "scanned_date": "2026-11-09"
   },
   {
-    "job_id": "rok_1137396",
-    "title": "Principal Product Manager",
-    "company": "DomainTools",
-    "location": "Remote (India OK)",
+    "job_id": "fh_tbo-com-director-business-process-controls-security-travel-b",
+    "title": "TBO.COM - Director - Business Process Controls & Security",
+    "company": "Travel Boutique Online",
+    "location": "Gurgaon/Gurugram",
     "salary": "Not disclosed",
-    "posted_date": "2026-09-16",
-    "url": "https://remoteOK.com/remote-jobs/remote-principal-product-manager-domaintools-1137396",
-    "source": "RemoteOK",
-    "description": "<p>DomainTools is looking for a Principal Product Manager to join its Product team. Data is the backbone of our products, and this role will be responsible for growing and refining the data products that drive our threat intelligence solutions, with API-first delivery and integration into UI, AI and third-party experiences and workflows. This is a strategic role for the company that has a high impact on the companyâs success, and has a great deal of visibility both inside and outside the company. The ideal candidate is a strong leader and successful product manager with a track record of delivering market-leading data products, with insights derived from direct customer interaction and big-data analysis. If you want to make a big impact in an established, growth-stage company, and if you love data product management, DomainTools is the place to be!</p><p></p><p>The product manager is expected to contribute to her/his team a solid knowledge of the various constraints of the business, and a prioritized assessment of the opportunities that the business can capitalize on. The product manager must also contribute to the product team a deep knowledge of our users and customers, and an understanding of the platforms that our customers use to engage with our products. Finally the product manager is expected to track industry trends and the competitive landscape as they pertain to their products.Â </p><p></p><p>While each member of the product team may be accountable for a specific area, we look for product managers that understand that consistent innovation is the result of each member of the product team contributing their passion and their ideas.Â  The product manager must collaborate closely with engineering, marketing, sales and solutions engineering teams to deliver world-class solutions to market.</p><p></p><p>This job, as with the other roles on the product team, is an individual contributor role. You will need to be able to influence your teammates, colleagues, stakeholders, and key executives, through your use of data and logic.</p><p></p>\n<p>Basic Qualifications:</p><ul><li>Minimum 7 years in cybersecurity or data-related product management, delivering data-driven analytics and products</li><li>Deep knowledge of their business and its customers, understanding how data products are utilized by its users, and valued by buyers</li><li>Experience working with threat intelligence products, threat feeds, APIs, and related technologies</li><li>Experience interacting with customers who leverage data warehousing, data science, and Big Data technologies</li><li>Experience with integration of data products into third-party environments (both customer and partner ecosystems)</li><li>Experience working with Agile (kanban/scrum) development teams and processes</li><li>Excellent people skills, working with cross-functional teams across the organization to bring a solution from ideation to market</li><li>Excellent writing, communication, and presentation skills</li><li>US-based, with a willingness to accommodate core hours that overlap at least 9am-3pm US Pacific time<br /></li></ul><p>Preferred Qualifications:</p><ul><li>Experience in cybersecurity investigations, threat defense, incident response, or related activities</li><li>Solid understanding of the cybersecurity market and modern security architectures</li><li>Familiarity with specific data domains used in cybersecurity, including DNS, IP, TLS/SSL certificates, web crawl, BGP, NetFlow data</li><li>Experience with real-time data collection, processing and delivery</li><li>Experience with large language models (LLMs) and agentic workflows</li><li>Experience with data products that leverage predictive analytics / machine learning (ML)</li><li>Experience with distributed systems and cloud computing</li></ul><br/><br/>Please mention the word **EXCITEDLY** and tag RMjAuMTE5LjQxLjIwMQ== when applying to show you read the job post completely (#RMjAuMTE5LjQxLjIwMQ==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-    "vikas_score": 62,
-    "diksha_score": 8,
+    "posted_date": "2026-11-02",
+    "url": "https://www.iimjobs.com/j/tbo-com-director-business-process-controls-security-1743400?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "iimjobs",
+    "description": "*Job Description:* Director - Business Process Controls & Security.\n\n*Location:* Epitome Building 5, Tower C, 22nd Floor, DLF Phase 3, Sector 25, DLF Cyber City, Gurgaon.\n\n*Company:* TBO (www.tbo.com).\n\nTBO is a global platform that aims to simplify all buying and selling travel needs of travel partners across the world.\n\nThe proprietary technology platform aims to simplify the demands of the complex world of global travel by seamlessly connecting the highly distributed travel buyers and travel suppliers at scale.\n\nThe TBO journey began in 2006 with a simple goal - to address the evolving needs of travel buyers and suppliers, and what started off as a single product air ticketing company, has today become the leading B2A (Business to Agents) travel portal across the Americas, UK & Europe, Africa, Middle East, India, and Asia Pacific.\n\nToday, TBO's product range from air, hotels, rail, holiday packages, car rentals, transfers, sightseeing, cruise, and cargo.\n\nApart from these products, our proprietary platform relies heavily on AI/ML to offer unique listings and products, meeting specific requirements put forth by customers, thus increasing conversions.\n\nTBO's approach has always been technology-first and we continue to invest on new innovations and new offerings to make travel easy and simple.\n\nTBO's travel APIs are serving large travel ecosystems across the world while the modular architecture of the platform enables new travel products while expanding across new geographies",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Director).",
+        "Based in Delhi NCR (Gurgaon/Gurugram)."
+      ],
+      "red_flags": []
+    },
+    "diksha_score": 12,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Gurgaon/Gurugram)."
+      ],
+      "red_flags": [
+        "A stretch: the title is a step or two above Deputy Manager."
+      ]
+    },
     "status": "new",
-    "scanned_date": "2026-09-17"
+    "scanned_date": "2026-11-09"
   },
   {
-    "job_id": "rok_1131323",
-    "title": "Territory Account Manager",
-    "company": "TENEX.AI",
-    "location": "Remote (India OK)",
+    "job_id": "li_badef919a5",
+    "title": "Director, Security Delivery",
+    "company": "AHEAD",
+    "location": "Gurugram, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/director-security-delivery-at-ahead-4485468767?position=3&pageNum=0&refId=41dZm5HwwkRk71t7C0gxxQ%3D%3D&trackingId=uNHMLZRye%2Bpussf26XTenw%3D%3D",
+    "description": "Director, Security Delivery at AHEAD — Gurugram, Haryana, India",
     "salary": "Not disclosed",
-    "posted_date": "2026-04-25",
-    "url": "https://remoteOK.com/remote-jobs/remote-territory-account-manager-tenex-ai-1131323",
-    "source": "RemoteOK",
-    "description": "<p style=\"min-height:1.5em\">TENEX is an AI-native, automation-first, built-for-scale Managed Detection and Response (MDR) provider. We are a force multiplier for defenders, helping organizations enhance their cybersecurity posture through advanced threat detection, rapid response, and continuous protection. Our team is composed of industry experts with deep experience in cybersecurity, automation and AI-driven solutions. Backed by leading investors, we are rapidly growing and seeking top talent to join our mission of revolutionizing the AI-Native MDR landscape.</p><p style=\"min-height:1.5em\">Weâre a fast growing startup backed by industry experts and top tier investors led by Crosspoint Capital Partners and also backed by Shield Capital, DTCP (formerly Deutsche Telekom Capital Partners), Deepwork Capital, and the Florida Opportunity Fund. Seed round led by Andreessen Horowitz (a16z). As an early employee, youâll play a meaningful role in defining and building our culture. Get in on the ground floor. Weâre a small but well-funded team that just raised a substantial round â joining now comes with limited risk and unlimited upside.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">The Role</p><p style=\"min-height:1.5em\">We are hiring a Territory Sales Manager to own pipeline generation and revenue across EMEA. You will be one of the first commercial hires in the region, responsible for landing and expanding mid-market and enterprise customers across the UK, DACH, Benelux, Nordics, France, Italy, and the Middle East and Africa. This is a full-cycle quota-carrying role: you will prospect, qualify, run complex evaluations, negotiate contracts, and close deals alongside sales engineering, product, and executive sponsors.</p><p style=\"min-height:1.5em\">You will report to the SVP of EMEA and work closely with marketing, partnerships, and the founding team to shape our EMEA go-to-market motion from the ground up. Expect to spend meaningful time on the road meeting customers, partners, and prospects across the region.</p><p style=\"min-height:1.5em\">What You'll Do</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Carry a number: Own an annual new-logo and expansion quota across assigned EMEA territory.</p></li><li><p style=\"min-height:1.5em\">Generate pipeline: Build and maintain 4x pipeline coverage through a mix of outbound prospecting, partner-sourced opportunities, inbound follow-up, and account-based plays into target logos.</p></li><li><p style=\"min-height:1.5em\">Run the cycle: Run disciplined, multi-threaded sales cycles using MEDDPICC (or equivalent), orchestrating SE, product, legal, security, and executive resources to close six- and seven-figure ACV deals.</p></li><li><p style=\"min-height:1.5em\">Sell value: Articulate the <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://TENEX.AI\">TENEX.AI</a> platform, ROI, and differentiation to technical buyers (CISOs, heads of security operations, VPs of engineering) and economic buyers (CIOs, CFOs).</p></li><li><p style=\"min-height:1.5em\">Operate in EMEA: Navigate data residency, GDPR, DORA, NIS2, and AI Act considerations with customers and partners; localize messaging and commercial terms per market.</p></li><li><p style=\"min-height:1.5em\">Develop the ecosystem: Build relationships with key regional partners (GSIs, VARs, MSSPs, hyperscaler field teams) to accelerate coverage and close.</p></li><li><p style=\"min-height:1.5em\">Forecast and improve: Maintain accurate forecasts in Salesforce; contribute to territory planning, pricing feedback, and playbook development as one of the first reps in region.</p></li></ul><p style=\"min-height:1.5em\">What You Bring</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">6+ years of quota-carrying B2B SaaS sales experience, with at least 3 years selling into enterprise accounts in EMEA.</p></li><li><p style=\"min-height:1.5em\">Demonstrable track record of consistently hitting or exceeding $1M+ annual quotas, including multiple six- or seven-figure ACV wins.</p></li><li><p style=\"min-height:1.5em\">Experience selling a technical product to security, IT, or engineering buyers. Cybersecurity, observability, data infrastructure, DevOps tooling, or AI/ML platforms preferred.</p></li><li><p style=\"min-height:1.5em\">Fluency in English plus at least one additional European language (German, French, Dutch, or a Nordic language) strongly preferred.</p></li><li><p style=\"min-height:1.5em\">Comfort operating in ambiguity: you have been an early hire, a founding AE, or the first rep in a new region before.</p></li><li><p style=\"min-height:1.5em\">Structured sales methodology (MEDDPICC, Command of the Message, Challenger, or equivalent) and rigorous CRM hygiene.</p></li><li><p style=\"min-height:1.5em\">Willingness to travel 40â60% across EMEA and occasionally to US HQ.</p></li><li><p style=\"min-height:1.5em\">EU or UK work authorization.</p></li></ul><p style=\"min-height:1.5em\">Nice to Have</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Existing network of CISOs, SecOps leaders, or platform engineering leaders in the UK and DACH markets.</p></li><li><p style=\"min-height:1.5em\">Experience selling AI-native or agentic products, and the ability to educate buyers on a category that is still being defined.</p></li><li><p style=\"min-height:1.5em\">Prior experience standing up a new EMEA region (first 1â3 sales hires) at a US-headquartered startup.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Education &amp; Certifications:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Bachelorâs degree in Computer Science, Cybersecurity, Engineering, or a related field (or equivalent experience).</p></li><li><p style=\"min-height:1.5em\">Relevant certifications such as AWS Certified Solutions Architect, GCP Professional Cloud Engineer, or CISSP are a plus.</p></li></ul><p style=\"min-height:1.5em\">Why Join Us?</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Opportunity to work with cutting-edge AI-driven cybersecurity technologies and Google SecOps solutions.</p></li><li><p style=\"min-height:1.5em\">Collaborate with a talented and innovative team focused on continuously improving security operations.</p></li><li><p style=\"min-height:1.5em\">Competitive salary and benefits package.</p></li><li><p style=\"min-height:1.5em\">A culture of growth and development, with opportunities to expand your knowledge in AI, cybersecurity, and emerging technologies.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://TENEX.AI\"><em><strong>TENEX.AI</strong></em></a><em><strong> is an equal opportunity employer. We welcome applicants from all backgrounds and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, disability, or veteran status.</strong></em></p><br/><br/>Please mention the word **INFLUENTIAL** and tag ROjox when applying to show you read the job post completely (#ROjox). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-    "vikas_score": 60,
-    "diksha_score": 68,
+    "posted_date": "2026-11-02",
+    "suggested_profile": "vikas",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Director).",
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": []
+    },
+    "diksha_score": 0,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field.",
+        "A stretch: the title is a step or two above Deputy Manager."
+      ]
+    },
     "status": "new",
-    "scanned_date": "2026-05-17"
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "li_be1f7b7368",
+    "title": "Director, Security",
+    "company": "BOLD",
+    "location": "Noida, Uttar Pradesh, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/director-security-at-bold-4479854178?position=1&pageNum=0&refId=41dZm5HwwkRk71t7C0gxxQ%3D%3D&trackingId=Pc9BBkVUYr3HlK%2Bm8s83xA%3D%3D",
+    "description": "Director, Security at BOLD — Noida, Uttar Pradesh, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-05",
+    "suggested_profile": "vikas",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Director).",
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": []
+    },
+    "diksha_score": 0,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field.",
+        "A stretch: the title is a step or two above Deputy Manager."
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_m365-security-presales-consultant-schnell-technocraft-mvw747",
+    "title": "M365 Security Presales Consultant",
+    "company": "Schnell Technocraft",
+    "location": "Noida",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-28",
+    "url": "https://www.naukri.com/job-listings-m365-security-presales-consultant-schnell-technocraft-noida-4-to-9-years-281026501993?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "naukri",
+    "description": "We are looking for a seasoned M365 Security Consultant who brings together the best pre-sales acumen and hands-on implementation depth. You will work at the intersection of customer engagement and technical delivery - owning the full arc from Envisioning workshops and solution shaping to design, deployment, and post-go-live support across Microsofts security and compliance portfolio.\nThis is a high-visibility, customer-facing role suited for someone who is equally comfortable presenting a Secure Score roadmap to a CISO and troubleshooting a Conditional Access policy in the tenant.\nKey responsibilities\nPresales & Customer Engagement\n\n* Lead end-to-end presales engagements for Microsoft 365 Security and Compliance solutions, including responding to RFPs, preparing proposals, and crafting solution architectures.\n* Conduct Microsoft Envisioning Workshops and Immersion Briefings to help customers articulate their security strategy and align it to the Microsoft Security platform.\n* Deliver compelling technical presentations, live demonstrations, and proof-of-concept environments tailored to customer pain points.\n* Engage directly with CISOs, IT Directors, and security architects to map business risk to Microsoft security controls across identity, endpoint, data, and cloud.\n* Collaborate with the sales team to qualify opportunities, develop win themes, and support commercial discussions around Microsoft licensing and ECIF/co-sell funding.\n\nTechnical Implementation & Delivery\n\n* Lead",
+    "vikas_score": 65,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: Zero Trust Architecture, DLP, SIEM, SOAR, EDR.",
+        "Based in Delhi NCR (Noida)."
+      ],
+      "red_flags": [
+        "This reads as an individual-contributor role well below 14 years of security leadership."
+      ]
+    },
+    "diksha_score": 42,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Log Analytics, PIM.",
+        "Based in Delhi NCR (Noida)."
+      ],
+      "red_flags": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
   }
 ]
