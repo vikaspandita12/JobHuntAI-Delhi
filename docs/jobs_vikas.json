@@ -1,77 +1,5 @@
 [
   {
-    "job_id": "fh_chief-information-security-officer-consultant-knowledge-arti",
-    "title": "Chief Information Security Officer Consultant",
-    "company": "knowledge Artisan",
-    "location": "Faridabad; Haryana",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-16",
-    "url": "https://www.iimjobs.com/j/chief-information-security-officer-consultant-1740346?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "iimjobs",
-    "description": "*About the Opportunity:*\n\nWe are hiring on behalf of a management and technology advisory firm that provides strategic consulting, governance, risk management, cybersecurity, and business transformation services to organizations. The firm works with clients to strengthen enterprise security, manage technology risks, and establish robust governance and compliance frameworks.\n\nThe organization is seeking a highly experienced Chief Information Security Officer (CISO) Consultant to provide strategic cybersecurity leadership, assess enterprise security maturity, establish security governance frameworks, and guide organizations in protecting their critical information assets.\n\nThis is a senior-level consulting engagement suitable for experienced CISO professionals, independent consultants, cybersecurity advisors, and freelance security leaders who can work on a contractual basis for three days per week.\n\n*Key Responsibilities:*\n\n- Develop and implement enterprise-wide cybersecurity strategies aligned with business objectives.\n\n- Define the organization's information security vision, roadmap, policies, standards, and operating models.\n\n- Conduct cybersecurity maturity assessments and identify gaps in people, processes, and technology.\n\n- Advise senior management, executive leadership, and boards on cyber risks, security investments, and risk mitigation priorities.\n\n- Establish security metrics, KPIs, KRIs, and executive-level security reporting.\n\n- Establish and oversee information ",
-    "vikas_score": 100,
-    "vikas_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title matches a target role: “Chief Information Security Officer”.",
-        "Seniority fits (Chief).",
-        "Posting asks for skills in the profile: DevSecOps, DLP, SIEM, EDR, XDR.",
-        "Based in Delhi NCR (Faridabad; Haryana)."
-      ],
-      "red_flags": []
-    },
-    "diksha_score": 40,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Microsoft Azure, AWS, IAM, Monitoring.",
-        "Based in Delhi NCR (Faridabad; Haryana)."
-      ],
-      "red_flags": [
-        "A stretch: the title is a step or two above Deputy Manager."
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "fh_chief-information-security-officer-cyber-security-knowledge-",
-    "title": "Chief Information Security Officer - Cyber Security",
-    "company": "knowledge Artisan",
-    "location": "Faridabad; Haryana",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-16",
-    "url": "https://www.hirist.tech/j/chief-information-security-officer-cyber-security-1678935?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "hirist",
-    "description": "*About the Opportunity:*\n\nWe are hiring on behalf of a management and technology advisory firm that provides strategic consulting, governance, risk management, cybersecurity, and business transformation services to organizations. The firm works with clients to strengthen enterprise security, manage technology risks, and establish robust governance and compliance frameworks.\n\nThe organization is seeking a highly experienced Chief Information Security Officer (CISO) Consultant to provide strategic cybersecurity leadership, assess enterprise security maturity, establish security governance frameworks, and guide organizations in protecting their critical information assets.\n\nThis is a senior-level consulting engagement suitable for experienced CISO professionals, independent consultants, cybersecurity advisors, and freelance security leaders who can work on a contractual basis for three days per week.\n\n*Key Responsibilities:*\n\n*1. Cybersecurity Strategy and Leadership:*\n\n- Develop and implement enterprise-wide cybersecurity strategies aligned with business objectives.\n\n- Define the organization's information security vision, roadmap, policies, standards, and operating models.\n\n- Conduct cybersecurity maturity assessments and identify gaps in people, processes, and technology.\n\n- Advise senior management, executive leadership, and boards on cyber risks, security investments, and risk mitigation priorities.\n\n- Establish security metrics, KPIs, KRIs, and executive-level security rep",
-    "vikas_score": 100,
-    "vikas_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title matches a target role: “Chief Information Security Officer”.",
-        "Seniority fits (Chief).",
-        "Posting asks for skills in the profile: DevSecOps, DLP, SIEM, EDR, XDR.",
-        "Based in Delhi NCR (Faridabad; Haryana)."
-      ],
-      "red_flags": []
-    },
-    "diksha_score": 32,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Microsoft Azure, AWS, IAM, Monitoring.",
-        "Based in Delhi NCR (Faridabad; Haryana)."
-      ],
-      "red_flags": [
-        "A stretch: the title is a step or two above Deputy Manager."
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
     "job_id": "fh_security-architect-cloud-katiyan-consulting-services-r6qu2lp",
     "title": "Security Architect Cloud",
     "company": "Katiyan Consulting Services",
@@ -90,7 +18,12 @@
         "Posting asks for skills in the profile: SIEM, SOAR, EDR, XDR, Threat Modelling.",
         "Based in Delhi NCR (Delhi / NCR)."
       ],
-      "red_flags": []
+      "red_flags": [],
+      "gaps": [
+        "CISSP",
+        "CISM",
+        "CCSP"
+      ]
     },
     "diksha_score": 74,
     "diksha_fit": {
@@ -117,16 +50,21 @@
     "source": "FreeHire",
     "via": "iimjobs",
     "description": "*Job Opening:* Head - Information Security, GRC & Data Privacy\n\n*Location:* Delhi / Bhopal\n\n*Job Type:* Full-Time, Onsite\n\n*Experience:* 5 - 10 Years\n\n*Industry:* Group of Companies / University\n\n*Job Summary:*\n\nWe are seeking an experienced professional to lead Information Security, Governance, Risk & Compliance (GRC), and Data Privacy across group companies and the university. The role will focus on cybersecurity governance, DPDPA compliance, IT risk management, audits, and implementation of security and privacy frameworks.\n\n*Key Responsibilities:*\n\n- Develop and implement information security policies, governance frameworks, and cyber risk management practices.\n\n- Lead compliance with the Digital Personal Data Protection Act (DPDPA) and applicable privacy regulations.\n\n- Manage IT GRC programs and compliance with ISO 27001, SOC 2, NIST, and other relevant frameworks.\n\n- Oversee internal and external IT audits, risk assessments, vulnerability management, and remediation.\n\n- Conduct third-party/vendor security assessments and monitor cloud and SaaS security.\n\n- Establish data privacy controls, risk registers, and security awareness programs.\n\n- Coordinate with IT teams across group companies and the university to strengthen security and compliance.\n\n*Eligibility Criteria:*\n\n- 5 - 10 years of relevant experience in Information Security, Cybersecurity, IT Risk, GRC, or Data Privacy.\n\n- Experience in DPDPA/GDPR compliance, ISO 27001, security audits, and risk management.\n\n- Exp",
-    "vikas_score": 92,
+    "vikas_score": 89,
     "vikas_fit": {
       "band": "Excellent fit",
       "reasons": [
         "Title is in the right field (Security).",
         "Seniority fits (Head).",
-        "Posting asks for skills in the profile: Vulnerability Management, Cloud Security, ISO 27001, NIST, GRC.",
+        "Posting asks for skills in the profile: Vulnerability Management, ISO 27001, NIST, GRC.",
         "Based in Delhi NCR (Delhi; Delhi; Bhopal; MP)."
       ],
-      "red_flags": []
+      "red_flags": [],
+      "gaps": [
+        "SOC 2",
+        "GDPR",
+        "Data Privacy"
+      ]
     },
     "diksha_score": 24,
     "diksha_fit": {
@@ -150,15 +88,16 @@
     "source": "FreeHire",
     "via": "shine",
     "description": "We are seeking a highly skilled Senior Security Architect to join our team in the Delhi-NCR region. The ideal candidate will have extensive experience in designing and implementing security architectures that align with enterprise security goals. As a Senior Security Architect, you will be responsible for developing high-level designs (HLD) and low-level designs (LLD) for security solutions, ensuring that they meet the organization's security requirements and compliance standards. Key Responsibilities: - Design and implement security architectures that protect enterprise systems and data. - Collaborate with cross-functional teams to integrate security into all aspects of the IT infrastructure. - Conduct risk assessments and security audits to identify vulnerabilities and recommend mitigation strategies. - Develop and maintain security policies, standards, and procedures. - Stay updated on the latest security trends, threats, and technologies to ensure the organization remains secure. - Provide guidance and mentorship to junior security staff and other stakeholders on security best practices. Required Skills: - Proven experience in security architecture and enterprise security. - Strong knowledge of cybersecurity principles and practices. - Proficiency in developing high-level and low-level security designs. - Familiarity with security information and event management (SIEM) and security orchestration, automation, and response (SOAR) solutions. - Experience with network securi",
-    "vikas_score": 91,
+    "vikas_score": 85,
     "vikas_fit": {
       "band": "Excellent fit",
       "reasons": [
         "Title matches a target role: “Security Architect”.",
-        "Posting asks for skills in the profile: SIEM, SOAR, Security Architecture, TOGAF, SABSA.",
+        "Posting asks for skills in the profile: SIEM, SOAR, Security Architecture.",
         "Based in Delhi NCR (Delhi, Delhi-NCR Region)."
       ],
-      "red_flags": []
+      "red_flags": [],
+      "gaps": []
     },
     "diksha_score": 44,
     "diksha_fit": {
@@ -174,37 +113,72 @@
     "scanned_date": "2026-11-09"
   },
   {
-    "job_id": "fh_manager-global-it-security-operations-lonza-z63qf5iv",
-    "title": "Manager, Global IT Security Operations",
-    "company": "Lonza",
-    "location": "IN - Gurugram",
+    "job_id": "fh_chief-information-security-officer-cyber-security-knowledge-",
+    "title": "Chief Information Security Officer - Cyber Security",
+    "company": "knowledge Artisan",
+    "location": "Faridabad; Haryana",
     "salary": "Not disclosed",
-    "posted_date": "2026-10-30",
-    "url": "https://lonza.wd3.myworkdayjobs.com/Lonza_Careers/job/IN---Gurugram/Manager--Global-IT-Security-Operations_R80254?utm_source=freehire.me",
+    "posted_date": "2026-10-16",
+    "url": "https://www.hirist.tech/j/chief-information-security-officer-cyber-security-1678935?utm_source=freehire.me",
     "source": "FreeHire",
-    "via": "workday",
-    "description": "*Position* - Manager, Global IT Security Operations\n\n*Location* - Gurugram (Hybrid)\n\nThe Manager, Global IT Security Risk Management is responsible for leading the operational management and continuous improvement of Lonza's information security risk management program. This role ensures cybersecurity and technology risks are identified, assessed, documented, monitored, and managed in alignment with business objectives, regulatory requirements, and organizational risk appetite.\n\nReporting to the Global Head of IT Security & Compliance, the incumbent will partner with business leaders, IT teams, procurement, legal, quality, compliance, audit functions, customers, and external providers to strengthen security governance, enhance risk visibility, and drive a consistent enterprise-wide approach to cybersecurity risk management.\n\nSuccess in this role is demonstrated through improved risk governance, strengthened compliance posture, reduction of unmanaged risk exposure, and delivery of meaningful insights that enable informed business decision-making.\n\n*What you will get:*\n\n* An agile career and dynamic working culture.\n* An inclusive and ethical workplace.\n* Compensation programs that recognize high performance.\n* A variety of benefits dependent on role and location.\n\n*What You’ll Do*\n\n*Information Security Risk Management*\n\n* Lead and continuously improve the IT security risk management program.\n* Conduct risk assessments, maintain the security risk register, and drive mitigation",
-    "vikas_score": 89,
+    "via": "hirist",
+    "description": "*About the Opportunity:*\n\nWe are hiring on behalf of a management and technology advisory firm that provides strategic consulting, governance, risk management, cybersecurity, and business transformation services to organizations. The firm works with clients to strengthen enterprise security, manage technology risks, and establish robust governance and compliance frameworks.\n\nThe organization is seeking a highly experienced Chief Information Security Officer (CISO) Consultant to provide strategic cybersecurity leadership, assess enterprise security maturity, establish security governance frameworks, and guide organizations in protecting their critical information assets.\n\nThis is a senior-level consulting engagement suitable for experienced CISO professionals, independent consultants, cybersecurity advisors, and freelance security leaders who can work on a contractual basis for three days per week.\n\n*Key Responsibilities:*\n\n*1. Cybersecurity Strategy and Leadership:*\n\n- Develop and implement enterprise-wide cybersecurity strategies aligned with business objectives.\n\n- Define the organization's information security vision, roadmap, policies, standards, and operating models.\n\n- Conduct cybersecurity maturity assessments and identify gaps in people, processes, and technology.\n\n- Advise senior management, executive leadership, and boards on cyber risks, security investments, and risk mitigation priorities.\n\n- Establish security metrics, KPIs, KRIs, and executive-level security rep",
+    "vikas_score": 83,
     "vikas_fit": {
-      "band": "Excellent fit",
+      "band": "Good fit",
       "reasons": [
-        "Title is in the right field (Security).",
-        "Seniority fits (Global).",
-        "Posting asks for skills in the profile: DLP, ISO 27001, NIST, PAM.",
-        "Based in Delhi NCR (IN - Gurugram)."
+        "Title matches a target role: “Chief Information Security Officer”.",
+        "Seniority fits (Chief).",
+        "Based in Delhi NCR (Faridabad; Haryana)."
       ],
-      "red_flags": []
+      "red_flags": [],
+      "gaps": []
     },
-    "diksha_score": 28,
+    "diksha_score": 32,
     "diksha_fit": {
       "band": "Poor fit",
       "reasons": [
-        "Seniority fits (Manager).",
-        "Posting asks for skills in the profile: Agile.",
-        "Based in Delhi NCR (IN - Gurugram)."
+        "Posting asks for skills in the profile: Microsoft Azure, AWS, IAM, Monitoring.",
+        "Based in Delhi NCR (Faridabad; Haryana)."
       ],
       "red_flags": [
-        "The posting isn't about this field."
+        "A stretch: the title is a step or two above Deputy Manager."
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_chief-information-security-officer-consultant-knowledge-arti",
+    "title": "Chief Information Security Officer Consultant",
+    "company": "knowledge Artisan",
+    "location": "Faridabad; Haryana",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-16",
+    "url": "https://www.iimjobs.com/j/chief-information-security-officer-consultant-1740346?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "iimjobs",
+    "description": "*About the Opportunity:*\n\nWe are hiring on behalf of a management and technology advisory firm that provides strategic consulting, governance, risk management, cybersecurity, and business transformation services to organizations. The firm works with clients to strengthen enterprise security, manage technology risks, and establish robust governance and compliance frameworks.\n\nThe organization is seeking a highly experienced Chief Information Security Officer (CISO) Consultant to provide strategic cybersecurity leadership, assess enterprise security maturity, establish security governance frameworks, and guide organizations in protecting their critical information assets.\n\nThis is a senior-level consulting engagement suitable for experienced CISO professionals, independent consultants, cybersecurity advisors, and freelance security leaders who can work on a contractual basis for three days per week.\n\n*Key Responsibilities:*\n\n- Develop and implement enterprise-wide cybersecurity strategies aligned with business objectives.\n\n- Define the organization's information security vision, roadmap, policies, standards, and operating models.\n\n- Conduct cybersecurity maturity assessments and identify gaps in people, processes, and technology.\n\n- Advise senior management, executive leadership, and boards on cyber risks, security investments, and risk mitigation priorities.\n\n- Establish security metrics, KPIs, KRIs, and executive-level security reporting.\n\n- Establish and oversee information ",
+    "vikas_score": 81,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Chief Information Security Officer”.",
+        "Seniority fits (Chief).",
+        "Based in Delhi NCR (Faridabad; Haryana)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 40,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Microsoft Azure, AWS, IAM, Monitoring.",
+        "Based in Delhi NCR (Faridabad; Haryana)."
+      ],
+      "red_flags": [
+        "A stretch: the title is a step or two above Deputy Manager."
       ]
     },
     "status": "new",
@@ -229,7 +203,8 @@
         "Posting asks for skills in the profile: DLP, SIEM, EDR, XDR, Incident Response.",
         "Based in Delhi NCR (Noida, Uttar Pradesh)."
       ],
-      "red_flags": []
+      "red_flags": [],
+      "gaps": []
     },
     "diksha_score": 47,
     "diksha_fit": {
@@ -238,40 +213,6 @@
         "Seniority fits (Manager).",
         "Posting asks for skills in the profile: IAM, Monitoring.",
         "Based in Delhi NCR (Noida, Uttar Pradesh)."
-      ],
-      "red_flags": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "fh_senior-siem-engineer-information-security-incedo-technology-",
-    "title": "Senior SIEM Engineer - Information Security",
-    "company": "Incedo Technology Solutions Ltd.",
-    "location": "Gurgaon/Gurugram",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-29",
-    "url": "https://www.hirist.tech/j/senior-siem-engineer-information-security-1681084?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "hirist",
-    "description": "*Role Overview :*\n\nWe are looking for a Senior SIEM Engineer with strong hands-on experience in SIEM platform administration, log integration, parsing, detection engineering, and performance optimization within an enterprise SOC/MSSP environment.\n\n*Key Responsibilities :*\n\n- Administer, maintain, and optimize enterprise SIEM platforms.\n\n- Onboard log sources and develop custom parsers, field extraction, and log normalization.\n\n- Develop, tune, and optimize correlation rules, detection use cases, and threat-hunting queries aligned with MITRE ATT&CK.\n\n- Create searches, dashboards, and reports while reducing false positives.\n\n- Monitor SIEM health, event processing, indexing, storage, and system performance.\n\n- Troubleshoot production issues, support upgrades, patching, and critical incidents.\n\n- Integrate security logs from firewalls, IDS/IPS, EDR, Windows/Linux, cloud, applications, and identity platforms.\n\n- Ensure log collection using Syslog, CEF, LEEF, JSON, XML, and custom formats.\n\n- Support automation, SOAR integrations, documentation, and continuous service improvement.\n\n*Required Technical Skills:*\n\n- SIEM Engineering: Platform administration, log onboarding, parsing, normalization, event correlation, and troubleshooting.\n\n- Detection Engineering: Correlation rules, use-case development, rule tuning, threat hunting, and MITRE ATT&CK.\n\n- Platform Management: Health monitoring, performance optimization, indexing, storage, upgrades, and capacity planning.\n\n- Security Tec",
-    "vikas_score": 80,
-    "vikas_fit": {
-      "band": "Good fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: SIEM, SOAR, EDR, MITRE ATT&CK, Cloud Security.",
-        "Based in Delhi NCR (Gurgaon/Gurugram)."
-      ],
-      "red_flags": []
-    },
-    "diksha_score": 65,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: AWS, PowerShell, Scripting, Automation, Storage.",
-        "Based in Delhi NCR (Gurgaon/Gurugram)."
       ],
       "red_flags": []
     },
@@ -300,8 +241,269 @@
         "Posting asks for skills in the profile: Vulnerability Management, Security Architecture.",
         "Remote: workable from Delhi."
       ],
-      "red_flags": []
+      "red_flags": [],
+      "gaps": [
+        "SOC 2",
+        "HIPAA"
+      ]
     }
+  },
+  {
+    "job_id": "fh_manager-global-it-security-operations-lonza-z63qf5iv",
+    "title": "Manager, Global IT Security Operations",
+    "company": "Lonza",
+    "location": "IN - Gurugram",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-30",
+    "url": "https://lonza.wd3.myworkdayjobs.com/Lonza_Careers/job/IN---Gurugram/Manager--Global-IT-Security-Operations_R80254?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "workday",
+    "description": "*Position* - Manager, Global IT Security Operations\n\n*Location* - Gurugram (Hybrid)\n\nThe Manager, Global IT Security Risk Management is responsible for leading the operational management and continuous improvement of Lonza's information security risk management program. This role ensures cybersecurity and technology risks are identified, assessed, documented, monitored, and managed in alignment with business objectives, regulatory requirements, and organizational risk appetite.\n\nReporting to the Global Head of IT Security & Compliance, the incumbent will partner with business leaders, IT teams, procurement, legal, quality, compliance, audit functions, customers, and external providers to strengthen security governance, enhance risk visibility, and drive a consistent enterprise-wide approach to cybersecurity risk management.\n\nSuccess in this role is demonstrated through improved risk governance, strengthened compliance posture, reduction of unmanaged risk exposure, and delivery of meaningful insights that enable informed business decision-making.\n\n*What you will get:*\n\n* An agile career and dynamic working culture.\n* An inclusive and ethical workplace.\n* Compensation programs that recognize high performance.\n* A variety of benefits dependent on role and location.\n\n*What You’ll Do*\n\n*Information Security Risk Management*\n\n* Lead and continuously improve the IT security risk management program.\n* Conduct risk assessments, maintain the security risk register, and drive mitigation",
+    "vikas_score": 73,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Global).",
+        "Based in Delhi NCR (IN - Gurugram)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 28,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Manager).",
+        "Posting asks for skills in the profile: Agile.",
+        "Based in Delhi NCR (IN - Gurugram)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "li_272145ba4c",
+    "title": "Director of Global Security Operations",
+    "company": "MongoDB",
+    "location": "Gurugram, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/director-of-global-security-operations-at-mongodb-4480542077?position=6&pageNum=0&refId=Tx9fH1gFS8tBO6SYXeusCQ%3D%3D&trackingId=Tmz%2FES156%2FfeGigc5XvcsQ%3D%3D",
+    "description": "Director of Global Security Operations at MongoDB — Gurugram, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-07",
+    "suggested_profile": "vikas",
+    "vikas_score": 69,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Director).",
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 0,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field.",
+        "A stretch: the title is a step or two above Deputy Manager."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_senior-siem-engineer-information-security-incedo-technology-",
+    "title": "Senior SIEM Engineer - Information Security",
+    "company": "Incedo Technology Solutions Ltd.",
+    "location": "Gurgaon/Gurugram",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-29",
+    "url": "https://www.hirist.tech/j/senior-siem-engineer-information-security-1681084?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "hirist",
+    "description": "*Role Overview :*\n\nWe are looking for a Senior SIEM Engineer with strong hands-on experience in SIEM platform administration, log integration, parsing, detection engineering, and performance optimization within an enterprise SOC/MSSP environment.\n\n*Key Responsibilities :*\n\n- Administer, maintain, and optimize enterprise SIEM platforms.\n\n- Onboard log sources and develop custom parsers, field extraction, and log normalization.\n\n- Develop, tune, and optimize correlation rules, detection use cases, and threat-hunting queries aligned with MITRE ATT&CK.\n\n- Create searches, dashboards, and reports while reducing false positives.\n\n- Monitor SIEM health, event processing, indexing, storage, and system performance.\n\n- Troubleshoot production issues, support upgrades, patching, and critical incidents.\n\n- Integrate security logs from firewalls, IDS/IPS, EDR, Windows/Linux, cloud, applications, and identity platforms.\n\n- Ensure log collection using Syslog, CEF, LEEF, JSON, XML, and custom formats.\n\n- Support automation, SOAR integrations, documentation, and continuous service improvement.\n\n*Required Technical Skills:*\n\n- SIEM Engineering: Platform administration, log onboarding, parsing, normalization, event correlation, and troubleshooting.\n\n- Detection Engineering: Correlation rules, use-case development, rule tuning, threat hunting, and MITRE ATT&CK.\n\n- Platform Management: Health monitoring, performance optimization, indexing, storage, upgrades, and capacity planning.\n\n- Security Tec",
+    "vikas_score": 68,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: SIEM, SOAR, EDR, MITRE ATT&CK.",
+        "Based in Delhi NCR (Gurgaon/Gurugram)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 65,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: AWS, PowerShell, Scripting, Automation, Storage.",
+        "Based in Delhi NCR (Gurgaon/Gurugram)."
+      ],
+      "red_flags": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_tbo-com-director-business-process-controls-security-travel-b",
+    "title": "TBO.COM - Director - Business Process Controls & Security",
+    "company": "Travel Boutique Online",
+    "location": "Gurgaon/Gurugram",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-02",
+    "url": "https://www.iimjobs.com/j/tbo-com-director-business-process-controls-security-1743400?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "iimjobs",
+    "description": "*Job Description:* Director - Business Process Controls & Security.\n\n*Location:* Epitome Building 5, Tower C, 22nd Floor, DLF Phase 3, Sector 25, DLF Cyber City, Gurgaon.\n\n*Company:* TBO (www.tbo.com).\n\nTBO is a global platform that aims to simplify all buying and selling travel needs of travel partners across the world.\n\nThe proprietary technology platform aims to simplify the demands of the complex world of global travel by seamlessly connecting the highly distributed travel buyers and travel suppliers at scale.\n\nThe TBO journey began in 2006 with a simple goal - to address the evolving needs of travel buyers and suppliers, and what started off as a single product air ticketing company, has today become the leading B2A (Business to Agents) travel portal across the Americas, UK & Europe, Africa, Middle East, India, and Asia Pacific.\n\nToday, TBO's product range from air, hotels, rail, holiday packages, car rentals, transfers, sightseeing, cruise, and cargo.\n\nApart from these products, our proprietary platform relies heavily on AI/ML to offer unique listings and products, meeting specific requirements put forth by customers, thus increasing conversions.\n\nTBO's approach has always been technology-first and we continue to invest on new innovations and new offerings to make travel easy and simple.\n\nTBO's travel APIs are serving large travel ecosystems across the world while the modular architecture of the platform enables new travel products while expanding across new geographies",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Director).",
+        "Based in Delhi NCR (Gurgaon/Gurugram)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 12,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Gurgaon/Gurugram)."
+      ],
+      "red_flags": [
+        "A stretch: the title is a step or two above Deputy Manager."
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "li_01e9535357",
+    "title": "Director, Security",
+    "company": "BOLD",
+    "location": "Noida, Uttar Pradesh, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/director-security-at-bold-4479854178?position=5&pageNum=0&refId=Tx9fH1gFS8tBO6SYXeusCQ%3D%3D&trackingId=vX12sK9c220%2BrX1ncy%2FkpQ%3D%3D",
+    "description": "Director, Security at BOLD — Noida, Uttar Pradesh, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-05",
+    "suggested_profile": "vikas",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Director).",
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 0,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field.",
+        "A stretch: the title is a step or two above Deputy Manager."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "li_725f4d5c75",
+    "title": "Director, Security Delivery",
+    "company": "AHEAD",
+    "location": "Gurugram, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/director-security-delivery-at-ahead-4485468767?position=10&pageNum=0&refId=Tx9fH1gFS8tBO6SYXeusCQ%3D%3D&trackingId=Jfwb6%2BlZPWYcEieX0dLaIA%3D%3D",
+    "description": "Director, Security Delivery at AHEAD — Gurugram, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-02",
+    "suggested_profile": "vikas",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Director).",
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 0,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field.",
+        "A stretch: the title is a step or two above Deputy Manager."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_m365-security-presales-consultant-schnell-technocraft-mvw747",
+    "title": "M365 Security Presales Consultant",
+    "company": "Schnell Technocraft",
+    "location": "Noida",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-28",
+    "url": "https://www.naukri.com/job-listings-m365-security-presales-consultant-schnell-technocraft-noida-4-to-9-years-281026501993?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "naukri",
+    "description": "We are looking for a seasoned M365 Security Consultant who brings together the best pre-sales acumen and hands-on implementation depth. You will work at the intersection of customer engagement and technical delivery - owning the full arc from Envisioning workshops and solution shaping to design, deployment, and post-go-live support across Microsofts security and compliance portfolio.\nThis is a high-visibility, customer-facing role suited for someone who is equally comfortable presenting a Secure Score roadmap to a CISO and troubleshooting a Conditional Access policy in the tenant.\nKey responsibilities\nPresales & Customer Engagement\n\n* Lead end-to-end presales engagements for Microsoft 365 Security and Compliance solutions, including responding to RFPs, preparing proposals, and crafting solution architectures.\n* Conduct Microsoft Envisioning Workshops and Immersion Briefings to help customers articulate their security strategy and align it to the Microsoft Security platform.\n* Deliver compelling technical presentations, live demonstrations, and proof-of-concept environments tailored to customer pain points.\n* Engage directly with CISOs, IT Directors, and security architects to map business risk to Microsoft security controls across identity, endpoint, data, and cloud.\n* Collaborate with the sales team to qualify opportunities, develop win themes, and support commercial discussions around Microsoft licensing and ECIF/co-sell funding.\n\nTechnical Implementation & Delivery\n\n* Lead",
+    "vikas_score": 65,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: Zero Trust Architecture, DLP, SIEM, SOAR, EDR.",
+        "Based in Delhi NCR (Noida)."
+      ],
+      "red_flags": [
+        "This reads as an individual-contributor role well below 14 years of security leadership."
+      ],
+      "gaps": [
+        "Zscaler"
+      ]
+    },
+    "diksha_score": 42,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Log Analytics, PIM.",
+        "Based in Delhi NCR (Noida)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
   },
   {
     "job_id": "fh_devsecops-sre-lead-national-e-governance-division-negd-digit",
@@ -314,15 +516,18 @@
     "source": "FreeHire",
     "via": "naukri",
     "description": "*Educational Qualification*\n\n* B.Tech./B.E. in Computer Science, Information Technology, or related engineering discipline (Must have)\n* M.Tech./M.S. in Computer Science, Information Technology, or related field desirable\n* Certifications in DevOps, SRE, or Cloud Infrastructure (AWS, Azure, GCP, or Kubernetes CKA/CKS) preferred\n* ITIL or equivalent service management certification desirable\n\n*Experience*\n\n* 8+ years in infrastructure engineering, DevOps, or Site Reliability Engineering, with minimum 3 years in a lead or architect role\n* Demonstrated experience running production infrastructure for high-availability platforms at scale\n* Prior experience with government-hosted infrastructure (NIC, MeghRaj) or MeitY-empanelled CSPs preferred\n* Experience with on-premise, hybrid, and sovereign-cloud deployment models\n\n*Key Responsibilities*\n\n* Own the platform infrastructure strategy for the AI capability programme across all six pods, covering CI/CD, environment provisioning, secrets management, observability, and reliability engineering\n* Design and maintain multi-environment infrastructure (development, staging, production) with appropriate isolation, promotion gates, and security controls for classified, internal, and public workloads\n* Define infrastructure-as-code standards (Terraform, Ansible, or equivalent) and drive their adoption across pods\n* Establish the observability stack metrics, logs, tracing, alerting — covering both AI-model and application layers, in coordinat",
-    "vikas_score": 76,
+    "vikas_score": 64,
     "vikas_fit": {
-      "band": "Good fit",
+      "band": "Possible fit",
       "reasons": [
         "Title is in the right field (DevSecOps).",
-        "Posting asks for skills in the profile: DevSecOps, Incident Response, AWS, Azure, GCP.",
+        "Posting asks for skills in the profile: DevSecOps, AWS, Azure, GCP.",
         "Based in Delhi NCR (Noida; New Delhi; Delhi / NCR)."
       ],
-      "red_flags": []
+      "red_flags": [],
+      "gaps": [
+        "Kubernetes"
+      ]
     },
     "diksha_score": 100,
     "diksha_fit": {
@@ -349,15 +554,19 @@
     "source": "FreeHire",
     "via": "naukri",
     "description": "*Dear Candidates,*\n\nGreetings From Qway Technologies\n\n*Location:* Hybrid/Remote USA (EST/PST Time Zones)\n*Experience:* 5+ Years\n*Reports To:* Head of Technology\n\n*Job Summary*\n\nWe are looking for an experienced *Information Security & Compliance Manager* to lead our information security and compliance program. The role requires strong hands-on expertise in *Microsoft 365 security, SOC 2 Type 2, risk management, incident response, and security compliance*.\n\nThe ideal candidate should be comfortable working with technical teams as well as presenting security and compliance information to clients and enterprise prospects.\n\n*Key Responsibilities*\n\n* Own and continuously harden the *Microsoft 365 security environment* including Entra ID, Conditional Access, PIM, Defender, Purview, and Intune.\n* Manage *DLP, sensitivity labels, retention, external sharing, identity, endpoint, and access controls*.\n* Lead the *SOC 2 Type 2 program* , including controls, evidence collection, audits, testing, and remediation.\n* Manage *vendor risk assessments, security incidents, business continuity, and disaster recovery*.\n* Oversee security controls and risks associated with *AI-enabled platforms and tools*.\n* Lead security questionnaires, client security reviews, due diligence calls, and enterprise security discussions.\n* Develop security awareness, phishing simulation, onboarding, and security training programs.\n* Maintain security policies, procedures, controls, and compliance documentation.\n\n*Ma",
-    "vikas_score": 75,
+    "vikas_score": 60,
     "vikas_fit": {
-      "band": "Good fit",
+      "band": "Possible fit",
       "reasons": [
         "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: DLP, Incident Response, Azure, ISO 27001, PCI DSS.",
+        "Posting asks for skills in the profile: DLP, Incident Response, Vendor Risk.",
         "Remote: workable from Delhi."
       ],
-      "red_flags": []
+      "red_flags": [],
+      "gaps": [
+        "SOC 2",
+        "Business Continuity"
+      ]
     },
     "diksha_score": 43,
     "diksha_fit": {
@@ -366,180 +575,6 @@
         "Seniority fits (Manager).",
         "Posting asks for skills in the profile: Azure AD, IAM, PIM.",
         "Remote: workable from Delhi."
-      ],
-      "red_flags": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "li_77b1dee25c",
-    "title": "Director of Global Security Operations",
-    "company": "MongoDB",
-    "location": "Gurugram, Haryana, India",
-    "source": "LinkedIn",
-    "url": "https://in.linkedin.com/jobs/view/director-of-global-security-operations-at-mongodb-4480542077?position=6&pageNum=0&refId=H3H015TrwJbE%2Bpa6OiSpPQ%3D%3D&trackingId=FUq4%2BfZVLOuXxerNcU14Ag%3D%3D",
-    "description": "Director of Global Security Operations at MongoDB — Gurugram, Haryana, India",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-07",
-    "suggested_profile": "vikas",
-    "vikas_score": 69,
-    "vikas_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Seniority fits (Director).",
-        "Based in Delhi NCR (Gurugram, Haryana, India)."
-      ],
-      "red_flags": []
-    },
-    "diksha_score": 0,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Based in Delhi NCR (Gurugram, Haryana, India)."
-      ],
-      "red_flags": [
-        "The posting isn't about this field.",
-        "A stretch: the title is a step or two above Deputy Manager."
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "fh_tbo-com-director-business-process-controls-security-travel-b",
-    "title": "TBO.COM - Director - Business Process Controls & Security",
-    "company": "Travel Boutique Online",
-    "location": "Gurgaon/Gurugram",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-02",
-    "url": "https://www.iimjobs.com/j/tbo-com-director-business-process-controls-security-1743400?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "iimjobs",
-    "description": "*Job Description:* Director - Business Process Controls & Security.\n\n*Location:* Epitome Building 5, Tower C, 22nd Floor, DLF Phase 3, Sector 25, DLF Cyber City, Gurgaon.\n\n*Company:* TBO (www.tbo.com).\n\nTBO is a global platform that aims to simplify all buying and selling travel needs of travel partners across the world.\n\nThe proprietary technology platform aims to simplify the demands of the complex world of global travel by seamlessly connecting the highly distributed travel buyers and travel suppliers at scale.\n\nThe TBO journey began in 2006 with a simple goal - to address the evolving needs of travel buyers and suppliers, and what started off as a single product air ticketing company, has today become the leading B2A (Business to Agents) travel portal across the Americas, UK & Europe, Africa, Middle East, India, and Asia Pacific.\n\nToday, TBO's product range from air, hotels, rail, holiday packages, car rentals, transfers, sightseeing, cruise, and cargo.\n\nApart from these products, our proprietary platform relies heavily on AI/ML to offer unique listings and products, meeting specific requirements put forth by customers, thus increasing conversions.\n\nTBO's approach has always been technology-first and we continue to invest on new innovations and new offerings to make travel easy and simple.\n\nTBO's travel APIs are serving large travel ecosystems across the world while the modular architecture of the platform enables new travel products while expanding across new geographies",
-    "vikas_score": 67,
-    "vikas_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Seniority fits (Director).",
-        "Based in Delhi NCR (Gurgaon/Gurugram)."
-      ],
-      "red_flags": []
-    },
-    "diksha_score": 12,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Based in Delhi NCR (Gurgaon/Gurugram)."
-      ],
-      "red_flags": [
-        "A stretch: the title is a step or two above Deputy Manager."
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "li_badef919a5",
-    "title": "Director, Security Delivery",
-    "company": "AHEAD",
-    "location": "Gurugram, Haryana, India",
-    "source": "LinkedIn",
-    "url": "https://in.linkedin.com/jobs/view/director-security-delivery-at-ahead-4485468767?position=3&pageNum=0&refId=41dZm5HwwkRk71t7C0gxxQ%3D%3D&trackingId=uNHMLZRye%2Bpussf26XTenw%3D%3D",
-    "description": "Director, Security Delivery at AHEAD — Gurugram, Haryana, India",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-02",
-    "suggested_profile": "vikas",
-    "vikas_score": 67,
-    "vikas_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Seniority fits (Director).",
-        "Based in Delhi NCR (Gurugram, Haryana, India)."
-      ],
-      "red_flags": []
-    },
-    "diksha_score": 0,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Based in Delhi NCR (Gurugram, Haryana, India)."
-      ],
-      "red_flags": [
-        "The posting isn't about this field.",
-        "A stretch: the title is a step or two above Deputy Manager."
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "li_be1f7b7368",
-    "title": "Director, Security",
-    "company": "BOLD",
-    "location": "Noida, Uttar Pradesh, India",
-    "source": "LinkedIn",
-    "url": "https://in.linkedin.com/jobs/view/director-security-at-bold-4479854178?position=1&pageNum=0&refId=41dZm5HwwkRk71t7C0gxxQ%3D%3D&trackingId=Pc9BBkVUYr3HlK%2Bm8s83xA%3D%3D",
-    "description": "Director, Security at BOLD — Noida, Uttar Pradesh, India",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-05",
-    "suggested_profile": "vikas",
-    "vikas_score": 67,
-    "vikas_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Seniority fits (Director).",
-        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
-      ],
-      "red_flags": []
-    },
-    "diksha_score": 0,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
-      ],
-      "red_flags": [
-        "The posting isn't about this field.",
-        "A stretch: the title is a step or two above Deputy Manager."
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "fh_m365-security-presales-consultant-schnell-technocraft-mvw747",
-    "title": "M365 Security Presales Consultant",
-    "company": "Schnell Technocraft",
-    "location": "Noida",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-28",
-    "url": "https://www.naukri.com/job-listings-m365-security-presales-consultant-schnell-technocraft-noida-4-to-9-years-281026501993?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "naukri",
-    "description": "We are looking for a seasoned M365 Security Consultant who brings together the best pre-sales acumen and hands-on implementation depth. You will work at the intersection of customer engagement and technical delivery - owning the full arc from Envisioning workshops and solution shaping to design, deployment, and post-go-live support across Microsofts security and compliance portfolio.\nThis is a high-visibility, customer-facing role suited for someone who is equally comfortable presenting a Secure Score roadmap to a CISO and troubleshooting a Conditional Access policy in the tenant.\nKey responsibilities\nPresales & Customer Engagement\n\n* Lead end-to-end presales engagements for Microsoft 365 Security and Compliance solutions, including responding to RFPs, preparing proposals, and crafting solution architectures.\n* Conduct Microsoft Envisioning Workshops and Immersion Briefings to help customers articulate their security strategy and align it to the Microsoft Security platform.\n* Deliver compelling technical presentations, live demonstrations, and proof-of-concept environments tailored to customer pain points.\n* Engage directly with CISOs, IT Directors, and security architects to map business risk to Microsoft security controls across identity, endpoint, data, and cloud.\n* Collaborate with the sales team to qualify opportunities, develop win themes, and support commercial discussions around Microsoft licensing and ECIF/co-sell funding.\n\nTechnical Implementation & Delivery\n\n* Lead",
-    "vikas_score": 65,
-    "vikas_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: Zero Trust Architecture, DLP, SIEM, SOAR, EDR.",
-        "Based in Delhi NCR (Noida)."
-      ],
-      "red_flags": [
-        "This reads as an individual-contributor role well below 14 years of security leadership."
-      ]
-    },
-    "diksha_score": 42,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Log Analytics, PIM.",
-        "Based in Delhi NCR (Noida)."
       ],
       "red_flags": []
     },
