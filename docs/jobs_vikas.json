@@ -78,84 +78,6 @@
     "scanned_date": "2026-11-09"
   },
   {
-    "job_id": "hml_https://himalayas.app/companies/canonical/jobs/head-of-security-operations",
-    "title": "Head of Security Operations",
-    "company": "Canonical",
-    "location": "Remote (Worldwide)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-09-19",
-    "url": "https://himalayas.app/companies/canonical/jobs/head-of-security-operations?utm_source=api",
-    "source": "Himalayas",
-    "description": "This global leadership role in cyber security is to manage the Security Operations (SecOps) team responsible for design, implementation and evolution of  Canonical  security practices, techniques, tools, systems and policies. The team is the primary owner of strategy and practices that determine how  Canonical  secures its data, internal infrastructure and build processes. They are responsible for assuring the security and integrity of our own infrastructure and product deployments. They design and implement technical security controls that ensure security threats are automatically identified, contained and remediated. The team will also contribute ideas and requirements for  Canonical  product security, improving the resilience and robustness of all Ubuntu customers and users subject to cyber attack.  As a leader on cyber security in the company, the SecOps team manager will collaborate with our Organisational Learning and Development team to develop playbooks and facilitate SecOps training across  Canonical . They will operate in a wider security organisation, run a high performing security team and improve  Canonical 's security posture. They will lead initiatives to integrate the team's insights into  Canonical 's broader software development process.  While this is a management position, we expect managers to be expert practitioners, able to lead by example, contribute at the highest level, and assess work based on their own professional experience and skill. Candidates ",
-    "vikas_score": 87,
-    "vikas_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Seniority fits (Head).",
-        "Posting asks for skills in the profile: Incident Response, Threat Modelling, ISO 27001, NIST, Security Architecture.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "NIST CSF"
-      ]
-    },
-    "diksha_score": 17,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Agile, Ubuntu.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "A stretch: the title is a step or two above Deputy Manager."
-      ],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "hml_https://himalayas.app/companies/one-identity/jobs/principal-security-engineer-cloud-and-infrastructure-security",
-    "title": "Principal Security Engineer Cloud and Infrastructure Security",
-    "company": "One Identity",
-    "location": "Remote (India)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-07",
-    "url": "https://himalayas.app/companies/one-identity/jobs/principal-security-engineer-cloud-and-infrastructure-security?utm_source=api",
-    "source": "Himalayas",
-    "description": "Overview   Principal Security Engineer Cloud and Infrastructure Security     One Identity  · Information Security, Attack Surface   Principal individual contributor · India · Reports to the Director of Information Security  Why this role exists  The architecture set in this role decides which certifications  One Identity  can hold and which markets we can sell into. That is unusual commercial weight for an engineering seat, and it comes with a mandate from leadership to build the program behind it.  We sell on-premises and hosted solutions. Some products run as hosted services we operate in Azure and AWS. Others ship as software customers deploy in their own datacenters. Infrastructure security here has two audiences: the environments we run, and the base images, container definitions, and deployment defaults we publish, which become part of every customer's environment. A hardening decision made once is inherited by everyone who deploys it.  We're separating from Quest Software and building an independent security function. The team is lean and globally distributed, and this role is its senior technical voice. Scope comes from what you design and automate, and from what engineering chooses to adopt.  What you'll do  Shape the architecture  \n Own security architecture across Azure and AWS: tenant, subscription and account design, network segmentation and traffic control, private connectivity, egress policy, workload isolation. Where a regulated market or a certification const",
-    "vikas_score": 87,
-    "vikas_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Seniority fits (Principal).",
-        "Posting asks for skills in the profile: Cloud Security, AWS, Azure, ISO 27001, Security Architecture.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "SOC 2",
-        "Kubernetes"
-      ]
-    },
-    "diksha_score": 73,
-    "diksha_fit": {
-      "band": "Good fit",
-      "reasons": [
-        "Title is in the right field (Cloud).",
-        "Posting asks for skills in the profile: AWS, Cloud Migration, Automation, Virtual Machines, Kubernetes.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
     "job_id": "fh_senior-security-architect-talent-destination-private-limited",
     "title": "Senior Security Architect",
     "company": "Talent Destination private Limited",
@@ -191,43 +113,6 @@
     "scanned_date": "2026-11-09"
   },
   {
-    "job_id": "hml_https://himalayas.app/companies/vrinda-international/jobs/security-architect",
-    "title": "SECURITY ARCHITECT",
-    "company": "Vrinda International",
-    "location": "Remote (India)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-15",
-    "url": "https://himalayas.app/companies/vrinda-international/jobs/security-architect?utm_source=api",
-    "source": "Himalayas",
-    "description": "Security Architect \n    Summary \n   We are seeking a seasoned Security Architect to lead the design and implementation of robust security frameworks within our IT Services division. This pivotal role is responsible for defining the strategic direction of our security posture, ensuring the protection of critical assets through advanced architectural principles. The ideal candidate will bridge the gap between complex business requirements and technical security solutions, driving the adoption of industry best practices in a dynamic, multi-vendor environment. This position demands a deep understanding of modern threat landscapes and the ability to engineer scalable, resilient security infrastructures that support organizational growth and compliance. \n   Responsibilities \n    \n Architect and deploy comprehensive security solutions leveraging the Microsoft Defender Suite and Microsoft Entra ID to enhance identity and access management. \n \n Design and execute multi-vendor security integrations to ensure seamless interoperability across diverse security tools and platforms. \n \n Develop high-level and low-level design documentation (HLD/LLD) to guide engineering teams in the precise implementation of security controls. \n \n Lead greenfield security implementation projects, establishing foundational security architectures from the ground up for new initiatives. \n \n Oversee the engineering and optimization of security architecture components to maintain a proactive defense stance again",
-    "vikas_score": 84,
-    "vikas_fit": {
-      "band": "Good fit",
-      "reasons": [
-        "Title matches a target role: “Security Architect”.",
-        "Posting asks for skills in the profile: Security Architecture, Email Security, Proofpoint, PAM, CyberArk.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "diksha_score": 23,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Seniority fits (ARCHITECT).",
-        "Posting asks for skills in the profile: Monitoring.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
     "job_id": "fh_chief-information-security-officer-cyber-security-knowledge-",
     "title": "Chief Information Security Officer - Cyber Security",
     "company": "knowledge Artisan",
@@ -258,91 +143,6 @@
       ],
       "red_flags": [
         "A stretch: the title is a step or two above Deputy Manager."
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "hml_https://himalayas.app/companies/mashreq/jobs/manager-security-assurance-information-security-group-isg",
-    "title": "Manager-Security Assurance.Information Security Group-ISG",
-    "company": "Mashreq",
-    "location": "Remote (India)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-14",
-    "url": "https://himalayas.app/companies/mashreq/jobs/manager-security-assurance-information-security-group-isg?utm_source=api",
-    "source": "Himalayas",
-    "description": "Job Purpose :  The Manager-Security Assurance role is integral to  Mashreq  Global Services' Information Security Group (ISG). This role is responsible for strengthening the security posture of modern applications, APIs, cloud-native platforms, and AI-powered systems. The successful candidate will integrate security throughout the Software Development Lifecycle (SDLC), securing applications and APIs, implementing DevSecOps practices, and governing the secure adoption of Artificial Intelligence technologies.  \n Key Responsibilities for the Role \n Conduct intrusive penetration testing and vulnerability assessments on Applications and APIs. \n Assess security risks associated with AI-powered applications, LLM integrations, AI agents, and RAG architectures. \n Automate security tasks to ensure continuous integration, continuous delivery (CI/CD) processes are secure and efficient. \n Utilize advanced attack techniques and tools to simulate real-world cyberattacks, assess security gaps, and recommend mitigation actions. \n Design, implement, and maintain secure APIs and application security practices within the development lifecycle, integrating security testing tools at every stage. \n Collaborate with development and operations teams to ensure the incorporation of security controls early in the software development process. \n Perform security audits and code reviews to identify security flaws in the development pipeline. \n Identify and evaluate security risks related to software deplo",
-    "vikas_score": 83,
-    "vikas_fit": {
-      "band": "Good fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Seniority fits (Group).",
-        "Posting asks for skills in the profile: DevSecOps, SAST, DAST, Azure, API Security.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "OSCP",
-        "Kubernetes",
-        "Python"
-      ]
-    },
-    "diksha_score": 60,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Seniority fits (Manager).",
-        "Posting asks for skills in the profile: Scripting, Automation, Kubernetes, Docker, DevOps.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Azure DevOps",
-        "Python"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "hml_https://himalayas.app/companies/rsa-security/jobs/principal-application-security-engineer-i",
-    "title": "Principal Application Security Engineer I",
-    "company": "RSA Security",
-    "location": "Remote (India)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-31",
-    "url": "https://himalayas.app/companies/rsa-security/jobs/principal-application-security-engineer-i?utm_source=api",
-    "source": "Himalayas",
-    "description": "Product Overview  Outseer Fraud Manager is an advanced, omnichannel fraud detection hub that provides risk-based, multi-factor authentication for organizations seeking to protect their consumers from fraud across digital channels. Powered by the AI/ML based Risk Engine, Outseer Fraud Manager is designed to measure the risk associated with a user’s login and post-login activities by evaluating a variety of risk indicators. Using powerful machine learning and fine-grained policy controls, this anti-fraud hub only requires additional assurance, such as out-of-band authentication and transaction signing, for scenarios that are elevated risk and/or violate rules established by an organization. This methodology provides transparent authentication for most of the users, ensuring a frictionless end user experience and high fraud detection rates.  What you’ll achieve:   As a Principal Application Security Engineer, you will drive the development and implementation of advanced security practices, policies, and frameworks to ensure the integrity and confidentiality of our applications. Your deep technical knowledge, combined with your leadership skills, will guide our organization in effectively managing and mitigating application security risks while fostering a culture of security excellence.  Essential Duties  \n Provide principal leadership to the application security program, helping set the strategic direction, goals, and objectives to enhance the overall security posture of our ap",
-    "vikas_score": 83,
-    "vikas_fit": {
-      "band": "Good fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Seniority fits (Principal).",
-        "Posting asks for skills in the profile: Incident Response, Cloud Security, AWS, Azure, GCP.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "CISSP",
-        "Python"
-      ]
-    },
-    "diksha_score": 55,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Posting asks for skills in the profile: AWS, PowerShell, Bash, Scripting, Automation.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "GCP",
-        "Python",
-        "Java"
       ]
     },
     "status": "new",
@@ -420,40 +220,6 @@
     "scanned_date": "2026-11-09"
   },
   {
-    "job_id": "hml_https://himalayas.app/companies/vrinda-international/jobs/security-architect-microsoft-multi-vendor-security",
-    "title": "Security Architect | Microsoft & Multi-Vendor Security",
-    "company": "Vrinda International",
-    "location": "Remote (India)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-12",
-    "url": "https://himalayas.app/companies/vrinda-international/jobs/security-architect-microsoft-multi-vendor-security?utm_source=api",
-    "source": "Himalayas",
-    "description": "Summary \n  We are seeking a seasoned Security Architect to lead the design and implementation of robust security frameworks within the IT Services sector. In this pivotal role, you will leverage over a decade of specialized experience to architect secure, scalable solutions that integrate Microsoft technologies with multi-vendor ecosystems. The position demands a strategic thinker capable of bridging complex technical requirements with business objectives, ensuring the delivery of comprehensive security strategies that protect critical infrastructure while facilitating seamless client engagement and consulting. \n  Responsibilities \n   \n Design and document high-level and low-level security architectures, ensuring alignment with organizational standards and compliance requirements. \n \n Develop and execute security implementation strategies that effectively integrate diverse vendor solutions with Microsoft security ecosystems. \n \n Lead the architectural planning and deployment of Microsoft Intune and Microsoft Defender to enhance endpoint and cloud security posture. \n \n Create detailed technical documentation and architectural blueprints to guide engineering teams and stakeholders. \n \n Serve as a trusted technical advisor to clients, providing expert consultation on security challenges and solution optimization. \n \n Engineer secure integration patterns that unify multi-vendor security tools into a cohesive defense-in-depth framework. \n \n Oversee the translation of business secu",
-    "vikas_score": 80,
-    "vikas_fit": {
-      "band": "Good fit",
-      "reasons": [
-        "Title matches a target role: “Security Architect”.",
-        "Posting asks for skills in the profile: Cloud Security, Microsoft Sentinel, Security Architecture.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "diksha_score": 36,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Seniority fits (Architect).",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
     "job_id": "rok_1131111",
     "title": "Director IT & Security",
     "company": "Octave",
@@ -481,6 +247,42 @@
         "HIPAA"
       ]
     }
+  },
+  {
+    "job_id": "hml_https://himalayas.app/companies/one-identity/jobs/principal-security-engineer-cloud-and-infrastructure-security",
+    "title": "Principal Security Engineer Cloud and Infrastructure Security",
+    "company": "One Identity",
+    "location": "Remote (India)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-07",
+    "url": "https://himalayas.app/companies/one-identity/jobs/principal-security-engineer-cloud-and-infrastructure-security?utm_source=api",
+    "source": "Himalayas",
+    "description": "Overview   Principal Security Engineer Cloud and Infrastructure Security     One Identity  · Information Security, Attack Surface   Principal individual contributor · India · Reports to the Director of Information Security  Why this role exists  The architecture set in this role decides which certifications  One Identity  can hold and which markets we can sell into. That is unusual commercial weight for an engineering seat, and it comes with a mandate from leadership to build the program behind it.  We sell on-premises and hosted solutions. Some products run as hosted services we operate in Azure and AWS. Others ship as software customers deploy in their own datacenters. Infrastructure security here has two audiences: the environments we run, and the base images, container definitions, and deployment defaults we publish, which become part of every customer's environment. A hardening decision made once is inherited by everyone who deploys it.  We're separating from Quest Software and building an independent security function. The team is lean and globally distributed, and this role is its senior technical voice. Scope comes from what you design and automate, and from what engineering chooses to adopt.  What you'll do  Shape the architecture  \n Own security architecture across Azure and AWS: tenant, subscription and account design, network segmentation and traffic control, private connectivity, egress policy, workload isolation. Where a regulated market or a certification const",
+    "vikas_score": 75,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Principal).",
+        "Posting asks for skills in the profile: AWS, Azure, Security Architecture.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 73,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Cloud).",
+        "Posting asks for skills in the profile: AWS, Cloud Migration, Automation, Virtual Machines, Kubernetes.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
   },
   {
     "job_id": "fh_manager-global-it-security-operations-lonza-z63qf5iv",
@@ -557,6 +359,77 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "hml_https://himalayas.app/companies/vrinda-international/jobs/security-architect",
+    "title": "SECURITY ARCHITECT",
+    "company": "Vrinda International",
+    "location": "Remote (India)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-15",
+    "url": "https://himalayas.app/companies/vrinda-international/jobs/security-architect?utm_source=api",
+    "source": "Himalayas",
+    "description": "Security Architect \n    Summary \n   We are seeking a seasoned Security Architect to lead the design and implementation of robust security frameworks within our IT Services division. This pivotal role is responsible for defining the strategic direction of our security posture, ensuring the protection of critical assets through advanced architectural principles. The ideal candidate will bridge the gap between complex business requirements and technical security solutions, driving the adoption of industry best practices in a dynamic, multi-vendor environment. This position demands a deep understanding of modern threat landscapes and the ability to engineer scalable, resilient security infrastructures that support organizational growth and compliance. \n   Responsibilities \n    \n Architect and deploy comprehensive security solutions leveraging the Microsoft Defender Suite and Microsoft Entra ID to enhance identity and access management. \n \n Design and execute multi-vendor security integrations to ensure seamless interoperability across diverse security tools and platforms. \n \n Develop high-level and low-level design documentation (HLD/LLD) to guide engineering teams in the precise implementation of security controls. \n \n Lead greenfield security implementation projects, establishing foundational security architectures from the ground up for new initiatives. \n \n Oversee the engineering and optimization of security architecture components to maintain a proactive defense stance again",
+    "vikas_score": 70,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Security Architect”.",
+        "Posting asks for skills in the profile: Security Architecture.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 23,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (ARCHITECT).",
+        "Posting asks for skills in the profile: Monitoring.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "hml_https://himalayas.app/companies/vrinda-international/jobs/security-architect-microsoft-multi-vendor-security",
+    "title": "Security Architect | Microsoft & Multi-Vendor Security",
+    "company": "Vrinda International",
+    "location": "Remote (India)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-12",
+    "url": "https://himalayas.app/companies/vrinda-international/jobs/security-architect-microsoft-multi-vendor-security?utm_source=api",
+    "source": "Himalayas",
+    "description": "Summary \n  We are seeking a seasoned Security Architect to lead the design and implementation of robust security frameworks within the IT Services sector. In this pivotal role, you will leverage over a decade of specialized experience to architect secure, scalable solutions that integrate Microsoft technologies with multi-vendor ecosystems. The position demands a strategic thinker capable of bridging complex technical requirements with business objectives, ensuring the delivery of comprehensive security strategies that protect critical infrastructure while facilitating seamless client engagement and consulting. \n  Responsibilities \n   \n Design and document high-level and low-level security architectures, ensuring alignment with organizational standards and compliance requirements. \n \n Develop and execute security implementation strategies that effectively integrate diverse vendor solutions with Microsoft security ecosystems. \n \n Lead the architectural planning and deployment of Microsoft Intune and Microsoft Defender to enhance endpoint and cloud security posture. \n \n Create detailed technical documentation and architectural blueprints to guide engineering teams and stakeholders. \n \n Serve as a trusted technical advisor to clients, providing expert consultation on security challenges and solution optimization. \n \n Engineer secure integration patterns that unify multi-vendor security tools into a cohesive defense-in-depth framework. \n \n Oversee the translation of business secu",
+    "vikas_score": 70,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Security Architect”.",
+        "Posting asks for skills in the profile: Cloud Security.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 36,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Architect).",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
     "job_id": "jsp_linkedin_li-4488777210",
     "title": "AVP, AI Security Architect",
     "company": "Synchrony",
@@ -591,6 +464,45 @@
         "The posting isn't about this field."
       ],
       "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "hml_https://himalayas.app/companies/mashreq/jobs/manager-security-assurance-information-security-group-isg",
+    "title": "Manager-Security Assurance.Information Security Group-ISG",
+    "company": "Mashreq",
+    "location": "Remote (India)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-14",
+    "url": "https://himalayas.app/companies/mashreq/jobs/manager-security-assurance-information-security-group-isg?utm_source=api",
+    "source": "Himalayas",
+    "description": "Job Purpose :  The Manager-Security Assurance role is integral to  Mashreq  Global Services' Information Security Group (ISG). This role is responsible for strengthening the security posture of modern applications, APIs, cloud-native platforms, and AI-powered systems. The successful candidate will integrate security throughout the Software Development Lifecycle (SDLC), securing applications and APIs, implementing DevSecOps practices, and governing the secure adoption of Artificial Intelligence technologies.  \n Key Responsibilities for the Role \n Conduct intrusive penetration testing and vulnerability assessments on Applications and APIs. \n Assess security risks associated with AI-powered applications, LLM integrations, AI agents, and RAG architectures. \n Automate security tasks to ensure continuous integration, continuous delivery (CI/CD) processes are secure and efficient. \n Utilize advanced attack techniques and tools to simulate real-world cyberattacks, assess security gaps, and recommend mitigation actions. \n Design, implement, and maintain secure APIs and application security practices within the development lifecycle, integrating security testing tools at every stage. \n Collaborate with development and operations teams to ensure the incorporation of security controls early in the software development process. \n Perform security audits and code reviews to identify security flaws in the development pipeline. \n Identify and evaluate security risks related to software deplo",
+    "vikas_score": 69,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Group).",
+        "Posting asks for skills in the profile: DevSecOps.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 60,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Manager).",
+        "Posting asks for skills in the profile: Scripting, Automation, Kubernetes, Docker, DevOps.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Azure DevOps",
+        "Python"
+      ]
     },
     "status": "new",
     "scanned_date": "2026-11-09"
@@ -777,6 +689,87 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "hml_https://himalayas.app/companies/canonical/jobs/head-of-security-operations",
+    "title": "Head of Security Operations",
+    "company": "Canonical",
+    "location": "Remote (Worldwide)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-09-19",
+    "url": "https://himalayas.app/companies/canonical/jobs/head-of-security-operations?utm_source=api",
+    "source": "Himalayas",
+    "description": "This global leadership role in cyber security is to manage the Security Operations (SecOps) team responsible for design, implementation and evolution of  Canonical  security practices, techniques, tools, systems and policies. The team is the primary owner of strategy and practices that determine how  Canonical  secures its data, internal infrastructure and build processes. They are responsible for assuring the security and integrity of our own infrastructure and product deployments. They design and implement technical security controls that ensure security threats are automatically identified, contained and remediated. The team will also contribute ideas and requirements for  Canonical  product security, improving the resilience and robustness of all Ubuntu customers and users subject to cyber attack.  As a leader on cyber security in the company, the SecOps team manager will collaborate with our Organisational Learning and Development team to develop playbooks and facilitate SecOps training across  Canonical . They will operate in a wider security organisation, run a high performing security team and improve  Canonical 's security posture. They will lead initiatives to integrate the team's insights into  Canonical 's broader software development process.  While this is a management position, we expect managers to be expert practitioners, able to lead by example, contribute at the highest level, and assess work based on their own professional experience and skill. Candidates ",
+    "vikas_score": 66,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Head).",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 17,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Agile, Ubuntu.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [
+        "A stretch: the title is a step or two above Deputy Manager."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_cloud-security-madhya-pradesh-mobileprogramming-lliebv2e",
+    "title": "Cloud Security (Madhya Pradesh)",
+    "company": "Mobileprogramming",
+    "location": "Noida, Uttar Pradesh",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-08",
+    "url": "https://www.shine.com/jobs/cloud-security-madhya-pradesh/mobileprogramming/20038543?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "shine",
+    "description": "Cloud Security (Madhya Pradesh) Company: Mobileprogramming Job Location: Madhya, Uttar Pradesh, India Employment Type: Full-time Experience Required: 3 - 5 years Candidate Skill: Cloud Security, AWS/Azure/GCP, IAM, VPC, SIEM, DevSecOps, Network Security Experience: 35 years City: MP Office Country: India Job Description: We are looking for a Cloud Security Engineer responsible for securing cloud infrastructure, applications, and services. The ideal candidate should have hands-on experience in implementing security best practices across cloud platforms like AWS, Azure, or GCP. Key Responsibilities Design and implement cloud security architecture and best practices Monitor cloud environments for security threats and vulnerabilities Perform risk assessments, security audits, and compliance checks Implement IAM policies, encryption, and network security controls Secure cloud workloads, containers, and APIs Work with DevOps teams to integrate security into CI/CD pipelines Respond to security incidents and conduct root cause analysis Required Skills Experience with AWS / Azure / GCP security services Solid understanding of IAM, VPC, firewalls, and encryption Knowledge of cloud security frameworks (CIS, NIST, ISO 27001) Experience with SIEM tools, vulnerability scanning, and threat detection Familiarity with DevSecOps practices Understanding of networking and system security fundamentals Good to Have Certifications like AWS Certified Security / Azure Security Engineer Experience wit",
+    "vikas_score": 65,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: DevSecOps, SIEM, Cloud Security, AWS, Azure.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh)."
+      ],
+      "red_flags": [
+        "This reads as an individual-contributor role well below 14 years of security leadership."
+      ],
+      "gaps": [
+        "Kubernetes",
+        "Python"
+      ]
+    },
+    "diksha_score": 72,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Cloud).",
+        "Posting asks for skills in the profile: AWS, Bash, Scripting, VPC, IAM.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
+        "Python",
+        "Networking"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
     "job_id": "fh_m365-security-presales-consultant-schnell-technocraft-mvw747",
     "title": "M365 Security Presales Consultant",
     "company": "Schnell Technocraft",
@@ -830,18 +823,13 @@
       "band": "Possible fit",
       "reasons": [
         "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: DevSecOps, CSPM, SIEM, SOAR, EDR.",
+        "Posting asks for skills in the profile: CSPM, SIEM, Incident Response, Cloud Security, AWS.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [
         "This reads as an individual-contributor role well below 14 years of security leadership."
       ],
-      "gaps": [
-        "CISSP",
-        "CCSP",
-        "SOC 2",
-        "Python"
-      ]
+      "gaps": []
     },
     "diksha_score": 75,
     "diksha_fit": {
@@ -964,15 +952,13 @@
       "band": "Possible fit",
       "reasons": [
         "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: Zero Trust Architecture, DLP, SOC Operations, SIEM, SOAR.",
+        "Posting asks for skills in the profile: Zero Trust Architecture, SIEM, XDR, Incident Response, Cloud Security.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [
         "This reads as an individual-contributor role well below 14 years of security leadership."
       ],
       "gaps": [
-        "CISSP",
-        "Python",
         "Fortinet",
         "Palo Alto"
       ]
@@ -1030,50 +1016,6 @@
       ],
       "red_flags": [],
       "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "jsp_indeed_in-c2ec633231e1f78e",
-    "title": "SOC/CDC Automation / AI Engineer",
-    "company": "ROHDE & SCHWARZ GmbH & Co. KG",
-    "location": "DL, India (Remote)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-04",
-    "url": "https://www.rohde-schwarz.com/de/karriere/stellenangebote/soc-cdc-automation-ai-engineer_251563-1714050.html",
-    "source": "Indeed",
-    "via": "JobSpy",
-    "apply_email": "",
-    "description": "Kontakt\n\nYour Rohde & Schwarz recruiting team is looking forward to receiving your application.\n\nInfo\n\nStadt/Region\n\nNew Delhi (Indien)\n\nEinstiegslevel\n\nBerufserfahrene\n\nBeschäftigungsart\n\nVollzeit, unbefristet\n\nRef. Nummer\n\n3180\n\nmehr\n\n### **Tasks**\n\n* Design, implement, and maintain AI-assisted automation workflows and playbooks (e.g. for alert enrichment, triage, investigation, response).\n* Drive automation efforts based on the technology that best fits the use case, including using generative AI (agents / LLMs), discriminative machine learning and scripting.\n* Validate AI outputs and ensure human approval for critical security decisions.\n* Integrate SIEM, SOAR, EDR/XDR, threat intelligence, ticketing, and other security tools.\n* Support continuous improvement processes such as detection engineering and rule tuning.\n* Strengthen cybersecurity analysts in the analysis and triage of security events.\n* Collaborate closely with the globally established infrastructure operations teams (e.g. malware defense or vulnerability management).\n* Create internal team documentation (e.g. SOPs, reference standards, architecture (diagrams).\n* Consult in projects and initiatives to assess and mitigate security risks related to AI systems, including prompt injection, data leakage, and misuse.\n* Possibility of working in a shift model in the future.\n\n**Exciting insights into Rohde & Schwarz**\n------------------------------------------\n\nOur colleagues provide insider information about:\n\n* Dail",
-    "vikas_score": 65,
-    "vikas_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (SOC).",
-        "Posting asks for skills in the profile: SIEM, SOAR, EDR, XDR, MITRE ATT&CK.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "This reads as an individual-contributor role well below 14 years of security leadership."
-      ],
-      "gaps": [
-        "CISSP",
-        "Python"
-      ]
-    },
-    "diksha_score": 45,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Scripting, Automation, Docker, CI/CD.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Jenkins",
-        "Python"
-      ]
     },
     "status": "new",
     "scanned_date": "2026-11-09"
@@ -1157,48 +1099,6 @@
     "scanned_date": "2026-11-09"
   },
   {
-    "job_id": "hml_https://himalayas.app/companies/sun-king/jobs/application-security-engineer",
-    "title": "Application Security Engineer",
-    "company": "Sun King",
-    "location": "Remote (India)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-09-10",
-    "url": "https://himalayas.app/companies/sun-king/jobs/application-security-engineer?utm_source=api",
-    "source": "Himalayas",
-    "description": "Job location: Remote  About the role:We are looking for an Application Security Engineer to own the end-to-end security posture of our product platform — spanning mobile applications, REST APIs, microservices, cloud infrastructure, and third-party integrations. In this role, the Application Security Engineer will be involved into the product and engineering lifecycle early, shaping secure design decisions before code is written, and validating them through rigorous assessment. What you will be expected to do \n \n ● Own application security responsibility for assigned business functions by performing threat modeling, architecture reviews, penetration testing, secure coding programs, and vulnerability management. ● Perform manual penetration testing and vulnerability assessments on web applications, APIs, and android mobile applications. ● Perform security reviews for AI‐native products, models, pipelines, and inference services. ● Onboard applications into the SSDLC program and be a security point of contact for the application product. ● Own security incident response for product-layer issues, define remediation plans, and track fixes through to closure. ● Integrate and tune SAST/DAST/IAST/SCA tools in CI/CD, create custom rules where needed and actively triage false positives. ● Review and harden cloud infrastructure — Kubernetes RBAC, pod security, network policies, Istio service mesh, Keycloak/OIDC configurations, and IAM across AWS, DigitalOcean, GCP, and Firebase. ● Commu",
-    "vikas_score": 63,
-    "vikas_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: LLM Security, SAST, DAST, Incident Response, Vulnerability Management.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "This reads as an individual-contributor role well below 14 years of security leadership."
-      ],
-      "gaps": [
-        "Kubernetes",
-        "Python"
-      ]
-    },
-    "diksha_score": 55,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Posting asks for skills in the profile: AWS, Bash, IAM, RBAC, Kubernetes.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "GCP",
-        "Python"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
     "job_id": "hml_https://himalayas.app/companies/xtium/jobs/security-engineer-secure-development",
     "title": "Security Engineer - Secure Development",
     "company": "XTIUM",
@@ -1233,6 +1133,44 @@
       ],
       "red_flags": [],
       "gaps": [
+        "Python",
+        "Java"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "hml_https://himalayas.app/companies/rsa-security/jobs/principal-application-security-engineer-i",
+    "title": "Principal Application Security Engineer I",
+    "company": "RSA Security",
+    "location": "Remote (India)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-31",
+    "url": "https://himalayas.app/companies/rsa-security/jobs/principal-application-security-engineer-i?utm_source=api",
+    "source": "Himalayas",
+    "description": "Product Overview  Outseer Fraud Manager is an advanced, omnichannel fraud detection hub that provides risk-based, multi-factor authentication for organizations seeking to protect their consumers from fraud across digital channels. Powered by the AI/ML based Risk Engine, Outseer Fraud Manager is designed to measure the risk associated with a user’s login and post-login activities by evaluating a variety of risk indicators. Using powerful machine learning and fine-grained policy controls, this anti-fraud hub only requires additional assurance, such as out-of-band authentication and transaction signing, for scenarios that are elevated risk and/or violate rules established by an organization. This methodology provides transparent authentication for most of the users, ensuring a frictionless end user experience and high fraud detection rates.  What you’ll achieve:   As a Principal Application Security Engineer, you will drive the development and implementation of advanced security practices, policies, and frameworks to ensure the integrity and confidentiality of our applications. Your deep technical knowledge, combined with your leadership skills, will guide our organization in effectively managing and mitigating application security risks while fostering a culture of security excellence.  Essential Duties  \n Provide principal leadership to the application security program, helping set the strategic direction, goals, and objectives to enhance the overall security posture of our ap",
+    "vikas_score": 62,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Principal).",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 55,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS, PowerShell, Bash, Scripting, Automation.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
         "Python",
         "Java"
       ]
@@ -1286,6 +1224,47 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "hml_https://himalayas.app/companies/sun-king/jobs/application-security-engineer",
+    "title": "Application Security Engineer",
+    "company": "Sun King",
+    "location": "Remote (India)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-09-10",
+    "url": "https://himalayas.app/companies/sun-king/jobs/application-security-engineer?utm_source=api",
+    "source": "Himalayas",
+    "description": "Job location: Remote  About the role:We are looking for an Application Security Engineer to own the end-to-end security posture of our product platform — spanning mobile applications, REST APIs, microservices, cloud infrastructure, and third-party integrations. In this role, the Application Security Engineer will be involved into the product and engineering lifecycle early, shaping secure design decisions before code is written, and validating them through rigorous assessment. What you will be expected to do \n \n ● Own application security responsibility for assigned business functions by performing threat modeling, architecture reviews, penetration testing, secure coding programs, and vulnerability management. ● Perform manual penetration testing and vulnerability assessments on web applications, APIs, and android mobile applications. ● Perform security reviews for AI‐native products, models, pipelines, and inference services. ● Onboard applications into the SSDLC program and be a security point of contact for the application product. ● Own security incident response for product-layer issues, define remediation plans, and track fixes through to closure. ● Integrate and tune SAST/DAST/IAST/SCA tools in CI/CD, create custom rules where needed and actively triage false positives. ● Review and harden cloud infrastructure — Kubernetes RBAC, pod security, network policies, Istio service mesh, Keycloak/OIDC configurations, and IAM across AWS, DigitalOcean, GCP, and Firebase. ● Commu",
+    "vikas_score": 61,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: SAST, DAST, Incident Response, Vulnerability Management, AWS.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [
+        "This reads as an individual-contributor role well below 14 years of security leadership."
+      ],
+      "gaps": [
+        "Kubernetes"
+      ]
+    },
+    "diksha_score": 55,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS, Bash, IAM, RBAC, Kubernetes.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
+        "Python"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
     "job_id": "fh_hiring-for-information-security-compliance-manager-q-way-tec",
     "title": "Hiring For Information Security & Compliance Manager",
     "company": "Q Way Technologies",
@@ -1319,6 +1298,47 @@
         "Remote: workable from Delhi."
       ],
       "red_flags": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "jsp_indeed_in-c2ec633231e1f78e",
+    "title": "SOC/CDC Automation / AI Engineer",
+    "company": "ROHDE & SCHWARZ GmbH & Co. KG",
+    "location": "DL, India (Remote)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-04",
+    "url": "https://www.rohde-schwarz.com/de/karriere/stellenangebote/soc-cdc-automation-ai-engineer_251563-1714050.html",
+    "source": "Indeed",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "Kontakt\n\nYour Rohde & Schwarz recruiting team is looking forward to receiving your application.\n\nInfo\n\nStadt/Region\n\nNew Delhi (Indien)\n\nEinstiegslevel\n\nBerufserfahrene\n\nBeschäftigungsart\n\nVollzeit, unbefristet\n\nRef. Nummer\n\n3180\n\nmehr\n\n### **Tasks**\n\n* Design, implement, and maintain AI-assisted automation workflows and playbooks (e.g. for alert enrichment, triage, investigation, response).\n* Drive automation efforts based on the technology that best fits the use case, including using generative AI (agents / LLMs), discriminative machine learning and scripting.\n* Validate AI outputs and ensure human approval for critical security decisions.\n* Integrate SIEM, SOAR, EDR/XDR, threat intelligence, ticketing, and other security tools.\n* Support continuous improvement processes such as detection engineering and rule tuning.\n* Strengthen cybersecurity analysts in the analysis and triage of security events.\n* Collaborate closely with the globally established infrastructure operations teams (e.g. malware defense or vulnerability management).\n* Create internal team documentation (e.g. SOPs, reference standards, architecture (diagrams).\n* Consult in projects and initiatives to assess and mitigate security risks related to AI systems, including prompt injection, data leakage, and misuse.\n* Possibility of working in a shift model in the future.\n\n**Exciting insights into Rohde & Schwarz**\n------------------------------------------\n\nOur colleagues provide insider information about:\n\n* Dail",
+    "vikas_score": 60,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (SOC).",
+        "Posting asks for skills in the profile: SIEM, SOAR, EDR, XDR, Vulnerability Management.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [
+        "This reads as an individual-contributor role well below 14 years of security leadership."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 45,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Scripting, Automation, Docker, CI/CD.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Jenkins",
+        "Python"
+      ]
     },
     "status": "new",
     "scanned_date": "2026-11-09"
