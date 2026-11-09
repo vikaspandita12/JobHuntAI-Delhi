@@ -73,5 +73,5 @@ Rules: Under 350 words. No clichés ("I am writing to apply", "passionate", "tea
             f"{profile['current_company']} with {profile['years_experience']}+ years of experience. "
             f"I am writing to express my strong interest in the {job.get('title', 'role')} position at {job.get('company', 'your organisation')}.\n\n"
             f"[Add ANTHROPIC_API_KEY to .env to auto-generate a personalised cover letter using Claude AI]\n\n"
-            f"Best regards,\n{profile['name']}\n{profile['email']} | {profile['phone']}"
+            f"Best regards,\n{profile['name']}\n{' | '.join(x for x in (profile['email'], profile['phone']) if x)}"
         )

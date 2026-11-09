@@ -1,7 +1,9 @@
+import os
+
 VIKAS_PROFILE = {
     "name": "Vikas Pandita",
     "email": "vikaspandita1@gmail.com",
-    "phone": "+91-9987641862",
+    "phone": os.getenv("VIKAS_PHONE", ""),  # kept out of the public repo
     "location": "Delhi NCR",
     "linkedin": "https://linkedin.com/in/vikas-p-895a5664",
     "current_role": "Global Head of Security Architecture",

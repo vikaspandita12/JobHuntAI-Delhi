@@ -1,7 +1,9 @@
+import os
+
 DIKSHA_PROFILE = {
     "name": "Diksha Koul",
     "email": "dikshakoul88@gmail.com",
-    "phone": "+91 78899 17884",
+    "phone": os.getenv("DIKSHA_PHONE", ""),  # kept out of the public repo
     "location": "Delhi NCR",
     "linkedin": "https://linkedin.com/in/diksha-koul",
     "current_role": "Deputy Manager — Cloud Engineering",
