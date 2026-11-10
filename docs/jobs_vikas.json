@@ -149,6 +149,43 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "fh_t-t-cyber-d-r-manager-security-architect-delhi-deloitte-b3y5",
+    "title": "T&T | Cyber: D&R | Manager | Security Architect | Delhi",
+    "company": "Deloitte",
+    "location": "Delhi, IN",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-07",
+    "url": "https://southasiacareers.deloitte.com/job/Delhi-T&T-Cyber-D&R-Manager-Security-Architect-Delhi/59524644/?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "successfactors",
+    "description": "*T&T | Cyber: D&R | Manager | Security Architect | Delhi*\n• *Job requisition ID* : 112409\n• *Location* : Delhi\n• *Entity* : Deloitte Touche Tohmatsu India LLP\n\n*The Team*\n\nDeloitte helps organizations prevent cyberattacks and protect valuable assets. We believe in being secure, vigilant, and resilient—not only by looking at how to prevent and respond to attacks, but at how to manage cyber risk in a way that allows you to unleash new opportunities. Embed cyber risk at the start of strategy development for more effective management of information and technology risks. Learn more about ** Cybersecurity\n\n*Your work profile*\n\n* Build and govern the framework, entry criteria, and lifecycle processes for creating technology-specific Minimum Security Baselines.\n* Develop and tailor MSBs using *NIST CSF, NIST SP 800-53/53B, MITRE ATT&CK* , internal standards, and threat-led methodologies.\n* Translate threats and risks into clear, measurable, and technically testable security controls.\n* Collaborate with architects, product owners, and technology teams to review and finalize MSBs.\n* Analyze API and technical documentation to develop, test, and maintain *Rego policies using Open Policy Agent*.\n* Maintain traceability between threats, MSB controls, Rego policies, evidence requirements, and compliance results.\n* Validate non-compliance findings and false positives before raising remediation items in SNAB.\n* Manage MSB adoption, exceptions, remediation governance, dashboards, and project K",
+    "vikas_score": 82,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Security Architect”.",
+        "Posting asks for skills in the profile: MITRE ATT&CK, NIST.",
+        "Based in Delhi NCR (Delhi, IN)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "NIST CSF"
+      ]
+    },
+    "diksha_score": 41,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Manager).",
+        "Based in Delhi NCR (Delhi, IN)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
     "job_id": "fh_chief-information-security-officer-consultant-knowledge-arti",
     "title": "Chief Information Security Officer Consultant",
     "company": "knowledge Artisan",
@@ -356,7 +393,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/vrinda-international/jobs/security-architect",
@@ -467,6 +504,45 @@
     },
     "status": "new",
     "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "jsp_naukri_nk-101126010458",
+    "title": "Cyber Security Manager",
+    "company": "ERM Placement Services",
+    "location": "Delhi / NCR, Pune, Bengaluru, India",
+    "salary": "INR 1,600,000–2,500,000",
+    "posted_date": "2026-11-10",
+    "url": "https://www.naukri.com/job-listings-cyber-security-manager-erm-placement-services-pune-bengaluru-delhi-ncr-7-to-12-years-101126010458",
+    "source": "Naukri",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 70,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Cyber Security Manager”.",
+        "Based in Delhi NCR (Delhi / NCR, Pune, Bengaluru, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 25,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Manager).",
+        "Based in Delhi NCR (Delhi / NCR, Pune, Bengaluru, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/mashreq/jobs/manager-security-assurance-information-security-group-isg",
@@ -746,10 +822,7 @@
       "red_flags": [
         "This reads as an individual-contributor role well below 14 years of security leadership."
       ],
-      "gaps": [
-        "Kubernetes",
-        "Python"
-      ]
+      "gaps": []
     },
     "diksha_score": 72,
     "diksha_fit": {
@@ -765,45 +838,6 @@
         "Python",
         "Networking"
       ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "fh_m365-security-presales-consultant-schnell-technocraft-mvw747",
-    "title": "M365 Security Presales Consultant",
-    "company": "Schnell Technocraft",
-    "location": "Noida",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-28",
-    "url": "https://www.naukri.com/job-listings-m365-security-presales-consultant-schnell-technocraft-noida-4-to-9-years-281026501993?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "naukri",
-    "description": "We are looking for a seasoned M365 Security Consultant who brings together the best pre-sales acumen and hands-on implementation depth. You will work at the intersection of customer engagement and technical delivery - owning the full arc from Envisioning workshops and solution shaping to design, deployment, and post-go-live support across Microsofts security and compliance portfolio.\nThis is a high-visibility, customer-facing role suited for someone who is equally comfortable presenting a Secure Score roadmap to a CISO and troubleshooting a Conditional Access policy in the tenant.\nKey responsibilities\nPresales & Customer Engagement\n\n* Lead end-to-end presales engagements for Microsoft 365 Security and Compliance solutions, including responding to RFPs, preparing proposals, and crafting solution architectures.\n* Conduct Microsoft Envisioning Workshops and Immersion Briefings to help customers articulate their security strategy and align it to the Microsoft Security platform.\n* Deliver compelling technical presentations, live demonstrations, and proof-of-concept environments tailored to customer pain points.\n* Engage directly with CISOs, IT Directors, and security architects to map business risk to Microsoft security controls across identity, endpoint, data, and cloud.\n* Collaborate with the sales team to qualify opportunities, develop win themes, and support commercial discussions around Microsoft licensing and ECIF/co-sell funding.\n\nTechnical Implementation & Delivery\n\n* Lead",
-    "vikas_score": 65,
-    "vikas_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: Zero Trust Architecture, DLP, SIEM, SOAR, EDR.",
-        "Based in Delhi NCR (Noida)."
-      ],
-      "red_flags": [
-        "This reads as an individual-contributor role well below 14 years of security leadership."
-      ],
-      "gaps": [
-        "Zscaler"
-      ]
-    },
-    "diksha_score": 42,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Log Analytics, PIM.",
-        "Based in Delhi NCR (Noida)."
-      ],
-      "red_flags": [],
-      "gaps": []
     },
     "status": "new",
     "scanned_date": "2026-11-09"
@@ -844,94 +878,6 @@
         "GCP",
         "Python",
         "Networking"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "hml_https://himalayas.app/companies/photon-interactive-uk-limited/jobs/security-and-compliance-engineer_offshore",
-    "title": "Security and Compliance Engineer_Offshore",
-    "company": "Photon Interactive UK Limited",
-    "location": "Remote (India)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-25",
-    "url": "https://himalayas.app/companies/photon-interactive-uk-limited/jobs/security-and-compliance-engineer_offshore?utm_source=api",
-    "source": "Himalayas",
-    "description": "About the Role  We're seeking a hands-on and detail-oriented Security and Compliance Engineer to drive security across our applications, infrastructure, and compliance programs-especially in a healthcare environment. This role combines security engineering, DevSecOps, and risk management with a strong focus on application, cloud, AI, and data security.  You will work closely with engineering, DevOps, and compliance teams to embed security into the development lifecycle, support regulatory frameworks, and ensure cloud-native environments and AI technologies are secure by design.  Responsibilities  \n Conduct web and mobile application penetration testing, vulnerability scanning, and remediation support across our platforms. \n Integrate DevSecOps practices into CI/CD pipelines, using tools like Snyk, Terraform, and container security scanners. \n Implement and monitor Cloud Security Posture Management (CSPM) tools such as Wiz to secure cloud configurations and infrastructure. \n Partner with DevOps to enforce secure provisioning via Infrastructure as Code (IaC). \n Lead and support compliance initiatives (HIPAA, SOC 2, HITRUST) using platforms like Drata (Compliance-as-a-Service). \n Design and enhance email gateway security (e.g., Barracuda) and bot protection (e.g., WatchGuard) to defend against phishing and automated threats. \n Evaluate and secure chatbots and AI systems, addressing risks like prompt injection, data leakage, and model integrity. \n Drive data security best practic",
-    "vikas_score": 65,
-    "vikas_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: Zero Trust Architecture, DevSecOps, SAST, DAST, CSPM.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "This reads as an individual-contributor role well below 14 years of security leadership."
-      ],
-      "gaps": [
-        "CISSP",
-        "OSCP",
-        "SOC 2",
-        "HIPAA",
-        "Python"
-      ]
-    },
-    "diksha_score": 47,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Microsoft Azure, Terraform, IaC, Bash, Scripting.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "hml_https://himalayas.app/companies/photon/jobs/security-and-compliance-engineer_offshore",
-    "title": "Security and Compliance Engineer_Offshore",
-    "company": "Photon",
-    "location": "Remote (India)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-03",
-    "url": "https://himalayas.app/companies/photon/jobs/security-and-compliance-engineer_offshore?utm_source=api",
-    "source": "Himalayas",
-    "description": "About the Role  We're seeking a hands-on and detail-oriented Security and Compliance Engineer to drive security across our applications, infrastructure, and compliance programs-especially in a healthcare environment. This role combines security engineering, DevSecOps, and risk management with a strong focus on application, cloud, AI, and data security.  You will work closely with engineering, DevOps, and compliance teams to embed security into the development lifecycle, support regulatory frameworks, and ensure cloud-native environments and AI technologies are secure by design.  Responsibilities  \n Conduct web and mobile application penetration testing, vulnerability scanning, and remediation support across our platforms. \n Integrate DevSecOps practices into CI/CD pipelines, using tools like Snyk, Terraform, and container security scanners. \n Implement and monitor Cloud Security Posture Management (CSPM) tools such as Wiz to secure cloud configurations and infrastructure. \n Partner with DevOps to enforce secure provisioning via Infrastructure as Code (IaC). \n Lead and support compliance initiatives (HIPAA, SOC 2, HITRUST) using platforms like Drata (Compliance-as-a-Service). \n Design and enhance email gateway security (e.g., Barracuda) and bot protection (e.g., WatchGuard) to defend against phishing and automated threats. \n Evaluate and secure chatbots and AI systems, addressing risks like prompt injection, data leakage, and model integrity. \n Drive data security best practic",
-    "vikas_score": 65,
-    "vikas_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: Zero Trust Architecture, DevSecOps, SAST, DAST, CSPM.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "This reads as an individual-contributor role well below 14 years of security leadership."
-      ],
-      "gaps": [
-        "CISSP",
-        "OSCP",
-        "SOC 2",
-        "HIPAA",
-        "Python"
-      ]
-    },
-    "diksha_score": 47,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Microsoft Azure, Terraform, IaC, Bash, Scripting.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python"
       ]
     },
     "status": "new",
@@ -980,6 +926,133 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "fh_m365-security-presales-consultant-schnell-technocraft-mvw747",
+    "title": "M365 Security Presales Consultant",
+    "company": "Schnell Technocraft",
+    "location": "Noida",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-28",
+    "url": "https://www.naukri.com/job-listings-m365-security-presales-consultant-schnell-technocraft-noida-4-to-9-years-281026501993?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "naukri",
+    "description": "We are looking for a seasoned M365 Security Consultant who brings together the best pre-sales acumen and hands-on implementation depth. You will work at the intersection of customer engagement and technical delivery - owning the full arc from Envisioning workshops and solution shaping to design, deployment, and post-go-live support across Microsofts security and compliance portfolio.\nThis is a high-visibility, customer-facing role suited for someone who is equally comfortable presenting a Secure Score roadmap to a CISO and troubleshooting a Conditional Access policy in the tenant.\nKey responsibilities\nPresales & Customer Engagement\n\n* Lead end-to-end presales engagements for Microsoft 365 Security and Compliance solutions, including responding to RFPs, preparing proposals, and crafting solution architectures.\n* Conduct Microsoft Envisioning Workshops and Immersion Briefings to help customers articulate their security strategy and align it to the Microsoft Security platform.\n* Deliver compelling technical presentations, live demonstrations, and proof-of-concept environments tailored to customer pain points.\n* Engage directly with CISOs, IT Directors, and security architects to map business risk to Microsoft security controls across identity, endpoint, data, and cloud.\n* Collaborate with the sales team to qualify opportunities, develop win themes, and support commercial discussions around Microsoft licensing and ECIF/co-sell funding.\n\nTechnical Implementation & Delivery\n\n* Lead",
+    "vikas_score": 65,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: Zero Trust Architecture, DLP, SIEM, SOAR, EDR.",
+        "Based in Delhi NCR (Noida)."
+      ],
+      "red_flags": [
+        "This reads as an individual-contributor role well below 14 years of security leadership."
+      ],
+      "gaps": [
+        "Zscaler"
+      ]
+    },
+    "diksha_score": 42,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Log Analytics, PIM.",
+        "Based in Delhi NCR (Noida)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
+    "job_id": "hml_https://himalayas.app/companies/photon-interactive-uk-limited/jobs/security-and-compliance-engineer_offshore",
+    "title": "Security and Compliance Engineer_Offshore",
+    "company": "Photon Interactive UK Limited",
+    "location": "Remote (India)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-25",
+    "url": "https://himalayas.app/companies/photon-interactive-uk-limited/jobs/security-and-compliance-engineer_offshore?utm_source=api",
+    "source": "Himalayas",
+    "description": "About the Role  We're seeking a hands-on and detail-oriented Security and Compliance Engineer to drive security across our applications, infrastructure, and compliance programs-especially in a healthcare environment. This role combines security engineering, DevSecOps, and risk management with a strong focus on application, cloud, AI, and data security.  You will work closely with engineering, DevOps, and compliance teams to embed security into the development lifecycle, support regulatory frameworks, and ensure cloud-native environments and AI technologies are secure by design.  Responsibilities  \n Conduct web and mobile application penetration testing, vulnerability scanning, and remediation support across our platforms. \n Integrate DevSecOps practices into CI/CD pipelines, using tools like Snyk, Terraform, and container security scanners. \n Implement and monitor Cloud Security Posture Management (CSPM) tools such as Wiz to secure cloud configurations and infrastructure. \n Partner with DevOps to enforce secure provisioning via Infrastructure as Code (IaC). \n Lead and support compliance initiatives (HIPAA, SOC 2, HITRUST) using platforms like Drata (Compliance-as-a-Service). \n Design and enhance email gateway security (e.g., Barracuda) and bot protection (e.g., WatchGuard) to defend against phishing and automated threats. \n Evaluate and secure chatbots and AI systems, addressing risks like prompt injection, data leakage, and model integrity. \n Drive data security best practic",
+    "vikas_score": 65,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: Zero Trust Architecture, DevSecOps, SAST, DAST, CSPM.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [
+        "This reads as an individual-contributor role well below 14 years of security leadership."
+      ],
+      "gaps": [
+        "CISSP",
+        "OSCP",
+        "SOC 2",
+        "HIPAA",
+        "Python"
+      ]
+    },
+    "diksha_score": 47,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Microsoft Azure, Terraform, IaC, Bash, Scripting.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Python"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
+    "job_id": "hml_https://himalayas.app/companies/photon/jobs/security-and-compliance-engineer_offshore",
+    "title": "Security and Compliance Engineer_Offshore",
+    "company": "Photon",
+    "location": "Remote (India)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-03",
+    "url": "https://himalayas.app/companies/photon/jobs/security-and-compliance-engineer_offshore?utm_source=api",
+    "source": "Himalayas",
+    "description": "About the Role  We're seeking a hands-on and detail-oriented Security and Compliance Engineer to drive security across our applications, infrastructure, and compliance programs-especially in a healthcare environment. This role combines security engineering, DevSecOps, and risk management with a strong focus on application, cloud, AI, and data security.  You will work closely with engineering, DevOps, and compliance teams to embed security into the development lifecycle, support regulatory frameworks, and ensure cloud-native environments and AI technologies are secure by design.  Responsibilities  \n Conduct web and mobile application penetration testing, vulnerability scanning, and remediation support across our platforms. \n Integrate DevSecOps practices into CI/CD pipelines, using tools like Snyk, Terraform, and container security scanners. \n Implement and monitor Cloud Security Posture Management (CSPM) tools such as Wiz to secure cloud configurations and infrastructure. \n Partner with DevOps to enforce secure provisioning via Infrastructure as Code (IaC). \n Lead and support compliance initiatives (HIPAA, SOC 2, HITRUST) using platforms like Drata (Compliance-as-a-Service). \n Design and enhance email gateway security (e.g., Barracuda) and bot protection (e.g., WatchGuard) to defend against phishing and automated threats. \n Evaluate and secure chatbots and AI systems, addressing risks like prompt injection, data leakage, and model integrity. \n Drive data security best practic",
+    "vikas_score": 65,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: Zero Trust Architecture, DevSecOps, SAST, DAST, CSPM.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [
+        "This reads as an individual-contributor role well below 14 years of security leadership."
+      ],
+      "gaps": [
+        "CISSP",
+        "OSCP",
+        "SOC 2",
+        "HIPAA",
+        "Python"
+      ]
+    },
+    "diksha_score": 47,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Microsoft Azure, Terraform, IaC, Bash, Scripting.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Python"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
     "job_id": "jsp_indeed_in-0eb21900827934a0",
     "title": "SOC/CDC Incident Responder / Engineer",
     "company": "ROHDE & SCHWARZ GmbH & Co. KG",
@@ -1018,7 +1091,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "jsp_indeed_in-f1b5b6caca246b71",
@@ -1058,7 +1131,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "fh_devsecops-sre-lead-national-e-governance-division-negd-digit",
@@ -1138,7 +1211,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/rsa-security/jobs/principal-application-security-engineer-i",
@@ -1221,7 +1294,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/sun-king/jobs/application-security-engineer",

@@ -1353,6 +1353,47 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "fh_devops-azure-senior-engineer-careers-irissoftware-com-xy2xqq",
+    "title": "Devops Azure - Senior Engineer",
+    "company": "careers.irissoftware.com",
+    "location": "Noida, UP, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-07",
+    "url": "https://careers.irissoftware.com/job/Noida-Devops-Azure-Senior-Engineer-UP/60551844/?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "successfactors",
+    "description": "*Why Join Iris?\n* Are you ready to do the best work of your career at one of *India’s Top 25 Best Workplaces in IT industry* ? Do you want to grow in an award-winning culture that *truly values your talent and ambitions* ?\nJoin Iris Software — one of the *fastest-growing IT services companies* — where *you own and shape your success story*.\n\n*About Us\n* At Iris Software, our vision is to be our client’s most trusted technology partner, and the first choice for the industry’s top professionals to realize their full potential.\nWith over 4,300 associates across India, U.S.A, and Canada, we help our enterprise clients thrive with technology-enabled transformation across financial services, healthcare, transportation & logistics, and professional services.\nOur work covers complex, mission-critical applications with the latest technologies, such as high-value complex Application & Product Engineering, Data & Analytics, Cloud, DevOps, Data & MLOps, Quality Engineering, and Business Automation.\n\n*Working with Us\n* At Iris, every role is more than a job — it’s a launchpad for growth.\nOur Employee Value Proposition, *“Build Your Future. Own Your Journey.”* reflects our belief that people thrive when they have ownership of their career and the right opportunities to shape it.\nWe foster a culture where your potential is valued, your voice matters, and your work creates real impact. With cutting-edge projects, personalized career development, continuous learning and mentorship, we support",
+    "vikas_score": 33,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Azure.",
+        "Based in Delhi NCR (Noida, UP, India)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Kubernetes"
+      ]
+    },
+    "diksha_score": 97,
+    "diksha_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title is in the right field (Devops).",
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: IaC, ARM Templates, PowerShell, Automation, Agile.",
+        "Based in Delhi NCR (Noida, UP, India)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "AKS",
+        "Azure DevOps"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
     "job_id": "fh_senior-devops-engineer-intellics-global-services-private-lim",
     "title": "Senior DevOps Engineer",
     "company": "INTELLICS GLOBAL SERVICES PRIVATE LIMITED",
@@ -1927,6 +1968,42 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "jcy_160788",
+    "title": "Mid-level DevOps Engineer (Remote) - Brazil",
+    "company": "AlphaSights",
+    "location": "Remote (Brazil)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-10",
+    "url": "https://jobicy.com/jobs/160788-mid-level-devops-engineer-remote-brazil",
+    "source": "Jobicy",
+    "description": "The role:  \n  AlphaSights ' Platform Engineers work hard to make sure we’re performant, highly available and resilient to failures. As a DevOps Engineer, you will be responsible for planning, building and maintaining our core AWS infrastructure and our CI/CD pipelines and toolset.  \n We're looking for people who are interested in designing and executing solutions to a very high standard, comfortable working across multiple technologies, and learn quickly when new ones are introduced. We care more about your engineering skill versus your deep knowledge of a particular tool, provider or technology. \n  What you’ll do:  \n \n Create solutions that  enable our engineering teams  to deploy code quickly, reliably and securely \n Ensure the  availability, scalability, performance  and security of our cloud infrastructure \n Diagnose and troubleshoot application and infrastructure related issues  quickly and effectively  \n  Provision cloud resources  based on capacity, computing and security requirements \n Always have  best security practices top of mind , employing zero trust and principle of least privilege across all critical systems and resources \n Work in tandem with development teams to manage and  execute DevOps and Infrastructure initiatives  \n Regularly evaluate and research alternative solutions to  improve internal DevOps processes  \n Continuously evaluate and refine the  monitoring of our critical infrastructure  and applications \n \n  Who you are:  \n \n You probably have  a deg",
+    "vikas_score": 22,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 89,
+    "diksha_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title matches a target role: “DevOps Engineer”.",
+        "Posting asks for skills in the profile: AWS, S3, Monitoring, SRE, DevOps.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "EKS"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
     "job_id": "rok_1131251",
     "title": "Senior Cloud Engineer",
     "company": "DV Trading",
@@ -2199,6 +2276,54 @@
     },
     "status": "new",
     "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "hml_https://himalayas.app/companies/infracloud/jobs/sre-security-engineer",
+    "title": "SRE - Security Engineer",
+    "company": "InfraCloud",
+    "location": "Remote (India)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-09",
+    "url": "https://himalayas.app/companies/infracloud/jobs/sre-security-engineer?utm_source=api",
+    "source": "Himalayas",
+    "description": "What is the job like?  We run large k8s clusters with 1000s of nodes across many regions on cloud & on-prem. Your role within the security team is to deploy, manage security tooling and promote secure practices. You will work with Platform SREs closely to deploy and manage security tools & pipelines platform wide for SDLC, SBOM, SIEM, Runtime security & forensic requirements. Core activities include, \n \n Shaping the scope and expertise for security practices across teams. \n Building security into our infrastructure, tools, services, and processes working with Platform SREs and Application development teams. \n Driving design, implementation, and support of security tooling to meet our compliance requirements. \n Developing policies and procedures that improve overall platform security. \n Security Incident response, remediation and conducting forensics. \n Audit compliance, Automate manual efforts, Build dashboards for tracking CVEs, Vulnerabilities , Internal security events. \n \n \n  Who should apply for this role? \n \n \n B.Tech/M.Tech or Equivalent in Computer Science, Information Technology, or a related field. \n 3+ years of experience in handling services in a large-scale distributed system. \n Deep understanding of network stack (e.g., TCP/IP, routing, network topologies and hardware, SDN, etc.) \n Deep understanding of cloud native systems & security practices. \n Programming / Scripting (Python, Go, Ruby or preferred scripting languages) and automation skills. \n Production expe",
+    "vikas_score": 52,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: DevSecOps, SIEM, Incident Response.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [
+        "This reads as an individual-contributor role well below 14 years of security leadership."
+      ],
+      "gaps": [
+        "Kubernetes",
+        "Python",
+        "Forensics"
+      ]
+    },
+    "diksha_score": 88,
+    "diksha_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title matches a target role: “SRE”.",
+        "Posting asks for skills in the profile: Terraform, Scripting, Automation, Kubernetes, SRE.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Ansible",
+        "Jenkins",
+        "ArgoCD",
+        "Python",
+        "Prometheus",
+        "Grafana"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "rok_1131089",
@@ -4694,6 +4819,42 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "li_92240d0616",
+    "title": "Senior Platform Infrastructure Engineer",
+    "company": "FNZ",
+    "location": "Gurugram, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/senior-platform-infrastructure-engineer-at-fnz-4411557135?position=9&pageNum=0&refId=rJqz9R25bjG8wriqBCIlZA%3D%3D&trackingId=JYkdPFzp66UJ5hGlG0xeJg%3D%3D",
+    "description": "Senior Platform Infrastructure Engineer at FNZ — Gurugram, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-04",
+    "suggested_profile": "diksha",
+    "vikas_score": 18,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 77,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Infrastructure Engineer”.",
+        "Seniority fits (Senior).",
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
     "job_id": "fh_it-infrastructure-manager-vouchagram-india-oajmnjrs",
     "title": "It Infrastructure Manager",
     "company": "Vouchagram India",
@@ -5464,6 +5625,84 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "jsp_linkedin_li-4414020537",
+    "title": "Lead Site Reliability Engineer/ Expert (Palo Alto & Versa SD‑WAN Experience)",
+    "company": "SITA",
+    "location": "Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-09",
+    "url": "https://www.linkedin.com/jobs/view/4414020537",
+    "source": "LinkedIn",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 18,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Delhi, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 75,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Site Reliability Engineer”.",
+        "Seniority fits (Lead).",
+        "Based in Delhi NCR (Delhi, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
+    "job_id": "jsp_linkedin_li-4487933820",
+    "title": "Senior Site Reliability Engineer",
+    "company": "Sezzle",
+    "location": "Delhi, Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-09",
+    "url": "https://www.linkedin.com/jobs/view/4487933820",
+    "source": "LinkedIn",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 18,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Delhi, Delhi, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 75,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Site Reliability Engineer”.",
+        "Seniority fits (Senior).",
+        "Based in Delhi NCR (Delhi, Delhi, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
     "job_id": "li_93fa3f7b63",
     "title": "Cloud & Infrastructure Engineer — Azure",
     "company": "Vylqora Technologies Pvt Ltd",
@@ -5786,49 +6025,40 @@
     "scanned_date": "2026-11-09"
   },
   {
-    "job_id": "fh_cloud-security-madhya-pradesh-mobileprogramming-lliebv2e",
-    "title": "Cloud Security (Madhya Pradesh)",
-    "company": "Mobileprogramming",
-    "location": "Noida, Uttar Pradesh",
+    "job_id": "li_4cb570957b",
+    "title": "DevOps Engineer",
+    "company": "EXL",
+    "location": "Gurugram, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-exl-4486212280?position=10&pageNum=0&refId=rJqz9R25bjG8wriqBCIlZA%3D%3D&trackingId=6bM6KrBCwAiaDCbHVF4Cpw%3D%3D",
+    "description": "DevOps Engineer at EXL — Gurugram, Haryana, India",
     "salary": "Not disclosed",
-    "posted_date": "2026-11-08",
-    "url": "https://www.shine.com/jobs/cloud-security-madhya-pradesh/mobileprogramming/20038543?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "shine",
-    "description": "Cloud Security (Madhya Pradesh) Company: Mobileprogramming Job Location: Madhya, Uttar Pradesh, India Employment Type: Full-time Experience Required: 3 - 5 years Candidate Skill: Cloud Security, AWS/Azure/GCP, IAM, VPC, SIEM, DevSecOps, Network Security Experience: 35 years City: MP Office Country: India Job Description: We are looking for a Cloud Security Engineer responsible for securing cloud infrastructure, applications, and services. The ideal candidate should have hands-on experience in implementing security best practices across cloud platforms like AWS, Azure, or GCP. Key Responsibilities Design and implement cloud security architecture and best practices Monitor cloud environments for security threats and vulnerabilities Perform risk assessments, security audits, and compliance checks Implement IAM policies, encryption, and network security controls Secure cloud workloads, containers, and APIs Work with DevOps teams to integrate security into CI/CD pipelines Respond to security incidents and conduct root cause analysis Required Skills Experience with AWS / Azure / GCP security services Solid understanding of IAM, VPC, firewalls, and encryption Knowledge of cloud security frameworks (CIS, NIST, ISO 27001) Experience with SIEM tools, vulnerability scanning, and threat detection Familiarity with DevSecOps practices Understanding of networking and system security fundamentals Good to Have Certifications like AWS Certified Security / Azure Security Engineer Experience wit",
-    "vikas_score": 65,
+    "posted_date": "2026-11-06",
+    "suggested_profile": "diksha",
+    "vikas_score": 10,
     "vikas_fit": {
-      "band": "Possible fit",
+      "band": "Poor fit",
       "reasons": [
-        "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: DevSecOps, SIEM, Cloud Security, AWS, Azure.",
-        "Based in Delhi NCR (Noida, Uttar Pradesh)."
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
       ],
       "red_flags": [
-        "This reads as an individual-contributor role well below 14 years of security leadership."
+        "The posting isn't about this field."
       ],
-      "gaps": [
-        "Kubernetes",
-        "Python"
-      ]
+      "gaps": []
     },
-    "diksha_score": 72,
+    "diksha_score": 73,
     "diksha_fit": {
       "band": "Good fit",
       "reasons": [
-        "Title is in the right field (Cloud).",
-        "Posting asks for skills in the profile: AWS, Bash, Scripting, VPC, IAM.",
-        "Based in Delhi NCR (Noida, Uttar Pradesh)."
+        "Title matches a target role: “DevOps Engineer”.",
+        "Posting asks for skills in the profile: DevOps.",
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
       ],
       "red_flags": [],
-      "gaps": [
-        "GCP",
-        "Python",
-        "Networking"
-      ]
+      "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "fh_software-development-engineer-build-devops-esri-lzmulhsm",
@@ -5984,6 +6214,43 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "li_7b5c586013",
+    "title": "Lead Software Engineer (AI and DevOps)",
+    "company": "SimCorp",
+    "location": "Noida, Uttar Pradesh, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/lead-software-engineer-ai-and-devops-at-simcorp-4472494773?position=5&pageNum=0&refId=rJqz9R25bjG8wriqBCIlZA%3D%3D&trackingId=JV%2BbC2yYedRsDb%2BQqEPbJw%3D%3D",
+    "description": "Lead Software Engineer (AI and DevOps) at SimCorp — Noida, Uttar Pradesh, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-09",
+    "suggested_profile": "diksha",
+    "vikas_score": 18,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 72,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (DevOps).",
+        "Seniority fits (Lead).",
+        "Posting asks for skills in the profile: DevOps.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
     "job_id": "fh_solution-architect-google-cloud-platform-exl-services-ibe3eh",
     "title": "Solution Architect - Google Cloud Platform",
     "company": "EXL Services",
@@ -6134,6 +6401,50 @@
       ],
       "red_flags": [],
       "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_cloud-security-madhya-pradesh-mobileprogramming-lliebv2e",
+    "title": "Cloud Security (Madhya Pradesh)",
+    "company": "Mobileprogramming",
+    "location": "Noida, Uttar Pradesh",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-08",
+    "url": "https://www.shine.com/jobs/cloud-security-madhya-pradesh/mobileprogramming/20038543?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "shine",
+    "description": "Cloud Security (Madhya Pradesh) Company: Mobileprogramming Job Location: Madhya, Uttar Pradesh, India Employment Type: Full-time Experience Required: 3 - 5 years Candidate Skill: Cloud Security, AWS/Azure/GCP, IAM, VPC, SIEM, DevSecOps, Network Security Experience: 35 years City: MP Office Country: India Job Description: We are looking for a Cloud Security Engineer responsible for securing cloud infrastructure, applications, and services. The ideal candidate should have hands-on experience in implementing security best practices across cloud platforms like AWS, Azure, or GCP. Key Responsibilities Design and implement cloud security architecture and best practices Monitor cloud environments for security threats and vulnerabilities Perform risk assessments, security audits, and compliance checks Implement IAM policies, encryption, and network security controls Secure cloud workloads, containers, and APIs Work with DevOps teams to integrate security into CI/CD pipelines Respond to security incidents and conduct root cause analysis Required Skills Experience with AWS / Azure / GCP security services Solid understanding of IAM, VPC, firewalls, and encryption Knowledge of cloud security frameworks (CIS, NIST, ISO 27001) Experience with SIEM tools, vulnerability scanning, and threat detection Familiarity with DevSecOps practices Understanding of networking and system security fundamentals Good to Have Certifications like AWS Certified Security / Azure Security Engineer Experience wit",
+    "vikas_score": 65,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: DevSecOps, SIEM, Cloud Security, AWS, Azure.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh)."
+      ],
+      "red_flags": [
+        "This reads as an individual-contributor role well below 14 years of security leadership."
+      ],
+      "gaps": [
+        "Kubernetes",
+        "Python"
+      ]
+    },
+    "diksha_score": 70,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Cloud).",
+        "Posting asks for skills in the profile: AWS, VPC, IAM, Containers, DevOps.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
+        "Networking"
+      ]
     },
     "status": "new",
     "scanned_date": "2026-11-09"
@@ -6686,48 +6997,6 @@
     }
   },
   {
-    "job_id": "fh_enterprise-application-modernization-architect-java-azure-bi",
-    "title": "Enterprise Application Modernization Architect Java & Azure_Birlasoft",
-    "company": "Vbeyond Corporation",
-    "location": "Bengaluru; Delhi / NCR",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-23",
-    "url": "https://www.naukri.com/job-listings-enterprise-application-modernization-architect-java-azure-birlasoft-vbeyond-corporation-bengaluru-delhi-ncr-18-to-25-years-231026020396?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "naukri",
-    "description": "Job Title: Enterprise Application Modernization Architect Java & Azure.\n\n*Job Requisition ID:* JR 40094\n*Experience:* 20+ Years\n*Location:* Bangalore / Noida\n*Salary:* Open to Discussion\n*Job Type:* Full-time\n\nJob Summary\n\nWe are looking for an experienced *Enterprise Application Modernization Architect* with deep expertise in Java/J2EE, Microsoft Azure, microservices architecture and enterprise application modernization. The ideal candidate will lead large-scale transformation initiatives, modernizing legacy monolithic applications into scalable, secure and cloud-native solutions.\n\nThe role requires strong architectural leadership, hands-on technical understanding, database modernization expertise and experience working with enterprise clients and cross-functional teams.\n\nKey Responsibilities\n\n* Lead end-to-end application modernization initiatives, transforming legacy Java/J2EE monolithic applications into scalable microservices-based architectures.\n* Define enterprise architecture strategies using Java 8+, Spring Boot, Spring MVC, REST APIs and Domain-Driven Design (DDD).\n* Architect, deploy and optimize scalable, reliable and secure applications on Microsoft Azure.\n* Modernize legacy database components, including Oracle PL/SQL and Pro*C, by migrating to Java or modern technology stacks.\n* Lead database modernization and migration initiatives, particularly Oracle Exadata/ExaCC to PostgreSQL or other cloud-based databases.\n* Design and implement microservices, messaging an",
-    "vikas_score": 38,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: DevSecOps, Azure.",
-        "Based in Delhi NCR (Bengaluru; Delhi / NCR)."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Kubernetes"
-      ]
-    },
-    "diksha_score": 67,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Seniority fits (Architect).",
-        "Posting asks for skills in the profile: Microsoft Azure, Automation, Cost Optimization, Agile, Kubernetes.",
-        "Based in Delhi NCR (Bengaluru; Delhi / NCR)."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Jenkins",
-        "Azure DevOps",
-        "Java",
-        "Kafka"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
     "job_id": "hml_https://himalayas.app/companies/hivex/jobs/devops-148033620",
     "title": "DevOps",
     "company": "Hivex",
@@ -6844,49 +7113,6 @@
       ],
       "red_flags": [],
       "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "hml_https://himalayas.app/companies/pradeepit-consulting-services-pvt-ltd/jobs/devops",
-    "title": "DevOps",
-    "company": "PradeepIT Consulting Services Pvt Ltd",
-    "location": "Remote (Bangladesh, Egypt, Ghana, India, Kenya, Mexico, Nigeria, Pakistan, Turkey)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-01",
-    "url": "https://himalayas.app/companies/pradeepit-consulting-services-pvt-ltd/jobs/devops?utm_source=api",
-    "source": "Himalayas",
-    "description": "This position is within a project with one of the foundational LLM companies. The goal is to assist these foundational LLM companies in enhancing their Large Language Models.  One way we help these companies improve their models is by providing them with high-quality proprietary data. This data serves two main purposes: first, as a basis for fine-tuning their models, and second, as an evaluation set to benchmark the performance of their models or competitor models.  For example, for SFT data generation, you might have to put together or be provided a prompt which contains provided code and questions, you will then provide the model responses and write corresponding script to solve the questions. A collection of 5k-10k such samples could form the dataset for model fine-tuning.  For RLHF data generation, you might have to put together or be provided a prompt by the customer, ask the model questions, and evaluate the outputs generated by two versions of the LLM model. You'd compare these outputs and provide feedback, which is then used to fine-tune the models. Please note that this role does not require you to build LLMs or fine-tune them.  What does day-to-day look like:  \n Design and develop challenging prompts based on provided source code with good coverage of DevOps and Infrastructure technologies \n Implement the verified code that can be executed to verify whether a model's response to the prompt is correct or not \n Conduct evaluations (Evals) to benchmark model performanc",
-    "vikas_score": 25,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Incident Response, AWS.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Kubernetes",
-        "Python"
-      ]
-    },
-    "diksha_score": 67,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (DevOps).",
-        "Posting asks for skills in the profile: AWS, Multi-Cloud, Terraform, Bash, Scripting.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Ansible",
-        "Jenkins",
-        "GitLab",
-        "Python",
-        "Networking"
-      ]
     },
     "status": "new",
     "scanned_date": "2026-11-09"
@@ -7054,6 +7280,168 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "fh_enterprise-application-modernization-architect-java-azure-bi",
+    "title": "Enterprise Application Modernization Architect Java & Azure_Birlasoft",
+    "company": "Vbeyond Corporation",
+    "location": "Bengaluru; Delhi / NCR",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-23",
+    "url": "https://www.naukri.com/job-listings-enterprise-application-modernization-architect-java-azure-birlasoft-vbeyond-corporation-bengaluru-delhi-ncr-18-to-25-years-231026020396?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "naukri",
+    "description": "Job Title: Enterprise Application Modernization Architect Java & Azure.\n\n*Job Requisition ID:* JR 40094\n*Experience:* 20+ Years\n*Location:* Bangalore / Noida\n*Salary:* Open to Discussion\n*Job Type:* Full-time\n\nJob Summary\n\nWe are looking for an experienced *Enterprise Application Modernization Architect* with deep expertise in Java/J2EE, Microsoft Azure, microservices architecture and enterprise application modernization. The ideal candidate will lead large-scale transformation initiatives, modernizing legacy monolithic applications into scalable, secure and cloud-native solutions.\n\nThe role requires strong architectural leadership, hands-on technical understanding, database modernization expertise and experience working with enterprise clients and cross-functional teams.\n\nKey Responsibilities\n\n* Lead end-to-end application modernization initiatives, transforming legacy Java/J2EE monolithic applications into scalable microservices-based architectures.\n* Define enterprise architecture strategies using Java 8+, Spring Boot, Spring MVC, REST APIs and Domain-Driven Design (DDD).\n* Architect, deploy and optimize scalable, reliable and secure applications on Microsoft Azure.\n* Modernize legacy database components, including Oracle PL/SQL and Pro*C, by migrating to Java or modern technology stacks.\n* Lead database modernization and migration initiatives, particularly Oracle Exadata/ExaCC to PostgreSQL or other cloud-based databases.\n* Design and implement microservices, messaging an",
+    "vikas_score": 38,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: DevSecOps, Azure.",
+        "Based in Delhi NCR (Bengaluru; Delhi / NCR)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Kubernetes"
+      ]
+    },
+    "diksha_score": 67,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Architect).",
+        "Posting asks for skills in the profile: Microsoft Azure, Automation, Cost Optimization, Agile, Kubernetes.",
+        "Based in Delhi NCR (Bengaluru; Delhi / NCR)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Jenkins",
+        "Azure DevOps",
+        "Java",
+        "Kafka"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
+    "job_id": "fh_technical-architect-workato-gspann-2rblsj6g",
+    "title": "Technical Architect - Workato",
+    "company": "GSPANN",
+    "location": "Hyderabad; Bengaluru; Delhi / NCR",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-09",
+    "url": "https://www.naukri.com/job-listings-technical-architect-workato-gspann-hyderabad-bengaluru-delhi-ncr-11-to-21-years-091126003555?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "naukri",
+    "description": "*Looking Technical Architect who can join immediate. Should have strong experience in Workato*\n\n*Experience -* 12+ yrs\n\n*Location -* Delhi/NCR, Hyderabad, Pune, Bangalore\n\n*Work Mode -* 5 days from Office\n\n*Responsibilities*\n\n* Design and architect enterprise-grade integration solutions using the Workato platform.\n* Lead end-to-end implementation of Workato recipes, workflows, and reusable integration components.\n* Define integration architecture, best practices, governance, and development standards.\n* Develop scalable integrations using REST, SOAP, GraphQL, Webhooks, and event-driven architectures.\n* Design and implement API-led connectivity patterns across enterprise applications.\n* Integrate cloud and on-premises applications using Workato Agent and Hybrid Connectivity.\n* Collaborate with business stakeholders to gather requirements and translate them into technical solutions.\n* Build reusable connectors, custom SDK connectors, and API integrations where required.\n* Implement data transformation, orchestration, validation, and error-handling mechanisms.\n* Establish monitoring, logging, alerting, and troubleshooting processes for integrations.\n* Ensure solutions meet security, compliance, authentication, and authorization standards (OAuth 2.0, JWT, SAML, API Keys).\n* Optimize integration performance and ensure high availability and scalability.\n* Conduct architecture reviews, code reviews, and mentor development teams.\n* Support production deployments, release management, ",
+    "vikas_score": 39,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS, Azure, GCP.",
+        "Based in Delhi NCR (Hyderabad; Bengaluru; Delhi / NCR)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Kubernetes"
+      ]
+    },
+    "diksha_score": 67,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Architect).",
+        "Posting asks for skills in the profile: AWS, Terraform, IaC, Automation, Agile.",
+        "Based in Delhi NCR (Hyderabad; Bengaluru; Delhi / NCR)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
+        "Jenkins",
+        "Azure DevOps",
+        "Kafka"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
+    "job_id": "hml_https://himalayas.app/companies/pradeepit-consulting-services-pvt-ltd/jobs/devops",
+    "title": "DevOps",
+    "company": "PradeepIT Consulting Services Pvt Ltd",
+    "location": "Remote (Bangladesh, Egypt, Ghana, India, Kenya, Mexico, Nigeria, Pakistan, Turkey)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-01",
+    "url": "https://himalayas.app/companies/pradeepit-consulting-services-pvt-ltd/jobs/devops?utm_source=api",
+    "source": "Himalayas",
+    "description": "This position is within a project with one of the foundational LLM companies. The goal is to assist these foundational LLM companies in enhancing their Large Language Models.  One way we help these companies improve their models is by providing them with high-quality proprietary data. This data serves two main purposes: first, as a basis for fine-tuning their models, and second, as an evaluation set to benchmark the performance of their models or competitor models.  For example, for SFT data generation, you might have to put together or be provided a prompt which contains provided code and questions, you will then provide the model responses and write corresponding script to solve the questions. A collection of 5k-10k such samples could form the dataset for model fine-tuning.  For RLHF data generation, you might have to put together or be provided a prompt by the customer, ask the model questions, and evaluate the outputs generated by two versions of the LLM model. You'd compare these outputs and provide feedback, which is then used to fine-tune the models. Please note that this role does not require you to build LLMs or fine-tune them.  What does day-to-day look like:  \n Design and develop challenging prompts based on provided source code with good coverage of DevOps and Infrastructure technologies \n Implement the verified code that can be executed to verify whether a model's response to the prompt is correct or not \n Conduct evaluations (Evals) to benchmark model performanc",
+    "vikas_score": 25,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Incident Response, AWS.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Kubernetes",
+        "Python"
+      ]
+    },
+    "diksha_score": 67,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (DevOps).",
+        "Posting asks for skills in the profile: AWS, Multi-Cloud, Terraform, Bash, Scripting.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Ansible",
+        "Jenkins",
+        "GitLab",
+        "Python",
+        "Networking"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
+    "job_id": "li_5c059efe7d",
+    "title": "Engineering Manager, Endpoint Security Platform",
+    "company": "KestrelSec India Private Limited",
+    "location": "Gurugram, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/engineering-manager-endpoint-security-platform-at-kestrelsec-india-private-limited-4485497240?position=10&pageNum=0&refId=MwYJUmZPYTn0ssxnI60uFQ%3D%3D&trackingId=G%2BWx0%2Fq%2BgOFVTb5Hhlm7Tw%3D%3D",
+    "description": "Engineering Manager, Endpoint Security Platform at KestrelSec India Private Limited — Gurugram, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-03",
+    "suggested_profile": "vikas",
+    "vikas_score": 50,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 67,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Platform).",
+        "Seniority fits (Manager).",
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
     "job_id": "hml_https://himalayas.app/companies/drivetrain/jobs/site-reliability-engineer-sre",
     "title": "Site Reliability Engineer - SRE",
     "company": "Drivetrain",
@@ -7125,41 +7513,6 @@
     "scanned_date": "2026-11-09"
   },
   {
-    "job_id": "rok_1137155",
-    "title": "Oracle Fusion Cloud Lead â Logistics & Supply Chain Management",
-    "company": "Tessera Labs",
-    "location": "Remote (worldwide)",
-    "salary": "30",
-    "posted_date": "2026-08-27",
-    "url": "https://remoteOK.com/remote-jobs/remote-oracle-fusion-cloud-lead-logistics-supply-chain-management-tessera-labs-1137155",
-    "source": "RemoteOK",
-    "description": "<p style=\"min-height:1.5em\"><strong>Oracle Fusion Cloud Lead â Logistics &amp; Supply Chain Management</strong></p><p style=\"min-height:1.5em\"><strong>Greenfield Oracle Fusion Implementation</strong></p><p style=\"min-height:1.5em\">Company <strong>Tessera Labs AI</strong></p><p style=\"min-height:1.5em\">Role Type Senior consulting engagement â full-time or contract, workstream-critical role</p><p style=\"min-height:1.5em\"><strong>Location Nearshore, based in Mexico or Brazil â remote-based delivery model; excellent business</strong></p><p style=\"min-height:1.5em\"><strong>English required for direct engagement with client stakeholders and leadership</strong></p><p style=\"min-height:1.5em\">Reports To Program Director / Engagement Lead, Tessera Labs AI</p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">Tessera Labs AI is a technology product firm delivering next-generation, AI-accelerated enterprise transformation programs. We are seeking an experienced Oracle Fusion Cloud Lead to own the Logistics and Supply Chain Management (SCM) workstream for a greenfield Oracle Fusion Cloud implementation for a fast-growing client.</p><p style=\"min-height:1.5em\">This is a greenfield implementation from a process and configuration standpoint â there is no legacy SCM configuration to reverse-engineer or carry forward, and the opportunity is to stand up Oracle Fusion Cloud Inventory Management, Order Management, Indirect Procurement and related l",
-    "vikas_score": 13,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": []
-    },
-    "diksha_score": 66,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (Cloud).",
-        "Seniority fits (Lead).",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
     "job_id": "fh_cybersecurity-incident-response-specialist-ntt-data-global-d",
     "title": "Cybersecurity Incident Response Specialist",
     "company": "NTT DATA Global Delivery Services Ltd",
@@ -7198,70 +7551,64 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
-    "job_id": "fh_in-senior-associate-solution-architect-app-tech-advisory-del",
-    "title": "IN_Senior Associate_ Solution Architect  _ App Tech_Advisory_Delhi",
-    "company": "PwC India",
-    "location": "Delhi, Delhi, India",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-03",
-    "url": "https://pwc.darwinbox.com/ms/candidatev2/main/careers/jobDetails/a6a96b32589952?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "darwinbox",
-    "description": "*Job Description & Summary:*\n\nWe are looking for a Lead the design, development, and implementation of enterprise-grade applications and digital solutions.\n\nProvide technical leadership to development teams and ensure adherence to architecture standards and best practices.\n\nReview solution designs, code quality, security controls, and performance considerations.\n\nDrive technical problem-solving and support resolution of complex implementation challenges.\n\n*Job Position Title:*\n\nIN_Senior Associate_ Solution Architect _ App Tech_Advisory_Delhi\n\n*Responsibilities:*\n\n**\n\n**\n\nStrong experience in enterprise application development and solution delivery.\n\nExperience with React, Java, Nodejs, Microservices, APIs, and modern application architectures.\n\nExperience with cloud platforms such as Azure, AWS, or GCP.\n\nUnderstanding of DevOps practices, CI/CD pipelines, and container platforms.\n\n*Mandatory skill sets:*\n\n**\n\n**\n\n**\n\n*Architecture & Integration*\n\n**\n\n**\n\nAPI-led architecture and integration patterns.\n\nEnterprise Integration and Middleware concepts.\n\nDomain Drive / Microservices Architecture.\n\nEvent-driven architecture concepts.\n\nSystem design, scalability, and performance optimization.\n\n*Data & Analytics*\n\n**\n\n**\n\nUnderstanding of data architecture principles.\n\nExperience with relational and NoSQL databases.\n\nKnowledge of data governance, data integration, and analytics platforms.\n\n*Security*\n\n**\n\n**\n\nBasic understanding of cybersecurity principles.\n\nApplication security and",
-    "vikas_score": 44,
+    "job_id": "rok_1137155",
+    "title": "Oracle Fusion Cloud Lead â Logistics & Supply Chain Management",
+    "company": "Tessera Labs",
+    "location": "Remote (worldwide)",
+    "salary": "30",
+    "posted_date": "2026-08-27",
+    "url": "https://remoteOK.com/remote-jobs/remote-oracle-fusion-cloud-lead-logistics-supply-chain-management-tessera-labs-1137155",
+    "source": "RemoteOK",
+    "description": "<p style=\"min-height:1.5em\"><strong>Oracle Fusion Cloud Lead â Logistics &amp; Supply Chain Management</strong></p><p style=\"min-height:1.5em\"><strong>Greenfield Oracle Fusion Implementation</strong></p><p style=\"min-height:1.5em\">Company <strong>Tessera Labs AI</strong></p><p style=\"min-height:1.5em\">Role Type Senior consulting engagement â full-time or contract, workstream-critical role</p><p style=\"min-height:1.5em\"><strong>Location Nearshore, based in Mexico or Brazil â remote-based delivery model; excellent business</strong></p><p style=\"min-height:1.5em\"><strong>English required for direct engagement with client stakeholders and leadership</strong></p><p style=\"min-height:1.5em\">Reports To Program Director / Engagement Lead, Tessera Labs AI</p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">Tessera Labs AI is a technology product firm delivering next-generation, AI-accelerated enterprise transformation programs. We are seeking an experienced Oracle Fusion Cloud Lead to own the Logistics and Supply Chain Management (SCM) workstream for a greenfield Oracle Fusion Cloud implementation for a fast-growing client.</p><p style=\"min-height:1.5em\">This is a greenfield implementation from a process and configuration standpoint â there is no legacy SCM configuration to reverse-engineer or carry forward, and the opportunity is to stand up Oracle Fusion Cloud Inventory Management, Order Management, Indirect Procurement and related l",
+    "vikas_score": 13,
     "vikas_fit": {
       "band": "Poor fit",
       "reasons": [
-        "Posting asks for skills in the profile: AWS, Azure, GCP, TOGAF.",
-        "Based in Delhi NCR (Delhi, Delhi, India)."
+        "Remote: workable from Delhi."
       ],
-      "red_flags": [],
-      "gaps": [
-        "Kubernetes"
-      ]
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
     },
-    "diksha_score": 62,
+    "diksha_score": 64,
     "diksha_fit": {
       "band": "Possible fit",
       "reasons": [
-        "Seniority fits (Architect).",
-        "Posting asks for skills in the profile: Microsoft Azure, AWS, Kubernetes, DevOps, CI/CD.",
-        "Based in Delhi NCR (Delhi, Delhi, India)."
+        "Title is in the right field (Cloud).",
+        "Seniority fits (Lead).",
+        "Remote: workable from Delhi."
       ],
       "red_flags": [],
-      "gaps": [
-        "GCP",
-        "Java",
-        "CKA"
-      ]
+      "gaps": []
     },
     "status": "new",
     "scanned_date": "2026-11-09"
   },
   {
-    "job_id": "fh_in-senior-associate-solution-architect-app-tech-advisory-gur",
-    "title": "IN_ Senior Associate_ Solution Architect  _ App Tech_Advisory_Gururam",
-    "company": "PwC India",
-    "location": "Delhi, Delhi, India",
+    "job_id": "hml_https://himalayas.app/companies/rackspace-us-inc/jobs/senior-automation-engineer-dynatrace",
+    "title": "Senior Automation Engineer - Dynatrace",
+    "company": "Rackspace US, Inc.",
+    "location": "Remote (India)",
     "salary": "Not disclosed",
-    "posted_date": "2026-11-02",
-    "url": "https://pwc.darwinbox.com/ms/candidatev2/main/careers/jobDetails/a6a9520b4adf2e?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "darwinbox",
-    "description": "Job Description & Summary:\n\nWe are looking for a Lead the design, development, and implementation of enterprise-grade applications and digital solutions.\n\nProvide technical leadership to development teams and ensure adherence to architecture standards and best practices.\n\nReview solution designs, code quality, security controls, and performance considerations.\n\nDrive technical problem-solving and support resolution of complex implementation challenges.\n\nJob Position Title:\n\nIN_ Senior Associate_ Solution Architect _ App Tech_Advisory_Gururam\n\nResponsibilities:\n\nStrong experience in enterprise application development and solution delivery.\n\nExperience with React, Java, Nodejs, Microservices, APIs, and modern application architectures.\n\nExperience with cloud platforms such as Azure, AWS, or GCP.\n\nUnderstanding of DevOps practices, CI/CD pipelines, and container platforms.\n\nMandatory skill sets:\n\nArchitecture & Integration\n\nAPI-led architecture and integration patterns.\n\nEnterprise Integration and Middleware concepts.\n\nDomain Drive / Microservices Architecture.\n\nEvent-driven architecture concepts.\n\nSystem design, scalability, and performance optimization.\n\nData & Analytics\n\nUnderstanding of data architecture principles.\n\nExperience with relational and NoSQL databases.\n\nKnowledge of data governance, data integration, and analytics platforms.\n\nSecurity\n\nBasic understanding of cybersecurity principles.\n\nApplication security and secure architecture concepts.\n\nIdentity and access man",
-    "vikas_score": 44,
+    "posted_date": "2026-10-02",
+    "url": "https://himalayas.app/companies/rackspace-us-inc/jobs/senior-automation-engineer-dynatrace?utm_source=api",
+    "source": "Himalayas",
+    "description": "Primary Experience  4+ years in IT Operations, SRE, DevOps, AIOps or Automation Engineering.  3+ years hands-on experience with Dynatrace, including APM, infrastructure monitoring, logs, synthetics, events/problems, dashboards and APIs.  Strong experience in operational automation and toil reduction using Python, PowerShell, Bash or similar scripting technologies.  Proven experience analyzing Incident/Service Request/Problem ticket data to identify repetitive operational activities and automation opportunities.  Experience converting identified opportunities into automation scripts, workflows, runbooks and API-based integrations.  Hands-on experience integrating monitoring events with automation/remediation workflows.  Experience working with ServiceNow or another ITSM platform.  Experience building automation with appropriate validation, error handling, logging, rollback and audit controls.  Ability to work directly with operations/SME teams to understand actual troubleshooting and remediation processes.   Key Responsibilities  Analyze historical tickets and operational data to identify high-volume, repetitive and manual operational toil.  Assess automation opportunities based on frequency, complexity, repeatability, risk and business impact.  Build an automation opportunity backlog and quantify potential effort/toil reduction.  Identify whether each use case is best addressed through rules, scripts, workflow automation, AI-assisted recommendations or agentic automation.  Us",
+    "vikas_score": 34,
     "vikas_fit": {
       "band": "Poor fit",
       "reasons": [
-        "Posting asks for skills in the profile: AWS, Azure, GCP, TOGAF.",
-        "Based in Delhi NCR (Delhi, Delhi, India)."
+        "Posting asks for skills in the profile: AWS, Azure, Splunk.",
+        "Remote: workable from Delhi."
       ],
       "red_flags": [],
       "gaps": [
-        "Kubernetes"
+        "Kubernetes",
+        "Python"
       ]
     },
     "diksha_score": 62,
@@ -7269,14 +7616,12 @@
       "band": "Possible fit",
       "reasons": [
         "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: Microsoft Azure, AWS, Kubernetes, DevOps, CI/CD.",
-        "Based in Delhi NCR (Delhi, Delhi, India)."
+        "Posting asks for skills in the profile: PowerShell, Bash, Scripting, Automation, Monitoring.",
+        "Remote: workable from Delhi."
       ],
       "red_flags": [],
       "gaps": [
-        "GCP",
-        "Java",
-        "CKA"
+        "Python"
       ]
     },
     "status": "new",
@@ -7319,89 +7664,89 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
-    "job_id": "hml_https://himalayas.app/companies/rackspace-us-inc/jobs/senior-automation-engineer-dynatrace",
-    "title": "Senior Automation Engineer - Dynatrace",
-    "company": "Rackspace US, Inc.",
-    "location": "Remote (India)",
+    "job_id": "jcy_160802",
+    "title": "Senior Engineer",
+    "company": "Caylent",
+    "location": "Remote (Mexico)",
     "salary": "Not disclosed",
-    "posted_date": "2026-10-02",
-    "url": "https://himalayas.app/companies/rackspace-us-inc/jobs/senior-automation-engineer-dynatrace?utm_source=api",
-    "source": "Himalayas",
-    "description": "Primary Experience  4+ years in IT Operations, SRE, DevOps, AIOps or Automation Engineering.  3+ years hands-on experience with Dynatrace, including APM, infrastructure monitoring, logs, synthetics, events/problems, dashboards and APIs.  Strong experience in operational automation and toil reduction using Python, PowerShell, Bash or similar scripting technologies.  Proven experience analyzing Incident/Service Request/Problem ticket data to identify repetitive operational activities and automation opportunities.  Experience converting identified opportunities into automation scripts, workflows, runbooks and API-based integrations.  Hands-on experience integrating monitoring events with automation/remediation workflows.  Experience working with ServiceNow or another ITSM platform.  Experience building automation with appropriate validation, error handling, logging, rollback and audit controls.  Ability to work directly with operations/SME teams to understand actual troubleshooting and remediation processes.   Key Responsibilities  Analyze historical tickets and operational data to identify high-volume, repetitive and manual operational toil.  Assess automation opportunities based on frequency, complexity, repeatability, risk and business impact.  Build an automation opportunity backlog and quantify potential effort/toil reduction.  Identify whether each use case is best addressed through rules, scripts, workflow automation, AI-assisted recommendations or agentic automation.  Us",
-    "vikas_score": 34,
+    "posted_date": "2026-11-10",
+    "url": "https://jobicy.com/jobs/160802-senior-engineer",
+    "source": "Jobicy",
+    "description": "Caylent  is an AI-first cloud services company that helps organizations turn ambitious ideas into meaningful business impact. As an AWS Premier Tier Services Partner and a charter member of Anthropic’s Claude Partner Network, we combine deep expertise in AWS, artificial intelligence, and Anthropic’s Claude platform to help customers modernize their technology, build intelligent products, and move AI from experimentation into production. \n Our capabilities span generative and agentic AI, cloud migration and modernization, cloud-native application development, data and analytics, DevOps, managed services, security and compliance, and customer experience transformation. At Caylent, our people always come first. \n We are a fully remote global company with employees in Canada, the United States and Latin America. We celebrate the culture of each of our team members and foster a community of technological curiosity. Come talk to us to learn more about what it means to be a Caylien! \n  The Mission  \n As a Senior CXE Engineer, you are a hands-on builder on enterprise contact center transformations. You will spend the majority of your time in code and in the AWS console: building contact flows and AI agents, writing Lambda functions and CDK stacks, developing React-based agent and admin tooling, and debugging production issues on systems that serve tens of thousands of agents and millions of customer interactions. You work within architectures set by practice leads, and you’re expecte",
+    "vikas_score": 36,
     "vikas_fit": {
       "band": "Poor fit",
       "reasons": [
-        "Posting asks for skills in the profile: AWS, Azure, Splunk.",
+        "Posting asks for skills in the profile: DevSecOps, AWS, IAM.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [],
-      "gaps": [
-        "Kubernetes",
-        "Python"
-      ]
+      "gaps": []
     },
     "diksha_score": 62,
     "diksha_fit": {
       "band": "Possible fit",
       "reasons": [
         "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: AWS, Terraform, PowerShell, Bash, Scripting.",
+        "Posting asks for skills in the profile: AWS, Terraform, Cloud Migration, IAM, CloudWatch.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
+    "job_id": "jsp_indeed_in-e7e88ed48a9a1463",
+    "title": "Lead Technical Onboarding Engineer",
+    "company": "Neo4j",
+    "location": "DL, India (Remote)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-09",
+    "url": "https://grnh.se/1m2v1dck6us",
+    "source": "Indeed",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "**About Neo4j:**\n\nNeo4j is the graph intelligence platform that transforms data into knowledge to power the next generation of intelligent applications and AI systems. It includes enterprise-ready knowledge graphs for accurate, explainable, and governed AI; the most comprehensive, trusted, and easy-to-deploy graph capabilities across any environment and data source; and an unmatched ecosystem trusted by 84 of the Fortune 100 and supported by the world's largest graph community. Intelligence that works. Results that matter.\n\nBuilt to work everywhere and integrate with everything across every cloud for dynamic, personalized, and autonomous AI systems. We deliver quicker results, contextual knowledge, and solutions that impact customers and employees across the business.\n\n**Our Vision:**\n\nAt Neo4j, we have always strived to help the world make sense of data.\n\nAs business, society and knowledge become increasingly connected, our technology promotes innovation by helping organizations to find and understand data relationships. We created, drive and lead the graph database category, and we're disrupting how organizations leverage their data to innovate and stay competitive.\n\n### **About the Job**\n\nYou will play a critical, hands-on role in guiding enterprise customers through the foundational stages of their deployment journey. As a **player-coach and technical anchor for a focused four-person onboarding team**, you will split your time between directly delivering complex customer ",
+    "vikas_score": 42,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS, Azure, GCP, Splunk, IAM.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [],
       "gaps": [
-        "EKS",
-        "Ansible",
-        "Jenkins",
-        "Python"
+        "SOC 2",
+        "HIPAA",
+        "GDPR",
+        "Kubernetes"
       ]
     },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "fh_backend-software-engineer-platform-apis-fraud-detection-plat",
-    "title": "Backend Software Engineer (Platform APIs) Fraud Detection Platform (New Delhi)",
-    "company": "Sirius Lync",
-    "location": "Delhi, Delhi-NCR Region",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-08",
-    "url": "https://www.shine.com/jobs/backend-software-engineer-platform-apis-fraud-detection-platform-new-delhi/sirius-lync/20041509?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "shine",
-    "description": "Backend Software Engineer (Platform APIs) Fraud Detection Platform (New Delhi) Company: Sirius Lync Job Location: New Delhi, Delhi, India Employment Type: Full-time Experience Required: 2 - 4 years We're Hiring: Backend Software Engineer (Platform APIs) Fraud Detection Platform Delhi For DeepID, Part of Surepass - Building Digital Trust & Fraud Detection Tech for Banks & Fintechs DeepID is looking for 2 Solid Backend Engineers who love low-latency APIs, distributed systems & platform engineering. Role Snapshot: Company: DeepID (Part of Surepass) - Fraud Detection & Digital Trust Platform Role: Backend Software Engineer (Platform APIs) Experience: 2 - 4 Years Openings: 2 Positions Location: North Delhi, India - In-Office, Full Time Work Week: 6 Days - Last Saturday of Every Month is Off Key Skills: Python Rust Go PostgreSQL Redis AWS GCP Docker Distributed Systems API Design AI Coding Tools Roles & Responsibilities: Build telemetry ingestion & reusable feature pipelines - Validate SDK events, handle retries & keep model inputs consistent. Use fraud & false-positive feedback to refine features Develop low-latency APIs that fuse identity, device & behaviour scores. Implement customer policies, rules & reason codes for allow, warn, step-up, hold or block Build entity links across people, devices, SIMs & accounts for account takeover detection & coordinated fraud, while maintaining tenant isolation Debug customer integrations & unexpected decisions with SDK, ML & Product teams - T",
-    "vikas_score": 33,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Incident Response, AWS, GCP.",
-        "Based in Delhi NCR (Delhi, Delhi-NCR Region)."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python"
-      ]
-    },
-    "diksha_score": 61,
+    "diksha_score": 62,
     "diksha_fit": {
       "band": "Possible fit",
       "reasons": [
-        "Title is in the right field (Platform).",
-        "Posting asks for skills in the profile: AWS, Docker, Containers.",
-        "Based in Delhi NCR (Delhi, Delhi-NCR Region)."
+        "Seniority fits (Lead).",
+        "Posting asks for skills in the profile: AWS, Multi-Cloud, Terraform, Infrastructure-as-Code, IaC.",
+        "Remote: workable from Delhi."
       ],
       "red_flags": [],
       "gaps": [
         "GCP",
-        "Python"
+        "Ansible",
+        "Prometheus",
+        "Grafana",
+        "Datadog",
+        "Networking"
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "fh_senior-software-engineer-full-stack-ai-jobaaj-com-kuafnft6",
@@ -7436,6 +7781,125 @@
       ],
       "red_flags": [],
       "gaps": [
+        "Python"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_mlops-engineer-national-e-governance-division-negd-digital-i",
+    "title": "MLOPs Engineer",
+    "company": "National e-Governance Division (NeGD), Digital India Corporation",
+    "location": "Noida; New Delhi; Delhi / NCR",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-22",
+    "url": "https://www.naukri.com/job-listings-mlops-engineer-national-e-governance-division-negd-digital-india-corporation-noida-new-delhi-delhi-ncr-3-to-8-years-221026019822?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "naukri",
+    "description": "*Role Summary*\n\nThe MLOps Engineer will build and run components of the organisation's AI platform under the MLOps Lead: model-serving deployments on GPUs, AI gateway configuration, CI/CD pipelines with evaluation gates, the model registry, monitoring, and fine-tuning jobs.\n\n*Educational Qualification*\n\n* B.Tech./B.E., M.Tech./M.S. or M.Sc. in Computer Science, Information Technology, AI/ML or a related discipline *(Must have)*\n* Certifications (desirable, not mandatory): CKA or CKAD, a cloud DevOps certification\n* Candidates from non-traditional backgrounds with strong verifiable work will be considered in lieu of formal qualification\n\n*Experience*\n\n* 3+ years in DevOps, platform or MLOps engineering (5+ years preferred); *minimum 1 year deploying and operating ML or LLM models in production*\n* *Demonstrable deployment of at least one ML or LLM model to production by the candidate* , with monitoring in place\n* Experience with Kubernetes in production, infrastructure as code and CI/CD\n* Experience with GPU workloads (drivers, CUDA, GPU Operator) is a strong plus\n* Experience serving LLMs with vLLM or SGLang is a plus\n\n*Key Responsibilities*\n\nModel Deployment & Serving\n\n* Deploy and scale models on Kubernetes with vLLM, SGLang or NVIDIA Triton across development, staging and production, managing versions, canary releases and rollback\n\nCI/CD for AI\n\n* Build GitLab CE pipelines with tests, evaluation gates and adversarial-test gates; package models and services; deploy with Argo",
+    "vikas_score": 22,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Noida; New Delhi; Delhi / NCR)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Kubernetes",
+        "Python"
+      ]
+    },
+    "diksha_score": 60,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Terraform, Bash, Linux Administration, Kubernetes, Docker.",
+        "Based in Delhi NCR (Noida; New Delhi; Delhi / NCR)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Ansible",
+        "GitLab",
+        "Helm",
+        "Python",
+        "Prometheus",
+        "Grafana"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
+    "job_id": "li_3d65c51dc9",
+    "title": "Cloud Migration Engineer",
+    "company": "Accenture in India",
+    "location": "Gurugram, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/cloud-migration-engineer-at-accenture-in-india-4487746208?position=3&pageNum=0&refId=56MHhHMegE43kJeM46%2BQhg%3D%3D&trackingId=NmKxeHMPi8YS4oea40xJKg%3D%3D",
+    "description": "Cloud Migration Engineer at Accenture in India — Gurugram, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-05",
+    "suggested_profile": "diksha",
+    "vikas_score": 10,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 59,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Cloud).",
+        "Posting asks for skills in the profile: Cloud Migration.",
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
+    "job_id": "fh_backend-software-engineer-platform-apis-fraud-detection-plat",
+    "title": "Backend Software Engineer (Platform APIs) Fraud Detection Platform (New Delhi)",
+    "company": "Sirius Lync",
+    "location": "Delhi, Delhi-NCR Region",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-08",
+    "url": "https://www.shine.com/jobs/backend-software-engineer-platform-apis-fraud-detection-platform-new-delhi/sirius-lync/20041509?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "shine",
+    "description": "Backend Software Engineer (Platform APIs) Fraud Detection Platform (New Delhi) Company: Sirius Lync Job Location: New Delhi, Delhi, India Employment Type: Full-time Experience Required: 2 - 4 years We're Hiring: Backend Software Engineer (Platform APIs) Fraud Detection Platform Delhi For DeepID, Part of Surepass - Building Digital Trust & Fraud Detection Tech for Banks & Fintechs DeepID is looking for 2 Solid Backend Engineers who love low-latency APIs, distributed systems & platform engineering. Role Snapshot: Company: DeepID (Part of Surepass) - Fraud Detection & Digital Trust Platform Role: Backend Software Engineer (Platform APIs) Experience: 2 - 4 Years Openings: 2 Positions Location: North Delhi, India - In-Office, Full Time Work Week: 6 Days - Last Saturday of Every Month is Off Key Skills: Python Rust Go PostgreSQL Redis AWS GCP Docker Distributed Systems API Design AI Coding Tools Roles & Responsibilities: Build telemetry ingestion & reusable feature pipelines - Validate SDK events, handle retries & keep model inputs consistent. Use fraud & false-positive feedback to refine features Develop low-latency APIs that fuse identity, device & behaviour scores. Implement customer policies, rules & reason codes for allow, warn, step-up, hold or block Build entity links across people, devices, SIMs & accounts for account takeover detection & coordinated fraud, while maintaining tenant isolation Debug customer integrations & unexpected decisions with SDK, ML & Product teams - T",
+    "vikas_score": 33,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Incident Response, AWS, GCP.",
+        "Based in Delhi NCR (Delhi, Delhi-NCR Region)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Python"
+      ]
+    },
+    "diksha_score": 58,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Platform).",
+        "Posting asks for skills in the profile: AWS, Docker.",
+        "Based in Delhi NCR (Delhi, Delhi-NCR Region)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
         "Python"
       ]
     },
@@ -7478,92 +7942,6 @@
       "red_flags": [],
       "gaps": [
         "GCP",
-        "Python"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "fh_senior-data-engineer-gsr-business-services-s6a5fpcc",
-    "title": "Senior Data Engineer",
-    "company": "GSR Business Services",
-    "location": "Gurugram",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-04",
-    "url": "https://www.naukri.com/job-listings-senior-data-engineer-gsr-business-services-gurugram-6-to-8-years-041126023134?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "naukri",
-    "description": "*Role Overview*\n\nWe are looking for an experienced Senior Data Engineer with strong expertise in SQL/PLSQL, data engineering, ETL/ELT, data transformation, and Snowflake. The candidate will design, develop, and maintain scalable data pipelines and transformation processes across enterprise data platforms. The role requires strong hands-on technical capabilities along with a sound understanding of data integration, data quality, performance optimization, and cloud-based data engineering. Experience or training in Denodo would be an added advantage.\n\n*Key Responsibilities*\n\n* Design, develop, and maintain robust ETL/ELT data pipelines for batch and data integration workloads.\n* Develop complex SQL and PL/SQL queries, procedures, functions, and transformation logic.\n* Build and maintain data ingestion and transformation processes in Snowflake.\n* Perform data extraction, cleansing, transformation, integration, and loading across multiple source systems.\n* Develop reusable and scalable transformation frameworks for enterprise data workloads.\n* Work with structured and semi-structured datasets from different source systems.\n* Perform SQL query optimization, performance tuning, and troubleshooting.\n* Design and implement data validation and data quality checks within pipelines.\n* Troubleshoot data pipeline failures, data inconsistencies, and performance issues.\n* Work with cloud platforms such as AWS, GCP, or Microsoft Azure for data engineering workloads.\n* Collaborate with data ar",
-    "vikas_score": 27,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: AWS, Azure, GCP.",
-        "Based in Delhi NCR (Gurugram)."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": [
-        "Python"
-      ]
-    },
-    "diksha_score": 58,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: Microsoft Azure, AWS, Scripting, Monitoring, CI/CD.",
-        "Based in Delhi NCR (Gurugram)."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "GCP",
-        "Python"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "fh_senior-software-engineer-qa-thales-yzls26dh",
-    "title": "Senior Software Engineer - QA",
-    "company": "Thales",
-    "location": "Noida",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-30",
-    "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Noida/Senior-Software-Engineer_R0324401-1?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "workday",
-    "description": "Location: Noida, India\n\nThales is a global technology leader trusted by governments, institutions, and enterprises to tackle their most demanding challenges. From quantum applications and artificial intelligence to cybersecurity and 6G innovation, our solutions empower critical decisions rooted in human intelligence. Operating at the forefront of aerospace and space, cybersecurity and digital identity, we’re driven by a mission to build a future we can all trust.\n\nPresent in India since 1953, Thales is headquartered in Noida and has other operational offices and sites spread across Delhi, Gurugram, Bengaluru and Mumbai, among others. Over 2200 employees are working with Thales and its joint ventures in India. Since the beginning, Thales has been playing an essential role in India’s growth story by sharing its technologies and expertise in Defence, Aerospace and Cyber & Digital sectors. Thales has two engineering competence centres in India - one in Noida focused on Cyber & Digital business, while the one in Bengaluru focuses on hardware, software and systems engineering capabilities for both the civil and defence sectors, serving global needs. The Group has also established an MRO (Maintenance, Repair & Overhaul) facility in Gurugram to provide comprehensive avionics maintenance and repair services to Indian airlines and support the growth of the local aviation industry.\n\n*Overview:*\n\nWe are seeking a highly skilled Senior Test Engineer to join our Authentication and Key Mana",
-    "vikas_score": 38,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: AWS, GCP.",
-        "Based in Delhi NCR (Noida)."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python"
-      ]
-    },
-    "diksha_score": 58,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: AWS, Scripting, Automation, Agile, Monitoring.",
-        "Based in Delhi NCR (Noida)."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "GCP",
-        "Ansible",
-        "Jenkins",
-        "GitLab",
-        "Helm",
         "Python"
       ]
     },
@@ -7653,6 +8031,92 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "fh_senior-data-engineer-gsr-business-services-s6a5fpcc",
+    "title": "Senior Data Engineer",
+    "company": "GSR Business Services",
+    "location": "Gurugram",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-04",
+    "url": "https://www.naukri.com/job-listings-senior-data-engineer-gsr-business-services-gurugram-6-to-8-years-041126023134?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "naukri",
+    "description": "*Role Overview*\n\nWe are looking for an experienced Senior Data Engineer with strong expertise in SQL/PLSQL, data engineering, ETL/ELT, data transformation, and Snowflake. The candidate will design, develop, and maintain scalable data pipelines and transformation processes across enterprise data platforms. The role requires strong hands-on technical capabilities along with a sound understanding of data integration, data quality, performance optimization, and cloud-based data engineering. Experience or training in Denodo would be an added advantage.\n\n*Key Responsibilities*\n\n* Design, develop, and maintain robust ETL/ELT data pipelines for batch and data integration workloads.\n* Develop complex SQL and PL/SQL queries, procedures, functions, and transformation logic.\n* Build and maintain data ingestion and transformation processes in Snowflake.\n* Perform data extraction, cleansing, transformation, integration, and loading across multiple source systems.\n* Develop reusable and scalable transformation frameworks for enterprise data workloads.\n* Work with structured and semi-structured datasets from different source systems.\n* Perform SQL query optimization, performance tuning, and troubleshooting.\n* Design and implement data validation and data quality checks within pipelines.\n* Troubleshoot data pipeline failures, data inconsistencies, and performance issues.\n* Work with cloud platforms such as AWS, GCP, or Microsoft Azure for data engineering workloads.\n* Collaborate with data ar",
+    "vikas_score": 27,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS, Azure, GCP.",
+        "Based in Delhi NCR (Gurugram)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": [
+        "Python"
+      ]
+    },
+    "diksha_score": 58,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: Microsoft Azure, AWS, Scripting, Monitoring, CI/CD.",
+        "Based in Delhi NCR (Gurugram)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
+        "Python"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
+    "job_id": "fh_senior-software-engineer-qa-thales-yzls26dh",
+    "title": "Senior Software Engineer - QA",
+    "company": "Thales",
+    "location": "Noida",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-30",
+    "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Noida/Senior-Software-Engineer_R0324401-1?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "workday",
+    "description": "Location: Noida, India\n\nThales is a global technology leader trusted by governments, institutions, and enterprises to tackle their most demanding challenges. From quantum applications and artificial intelligence to cybersecurity and 6G innovation, our solutions empower critical decisions rooted in human intelligence. Operating at the forefront of aerospace and space, cybersecurity and digital identity, we’re driven by a mission to build a future we can all trust.\n\nPresent in India since 1953, Thales is headquartered in Noida and has other operational offices and sites spread across Delhi, Gurugram, Bengaluru and Mumbai, among others. Over 2200 employees are working with Thales and its joint ventures in India. Since the beginning, Thales has been playing an essential role in India’s growth story by sharing its technologies and expertise in Defence, Aerospace and Cyber & Digital sectors. Thales has two engineering competence centres in India - one in Noida focused on Cyber & Digital business, while the one in Bengaluru focuses on hardware, software and systems engineering capabilities for both the civil and defence sectors, serving global needs. The Group has also established an MRO (Maintenance, Repair & Overhaul) facility in Gurugram to provide comprehensive avionics maintenance and repair services to Indian airlines and support the growth of the local aviation industry.\n\n*Overview:*\n\nWe are seeking a highly skilled Senior Test Engineer to join our Authentication and Key Mana",
+    "vikas_score": 38,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS, GCP.",
+        "Based in Delhi NCR (Noida)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Python"
+      ]
+    },
+    "diksha_score": 58,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: AWS, Scripting, Automation, Agile, Monitoring.",
+        "Based in Delhi NCR (Noida)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
+        "Ansible",
+        "Jenkins",
+        "GitLab",
+        "Helm",
+        "Python"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
     "job_id": "hml_https://himalayas.app/companies/highlevel/jobs/lead-security-engineer-penetration-testing-ai-security",
     "title": "Lead Security Engineer - Penetration Testing & AI Security",
     "company": "HighLevel",
@@ -7687,7 +8151,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "fh_azure-data-engineer-ntech-it-solutions-private-limited-36clk",
@@ -7771,7 +8235,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/one-identity/jobs/principal-security-engineer-cloud-and-infrastructure-security",
@@ -7851,7 +8315,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "jcy_159882",
@@ -7896,7 +8360,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "rok_1137568",
@@ -7936,6 +8400,86 @@
         "Grafana",
         "Datadog",
         "Networking"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
+    "job_id": "fh_in-senior-associate-solution-architect-app-tech-advisory-del",
+    "title": "IN_Senior Associate_ Solution Architect  _ App Tech_Advisory_Delhi",
+    "company": "PwC India",
+    "location": "Delhi, Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-03",
+    "url": "https://pwc.darwinbox.com/ms/candidatev2/main/careers/jobDetails/a6a96b32589952?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "darwinbox",
+    "description": "*Job Description & Summary:*\n\nWe are looking for a Lead the design, development, and implementation of enterprise-grade applications and digital solutions.\n\nProvide technical leadership to development teams and ensure adherence to architecture standards and best practices.\n\nReview solution designs, code quality, security controls, and performance considerations.\n\nDrive technical problem-solving and support resolution of complex implementation challenges.\n\n*Job Position Title:*\n\nIN_Senior Associate_ Solution Architect _ App Tech_Advisory_Delhi\n\n*Responsibilities:*\n\n**\n\n**\n\nStrong experience in enterprise application development and solution delivery.\n\nExperience with React, Java, Nodejs, Microservices, APIs, and modern application architectures.\n\nExperience with cloud platforms such as Azure, AWS, or GCP.\n\nUnderstanding of DevOps practices, CI/CD pipelines, and container platforms.\n\n*Mandatory skill sets:*\n\n**\n\n**\n\n**\n\n*Architecture & Integration*\n\n**\n\n**\n\nAPI-led architecture and integration patterns.\n\nEnterprise Integration and Middleware concepts.\n\nDomain Drive / Microservices Architecture.\n\nEvent-driven architecture concepts.\n\nSystem design, scalability, and performance optimization.\n\n*Data & Analytics*\n\n**\n\n**\n\nUnderstanding of data architecture principles.\n\nExperience with relational and NoSQL databases.\n\nKnowledge of data governance, data integration, and analytics platforms.\n\n*Security*\n\n**\n\n**\n\nBasic understanding of cybersecurity principles.\n\nApplication security and",
+    "vikas_score": 44,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS, Azure, GCP, TOGAF.",
+        "Based in Delhi NCR (Delhi, Delhi, India)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Kubernetes"
+      ]
+    },
+    "diksha_score": 54,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Architect).",
+        "Posting asks for skills in the profile: AWS, DevOps, CI/CD.",
+        "Based in Delhi NCR (Delhi, Delhi, India)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
+        "Java"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_in-senior-associate-solution-architect-app-tech-advisory-gur",
+    "title": "IN_ Senior Associate_ Solution Architect  _ App Tech_Advisory_Gururam",
+    "company": "PwC India",
+    "location": "Delhi, Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-02",
+    "url": "https://pwc.darwinbox.com/ms/candidatev2/main/careers/jobDetails/a6a9520b4adf2e?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "darwinbox",
+    "description": "Job Description & Summary:\n\nWe are looking for a Lead the design, development, and implementation of enterprise-grade applications and digital solutions.\n\nProvide technical leadership to development teams and ensure adherence to architecture standards and best practices.\n\nReview solution designs, code quality, security controls, and performance considerations.\n\nDrive technical problem-solving and support resolution of complex implementation challenges.\n\nJob Position Title:\n\nIN_ Senior Associate_ Solution Architect _ App Tech_Advisory_Gururam\n\nResponsibilities:\n\nStrong experience in enterprise application development and solution delivery.\n\nExperience with React, Java, Nodejs, Microservices, APIs, and modern application architectures.\n\nExperience with cloud platforms such as Azure, AWS, or GCP.\n\nUnderstanding of DevOps practices, CI/CD pipelines, and container platforms.\n\nMandatory skill sets:\n\nArchitecture & Integration\n\nAPI-led architecture and integration patterns.\n\nEnterprise Integration and Middleware concepts.\n\nDomain Drive / Microservices Architecture.\n\nEvent-driven architecture concepts.\n\nSystem design, scalability, and performance optimization.\n\nData & Analytics\n\nUnderstanding of data architecture principles.\n\nExperience with relational and NoSQL databases.\n\nKnowledge of data governance, data integration, and analytics platforms.\n\nSecurity\n\nBasic understanding of cybersecurity principles.\n\nApplication security and secure architecture concepts.\n\nIdentity and access man",
+    "vikas_score": 44,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS, Azure, GCP, TOGAF.",
+        "Based in Delhi NCR (Delhi, Delhi, India)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Kubernetes"
+      ]
+    },
+    "diksha_score": 54,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: AWS, DevOps, CI/CD.",
+        "Based in Delhi NCR (Delhi, Delhi, India)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
+        "Java"
       ]
     },
     "status": "new",
@@ -8016,7 +8560,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "fh_senior-data-engineer-python-bigquery-and-dbt-stoxx-e7sxno6w",
@@ -8057,7 +8601,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/bugcrowd/jobs/product-security-engineer",
@@ -8100,7 +8644,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "jcy_159734",
@@ -8133,50 +8677,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "jsp_indeed_in-658a4ec4f10d0166",
-    "title": "Solutions Architect",
-    "company": "TechBiz Global GmbH",
-    "location": "DL, India (Remote)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-02",
-    "url": "https://jobs.techbiz.global/l/en/o/solutions-architect?source=Indeed",
-    "source": "Indeed",
-    "via": "JobSpy",
-    "apply_email": "",
-    "description": "At TechBiz Global, we are providing recruitment service to our TOP clients from our portfolio. We are currently seeking a **Solutions Architect** to join one of our clients' teams. If you're looking for an exciting opportunity to grow in a innovative environment, this could be the perfect fit for you.\n\nThe role **responsibilities** consist of two primary parts: client facing technical representative of the team and the technical lead for the development team.\n\nThis client-facing part requires comfort in deep-dive technical workshops and in board-level sales presentations.\n\nThe development leadership should include creation of technical architecture documentation; working with the QA lead to define the test strategy; leading DevOps to define and implement CI/CD pipelines; ensuring that implementations meet non-functional requirements\n\n  \n\n* Java platform knowledge.\n* Experience with Spring, Maven and GitHub;\n* Understanding of Service Oriented Architectures (SOA), as well as Micro-Services Architecture;\n* Knowledge of JavaScript frameworks, MVC patterns and principles of REST APIs, OpenAPI, Integration Platforms, API Gateway, etc.\n* Knowledge of native mobile development is an advantage.\n* Ability to quickly understand new architectural frameworks and best practices;\n* Professionally worked with Enterprise Integration Patterns and Frameworks;\n* Operational knowledge of application servers, databases, load balancers and other infrastructure components required to deploy web app",
-    "vikas_score": 13,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": [
-        "Kubernetes"
-      ]
-    },
-    "diksha_score": 53,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Seniority fits (Architect).",
-        "Posting asks for skills in the profile: Kubernetes, Docker, Containers, DevOps, CI/CD.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "ArgoCD",
-        "Helm",
-        "Java"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "jcy_159724",
@@ -8257,6 +8758,55 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "jsp_indeed_in-20ed66cc1262d94a",
+    "title": "T&T | EAD | HCE | Senior Consultant | AWS DevOps | Delhii",
+    "company": "Deloitte",
+    "location": "DL, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-09",
+    "url": "https://southasiacareers.deloitte.com/job/Delhi-T&T-EAD-HCE-Senior-Consultant-AWS-DevOps-Delhii/61376344/",
+    "source": "Indeed",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "**T&T | EAD | HCE | Senior Consultant | AWS DevOps | Delhii**\n  \n• **Job requisition ID** : 112001\n  \n• **Location**: Delhi\n  \n• **Entity**: Deloitte Touche Tohmatsu India LLP\n\n**The team**\n\n  \n\nDeloitte’s Technology & Transformation practice can help you uncover and unlock the value buried deep inside vast amounts of data. Our global network provides strategic guidance and implementation services to help companies manage data from disparate sources and convert it into accurate, actionable information that can support fact-driven decision-making and generate an insight-driven advantage. Our practice addresses the continuum of opportunities in business intelligence & visualization, data management, performance management and next-generation analytics and technologies, including big data, cloud, cognitive and machine learning.\n\n**Your work profile**\n\n**Experience:** 4–9 years | **Location:** Delhi/Noida\n\n* We’re looking for a hands-on AWS Cloud DevOps Lead to build and run a secure, scalable, cost-efficient AWS platform for mission-critical banking applications.\n* You’ll own cloud architecture, CI/CD, Infrastructure as Code, EKS, DevSecOps, observability and cost optimisation.\n* You’ll also lead a team of DevOps, platform and automation engineers.\n* **AWS architecture:** Design landing zones and multi-account structures using AWS Organizations and SCPs. Build VPC networking with Transit Gateway, VPC endpoints, NAT, VPN and Direct Connect. Deliver HA/DR across Availability Zones",
+    "vikas_score": 19,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: DevSecOps, AWS, IAM."
+      ],
+      "red_flags": [
+        "In DL, India, not Delhi NCR."
+      ],
+      "gaps": [
+        "Kubernetes",
+        "Python"
+      ]
+    },
+    "diksha_score": 52,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (AWS).",
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: AWS, Terraform, Bash, Automation, Storage."
+      ],
+      "red_flags": [
+        "In DL, India, not Delhi NCR."
+      ],
+      "gaps": [
+        "EKS",
+        "Jenkins",
+        "GitLab",
+        "Helm",
+        "Python",
+        "Java"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
+  },
+  {
     "job_id": "fh_application-architect-delhi-6-8-yr-tata-consultancy-services",
     "title": "Application Architect Delhi-6-8 Yr",
     "company": "Tata Consultancy Services",
@@ -8289,43 +8839,6 @@
       "gaps": [
         "Java",
         "Kafka"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "fh_t-t-oids-solutions-architect-manager-delhi-deloitte-r5vuxpfv",
-    "title": "T&T - OIDS - Solutions Architect - Manager - Delhi",
-    "company": "Deloitte",
-    "location": "Delhi, IN",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-31",
-    "url": "https://southasiacareers.deloitte.com/job/Delhi-T&T-OIDS-Solutions-Architect-Manager-Delhi/60999244/?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "successfactors",
-    "description": "*T&T - OIDS - Solutions Architect - Manager - Delhi*\n• *Job requisition ID* : 115688\n• *Location* : Delhi\n• *Entity* : Deloitte Touche Tohmatsu India LLP\n\n*The team*\n\nDeloitte’s Technology & Transformation practice can help you uncover and unlock the value buried deep inside vast amounts of data. Our global network provides strategic guidance and implementation services to help companies manage data from disparate sources and convert it into accurate, actionable information that can support fact-driven decision-making and generate an insight-driven advantage. Our practice addresses the continuum of opportunities in business intelligence & visualization, data management, performance management and next-generation analytics and technologies, including big data, cloud, cognitive and machine learning.\n\n*\nYour work profile*\n\n• Define end-to-end solution architecture aligned with business and technical requirements.\n\n• Design application components, APIs, integrations, databases and cloud architecture.\n\n• Review solution designs and ensure scalability, availability, security and interoperability.\n\n• Evaluate technology options and enforce architecture and development standards.\n\n• Guide development, DevOps, data and integration teams and resolve technical risks.\n\n• Support technical demonstrations, documentation and stakeholder discussions.\n\n*Educational Qualification*\n\n• BE/B. Tech/MCA/ M. Tech.\n\n*Experience*\n\n• 10+ Years IT; 6+ Years in Public Healthcare; Solution Architecture an",
-    "vikas_score": 42,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: AWS, Azure, GCP, TOGAF.",
-        "Based in Delhi NCR (Delhi, IN)."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "diksha_score": 51,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Seniority fits (Architect).",
-        "Posting asks for skills in the profile: AWS, DevOps.",
-        "Based in Delhi NCR (Delhi, IN)."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "GCP"
       ]
     },
     "status": "new",
@@ -8371,6 +8884,43 @@
     },
     "status": "new",
     "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_t-t-oids-solutions-architect-manager-delhi-deloitte-r5vuxpfv",
+    "title": "T&T - OIDS - Solutions Architect - Manager - Delhi",
+    "company": "Deloitte",
+    "location": "Delhi, IN",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-31",
+    "url": "https://southasiacareers.deloitte.com/job/Delhi-T&T-OIDS-Solutions-Architect-Manager-Delhi/60999244/?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "successfactors",
+    "description": "*T&T - OIDS - Solutions Architect - Manager - Delhi*\n• *Job requisition ID* : 115688\n• *Location* : Delhi\n• *Entity* : Deloitte Touche Tohmatsu India LLP\n\n*The team*\n\nDeloitte’s Technology & Transformation practice can help you uncover and unlock the value buried deep inside vast amounts of data. Our global network provides strategic guidance and implementation services to help companies manage data from disparate sources and convert it into accurate, actionable information that can support fact-driven decision-making and generate an insight-driven advantage. Our practice addresses the continuum of opportunities in business intelligence & visualization, data management, performance management and next-generation analytics and technologies, including big data, cloud, cognitive and machine learning.\n\n*\nYour work profile*\n\n• Define end-to-end solution architecture aligned with business and technical requirements.\n\n• Design application components, APIs, integrations, databases and cloud architecture.\n\n• Review solution designs and ensure scalability, availability, security and interoperability.\n\n• Evaluate technology options and enforce architecture and development standards.\n\n• Guide development, DevOps, data and integration teams and resolve technical risks.\n\n• Support technical demonstrations, documentation and stakeholder discussions.\n\n*Educational Qualification*\n\n• BE/B. Tech/MCA/ M. Tech.\n\n*Experience*\n\n• 10+ Years IT; 6+ Years in Public Healthcare; Solution Architecture an",
+    "vikas_score": 42,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS, Azure, GCP, TOGAF.",
+        "Based in Delhi NCR (Delhi, IN)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 51,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Architect).",
+        "Posting asks for skills in the profile: AWS, DevOps.",
+        "Based in Delhi NCR (Delhi, IN)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-10"
   },
   {
     "job_id": "fh_artificial-intelligence-architect-generative-ai-llm-hr-hai-7",
@@ -8449,6 +8999,6 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-09"
+    "scanned_date": "2026-11-10"
   }
 ]
