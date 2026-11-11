@@ -186,6 +186,44 @@
     "scanned_date": "2026-11-10"
   },
   {
+    "job_id": "fh_ot-security-head-ec-council-nq23qquk",
+    "title": "OT Security Head",
+    "company": "EC Council",
+    "location": "Hyderabad (Remote)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-10",
+    "url": "https://www.naukri.com/job-listings-ot-security-head-ec-council-hyderabad-15-to-24-years-101126011114?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "naukri",
+    "description": "EC-Council is the world's largest cyber security technical certification body. We operate in 170 countries globally and we are the owner and developer of various world-famous cyber security programs. We are proud to have trained and certified over 400,000 information security professionals globally that have influenced the cyber security mindset of countless organizations worldwide.\n\nwww.eccouncil.org\n\n*About the role*\n\nEC-Council Global Services is building a market-leading Operational Technology (OT) security practice for industrial and critical-infrastructure clients. The Practice Head, OT Security will own this practice end to end: strategy, solutions, revenue, delivery quality, partnerships and people.\n\n*Key responsibilities*\n\n*Practice strategy and P&L*\n\n* Define the vision, three-year roadmap and annual operating plan for the OT security practice.\n* Own practice revenue, margin, utilization and pipeline targets; report performance to EGS leadership.\n* Decide which service lines, industries and regions to prioritize, and when to invest, partner or acquire.\n\n*Solutions and offerings*\n\n* Build and evolve the service portfolio: OT security assessments, IEC 62443 gap analysis and zone/conduit design, asset inventory and location modeling, OT patch and vulnerability governance, risk and compliance programs, incident readiness and managed OT security.\n* Position FlowFort within client programs, working with product and presales teams on demos, pilots, scoping and proposals.\n*",
+    "vikas_score": 82,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Head).",
+        "Posting asks for skills in the profile: SIEM, NIST, OT Security, ICS Security.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "NIST CSF"
+      ]
+    },
+    "diksha_score": 26,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Automation.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-11"
+  },
+  {
     "job_id": "fh_chief-information-security-officer-consultant-knowledge-arti",
     "title": "Chief Information Security Officer Consultant",
     "company": "knowledge Artisan",
@@ -393,7 +431,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-10"
+    "scanned_date": "2026-11-11"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/vrinda-international/jobs/security-architect",
@@ -765,6 +803,120 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "jsp_naukri_nk-111126017394",
+    "title": "Head - IT Infrastructure & Security Manager",
+    "company": "Perfect Placers",
+    "location": "Delhi / NCR, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-11",
+    "url": "https://www.naukri.com/job-listings-head-it-infrastructure-security-manager-perfect-placers-delhi-ncr-12-to-18-years-111126017394",
+    "source": "Naukri",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Head).",
+        "Based in Delhi NCR (Delhi / NCR, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 69,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Infrastructure).",
+        "Seniority fits (Manager).",
+        "Based in Delhi NCR (Delhi / NCR, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-11"
+  },
+  {
+    "job_id": "li_0bdbc0eec2",
+    "title": "Head of IT & Security",
+    "company": "Delta6Labs",
+    "location": "Noida, Uttar Pradesh, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/head-of-it-security-at-delta6labs-4489440867?position=1&pageNum=0&refId=dbdEcY%2Ffg2PPC%2F1qXK5vHw%3D%3D&trackingId=zcOcmBnY%2BBND8MCqow5frQ%3D%3D",
+    "description": "Head of IT & Security at Delta6Labs — Noida, Uttar Pradesh, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-10",
+    "suggested_profile": "vikas",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Head).",
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 0,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field.",
+        "A stretch: the title is a step or two above Deputy Manager."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-11"
+  },
+  {
+    "job_id": "li_2dd8608882",
+    "title": "Vice President - Governance, Risk & Compliance Lead",
+    "company": "SBI Card",
+    "location": "Gurugram, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/vice-president-governance-risk-compliance-lead-at-sbi-card-4487892037?position=8&pageNum=0&refId=CJ3FZw2AFiip33eYRcmM8w%3D%3D&trackingId=s2f8qnUW8KicQYX5JmMYtQ%3D%3D",
+    "description": "Vice President - Governance, Risk & Compliance Lead at SBI Card — Gurugram, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-11",
+    "suggested_profile": "vikas",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Risk).",
+        "Seniority fits (Vice President).",
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 15,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Lead).",
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field.",
+        "A stretch: the title is a step or two above Deputy Manager."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-11"
+  },
+  {
     "job_id": "hml_https://himalayas.app/companies/canonical/jobs/head-of-security-operations",
     "title": "Head of Security Operations",
     "company": "Canonical",
@@ -962,7 +1114,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-10"
+    "scanned_date": "2026-11-11"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/photon-interactive-uk-limited/jobs/security-and-compliance-engineer_offshore",
@@ -1006,7 +1158,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-10"
+    "scanned_date": "2026-11-11"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/photon/jobs/security-and-compliance-engineer_offshore",
@@ -1050,7 +1202,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-10"
+    "scanned_date": "2026-11-11"
   },
   {
     "job_id": "jsp_indeed_in-0eb21900827934a0",
@@ -1091,7 +1243,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-10"
+    "scanned_date": "2026-11-11"
   },
   {
     "job_id": "jsp_indeed_in-f1b5b6caca246b71",
@@ -1131,7 +1283,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-10"
+    "scanned_date": "2026-11-11"
   },
   {
     "job_id": "fh_devsecops-sre-lead-national-e-governance-division-negd-digit",
@@ -1211,7 +1363,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-10"
+    "scanned_date": "2026-11-11"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/rsa-security/jobs/principal-application-security-engineer-i",
@@ -1294,7 +1446,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-10"
+    "scanned_date": "2026-11-11"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/sun-king/jobs/application-security-engineer",
