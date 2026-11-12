@@ -1,18 +1,18 @@
 {
-  "last_scan": "2026-11-11 09:48 UTC",
-  "vikas_total": 41,
-  "diksha_total": 270,
+  "last_scan": "2026-11-12 10:09 UTC",
+  "vikas_total": 42,
+  "diksha_total": 290,
   "vikas_new_today": 19,
-  "diksha_new_today": 73,
+  "diksha_new_today": 77,
   "sources": {
     "FreeHire": {
-      "fetched": 188,
-      "matched": 23,
+      "fetched": 186,
+      "matched": 21,
       "error": null
     },
     "JobSpy": {
-      "fetched": 157,
-      "matched": 13,
+      "fetched": 152,
+      "matched": 9,
       "error": null
     },
     "JSearch": {
@@ -21,13 +21,13 @@
       "error": null
     },
     "HNHiring": {
-      "fetched": 10,
+      "fetched": 11,
       "matched": 0,
       "error": null
     },
     "RemoteBoards": {
-      "fetched": 226,
-      "matched": 13,
+      "fetched": 232,
+      "matched": 22,
       "error": null
     },
     "Adzuna": {
@@ -36,12 +36,12 @@
       "error": null
     },
     "RemoteOK": {
-      "fetched": 27,
+      "fetched": 28,
       "matched": 2,
       "error": null
     },
     "LinkedIn": {
-      "fetched": 93,
+      "fetched": 96,
       "matched": 38,
       "error": null
     }

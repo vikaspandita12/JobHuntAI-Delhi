@@ -186,44 +186,6 @@
     "scanned_date": "2026-11-10"
   },
   {
-    "job_id": "fh_ot-security-head-ec-council-nq23qquk",
-    "title": "OT Security Head",
-    "company": "EC Council",
-    "location": "Hyderabad (Remote)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-10",
-    "url": "https://www.naukri.com/job-listings-ot-security-head-ec-council-hyderabad-15-to-24-years-101126011114?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "naukri",
-    "description": "EC-Council is the world's largest cyber security technical certification body. We operate in 170 countries globally and we are the owner and developer of various world-famous cyber security programs. We are proud to have trained and certified over 400,000 information security professionals globally that have influenced the cyber security mindset of countless organizations worldwide.\n\nwww.eccouncil.org\n\n*About the role*\n\nEC-Council Global Services is building a market-leading Operational Technology (OT) security practice for industrial and critical-infrastructure clients. The Practice Head, OT Security will own this practice end to end: strategy, solutions, revenue, delivery quality, partnerships and people.\n\n*Key responsibilities*\n\n*Practice strategy and P&L*\n\n* Define the vision, three-year roadmap and annual operating plan for the OT security practice.\n* Own practice revenue, margin, utilization and pipeline targets; report performance to EGS leadership.\n* Decide which service lines, industries and regions to prioritize, and when to invest, partner or acquire.\n\n*Solutions and offerings*\n\n* Build and evolve the service portfolio: OT security assessments, IEC 62443 gap analysis and zone/conduit design, asset inventory and location modeling, OT patch and vulnerability governance, risk and compliance programs, incident readiness and managed OT security.\n* Position FlowFort within client programs, working with product and presales teams on demos, pilots, scoping and proposals.\n*",
-    "vikas_score": 82,
-    "vikas_fit": {
-      "band": "Good fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Seniority fits (Head).",
-        "Posting asks for skills in the profile: SIEM, NIST, OT Security, ICS Security.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "NIST CSF"
-      ]
-    },
-    "diksha_score": 26,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Automation.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-11"
-  },
-  {
     "job_id": "fh_chief-information-security-officer-consultant-knowledge-arti",
     "title": "Chief Information Security Officer Consultant",
     "company": "knowledge Artisan",
@@ -431,7 +393,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-11"
+    "scanned_date": "2026-11-12"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/vrinda-international/jobs/security-architect",
@@ -583,6 +545,42 @@
     "scanned_date": "2026-11-10"
   },
   {
+    "job_id": "li_3e068fd008",
+    "title": "Security Architect",
+    "company": "Accenture services Pvt Ltd",
+    "location": "Gurugram, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/security-architect-at-accenture-services-pvt-ltd-4489038418?position=4&pageNum=0&refId=UX9Lekdr53BzOZcAx1%2FbMw%3D%3D&trackingId=PL5hDsekxNjV8KuSuyxJjg%3D%3D",
+    "description": "Security Architect at Accenture services Pvt Ltd — Gurugram, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-11",
+    "suggested_profile": "vikas",
+    "vikas_score": 70,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Security Architect”.",
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 25,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Architect).",
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-12"
+  },
+  {
     "job_id": "hml_https://himalayas.app/companies/mashreq/jobs/manager-security-assurance-information-security-group-isg",
     "title": "Manager-Security Assurance.Information Security Group-ISG",
     "company": "Mashreq",
@@ -657,6 +655,42 @@
     },
     "status": "new",
     "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_ot-security-head-ec-council-nq23qquk",
+    "title": "OT Security Head",
+    "company": "EC Council",
+    "location": "Hyderabad (Remote)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-10",
+    "url": "https://www.naukri.com/job-listings-ot-security-head-ec-council-hyderabad-15-to-24-years-101126011114?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "naukri",
+    "description": "EC-Council is the world's largest cyber security technical certification body. We operate in 170 countries globally and we are the owner and developer of various world-famous cyber security programs. We are proud to have trained and certified over 400,000 information security professionals globally that have influenced the cyber security mindset of countless organizations worldwide.\n\nwww.eccouncil.org\n\n*About the role*\n\nEC-Council Global Services is building a market-leading Operational Technology (OT) security practice for industrial and critical-infrastructure clients. The Practice Head, OT Security will own this practice end to end: strategy, solutions, revenue, delivery quality, partnerships and people.\n\n*Key responsibilities*\n\n*Practice strategy and P&L*\n\n* Define the vision, three-year roadmap and annual operating plan for the OT security practice.\n* Own practice revenue, margin, utilization and pipeline targets; report performance to EGS leadership.\n* Decide which service lines, industries and regions to prioritize, and when to invest, partner or acquire.\n\n*Solutions and offerings*\n\n* Build and evolve the service portfolio: OT security assessments, IEC 62443 gap analysis and zone/conduit design, asset inventory and location modeling, OT patch and vulnerability governance, risk and compliance programs, incident readiness and managed OT security.\n* Position FlowFort within client programs, working with product and presales teams on demos, pilots, scoping and proposals.\n*",
+    "vikas_score": 69,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Head).",
+        "Posting asks for skills in the profile: OT Security.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 26,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Automation.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-11"
   },
   {
     "job_id": "fh_senior-siem-engineer-information-security-incedo-technology-",
@@ -1078,45 +1112,6 @@
     "scanned_date": "2026-11-09"
   },
   {
-    "job_id": "fh_m365-security-presales-consultant-schnell-technocraft-mvw747",
-    "title": "M365 Security Presales Consultant",
-    "company": "Schnell Technocraft",
-    "location": "Noida",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-28",
-    "url": "https://www.naukri.com/job-listings-m365-security-presales-consultant-schnell-technocraft-noida-4-to-9-years-281026501993?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "naukri",
-    "description": "We are looking for a seasoned M365 Security Consultant who brings together the best pre-sales acumen and hands-on implementation depth. You will work at the intersection of customer engagement and technical delivery - owning the full arc from Envisioning workshops and solution shaping to design, deployment, and post-go-live support across Microsofts security and compliance portfolio.\nThis is a high-visibility, customer-facing role suited for someone who is equally comfortable presenting a Secure Score roadmap to a CISO and troubleshooting a Conditional Access policy in the tenant.\nKey responsibilities\nPresales & Customer Engagement\n\n* Lead end-to-end presales engagements for Microsoft 365 Security and Compliance solutions, including responding to RFPs, preparing proposals, and crafting solution architectures.\n* Conduct Microsoft Envisioning Workshops and Immersion Briefings to help customers articulate their security strategy and align it to the Microsoft Security platform.\n* Deliver compelling technical presentations, live demonstrations, and proof-of-concept environments tailored to customer pain points.\n* Engage directly with CISOs, IT Directors, and security architects to map business risk to Microsoft security controls across identity, endpoint, data, and cloud.\n* Collaborate with the sales team to qualify opportunities, develop win themes, and support commercial discussions around Microsoft licensing and ECIF/co-sell funding.\n\nTechnical Implementation & Delivery\n\n* Lead",
-    "vikas_score": 65,
-    "vikas_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: Zero Trust Architecture, DLP, SIEM, SOAR, EDR.",
-        "Based in Delhi NCR (Noida)."
-      ],
-      "red_flags": [
-        "This reads as an individual-contributor role well below 14 years of security leadership."
-      ],
-      "gaps": [
-        "Zscaler"
-      ]
-    },
-    "diksha_score": 42,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Log Analytics, PIM.",
-        "Based in Delhi NCR (Noida)."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-11"
-  },
-  {
     "job_id": "hml_https://himalayas.app/companies/photon-interactive-uk-limited/jobs/security-and-compliance-engineer_offshore",
     "title": "Security and Compliance Engineer_Offshore",
     "company": "Photon Interactive UK Limited",
@@ -1158,24 +1153,24 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-11"
+    "scanned_date": "2026-11-12"
   },
   {
-    "job_id": "hml_https://himalayas.app/companies/photon/jobs/security-and-compliance-engineer_offshore",
-    "title": "Security and Compliance Engineer_Offshore",
-    "company": "Photon",
-    "location": "Remote (India)",
+    "job_id": "jcy_155070",
+    "title": "Staff Information Security Engineer",
+    "company": "Five9",
+    "location": "Remote (Portugal)",
     "salary": "Not disclosed",
-    "posted_date": "2026-10-03",
-    "url": "https://himalayas.app/companies/photon/jobs/security-and-compliance-engineer_offshore?utm_source=api",
-    "source": "Himalayas",
-    "description": "About the Role  We're seeking a hands-on and detail-oriented Security and Compliance Engineer to drive security across our applications, infrastructure, and compliance programs-especially in a healthcare environment. This role combines security engineering, DevSecOps, and risk management with a strong focus on application, cloud, AI, and data security.  You will work closely with engineering, DevOps, and compliance teams to embed security into the development lifecycle, support regulatory frameworks, and ensure cloud-native environments and AI technologies are secure by design.  Responsibilities  \n Conduct web and mobile application penetration testing, vulnerability scanning, and remediation support across our platforms. \n Integrate DevSecOps practices into CI/CD pipelines, using tools like Snyk, Terraform, and container security scanners. \n Implement and monitor Cloud Security Posture Management (CSPM) tools such as Wiz to secure cloud configurations and infrastructure. \n Partner with DevOps to enforce secure provisioning via Infrastructure as Code (IaC). \n Lead and support compliance initiatives (HIPAA, SOC 2, HITRUST) using platforms like Drata (Compliance-as-a-Service). \n Design and enhance email gateway security (e.g., Barracuda) and bot protection (e.g., WatchGuard) to defend against phishing and automated threats. \n Evaluate and secure chatbots and AI systems, addressing risks like prompt injection, data leakage, and model integrity. \n Drive data security best practic",
+    "posted_date": "2026-11-12",
+    "url": "https://jobicy.com/jobs/155070-staff-information-security-engineer",
+    "source": "Jobicy",
+    "description": "Join us in bringing joy to customer experience. Five9 is a leading provider of cloud contact center software, bringing the power of cloud innovation to customers worldwide.  \n Living our values everyday results in our team-first culture and enables us to innovate, grow, and thrive while enjoying the journey together. We celebrate diversity and foster an inclusive environment, empowering our employees to be their authentic selves.  \n We are seeking a Staff Information Security Engineer to join Five9's Information Security team. This role will own the operationalization and ongoing maturity of Five9's Cyber Resiliency program (the practice of using tooling to continuously identify, prioritize, and remediate infrastructure resilience issues across our AWS, GCP, Azure cloud environments). You'll be responsible for program governance, tool ownership, process development, and engineering engagement to scale the program across the organization. As secondary responsibilities, you will support the Cloud Security program as a senior technical resource. \n \n  Key Responsibilities:  \n  Cyber Resiliency Program (Primary)  \n \n Own the operational lifecycle of the Cyber Resiliency program, including tool administration, system and resource mapping, criticality tiering, and issue triage workflows \n Develop and maintain program governance: process documentation, SLAs for remediation, escalation paths, and quarterly review cadences \n Build executive reporting for security and engineering leader",
     "vikas_score": 65,
     "vikas_fit": {
       "band": "Possible fit",
       "reasons": [
         "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: Zero Trust Architecture, DevSecOps, SAST, DAST, CSPM.",
+        "Posting asks for skills in the profile: CSPM, CNAPP, Cloud Security, AWS, Azure.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [
@@ -1183,107 +1178,72 @@
       ],
       "gaps": [
         "CISSP",
-        "OSCP",
-        "SOC 2",
-        "HIPAA",
+        "CCSP",
+        "NIST CSF",
+        "Kubernetes",
         "Python"
       ]
     },
-    "diksha_score": 47,
+    "diksha_score": 62,
     "diksha_fit": {
-      "band": "Poor fit",
+      "band": "Possible fit",
       "reasons": [
-        "Posting asks for skills in the profile: Microsoft Azure, Terraform, IaC, Bash, Scripting.",
+        "Seniority fits (Staff).",
+        "Posting asks for skills in the profile: AWS, Multi-Cloud, Terraform, Infrastructure-as-Code, IaC.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [],
       "gaps": [
-        "Python"
+        "GCP",
+        "Python",
+        "Networking"
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-11"
+    "scanned_date": "2026-11-12"
   },
   {
-    "job_id": "jsp_indeed_in-0eb21900827934a0",
-    "title": "SOC/CDC Incident Responder / Engineer",
-    "company": "ROHDE & SCHWARZ GmbH & Co. KG",
+    "job_id": "jsp_indeed_in-eb429610cd66a750",
+    "title": "Governance, Risk and Compliance (GRC) AI Engineer",
+    "company": "Worldwide Clinical Trials",
     "location": "DL, India (Remote)",
     "salary": "Not disclosed",
-    "posted_date": "2026-11-04",
-    "url": "https://www.rohde-schwarz.com/de/karriere/stellenangebote/soc-cdc-incident-responder-engineer_251563-1714368.html",
+    "posted_date": "2026-11-10",
+    "url": "https://worldwide.wd1.myworkdayjobs.com/en-US/External/job/New-Delhi-India/Governance--Risk-and-Compliance--GRC--AI-Engineer_JR103414",
     "source": "Indeed",
     "via": "JobSpy",
     "apply_email": "",
-    "description": "Kontakt\n\nYour Rohde & Schwarz recruiting team is looking forward to receiving your application.\n\nInfo\n\nStadt/Region\n\nNew Delhi (Indien)\n\nEinstiegslevel\n\nBerufserfahrene\n\nBeschäftigungsart\n\nVollzeit, unbefristet\n\nRef. Nummer\n\n3181\n\nmehr\n\n### **Tasks**\n\n* Responsible for handling L3 incidents and guiding L1 & L2 support colleagues.\n* Lead cybersecurity incident handling from triage to containment, eradication, recovery, and lessons learned.\n* Perform in-depth incident analysis to identify root cause, attack path, affected systems, business impact, and required remediation.\n* Coordinate response activities with CDC, IT, and business stakeholders.\n* Create incident reports, timelines, documentation and recommendations.\n* Create and improve incident response processes, playbooks and SOPs.\n* Prepare and conduct trainings on incident investigation and response (e.g. tabletop, hands-on technical trainings).\n* Support analysts to monitor, analyze and triage security events and alarms in real-time based on relevant security threats and risks.\n* Support our cybersecurity engineers to continuously improve the CDC (e.g. fine-tuning detection rules).\n* Pro-actively monitor the current threat level and initiate threat hunting.\n* Possibility of working in a shift model in the future.\n\n**Exciting insights into Rohde & Schwarz**\n------------------------------------------\n\nOur colleagues provide insider information about:\n\n* Daily adventures and challenges\n* Our passionate team\n* The technologi",
+    "description": "Join a global Contract Resource Organization (CRO) where innovation meets purpose. At **Worldwide Clinical Trials** , we're driven by a shared commitment to improving lives through high-quality clinical research. Our teams are empowered to think creatively, take ownership, and deliver meaningful work that helps bring life-changing therapies to patients around the world.\n\n  \n\nWith more than 4,000 professionals across the globe, we foster a collaborative and inclusive environment where diverse perspectives are valued, growth is encouraged, and every contribution makes an impact. Whether you're building your career or bringing years of experience, you'll have the opportunity to learn, grow, and help shape the future of clinical research.\n\n  \n\n**Make an Impact as a Governance, Risk and Compliance (GRC) AI Engineer at Worldwide**\n--------------------------------------------------------------------------------------\n\n  \n\nArtificial intelligence is transforming how organizations operate, and strong governance is essential to ensuring AI is deployed responsibly, securely, and in alignment with business, regulatory, and customer expectations. As a Governance, Risk and Compliance (GRC) AI Engineer, you will play a key role in bringing Worldwide's Enterprise AI Governance Framework to life through practical technology solutions, automation, monitoring, and controls.\n\nIn this highly collaborative role, you'll work closely with the enterprise AI team, Office of the CISO, Information Techn",
     "vikas_score": 65,
     "vikas_fit": {
       "band": "Possible fit",
       "reasons": [
-        "Title is in the right field (SOC).",
-        "Posting asks for skills in the profile: SIEM, SOAR, EDR, XDR, Incident Response.",
+        "Title is in the right field (Risk).",
+        "Posting asks for skills in the profile: AI Governance, Cloud Security, Azure, ISO 27001, NIST.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [
         "This reads as an individual-contributor role well below 14 years of security leadership."
       ],
       "gaps": [
-        "CISSP",
-        "Forensics"
+        "NIST CSF",
+        "Python"
       ]
     },
-    "diksha_score": 41,
+    "diksha_score": 45,
     "diksha_fit": {
       "band": "Poor fit",
       "reasons": [
-        "Posting asks for skills in the profile: AWS, Automation.",
+        "Posting asks for skills in the profile: PowerShell, Scripting, Automation, Monitoring.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-11"
-  },
-  {
-    "job_id": "jsp_indeed_in-f1b5b6caca246b71",
-    "title": "SOC/CDC Analyst",
-    "company": "ROHDE & SCHWARZ GmbH & Co. KG",
-    "location": "DL, India (Remote)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-04",
-    "url": "https://www.rohde-schwarz.com/de/karriere/stellenangebote/soc-cdc-analyst_251563-1714369.html",
-    "source": "Indeed",
-    "via": "JobSpy",
-    "apply_email": "",
-    "description": "Kontakt\n\nYour Rohde & Schwarz recruiting team is looking forward to receiving your application.\n\nInfo\n\nStadt/Region\n\nNew Delhi (Indien)\n\nEinstiegslevel\n\nBerufserfahrene\n\nBeschäftigungsart\n\nVollzeit, unbefristet\n\nRef. Nummer\n\n3164\n\nmehr\n\n### **Tasks**\n\n* Responsible for handling L1, L2, L3 incidents and guiding L1 & L2 support colleagues.\n* Monitor, analyze and triage security events and alarms in real-time based on relevant security threats and risks\n* Perform in-depth analysis of security incidents to understand root cause, impact, and to derive recommendations for remediation and eradication\n* Support our cybersecurity engineers to continuously improve the CDC (e.g. through creation or optimization of monitoring and detection rules)\n* Timely addressing security incidents in cooperation with the whole team\n* Pro-actively monitor the current threat level and initiate threat hunting\n* Create, expand and improve documentation for the global CDC team (such as SOPs, reference standards, architecture charts)\n* Conduct training courses on security incidents and best practices for our employees\n* Specialize in one or more exciting expert areas such as Incident Response or Forensics, and pro-actively drive maturity improvement efforts\n* Possibility of working in a shift model in the future\n\n**Exciting insights into Rohde & Schwarz**\n------------------------------------------\n\nOur colleagues provide insider information about:\n\n* Daily adventures and challenges\n* Our passionate team\n* ",
-    "vikas_score": 65,
-    "vikas_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (SOC).",
-        "Posting asks for skills in the profile: SIEM, SOAR, Incident Response, MITRE ATT&CK, Cloud Security.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "This reads as an individual-contributor role well below 14 years of security leadership."
-      ],
       "gaps": [
-        "Forensics"
+        "Python"
       ]
     },
-    "diksha_score": 39,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Microsoft Azure, AWS, Automation, Monitoring.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
     "status": "new",
-    "scanned_date": "2026-11-11"
+    "scanned_date": "2026-11-12"
   },
   {
     "job_id": "fh_devsecops-sre-lead-national-e-governance-division-negd-digit",
@@ -1363,7 +1323,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-11"
+    "scanned_date": "2026-11-12"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/rsa-security/jobs/principal-application-security-engineer-i",
@@ -1446,7 +1406,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-11"
+    "scanned_date": "2026-11-12"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/sun-king/jobs/application-security-engineer",
@@ -1488,6 +1448,88 @@
     },
     "status": "new",
     "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "jcy_155141",
+    "title": "Security Operations Analyst- Ireland",
+    "company": "Huntress",
+    "location": "Remote (Ireland)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-12",
+    "url": "https://jobicy.com/jobs/155141-security-operations-analyst-ireland",
+    "source": "Jobicy",
+    "description": "What We Do:  \n Cybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good people who want to make a meaningful impact. \n Founded in 2015 by former NSA cyber operators, Huntress is a remote-first team working to make enterprise-grade cybersecurity accessible to businesses of all sizes. We work closely with security teams and service providers protecting complex environments, often without the time or headcount to handle it all. That’s why we build our technology in-house and back it with a 24/7 human-led Security Operations Center (SOC). As a result, our platform is never disconnected from the experts who manage it, ensuring our customers' protection. \n Huntress now secures more than 5M endpoints and 16M identities worldwide. Those numbers keep growing because more businesses rely on us to help carry the load and operate with more confidence. Every day, you can see that commitment in how we stand with our customers and how we show up for each other. \n \n  Reports to: Manager, Security Operations Center  \n  Location: Remote Ireland  \n  Compensation Range: €70,000 to €90,000 base plus bonus and equity  \n  What You’ll Do:  \n Huntress is looking for a Security Operations Center Analyst to add to our growing team. In this role, you will get to triage, investigate, respond, and remediate a variety of intrusions on a daily basis",
+    "vikas_score": 61,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: EDR, MDR, MITRE ATT&CK, AWS, Azure.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [
+        "This reads as an individual-contributor role well below 14 years of security leadership."
+      ],
+      "gaps": [
+        "Python",
+        "Forensics"
+      ]
+    },
+    "diksha_score": 39,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS, PowerShell, Bash, Scripting.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
+        "Python",
+        "Networking"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-12"
+  },
+  {
+    "job_id": "jsp_indeed_in-9f988e4f47359ce7",
+    "title": "Governance, Risk and Compliance (GRC) Project Manager",
+    "company": "Worldwide Clinical Trials",
+    "location": "DL, India (Remote)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-10",
+    "url": "https://worldwide.wd1.myworkdayjobs.com/en-US/External/job/New-Delhi-India/Governance--Risk-and-Compliance--GRC--Project-Manager_JR103416",
+    "source": "Indeed",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "Join a global Contract Resource Organization (CRO) where innovation meets purpose. At **Worldwide Clinical Trials** , we're driven by a shared commitment to improving lives through high-quality clinical research. Our teams are empowered to think creatively, take ownership, and deliver meaningful work that helps bring life-changing therapies to patients around the world.\n\n  \n\nWith more than 4,000 professionals across the globe, we foster a collaborative and inclusive environment where diverse perspectives are valued, growth is encouraged, and every contribution makes an impact. Whether you're building your career or bringing years of experience, you'll have the opportunity to learn, grow, and help shape the future of clinical research.\n\n  \n\n**Make an Impact as a Governance, Risk and Compliance (GRC) Project Manager at Worldwide**\n------------------------------------------------------------------------------------------\n\n  \n\nPlay a pivotal role in advancing information security across Worldwide by leading high-impact initiatives that strengthen security capabilities, reduce organizational risk, and support critical business objectives. Working within the Governance, Risk and Compliance (GRC) team and partnering closely with the Office of the CISO, you will help drive the successful delivery of complex security programs from planning through implementation and operational transition.\n\nIn this role, you'll collaborate with technical experts, business leaders, and cross-functional",
+    "vikas_score": 61,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Risk).",
+        "Posting asks for skills in the profile: Cloud Security, GRC.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "CISSP",
+        "CISM"
+      ]
+    },
+    "diksha_score": 34,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Manager).",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-12"
   },
   {
     "job_id": "fh_hiring-for-information-security-compliance-manager-q-way-tec",
