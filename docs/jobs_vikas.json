@@ -257,6 +257,44 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "li_7e6cdf2e14",
+    "title": "Assistant Vice President - Security Architecture",
+    "company": "EXL",
+    "location": "Noida, Uttar Pradesh, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/assistant-vice-president-security-architecture-at-exl-4446736119?position=9&pageNum=0&refId=7HjkVTNCqX%2F9fyKOndN9ng%3D%3D&trackingId=FMHizLvKmu3XGuXDV%2BRntg%3D%3D",
+    "description": "Assistant Vice President - Security Architecture at EXL — Noida, Uttar Pradesh, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-13",
+    "suggested_profile": "vikas",
+    "vikas_score": 80,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Security Architect”.",
+        "Seniority fits (Vice President).",
+        "Posting asks for skills in the profile: Security Architecture.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 0,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field.",
+        "A stretch: the title is a step or two above Deputy Manager."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-14"
+  },
+  {
     "job_id": "rok_1131111",
     "title": "Director IT & Security",
     "company": "Octave",
@@ -322,41 +360,6 @@
     "scanned_date": "2026-11-09"
   },
   {
-    "job_id": "hml_https://himalayas.app/companies/majesco/jobs/senior-lead-engineer-information-security",
-    "title": "Senior Lead Engineer, Information Security",
-    "company": "Majesco",
-    "location": "Remote (India)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-12",
-    "url": "https://himalayas.app/companies/majesco/jobs/senior-lead-engineer-information-security?utm_source=api",
-    "source": "Himalayas",
-    "description": "Key Responsibilities  Security Engineering & Architecture  \n Design, implement, and maintain enterprise security controls across cloud, infrastructure, and application environments. \n Evaluate emerging threats and technologies and recommend improvements to the organization's security architecture. \n Develop security standards, engineering patterns, and technical guidance to improve the overall security posture. \n  Security Automation & DevSecOps  \n Design and develop security automation solutions that improve operational efficiency and reduce manual effort. \n Integrate security controls and validation activities into CI/CD pipelines and software delivery workflows. \n Build and maintain GitHub Actions and related automation to support secure development practices. \n Automate vulnerability management, policy enforcement, reporting, and remediation tracking activities. \n  Application Security  \n Lead security engineering efforts focused on protecting internally developed applications and APIs. \n Perform and coordinate:  \n Threat modeling \n Secure design and architecture reviews \n Secure code reviews \n Static Application Security Testing (SAST) \n Dynamic Application Security Testing (DAST) \n Software Composition Analysis (SCA) \n Open-source dependency and supply chain security reviews \n Secret and credential exposure detection \n API security testing and assessments \n CI/CD pipeline security reviews \n Security validation of application deployments \n \n \n Partner with development te",
-    "vikas_score": 75,
-    "vikas_fit": {
-      "band": "Good fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: DevSecOps, SAST, DAST, Incident Response, Vulnerability Management.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "diksha_score": 47,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: Automation, CI/CD, GitHub Actions.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-13"
-  },
-  {
     "job_id": "fh_manager-global-it-security-operations-lonza-z63qf5iv",
     "title": "Manager, Global IT Security Operations",
     "company": "Lonza",
@@ -392,6 +395,78 @@
     },
     "status": "new",
     "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "hml_https://himalayas.app/companies/highlevel/jobs/lead-security-engineer-penetration-testing-ai-security",
+    "title": "Lead Security Engineer - Penetration Testing & AI Security",
+    "company": "HighLevel",
+    "location": "Remote (India)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-13",
+    "url": "https://himalayas.app/companies/highlevel/jobs/lead-security-engineer-penetration-testing-ai-security?utm_source=api",
+    "source": "Himalayas",
+    "description": "About Us  \n \n HighLevel  is an AI powered, all-in-one white-label sales & marketing platform that empowers agencies, entrepreneurs, and businesses to elevate their digital presence and drive growth. We are proud to support a global and growing community of over 1 million businesses, comprised of agencies, consultants, and businesses of all sizes and industries.  HighLevel  empowers users  with all the tools needed to capture, nurture, and close new leads into repeat customers. As of mid 2025,  HighLevel  processes over 4 billion API hits and handles more than 2.5 billion message events every day. Our platform manages over 470 terabytes of data distributed across five databases, operates with a network of over 250 microservices, and supports over 1 million hostnames. \n  Our People  \n With over 1,500 team members across 15+ countries, we operate in a global, remote-first environment. We are building more than software; we are building a global community rooted in creativity, collaboration, and impact. We take pride in cultivating a culture where innovation thrives, ideas are celebrated, and people come first, no matter where they call home. \n  Our Impact  \n As of mid 2025, our platform powers over 1.5 billion messages, helps generate over 200 million leads, and facilitates over 20 million conversations for the more than 1 million businesses we serve each month. Behind those numbers are real people growing their companies, connecting with customers, and making their mark - and w",
+    "vikas_score": 73,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: DevSecOps, Secure SDLC, SAST, DAST, Vulnerability Management.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Kubernetes"
+      ]
+    },
+    "diksha_score": 58,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Lead).",
+        "Posting asks for skills in the profile: Automation, Kubernetes, Docker, Containers, Monitoring.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-14"
+  },
+  {
+    "job_id": "hml_https://himalayas.app/companies/majesco/jobs/senior-lead-engineer-information-security",
+    "title": "Senior Lead Engineer, Information Security",
+    "company": "Majesco",
+    "location": "Remote (India)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-12",
+    "url": "https://himalayas.app/companies/majesco/jobs/senior-lead-engineer-information-security?utm_source=api",
+    "source": "Himalayas",
+    "description": "Key Responsibilities  Security Engineering & Architecture  \n Design, implement, and maintain enterprise security controls across cloud, infrastructure, and application environments. \n Evaluate emerging threats and technologies and recommend improvements to the organization's security architecture. \n Develop security standards, engineering patterns, and technical guidance to improve the overall security posture. \n  Security Automation & DevSecOps  \n Design and develop security automation solutions that improve operational efficiency and reduce manual effort. \n Integrate security controls and validation activities into CI/CD pipelines and software delivery workflows. \n Build and maintain GitHub Actions and related automation to support secure development practices. \n Automate vulnerability management, policy enforcement, reporting, and remediation tracking activities. \n  Application Security  \n Lead security engineering efforts focused on protecting internally developed applications and APIs. \n Perform and coordinate:  \n Threat modeling \n Secure design and architecture reviews \n Secure code reviews \n Static Application Security Testing (SAST) \n Dynamic Application Security Testing (DAST) \n Software Composition Analysis (SCA) \n Open-source dependency and supply chain security reviews \n Secret and credential exposure detection \n API security testing and assessments \n CI/CD pipeline security reviews \n Security validation of application deployments \n \n \n Partner with development te",
+    "vikas_score": 71,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: DevSecOps, SAST, DAST, Vulnerability Management, Security Architecture.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 47,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: Automation, CI/CD, GitHub Actions.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-13"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/vrinda-international/jobs/security-architect",
@@ -1147,6 +1222,48 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "fh_cyber-security-engineer-i-volto-consulting-um3nhy4x",
+    "title": "Cyber Security Engineer I",
+    "company": "VOLTO Consulting",
+    "location": "Noida, Uttar Pradesh",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-13",
+    "url": "https://www.shine.com/jobs/cyber-security-engineer-i/volto-consulting/20071825?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "shine",
+    "description": "Cyber Security Engineer I Company: VOLTO Consulting Job Location: Noida, Uttar Pradesh, India Employment Type: Full-time Experience Required: 3+ years Salary: 18L30L a year Position: Security Engineer I Experience: 3+ Years Location: Noida Work Mode: 5 Days Work from Office Shift: US Pacific Time Zone Alignment (Mandatory) Interview Process: Face-to-Face (Mandatory) Cab Facility: Not Provided Shift Allowance: Not Provided About the Role We are seeking a highly motivated Security Engineer I with 3+ years of hands-on experience in cybersecurity operations, security monitoring, vulnerability management, and infrastructure security. The ideal candidate will possess strong expertise across security technologies, threat detection, incident response, and enterprise security controls while supporting compliance and audit requirements. Key Responsibilities Monitor, detect, investigate, and respond to security incidents using SIEM and threat detection platforms. Implement and manage offensive and defensive security controls across enterprise environments. Administer and optimize SIEM solutions for log management, threat hunting, correlation rules, and security monitoring. Manage and maintain IDS/IPS solutions to detect and prevent malicious activities. Configure, monitor, and troubleshoot Next-Generation Firewalls (NGFWs) to enforce security policies and network protection. Implement and support Data Loss Prevention (DLP) solutions to protect sensitive organizational data. Manage File ",
+    "vikas_score": 65,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Cyber).",
+        "Posting asks for skills in the profile: SAST, DLP, SIEM, Incident Response, Vulnerability Management.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh)."
+      ],
+      "red_flags": [
+        "This reads as an individual-contributor role well below 14 years of security leadership."
+      ],
+      "gaps": [
+        "Fortinet",
+        "Palo Alto"
+      ]
+    },
+    "diksha_score": 42,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Windows Server, Monitoring.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Networking"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-14"
+  },
+  {
     "job_id": "hml_https://himalayas.app/companies/photon-interactive-uk-limited/jobs/security-and-compliance-engineer_offshore",
     "title": "Security and Compliance Engineer_Offshore",
     "company": "Photon Interactive UK Limited",
@@ -1188,7 +1305,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-13"
+    "scanned_date": "2026-11-14"
   },
   {
     "job_id": "jsp_indeed_in-eb429610cd66a750",
@@ -1231,7 +1348,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-13"
+    "scanned_date": "2026-11-14"
   },
   {
     "job_id": "fh_devsecops-sre-lead-national-e-governance-division-negd-digit",
@@ -1311,7 +1428,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-13"
+    "scanned_date": "2026-11-14"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/rsa-security/jobs/principal-application-security-engineer-i",
@@ -1429,7 +1546,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-13"
+    "scanned_date": "2026-11-14"
   },
   {
     "job_id": "fh_hiring-for-information-security-compliance-manager-q-way-tec",
