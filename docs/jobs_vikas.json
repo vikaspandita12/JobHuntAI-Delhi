@@ -431,7 +431,44 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-14"
+    "scanned_date": "2026-11-15"
+  },
+  {
+    "job_id": "li_13520ed6f3",
+    "title": "Head - GRC",
+    "company": "apexanalytix",
+    "location": "Noida, Uttar Pradesh, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/head-grc-at-apexanalytix-4481699621?position=3&pageNum=0&refId=GDG60FSEvDp7EQE4VRDJpQ%3D%3D&trackingId=2FmXsA2mOcY%2FDiDbMcdJfw%3D%3D",
+    "description": "Head - GRC at apexanalytix — Noida, Uttar Pradesh, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-14",
+    "suggested_profile": "vikas",
+    "vikas_score": 72,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (GRC).",
+        "Seniority fits (Head).",
+        "Posting asks for skills in the profile: GRC.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 10,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-15"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/majesco/jobs/senior-lead-engineer-information-security",
@@ -652,6 +689,45 @@
     },
     "status": "new",
     "scanned_date": "2026-11-12"
+  },
+  {
+    "job_id": "jsp_naukri_nk-261026020990",
+    "title": "Senior Security Architect",
+    "company": "Epam Systems",
+    "location": "Chennai, Gurugram, Coimbatore, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-15",
+    "url": "https://www.naukri.com/job-listings-senior-security-architect-epam-systems-chennai-gurugram-coimbatore-14-to-18-years-261026020990",
+    "source": "Naukri",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 70,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Security Architect”.",
+        "Based in Delhi NCR (Chennai, Gurugram, Coimbatore, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 25,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Senior).",
+        "Based in Delhi NCR (Chennai, Gurugram, Coimbatore, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-15"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/mashreq/jobs/manager-security-assurance-information-security-group-isg",
@@ -1061,6 +1137,45 @@
     "scanned_date": "2026-11-13"
   },
   {
+    "job_id": "li_453c45c0d7",
+    "title": "Assistant Vice President - Business Continuity and Cyber Resiliency",
+    "company": "EXL",
+    "location": "Noida, Uttar Pradesh, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/assistant-vice-president-business-continuity-and-cyber-resiliency-at-exl-4446569867?position=8&pageNum=0&refId=GDG60FSEvDp7EQE4VRDJpQ%3D%3D&trackingId=BkUi54MckE34BWmXzAr1UA%3D%3D",
+    "description": "Assistant Vice President - Business Continuity and Cyber Resiliency at EXL — Noida, Uttar Pradesh, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-14",
+    "suggested_profile": "vikas",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Cyber).",
+        "Seniority fits (Vice President).",
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Business Continuity"
+      ]
+    },
+    "diksha_score": 0,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field.",
+        "A stretch: the title is a step or two above Deputy Manager."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-15"
+  },
+  {
     "job_id": "hml_https://himalayas.app/companies/canonical/jobs/head-of-security-operations",
     "title": "Head of Security Operations",
     "company": "Canonical",
@@ -1222,48 +1337,6 @@
     "scanned_date": "2026-11-09"
   },
   {
-    "job_id": "fh_cyber-security-engineer-i-volto-consulting-um3nhy4x",
-    "title": "Cyber Security Engineer I",
-    "company": "VOLTO Consulting",
-    "location": "Noida, Uttar Pradesh",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-13",
-    "url": "https://www.shine.com/jobs/cyber-security-engineer-i/volto-consulting/20071825?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "shine",
-    "description": "Cyber Security Engineer I Company: VOLTO Consulting Job Location: Noida, Uttar Pradesh, India Employment Type: Full-time Experience Required: 3+ years Salary: 18L30L a year Position: Security Engineer I Experience: 3+ Years Location: Noida Work Mode: 5 Days Work from Office Shift: US Pacific Time Zone Alignment (Mandatory) Interview Process: Face-to-Face (Mandatory) Cab Facility: Not Provided Shift Allowance: Not Provided About the Role We are seeking a highly motivated Security Engineer I with 3+ years of hands-on experience in cybersecurity operations, security monitoring, vulnerability management, and infrastructure security. The ideal candidate will possess strong expertise across security technologies, threat detection, incident response, and enterprise security controls while supporting compliance and audit requirements. Key Responsibilities Monitor, detect, investigate, and respond to security incidents using SIEM and threat detection platforms. Implement and manage offensive and defensive security controls across enterprise environments. Administer and optimize SIEM solutions for log management, threat hunting, correlation rules, and security monitoring. Manage and maintain IDS/IPS solutions to detect and prevent malicious activities. Configure, monitor, and troubleshoot Next-Generation Firewalls (NGFWs) to enforce security policies and network protection. Implement and support Data Loss Prevention (DLP) solutions to protect sensitive organizational data. Manage File ",
-    "vikas_score": 65,
-    "vikas_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (Cyber).",
-        "Posting asks for skills in the profile: SAST, DLP, SIEM, Incident Response, Vulnerability Management.",
-        "Based in Delhi NCR (Noida, Uttar Pradesh)."
-      ],
-      "red_flags": [
-        "This reads as an individual-contributor role well below 14 years of security leadership."
-      ],
-      "gaps": [
-        "Fortinet",
-        "Palo Alto"
-      ]
-    },
-    "diksha_score": 42,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Windows Server, Monitoring.",
-        "Based in Delhi NCR (Noida, Uttar Pradesh)."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Networking"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-14"
-  },
-  {
     "job_id": "hml_https://himalayas.app/companies/photon-interactive-uk-limited/jobs/security-and-compliance-engineer_offshore",
     "title": "Security and Compliance Engineer_Offshore",
     "company": "Photon Interactive UK Limited",
@@ -1305,50 +1378,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-14"
-  },
-  {
-    "job_id": "jsp_indeed_in-eb429610cd66a750",
-    "title": "Governance, Risk and Compliance (GRC) AI Engineer",
-    "company": "Worldwide Clinical Trials",
-    "location": "DL, India (Remote)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-10",
-    "url": "https://worldwide.wd1.myworkdayjobs.com/en-US/External/job/New-Delhi-India/Governance--Risk-and-Compliance--GRC--AI-Engineer_JR103414",
-    "source": "Indeed",
-    "via": "JobSpy",
-    "apply_email": "",
-    "description": "Join a global Contract Resource Organization (CRO) where innovation meets purpose. At **Worldwide Clinical Trials** , we're driven by a shared commitment to improving lives through high-quality clinical research. Our teams are empowered to think creatively, take ownership, and deliver meaningful work that helps bring life-changing therapies to patients around the world.\n\n  \n\nWith more than 4,000 professionals across the globe, we foster a collaborative and inclusive environment where diverse perspectives are valued, growth is encouraged, and every contribution makes an impact. Whether you're building your career or bringing years of experience, you'll have the opportunity to learn, grow, and help shape the future of clinical research.\n\n  \n\n**Make an Impact as a Governance, Risk and Compliance (GRC) AI Engineer at Worldwide**\n--------------------------------------------------------------------------------------\n\n  \n\nArtificial intelligence is transforming how organizations operate, and strong governance is essential to ensuring AI is deployed responsibly, securely, and in alignment with business, regulatory, and customer expectations. As a Governance, Risk and Compliance (GRC) AI Engineer, you will play a key role in bringing Worldwide's Enterprise AI Governance Framework to life through practical technology solutions, automation, monitoring, and controls.\n\nIn this highly collaborative role, you'll work closely with the enterprise AI team, Office of the CISO, Information Techn",
-    "vikas_score": 65,
-    "vikas_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (Risk).",
-        "Posting asks for skills in the profile: AI Governance, Cloud Security, Azure, ISO 27001, NIST.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "This reads as an individual-contributor role well below 14 years of security leadership."
-      ],
-      "gaps": [
-        "NIST CSF",
-        "Python"
-      ]
-    },
-    "diksha_score": 45,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: PowerShell, Scripting, Automation, Monitoring.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-14"
+    "scanned_date": "2026-11-15"
   },
   {
     "job_id": "fh_devsecops-sre-lead-national-e-governance-division-negd-digit",
@@ -1387,6 +1417,45 @@
     },
     "status": "new",
     "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_cyber-security-engineer-i-volto-consulting-um3nhy4x",
+    "title": "Cyber Security Engineer I",
+    "company": "VOLTO Consulting",
+    "location": "Noida, Uttar Pradesh",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-13",
+    "url": "https://www.shine.com/jobs/cyber-security-engineer-i/volto-consulting/20071825?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "shine",
+    "description": "Cyber Security Engineer I Company: VOLTO Consulting Job Location: Noida, Uttar Pradesh, India Employment Type: Full-time Experience Required: 3+ years Salary: 18L30L a year Position: Security Engineer I Experience: 3+ Years Location: Noida Work Mode: 5 Days Work from Office Shift: US Pacific Time Zone Alignment (Mandatory) Interview Process: Face-to-Face (Mandatory) Cab Facility: Not Provided Shift Allowance: Not Provided About the Role We are seeking a highly motivated Security Engineer I with 3+ years of hands-on experience in cybersecurity operations, security monitoring, vulnerability management, and infrastructure security. The ideal candidate will possess strong expertise across security technologies, threat detection, incident response, and enterprise security controls while supporting compliance and audit requirements. Key Responsibilities Monitor, detect, investigate, and respond to security incidents using SIEM and threat detection platforms. Implement and manage offensive and defensive security controls across enterprise environments. Administer and optimize SIEM solutions for log management, threat hunting, correlation rules, and security monitoring. Manage and maintain IDS/IPS solutions to detect and prevent malicious activities. Configure, monitor, and troubleshoot Next-Generation Firewalls (NGFWs) to enforce security policies and network protection. Implement and support Data Loss Prevention (DLP) solutions to protect sensitive organizational data. Manage File ",
+    "vikas_score": 64,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Cyber).",
+        "Posting asks for skills in the profile: DLP, SIEM, Incident Response, Vulnerability Management.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh)."
+      ],
+      "red_flags": [
+        "This reads as an individual-contributor role well below 14 years of security leadership."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 42,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Windows Server, Monitoring.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Networking"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-14"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/xtium/jobs/security-engineer-secure-development",
@@ -1428,7 +1497,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-14"
+    "scanned_date": "2026-11-15"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/rsa-security/jobs/principal-application-security-engineer-i",
@@ -1546,7 +1615,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-14"
+    "scanned_date": "2026-11-15"
   },
   {
     "job_id": "fh_hiring-for-information-security-compliance-manager-q-way-tec",
