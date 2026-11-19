@@ -40,6 +40,46 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "fh_cloud-security-architect-infosys-wb3s3vzc",
+    "title": "Cloud Security Architect",
+    "company": "Infosys",
+    "location": "Pune; Bengaluru; Delhi / NCR",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-18",
+    "url": "https://www.naukri.com/job-listings-cloud-security-architect-infosys-pune-bengaluru-delhi-ncr-5-to-10-years-111126035405?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "naukri",
+    "description": "Role Purpose\n\nSecure enterprise cloud environments on at least one platform: Azure, AWS or GCP. The candidate should combine cloud-security engineering or architecture with IAM/PAM, Zero Trust, governance, compliance and DevSecOps. Practical AI/ML or GenAI exposure is mandatory.\n\nKey Responsibilities\n\n* Design and implement security controls in Azure, AWS or GCP.\n* Secure cloud identity, privileged access, networks, workloads, data, keys, secrets and logging.\n* Implement IAM/PAM, least privilege, conditional access and Zero Trust patterns.\n* Establish cloud governance, policies, guardrails and compliance evidence.\n* Integrate cloud security into CI/CD and Infrastructure as Code workflows.\n* Use CSPM, CNAPP, SIEM or native cloud-security services to detect and remediate risk.\n* Apply AI/ML or GenAI for security posture summarization, alert triage, policy generation, threat detection, remediation guidance or control mapping.\n* Evaluate AI output, restrict sensitive data exposure and maintain approval for high-impact security changes.\n\nMandatory Skills\n\n* Strong Azure, AWS or GCP security\n* IAM and PAM\n* Zero Trust\n* Cloud governance and compliance\n* DevSecOps\n* CSPM / CNAPP\n* Cloud networking and workload security\n* Infrastructure as Code security\n* Logging, monitoring and incident integration\n\nArtificial Intelligence / Generative AI / AI-ML\n\nPreferred Tools and Platforms\n\n* Microsoft Defender for Cloud, Entra ID, Sentinel, Azure Policy\n* AWS Security Hub, GuardDuty, IAM, Cloud",
+    "vikas_score": 98,
+    "vikas_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title matches a target role: “Security Architect”.",
+        "Posting asks for skills in the profile: DevSecOps, CSPM, CNAPP, SIEM, Cloud Security.",
+        "Based in Delhi NCR (Pune; Bengaluru; Delhi / NCR)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 97,
+    "diksha_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title is in the right field (Cloud).",
+        "Seniority fits (Architect).",
+        "Posting asks for skills in the profile: AWS, Terraform, Azure Policy, IAM, Cloud Governance.",
+        "Based in Delhi NCR (Pune; Bengaluru; Delhi / NCR)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
+        "Networking"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-19"
+  },
+  {
     "job_id": "fh_head-of-information-security-and-data-privacy-rategain-talen",
     "title": "Head of Information Security and Data Privacy",
     "company": "rategain-talent",
@@ -81,46 +121,6 @@
     },
     "status": "new",
     "scanned_date": "2026-11-16"
-  },
-  {
-    "job_id": "fh_security-architect-government-digital-transformation-coforge",
-    "title": "Security Architect - Government Digital Transformation",
-    "company": "Coforge",
-    "location": "Gurgaon/Gurugram",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-17",
-    "url": "https://www.hirist.tech/j/security-architect-government-digital-transformation-1683977?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "hirist",
-    "description": "*About the Role:*\n\nWe at Coforge are hiring for a Security Architect to lead security architecture, cyber resilience strategy, and implementation assurance for large-scale Government Digital Transformation initiatives.\n\n*Key Responsibilities:*\n\n- Define and govern enterprise security architecture across applications, infrastructure, cloud, data, networks, APIs, and digital platforms.\n\n- Ensure secure-by-design implementation of mission-critical Government systems while maintaining compliance, resilience, data protection, and cyber security standards.\n\n- Develop security architecture frameworks, blueprints, standards, threat models, and enterprise cyber security roadmaps.\n\n- Interact with Government Departments, CISOs, Security Teams, PMUs, Program Directors, Architects, OEMs, System Integrators, and Regulatory Bodies.\n\n*Requirements:*\n\n- 12+ years of overall IT experience with minimum 8+ years in Cyber Security Architecture, Enterprise Security, and Secure Digital Transformation Programs.\n\n- Minimum 8+ years of experience in Government, PSU, Public Sector, National Infrastructure, or e-Governance projects.\n\n- Successfully served as Security Architect and delivered security architecture for at least 4 large-scale Government Digital Transformation Programs.\n\n- Actively participated in architecture, security design, implementation governance, security testing, audit compliance, production deployment, and post-go-live stabilization for at least 4 large Government programs.\n\n*Educ",
-    "vikas_score": 96,
-    "vikas_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title matches a target role: “Security Architect”.",
-        "Posting asks for skills in the profile: AWS, Azure, ISO 27001, Security Architecture, TOGAF.",
-        "Based in Delhi NCR (Gurgaon/Gurugram)."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "CISSP",
-        "CISM",
-        "CCSP"
-      ]
-    },
-    "diksha_score": 48,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Seniority fits (Architect).",
-        "Posting asks for skills in the profile: AWS.",
-        "Based in Delhi NCR (Gurgaon/Gurugram)."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-18"
   },
   {
     "job_id": "fh_head-information-security-grc-data-privacy-hindusthan-engine",
@@ -446,6 +446,83 @@
     "scanned_date": "2026-11-18"
   },
   {
+    "job_id": "fh_security-grc-lead-national-e-governance-division-5zkrlt6c",
+    "title": "Security & GRC Lead",
+    "company": "National e-Governance Division",
+    "location": "New Delhi",
+    "salary": "INR 2,500,000–4,000,000",
+    "posted_date": "2026-11-19",
+    "url": "https://www.naukri.com/job-listings-security-grc-lead-national-e-governance-division-new-delhi-10-to-14-years-191126014214?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "naukri",
+    "description": "#This is a contractual role\n\n*Security & GRC Lead*\n\n*Experience:* 10-14 years\n\n*Budget:* 39,67,678/yr (GST-incl.)\n\n*Location:* New Delhi (on-site)\n\n*About the Role*\n\nSIDH handles Aadhaar-linked identity, financial disbursements, learner PII, and certification data across national schemes. As of January 2026, it has zero CISO coverage, no GRC framework, and several procured security tools (Varonis, Cymulate, OPSWAT) that are not yet deployed. This is one of the most urgent hires in the PMU.\n\n*Educational Qualification*\n\n*One of the following (Must have):*\n\n* B.Tech./B.E. in Computer Science, Information Technology, Cybersecurity, or related engineering discipline, *OR*\n* M.Tech./M.S. in Information Security, Cybersecurity, Applied Cryptography, or related field\n\n*At least one of the following certifications required at deployment (Must have):*\n\n* CISSP, CISM, CEH, OSCP, GWAPT, CSSLP, or CompTIA Security+\n\nISO 27001 Lead Auditor and privacy certifications (DCPP, DPO training) additionally desirable.\n\n*Key Responsibilities*\n\n* Establish the platform security governance framework, cyber risk register, policy baseline, and security architecture review process\n* Own privacy and compliance leadership for DPDP Act controls acting as the Data Protection Officer-equivalent function\n* Lead rollout governance for procured-but-undeployed tools: Varonis (DSPM), Cymulate (BAS), and OPSWAT (DAP/CIP)\n* Govern VAPT, application security testing, vulnerability management, and remediation tracki",
+    "vikas_score": 78,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: DSPM, Vulnerability Management, ISO 27001, GRC, Security Architecture.",
+        "Based in Delhi NCR (New Delhi)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "CISSP",
+        "CISM",
+        "OSCP",
+        "DPDP"
+      ]
+    },
+    "diksha_score": 42,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Lead).",
+        "Posting asks for skills in the profile: Monitoring.",
+        "Based in Delhi NCR (New Delhi)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-19"
+  },
+  {
+    "job_id": "fh_security-architect-government-digital-transformation-coforge",
+    "title": "Security Architect - Government Digital Transformation",
+    "company": "Coforge",
+    "location": "Gurgaon/Gurugram",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-17",
+    "url": "https://www.hirist.tech/j/security-architect-government-digital-transformation-1683977?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "hirist",
+    "description": "*About the Role:*\n\nWe at Coforge are hiring for a Security Architect to lead security architecture, cyber resilience strategy, and implementation assurance for large-scale Government Digital Transformation initiatives.\n\n*Key Responsibilities:*\n\n- Define and govern enterprise security architecture across applications, infrastructure, cloud, data, networks, APIs, and digital platforms.\n\n- Ensure secure-by-design implementation of mission-critical Government systems while maintaining compliance, resilience, data protection, and cyber security standards.\n\n- Develop security architecture frameworks, blueprints, standards, threat models, and enterprise cyber security roadmaps.\n\n- Interact with Government Departments, CISOs, Security Teams, PMUs, Program Directors, Architects, OEMs, System Integrators, and Regulatory Bodies.\n\n*Requirements:*\n\n- 12+ years of overall IT experience with minimum 8+ years in Cyber Security Architecture, Enterprise Security, and Secure Digital Transformation Programs.\n\n- Minimum 8+ years of experience in Government, PSU, Public Sector, National Infrastructure, or e-Governance projects.\n\n- Successfully served as Security Architect and delivered security architecture for at least 4 large-scale Government Digital Transformation Programs.\n\n- Actively participated in architecture, security design, implementation governance, security testing, audit compliance, production deployment, and post-go-live stabilization for at least 4 large Government programs.\n\n*Educ",
+    "vikas_score": 77,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Security Architect”.",
+        "Posting asks for skills in the profile: Security Architecture.",
+        "Based in Delhi NCR (Gurgaon/Gurugram)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 48,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Architect).",
+        "Posting asks for skills in the profile: AWS.",
+        "Based in Delhi NCR (Gurgaon/Gurugram)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-18"
+  },
+  {
     "job_id": "li_123fcb4eba",
     "title": "Vice President - Cyber Security (Operations)",
     "company": "EXL",
@@ -481,6 +558,46 @@
     },
     "status": "new",
     "scanned_date": "2026-11-18"
+  },
+  {
+    "job_id": "jsp_naukri_nk-191126012139",
+    "title": "Director Information Security",
+    "company": "Pylon Management Consulting",
+    "location": "Gurugram, Bengaluru, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-19",
+    "url": "https://www.naukri.com/job-listings-director-information-security-pylon-management-consulting-gurugram-bengaluru-13-to-16-years-191126012139",
+    "source": "Naukri",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 77,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Director Information Security”.",
+        "Seniority fits (Director).",
+        "Based in Delhi NCR (Gurugram, Bengaluru, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 0,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Gurugram, Bengaluru, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [
+        "The posting isn't about this field.",
+        "A stretch: the title is a step or two above Deputy Manager."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-19"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/one-identity/jobs/principal-security-engineer-cloud-and-infrastructure-security",
@@ -630,7 +747,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-18"
+    "scanned_date": "2026-11-19"
   },
   {
     "job_id": "li_13520ed6f3",
@@ -970,7 +1087,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-18"
+    "scanned_date": "2026-11-19"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/mashreq/jobs/manager-security-assurance-information-security-group-isg",
@@ -1775,7 +1892,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-18"
+    "scanned_date": "2026-11-19"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/photon/jobs/security-and-compliance-engineer_offshore",
@@ -1819,7 +1936,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-18"
+    "scanned_date": "2026-11-19"
   },
   {
     "job_id": "fh_devsecops-sre-lead-national-e-governance-division-negd-digit",
@@ -1938,7 +2055,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-18"
+    "scanned_date": "2026-11-19"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/rsa-security/jobs/principal-application-security-engineer-i",
@@ -2022,7 +2139,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-18"
+    "scanned_date": "2026-11-19"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/sun-king/jobs/application-security-engineer",

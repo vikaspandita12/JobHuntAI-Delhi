@@ -946,46 +946,6 @@
     "scanned_date": "2026-11-16"
   },
   {
-    "job_id": "jcy_162982",
-    "title": "Senior Cloud Infrastructure Engineer",
-    "company": "Inato",
-    "location": "Remote (France)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-17",
-    "url": "https://jobicy.com/jobs/162982-senior-cloud-infrastructure-engineer-2",
-    "source": "Jobicy",
-    "description": "Who We Are \n  Inato  is a  Tech for Good company  striving to bring clinical research to each and every patient, regardless of who they are or where they live. To do this, we’ve built an AI-powered platform that changes how pharmaceutical companies and doctors around the world collaborate to bring medical breakthroughs to patients. Leading companies and over 5,500 research sites rely on Inato to increase patient access, improve representation in trials, and deliver life-changing treatments to patients faster. \n Drug development is a challenging, intellectually complex, and rewarding endeavor. We are a growing team of passionate pharmaceutical experts, software and AI engineers, professional services members, and many more—all bringing their unique perspectives to solve the challenges facing clinical research. \n Inato is a recipient of Fast Company’s Most Innovative Companies, Fierce Healthcare’s Fierce 15, and Built In's Best Places to Work 2025 and 2026. \n The Role \n As our  Senior Cloud Infrastructure Engineer , you will own the  maintainability and scalability  of  the infrastructure that powers Inato's platform . Reporting to Bastien, our CTO, you will split your time between projects that strengthen our infrastructure and run work that keeps it healthy. \n Until now, infrastructure work has been a shared responsibility between all members of the tech department. Now that we have multiples teams, more complex services, and a rapidly growing volume of patient data and syste",
-    "vikas_score": 19,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: GCP, IAM.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": []
-    },
-    "diksha_score": 100,
-    "diksha_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title matches a target role: “Infrastructure Engineer”.",
-        "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: Terraform, Infrastructure-as-Code, IAM, Observability, SRE.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "GCP",
-        "Networking"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-18"
-  },
-  {
     "job_id": "fh_data-platform-engineer-yotta-infrastructure-phbhum3o",
     "title": "Data Platform Engineer",
     "company": "Yotta Infrastructure",
@@ -1658,16 +1618,13 @@
       "band": "Excellent fit",
       "reasons": [
         "Title matches a target role: “DevOps Engineer”.",
-        "Posting asks for skills in the profile: Microsoft Azure, AWS, Terraform, IaC, PowerShell.",
+        "Posting asks for skills in the profile: Terraform, IaC, Automation, Storage, Kubernetes.",
         "Based in Delhi NCR (Noida)."
       ],
       "red_flags": [],
       "gaps": [
-        "GCP",
         "AKS",
-        "Azure DevOps",
-        "Python",
-        "Networking"
+        "Azure DevOps"
       ]
     },
     "status": "new",
@@ -1711,7 +1668,6 @@
         "AKS",
         "Jenkins",
         "Azure DevOps",
-        "Helm",
         "Python",
         "Networking"
       ]
@@ -2025,7 +1981,7 @@
       "reasons": [
         "Title is in the right field (Azure).",
         "Seniority fits (Architect).",
-        "Posting asks for skills in the profile: Terraform, IaC, PowerShell, Bash, Scripting.",
+        "Posting asks for skills in the profile: Terraform, IaC, Automation, Storage, DevOps.",
         "Based in Delhi NCR (Noida, Uttar Pradesh)."
       ],
       "red_flags": [],
@@ -2041,27 +1997,26 @@
     "scanned_date": "2026-11-18"
   },
   {
-    "job_id": "fh_solutions-architect-cloud-generative-ai-erm-o33h35nl",
-    "title": "Solutions Architect - Cloud & Generative AI",
-    "company": "ERM",
-    "location": "Delhi",
+    "job_id": "fh_cloud-security-architect-infosys-wb3s3vzc",
+    "title": "Cloud Security Architect",
+    "company": "Infosys",
+    "location": "Pune; Bengaluru; Delhi / NCR",
     "salary": "Not disclosed",
-    "posted_date": "2026-10-24",
-    "url": "https://www.hirist.tech/j/solutions-architect-cloud-generative-ai-1680122?utm_source=freehire.me",
+    "posted_date": "2026-11-18",
+    "url": "https://www.naukri.com/job-listings-cloud-security-architect-infosys-pune-bengaluru-delhi-ncr-5-to-10-years-111126035405?utm_source=freehire.me",
     "source": "FreeHire",
-    "via": "hirist",
-    "description": "*Job Objective :*\n\nA Solutions Architect is responsible for designing, optimizing, and delivering comprehensive technology solutions that align with business objectives.\n\nThey play a key role in defining the software development architecture and leveraging cloud technologies to enhance scalability, performance, and efficiency.\n\nThe Solutions Architect collaborates with senior technical leaders, business stakeholders, and engineering teams to ensure the successful implementation of technology strategies in large organizational environments.\n\n*Key Accountabilities & Responsibilities :*\n\n- Solution Design & Architecture : Designs and delivers scalable, high-performance, and secure technology solutions that meet business and technical requirements.\n\n- Technology Optimization : Continuously evaluates and improves technology processes to ensure efficiency, maintainability, and cost-effectiveness.\n\n- Collaboration with Stakeholders : Works closely with product managers, software engineers, DevOps teams, and business leaders to define and refine technical requirements and align solutions with organizational goals.\n\n- Technology Selection & Integration : Assesses, selects, and integrates the best-fit technologies, frameworks, and tools, ensuring alignment with architectural best practices and industry standards.\n\n- Technical Leadership & Governance : Establishes and enforces architectural standards, best practices, and guidelines to ensure consistency and quality across development te",
-    "vikas_score": 36,
+    "via": "naukri",
+    "description": "Role Purpose\n\nSecure enterprise cloud environments on at least one platform: Azure, AWS or GCP. The candidate should combine cloud-security engineering or architecture with IAM/PAM, Zero Trust, governance, compliance and DevSecOps. Practical AI/ML or GenAI exposure is mandatory.\n\nKey Responsibilities\n\n* Design and implement security controls in Azure, AWS or GCP.\n* Secure cloud identity, privileged access, networks, workloads, data, keys, secrets and logging.\n* Implement IAM/PAM, least privilege, conditional access and Zero Trust patterns.\n* Establish cloud governance, policies, guardrails and compliance evidence.\n* Integrate cloud security into CI/CD and Infrastructure as Code workflows.\n* Use CSPM, CNAPP, SIEM or native cloud-security services to detect and remediate risk.\n* Apply AI/ML or GenAI for security posture summarization, alert triage, policy generation, threat detection, remediation guidance or control mapping.\n* Evaluate AI output, restrict sensitive data exposure and maintain approval for high-impact security changes.\n\nMandatory Skills\n\n* Strong Azure, AWS or GCP security\n* IAM and PAM\n* Zero Trust\n* Cloud governance and compliance\n* DevSecOps\n* CSPM / CNAPP\n* Cloud networking and workload security\n* Infrastructure as Code security\n* Logging, monitoring and incident integration\n\nArtificial Intelligence / Generative AI / AI-ML\n\nPreferred Tools and Platforms\n\n* Microsoft Defender for Cloud, Entra ID, Sentinel, Azure Policy\n* AWS Security Hub, GuardDuty, IAM, Cloud",
+    "vikas_score": 98,
     "vikas_fit": {
-      "band": "Poor fit",
+      "band": "Excellent fit",
       "reasons": [
-        "Posting asks for skills in the profile: AWS, Azure.",
-        "Based in Delhi NCR (Delhi)."
+        "Title matches a target role: “Security Architect”.",
+        "Posting asks for skills in the profile: DevSecOps, CSPM, CNAPP, SIEM, Cloud Security.",
+        "Based in Delhi NCR (Pune; Bengaluru; Delhi / NCR)."
       ],
       "red_flags": [],
-      "gaps": [
-        "Python"
-      ]
+      "gaps": []
     },
     "diksha_score": 97,
     "diksha_fit": {
@@ -2069,16 +2024,17 @@
       "reasons": [
         "Title is in the right field (Cloud).",
         "Seniority fits (Architect).",
-        "Posting asks for skills in the profile: AWS, Multi-Cloud, Terraform, Infrastructure-as-Code, Scripting.",
-        "Based in Delhi NCR (Delhi)."
+        "Posting asks for skills in the profile: AWS, Terraform, Azure Policy, IAM, Cloud Governance.",
+        "Based in Delhi NCR (Pune; Bengaluru; Delhi / NCR)."
       ],
       "red_flags": [],
       "gaps": [
-        "Python"
+        "GCP",
+        "Networking"
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-18"
+    "scanned_date": "2026-11-19"
   },
   {
     "job_id": "fh_devops-engineer-azure-devops-terraform-kubernetes-alphacom-s",
@@ -2239,50 +2195,6 @@
     "scanned_date": "2026-11-18"
   },
   {
-    "job_id": "fh_site-reliability-engineer-sre-group-one-fuk2tov7",
-    "title": "Site Reliability Engineer (SRE)",
-    "company": "group.one",
-    "location": "Gurugram, IN (Remote)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-16",
-    "url": "https://careers.one.com/jobs/8748554-site-reliability-engineer-sre?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "teamtailor",
-    "description": "-----------\nJob Details\n-----------\n\nThe Site Reliability Engineering (SRE) team at India is the core technical force within the Monitoring and 3rd Level department. We own the availability, performance, and infrastructure health of our global hosting environment. Our team proactively detects, diagnoses, and resolves infrastructure anomalies and system-level outages before they impact our users, and we act as the definitive 3rd-level engineering authority when major service or product disruptions occur.\n\nWe are expanding our department with a Site Reliability Engineer who specializes in deep infrastructure diagnostics and system-level troubleshooting. In this role, you will be responsible for maintaining and optimizing the uptime of our massive footprint of Shared, Dedicated, and OpenStack-based VPS environments, alongside modern containerized applications. A core focus of this position is utilizing our unified, in-house monitoring application (powered by a Prometheus backend) to proactively track infrastructure health, interpret complex system metrics, and rapidly isolate the root cause of service degradations.\n\nAs an SRE III, you will own critical incidents, mentor junior SREs (SRE I/II) within the department, and ensure seamless monitoring visibility across legacy systems, Plesk setups, and Kubernetes clusters.\n\n--------------------\nKey Responsibilities\n--------------------\n\n● *Proactive Infrastructure Monitoring:* Utilize our in-house monitoring application to maintain co",
-    "vikas_score": 10,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Based in Delhi NCR (Gurugram, IN (Remote))."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": [
-        "Kubernetes",
-        "Python"
-      ]
-    },
-    "diksha_score": 96,
-    "diksha_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title matches a target role: “Site Reliability Engineer”.",
-        "Posting asks for skills in the profile: Bash, Scripting, Automation, Kubernetes, Monitoring.",
-        "Based in Delhi NCR (Gurugram, IN (Remote))."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Ansible",
-        "Python",
-        "Prometheus",
-        "Networking"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-18"
-  },
-  {
     "job_id": "fh_senior-devops-engineer-intellics-global-services-private-lim",
     "title": "Senior DevOps Engineer",
     "company": "INTELLICS GLOBAL SERVICES PRIVATE LIMITED",
@@ -2318,50 +2230,46 @@
     "scanned_date": "2026-11-09"
   },
   {
-    "job_id": "fh_senior-network-infrastructure-engineer-gurugram-nvidia-ouykv",
-    "title": "Senior Network Infrastructure Engineer (Gurugram)",
-    "company": "NVIDIA",
-    "location": "Gurugram",
+    "job_id": "fh_senior-consultant-gcp-devops-mumbai-delhi-deloitte-shared-se",
+    "title": "Senior Consultant | GCP Devops | Mumbai | Delhi",
+    "company": "Deloitte Shared Services India",
+    "location": "Delhi / NCR; Mumbai (All Areas)",
     "salary": "Not disclosed",
-    "posted_date": "2026-11-16",
-    "url": "https://www.shine.com/jobs/senior-network-infrastructure-engineer-gurugram/nvidia/20089156?utm_source=freehire.me",
+    "posted_date": "2026-11-19",
+    "url": "https://www.naukri.com/job-listings-senior-consultant-gcp-devops-mumbai-delhi-deloitte-shared-services-india-delhi-ncr-mumbai-all-areas-5-to-9-years-191126016042?utm_source=freehire.me",
     "source": "FreeHire",
-    "via": "shine",
-    "description": "Senior Network Infrastructure Engineer (Gurugram) Company: NVIDIA Job Location: Gurugram, Haryana, India Employment Type: Full-time Experience Required: 4+ years NVIDIA is looking for a Network Operations Engineer to support and maintain our cloud network infrastructure. This network serves the needs across the whole software stack for NVIDIA, from Graphics Drivers to Autonomous Vehicles and Artificial Intelligence. In this role, the Network Operations Engineer will remediate critical alerts within defined SLAs, triage production impacting network incidents, and interact with internal customers on network related issues. They will also be responsible for engaging with external vendors to remediate hardware and software issues, and participate in project related work such as network device upgrades and capacity augmentations. An ideal candidate will possess a wide range of skills, including alert monitoring & resolution in large-scale networks and CSP environments, outstanding troubleshooting skills, understanding of L3 underlay networks, and network protocol knowledge in large multi-vendor infrastructures. What you will be doing: Engage in 24/7 global shift rotations to provide remote support for network repairs and changes while collaborating across teams and updating customers on status and ticket information. Drive operational improvements in change management and daily operations by following procedures. Manage and operate large scale IP network technologies and infrastru",
-    "vikas_score": 27,
+    "via": "naukri",
+    "description": "Apply on below link (Mandatory step) - 111383 Job ID\n\nhttps://southasiacareers.deloitte.com/job-invite/111383/\n\n*Senior Cloud & Platform Engineer (GCP/GKE)*\n\nMumbai / Gurugram | 5+ Years\n\nWe are hiring a Senior Cloud & Platform Engineer with strong expertise in *GCP, GKE, Kubernetes, Docker, CI/CD, and Microservices*.\n\nThe role involves managing production-grade cloud infrastructure, deployments, platform reliability, monitoring, security, and performance optimization.\n\n*Must Have:*\n\nGKE & Kubernetes\n\nGCP (Pub/Sub, IAM, VPC, Cloud Monitoring, Logging)\n\nDocker & CI/CD\n\nMongoDB, MySQL, Redis, Firestore\n\nPrometheus & Grafana\n\n*Certification:* Google Professional Cloud Engineer OR Google Professional Cloud DevOps Engineer\n\n*Preferred:*\n\nAI/ML / LLM Platform Experience\n\nBFSI Domain Experience\n\nIstio, NGINX, Service Mesh\n\nBE/B.Tech in Computer Science or related field.\n\n*Education*\n\n* BE / B.Tech in Computer Science, Engineering, or a related discipline.",
+    "vikas_score": 36,
     "vikas_fit": {
       "band": "Poor fit",
       "reasons": [
-        "Posting asks for skills in the profile: AWS, Azure, GCP.",
-        "Based in Delhi NCR (Gurugram)."
+        "Posting asks for skills in the profile: GCP, IAM.",
+        "Based in Delhi NCR (Delhi / NCR; Mumbai (All Areas))."
       ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
+      "red_flags": [],
       "gaps": [
-        "Python",
-        "Fortinet"
+        "Kubernetes"
       ]
     },
-    "diksha_score": 94,
+    "diksha_score": 95,
     "diksha_fit": {
       "band": "Excellent fit",
       "reasons": [
-        "Title matches a target role: “Infrastructure Engineer”.",
+        "Title is in the right field (GCP).",
         "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: AWS, Automation, Monitoring.",
-        "Based in Delhi NCR (Gurugram)."
+        "Posting asks for skills in the profile: VPC, IAM, Kubernetes, Docker, Monitoring.",
+        "Based in Delhi NCR (Delhi / NCR; Mumbai (All Areas))."
       ],
       "red_flags": [],
       "gaps": [
         "GCP",
-        "Python",
         "Prometheus",
         "Grafana"
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-18"
+    "scanned_date": "2026-11-19"
   },
   {
     "job_id": "fh_devops-engineer-easemytrip-inz5xvpo",
@@ -2561,125 +2469,47 @@
     "scanned_date": "2026-11-11"
   },
   {
-    "job_id": "hml_https://himalayas.app/companies/99brightminds/jobs/salesforce-devops-engineer",
-    "title": "Salesforce DevOps Engineer",
-    "company": "99brightminds",
-    "location": "Remote (Egypt, India, Jordan)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-17",
-    "url": "https://himalayas.app/companies/99brightminds/jobs/salesforce-devops-engineer?utm_source=api",
-    "source": "Himalayas",
-    "description": "99BrightMinds provides offshore development centers, IT staff augmentation, managed software teams, and technology leadership services that help clients move their digital transformation initiatives forward. Working across the Information Technology and Services sector, the company supports complex software delivery needs with scalable engineering capability and hands-on technical leadership.  As a Salesforce DevOps Engineer, you will help strengthen the release and deployment foundation behind a large-scale Salesforce program. This role is focused on creating reliable, efficient delivery workflows that support multiple development teams, improve governance, and enable consistent change management in a fast-paced Agile environment.  Responsibilities  \n Build, maintain, and optimize CI/CD pipelines for Salesforce deployments. \n Manage source control repositories, branching strategies, and release management processes. \n Administer Salesforce sandbox environments and coordinate deployments across multiple Salesforce orgs. \n Automate testing, validation, and code-quality checks within deployment pipelines. \n Troubleshoot deployment and environment issues for development teams. \n Implement DevOps best practices to improve deployment reliability, speed, and governance. \n Monitor release activities and ensure successful delivery across environments. \n Collaborate with developers, QA teams, business stakeholders, and Agile delivery teams. \n  Requirements  Requirements  \n 4+ years of",
-    "vikas_score": 8,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Azure.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": []
-    },
-    "diksha_score": 93,
-    "diksha_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title matches a target role: “DevOps Engineer”.",
-        "Posting asks for skills in the profile: IaC, Automation, Agile, Scrum, DevOps.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Jenkins",
-        "GitLab",
-        "Azure DevOps"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-18"
-  },
-  {
-    "job_id": "hml_https://himalayas.app/companies/drivetrain/jobs/site-reliability-engineer-sre",
-    "title": "Site Reliability Engineer - SRE",
-    "company": "Drivetrain",
+    "job_id": "hml_https://himalayas.app/companies/lifelancer/jobs/principal-cloud-engineer",
+    "title": "Principal Cloud Engineer",
+    "company": "Lifelancer",
     "location": "Remote (India)",
     "salary": "Not disclosed",
-    "posted_date": "2026-10-06",
-    "url": "https://himalayas.app/companies/drivetrain/jobs/site-reliability-engineer-sre?utm_source=api",
+    "posted_date": "2026-11-19",
+    "url": "https://himalayas.app/companies/lifelancer/jobs/principal-cloud-engineer?utm_source=api",
     "source": "Himalayas",
-    "description": "Drivetrain  is on a mission to empower businesses to make better decisions. Our financial planning & decision-making platform helps companies scale and achieve their targets predictably.   \n Drivetrain  is a remote-first company headquartered in the San Francisco Bay Area. Founded in 2021 by a couple of ex-Googlers,  Drivetrain  is a fast-growing company on a trajectory for success with backing from leading venture capital firms.    Drivetrain  provides a great culture for its employees to thrive in and be happy.    \n 💜 Remote-friendly:   Drivetrain  brings together the best and the brightest, no matter where they are and provides them a great degree of autonomy. We trust our people.  \n 🗣️ Open & transparent:   We know that when our creators have access to all the information they need, their best work will emerge.  \n 👏 Idea-friendly:   We provide an environment to explore new ideas, to take risks, to make mistakes, and to learn, so you can succeed. Anyone in the company can come up with great ideas and become a catalyst for positive change. We let the best ideas win.  \n 👥 Customer-centric:   We follow a product-led growth strategy, continuously  learning from our customers and collaborating to build the amazing software that  Drivetrain  is.  As a Senior Site Reliability Engineer at  Drivetrain , you will be a cornerstone of our engineering organization, ensuring our fast-growing SaaS platform remains highly available, performant, and secure. At this stage of our growth, sca",
-    "vikas_score": 31,
+    "description": "Job Title:  Principal Cloud Engineer   Job Location:  Bengaluru, Karnataka, India   Job Location Type:  Remote   Job Contract Type:  Full-time  Job Seniority Level:   Principal Cloud Engineer   We are seeking an experienced and highly skilled Principal Cloud Engineer to lead the design, architecture, implementation, and optimization of enterprise-scale cloud infrastructure and platforms across Amazon Web Services (AWS) and Microsoft Azure and overall Cloud FinOps  The ideal candidate will combine strategic enterprise architecture and operations leadership with deep, hands-on technical experience. This individual will define cloud standards, develop multi-cloud solutions including high availability and disaster recovery, modernize enterprise infrastructure, and drive cloud finops initiatives  The Principal Cloud Engineer will play a critical role in defining the cloud and AI infrastructure strategy, including infrastructure supporting Generative AI, machine learning, GPU workloads, and enterprise AI platforms.  Key Responsibilities  1. Hands-On AWS Architecture & Operations  \n Design, implement, and optimize enterprise-grade AWS infrastructure and cloud-native solutions. \n Demonstrate hands-on expertise with: \n AWS Organizations, Control Tower, multi-account strategy, and landing zones. \n Amazon VPC, Transit Gateway, Direct Connect, Route 53, PrivateLink, and network security. \n EC2, EKS, ECS, Lambda, Auto Scaling, and serverless architectures. \n S3, EBS, EFS, FSx, RDS, Aurora",
+    "vikas_score": 44,
     "vikas_fit": {
       "band": "Poor fit",
       "reasons": [
-        "Posting asks for skills in the profile: Incident Response, AWS, GCP, IAM.",
+        "Seniority fits (Principal).",
+        "Posting asks for skills in the profile: AWS, Azure, Microsoft Sentinel, IAM.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [],
       "gaps": [
         "Kubernetes",
-        "Python"
+        "Business Continuity"
       ]
     },
     "diksha_score": 93,
     "diksha_fit": {
       "band": "Excellent fit",
       "reasons": [
-        "Title matches a target role: “Site Reliability Engineer”.",
-        "Posting asks for skills in the profile: AWS, Multi-Cloud, Terraform, IaC, Automation.",
+        "Title matches a target role: “Cloud Engineer”.",
+        "Posting asks for skills in the profile: Microsoft Azure, AWS, Multi-Cloud, Terraform, ARM Templates.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [],
       "gaps": [
-        "GCP",
+        "AKS",
         "EKS",
-        "Jenkins",
-        "Python",
-        "Prometheus",
-        "Grafana"
+        "Azure DevOps",
+        "Networking"
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-18"
-  },
-  {
-    "job_id": "hml_https://himalayas.app/companies/supersourcing/jobs/sre-site-reliability-engineer",
-    "title": "SRE (Site Reliability Engineer)",
-    "company": "Supersourcing",
-    "location": "Remote (India)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-11",
-    "url": "https://himalayas.app/companies/supersourcing/jobs/sre-site-reliability-engineer?utm_source=api",
-    "source": "Himalayas",
-    "description": "About the job  Site Reliability Engineering (SRE) combines software and systems engineering to build and run large-scale, massively distributed, fault-tolerant systems. SRE ensures that the servicesboth our internally critical and our externally-visible systemshave reliability, uptime appropriate to customer's needs and a fast rate of improvement. Additionally, SREs will keep an ever-watchful eye on our systems capacity and performance.  As a Site Reliability Engineer, you will have the opportunity to manage the complex challenges of scale which are unique to Digitization, while using your expertise in coding, algorithms, complexity analysis and large-scale system design. You will provide scalable, reliable, durable, and secure applications for our customers and internal users. You will help build highly reliable applications using a customer-first approach while innovating technically. You will understand our customer's needs and how we can meet them.   Responsibilities  \n   Work with the Site Reliability Engineering team, Development team, and other partner teams to ensure that applications reliability, efficiency, and performance meets our customer's needs, while keeping the service's operation's reliable, scalable, and automated.   \n  Develop and implement projects that improve system reliability, efficiency, and performance   \n  Partner with development teams on feature launches to ensure our customers are delivered reliable and scalable functionality.   \n  Build a deep ",
-    "vikas_score": 26,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: AWS, Splunk, IAM.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "diksha_score": 93,
-    "diksha_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title matches a target role: “Site Reliability Engineer”.",
-        "Posting asks for skills in the profile: AWS, Terraform, Agile, EC2, S3.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "EKS",
-        "Java"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-18"
+    "scanned_date": "2026-11-19"
   },
   {
     "job_id": "rok_1133025",
@@ -2991,45 +2821,6 @@
     "scanned_date": "2026-11-17"
   },
   {
-    "job_id": "jcy_162979",
-    "title": "Platform Engineer - Compute",
-    "company": "Supabase",
-    "location": "Remote (Anywhere)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-17",
-    "url": "https://jobicy.com/jobs/162979-platform-engineer-compute",
-    "source": "Jobicy",
-    "description": "About the Role  \n We are seeking a platform engineer to join our Compute team. This team owns the critical systems that power project provisioning, scaling, and the compute that our users rely on every day. \n You’ll work on the core platform that ensures  Supabase  can seamlessly scale across multiple regions, handle high-volume workloads, and provide low-latency, highly available compute services. \n You'll design, build, and operate systems that are both robust and highly automated — enabling us to provision new projects reliably at scale, optimize resource utilization, and deliver a seamless experience to the millions of databases which we manage. \n\n What You’ll Be Responsible For: \n \n \n Help build and maintain the Supabase Cloud offering; \n \n \n Design and implement systems to provision, scale, and manage the multi-region compute workloads powering Supabase projects; \n \n \n Own the full lifecycle of compute orchestration: project creation, warm pools, autoscaling, resizing, and resource optimization; \n \n \n Improve automation and observability across the compute stack to ensure high availability and performance; \n \n \n Improve our system architecture to reduce costs while balancing security, reliability, and performance; \n \n \n Collaborate cross-functionally with other teams to help leverage compute as a core platform offering; \n \n \n Participate in on-call rotations, incident response, and post-incident reviews; \n \n \n Resolve escalated support issues, while also identifying and",
-    "vikas_score": 31,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Incident Response, AWS, Azure, GCP.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Kubernetes"
-      ]
-    },
-    "diksha_score": 91,
-    "diksha_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title matches a target role: “Platform Engineer”.",
-        "Posting asks for skills in the profile: AWS, Terraform, Automation, Storage, Kubernetes.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "GCP",
-        "Networking"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-18"
-  },
-  {
     "job_id": "fh_devops-engineer-kafka-postgresql-mirantis-e5ep7vuf",
     "title": "DevOps Engineer Kafka & PostgreSQL",
     "company": "mirantis",
@@ -3107,6 +2898,46 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "jcy_163200",
+    "title": "Engineering Manager - Platform",
+    "company": "Vonage",
+    "location": "Remote (Poland)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-18",
+    "url": "https://jobicy.com/jobs/163200-engineering-manager-platform",
+    "source": "Jobicy",
+    "description": "Join  Vonage  and help us innovate cloud communications for businesses worldwide!  \n  Vonage Communications APIs:   \n As an emerging leader in the $10B+ communications API market, we empower global brands to connect better with their customers, employees, and partners through transformative communications experiences. For example, Vonage API solutions empower organizations to build their custom omnichannel communications structure. This allows them to reach and engage customers on their preferred schedule and channel — including voice, video, and messaging. Think of a rideshare service instantly connecting with customers, hospital staff conducting remote monitoring, customers verifying their identity before completing a purchase, AI virtual agents servicing customers around the clock, and much more. As businesses continue to shift to a real-time, customer-centric communications model, we are experiencing a time of impressive growth. \n  Why this role matters  \n Platform engineering sits at the heart of how software gets built at scale, and this team will help define how Vonage works. You will lead a group of engineers who are directly responsible for the platforms, workflows, and automation that the wider engineering organisation depends on every day. The organisation is going through a meaningful platform evolution: modernising tooling, raising the automation ceiling, and standardising how engineering teams ship software at scale. There is real work to do, real complexity to ",
+    "vikas_score": 33,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Incident Response, AWS.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Kubernetes"
+      ]
+    },
+    "diksha_score": 90,
+    "diksha_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title is in the right field (Platform).",
+        "Seniority fits (Manager).",
+        "Posting asks for skills in the profile: AWS, Automation, Kubernetes, Monitoring, SRE.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "EKS",
+        "ArgoCD"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-19"
+  },
+  {
     "job_id": "li_9e143928f2",
     "title": "Senior DevOps Engineer (Noida)– Azure Cloud Transformation & AI Automation",
     "company": "TechioSoft Systems",
@@ -3172,6 +3003,49 @@
     },
     "status": "new",
     "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_technical-specialist-cloud-infra-engg-jobs-birlasoft-com-ooz",
+    "title": "Technical Specialist-Cloud & Infra Engg",
+    "company": "jobs.birlasoft.com",
+    "location": "Noida, IN",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-14",
+    "url": "https://jobs.birlasoft.com/job/Noida-Technical-Specialist-Cloud-&-Infra-Engg-INDI/61647844/?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "successfactors",
+    "description": "-------------------------\nArea(s) of responsibility\n-------------------------\n\n.\n\nSenior PAM Systems Analyst | Noida | 5-7 Years\n----------------------------------------------\n\n* Design, implement, and manage *Privileged Access Management (PAM)* solutions to secure privileged accounts and critical enterprise systems.\n* Lead *GCP migration* initiatives, ensuring seamless integration of PAM controls in cloud environments.\n* Conduct security assessments, audits, and risk analysis to identify vulnerabilities and recommend remediation measures.\n* Collaborate with cybersecurity, infrastructure, and cloud teams to establish and enforce PAM policies, standards, and compliance requirements.\n* Monitor PAM platform performance, access controls, and security posture to ensure adherence to industry frameworks such as *ISO 27001* and *NIST*.\n* Provide technical guidance and mentorship to junior team members and support cross-functional projects.\n* Required expertise in *PAM technologies, GCP migration, access governance, security protocols, and compliance management*.\n* Preferred experience with *AWS, Azure, IAM frameworks, Python/PowerShell scripting* , and security certifications such as *CISSP* or *CISM*.\n* Bachelor's degree in Computer Science, IT, or related field with *5-7 years of hands-on experience* in PAM implementation and cloud security.\n* Strong analytical, problem-solving, stakeholder management, and communication skills are essential.\n\n---------------------------------------",
+    "vikas_score": 50,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Cloud Security, AWS, Azure, GCP, ISO 27001.",
+        "Based in Delhi NCR (Noida, IN)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "CISSP",
+        "CISM",
+        "Python"
+      ]
+    },
+    "diksha_score": 89,
+    "diksha_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title is in the right field (Cloud).",
+        "Seniority fits (Specialist).",
+        "Posting asks for skills in the profile: AWS, PowerShell, Scripting, IAM.",
+        "Based in Delhi NCR (Noida, IN)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
+        "Python"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-19"
   },
   {
     "job_id": "rok_1131251",
@@ -4237,6 +4111,47 @@
     "scanned_date": "2026-11-13"
   },
   {
+    "job_id": "hml_https://himalayas.app/companies/nexcess-com/jobs/platform-sre",
+    "title": "Platform SRE",
+    "company": "Nexcess",
+    "location": "Remote (India)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-07",
+    "url": "https://himalayas.app/companies/nexcess-com/jobs/platform-sre?utm_source=api",
+    "source": "Himalayas",
+    "description": "About  Nexcess    \n  Nexcess  provides specialty cloud solutions for organizations where performance and compliance have to coexist. We serve businesses worldwide, from agencies scaling client sites to enterprises running mission-critical operations. We've built our reputation on deep technical expertise and genuine partnership with every client we work with. Behind every environment we manage is a team of people who take the craft seriously and keep showing up when it matters. \n  \n The Platform SRE is a member of the Platform SRE team, the group responsible for the operational health, resiliency, and modernization of our hosting and cloud infrastructure. This role sits at the intersection of systems engineering, site reliability engineering, and automation : combining hands-on technical debt remediation with large-scale automation and reliability practice. \n The Platform SRE team owns three core mandates: \n   1. Technical debt reduction :   systematically identifying and remediating aging firmware, kernels, operating systems, and software across the managed hosting fleet and managed application environments. \n   2. Automation of critical operational workflows :   provisioning, patching, remediation, and release processes across both managed apps and managed hosting fleets, with automated release planning and execution under human supervision (not “automation for automation’s sake,” but automation with a human checkpoint before production impact). \n   3. Reliability and incid",
+    "vikas_score": 22,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Incident Response.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Kubernetes"
+      ]
+    },
+    "diksha_score": 85,
+    "diksha_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title matches a target role: “SRE”.",
+        "Posting asks for skills in the profile: Terraform, Infrastructure-as-Code, Scripting, Automation, Kubernetes.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Ansible",
+        "Prometheus",
+        "Grafana",
+        "Datadog"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-19"
+  },
+  {
     "job_id": "li_555857a405",
     "title": "Cloud Migration Lead Engineer",
     "company": "NTT DATA North America",
@@ -5069,6 +4984,87 @@
     "scanned_date": "2026-11-17"
   },
   {
+    "job_id": "fh_senior-network-infrastructure-engineer-gurugram-nvidia-ouykv",
+    "title": "Senior Network Infrastructure Engineer (Gurugram)",
+    "company": "NVIDIA",
+    "location": "Gurugram",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-16",
+    "url": "https://www.shine.com/jobs/senior-network-infrastructure-engineer-gurugram/nvidia/20089156?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "shine",
+    "description": "Senior Network Infrastructure Engineer (Gurugram) Company: NVIDIA Job Location: Gurugram, Haryana, India Employment Type: Full-time Experience Required: 4+ years NVIDIA is looking for a Network Operations Engineer to support and maintain our cloud network infrastructure. This network serves the needs across the whole software stack for NVIDIA, from Graphics Drivers to Autonomous Vehicles and Artificial Intelligence. In this role, the Network Operations Engineer will remediate critical alerts within defined SLAs, triage production impacting network incidents, and interact with internal customers on network related issues. They will also be responsible for engaging with external vendors to remediate hardware and software issues, and participate in project related work such as network device upgrades and capacity augmentations. An ideal candidate will possess a wide range of skills, including alert monitoring & resolution in large-scale networks and CSP environments, outstanding troubleshooting skills, understanding of L3 underlay networks, and network protocol knowledge in large multi-vendor infrastructures. What you will be doing: Engage in 24/7 global shift rotations to provide remote support for network repairs and changes while collaborating across teams and updating customers on status and ticket information. Drive operational improvements in change management and daily operations by following procedures. Manage and operate large scale IP network technologies and infrastru",
+    "vikas_score": 27,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS, Azure, GCP.",
+        "Based in Delhi NCR (Gurugram)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": [
+        "Python",
+        "Fortinet"
+      ]
+    },
+    "diksha_score": 82,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Infrastructure Engineer”.",
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: Monitoring.",
+        "Based in Delhi NCR (Gurugram)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-18"
+  },
+  {
+    "job_id": "jsp_linkedin_li-4491866827",
+    "title": "AWS Cloud Architect",
+    "company": "Minfy",
+    "location": "Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-18",
+    "url": "https://www.linkedin.com/jobs/view/4491866827",
+    "source": "LinkedIn",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 21,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS.",
+        "Based in Delhi NCR (Delhi, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 82,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Cloud Architect”.",
+        "Seniority fits (Architect).",
+        "Posting asks for skills in the profile: AWS.",
+        "Based in Delhi NCR (Delhi, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-19"
+  },
+  {
     "job_id": "fh_solution-architect-aws-snowflake-human-development-research-",
     "title": "Solution Architect - AWS / Snowflake",
     "company": "Human Development & Research Foundation",
@@ -5177,6 +5173,47 @@
     },
     "status": "new",
     "scanned_date": "2026-11-14"
+  },
+  {
+    "job_id": "fh_site-reliability-engineer-sre-group-one-fuk2tov7",
+    "title": "Site Reliability Engineer (SRE)",
+    "company": "group.one",
+    "location": "Gurugram, IN (Remote)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-16",
+    "url": "https://careers.one.com/jobs/8748554-site-reliability-engineer-sre?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "teamtailor",
+    "description": "-----------\nJob Details\n-----------\n\nThe Site Reliability Engineering (SRE) team at India is the core technical force within the Monitoring and 3rd Level department. We own the availability, performance, and infrastructure health of our global hosting environment. Our team proactively detects, diagnoses, and resolves infrastructure anomalies and system-level outages before they impact our users, and we act as the definitive 3rd-level engineering authority when major service or product disruptions occur.\n\nWe are expanding our department with a Site Reliability Engineer who specializes in deep infrastructure diagnostics and system-level troubleshooting. In this role, you will be responsible for maintaining and optimizing the uptime of our massive footprint of Shared, Dedicated, and OpenStack-based VPS environments, alongside modern containerized applications. A core focus of this position is utilizing our unified, in-house monitoring application (powered by a Prometheus backend) to proactively track infrastructure health, interpret complex system metrics, and rapidly isolate the root cause of service degradations.\n\nAs an SRE III, you will own critical incidents, mentor junior SREs (SRE I/II) within the department, and ensure seamless monitoring visibility across legacy systems, Plesk setups, and Kubernetes clusters.\n\n--------------------\nKey Responsibilities\n--------------------\n\n● *Proactive Infrastructure Monitoring:* Utilize our in-house monitoring application to maintain co",
+    "vikas_score": 10,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Gurugram, IN (Remote))."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": [
+        "Kubernetes",
+        "Python"
+      ]
+    },
+    "diksha_score": 81,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Site Reliability Engineer”.",
+        "Posting asks for skills in the profile: Kubernetes, Monitoring, SRE.",
+        "Based in Delhi NCR (Gurugram, IN (Remote))."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Prometheus"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-18"
   },
   {
     "job_id": "rok_1131484",
@@ -5852,6 +5889,46 @@
     },
     "status": "new",
     "scanned_date": "2026-11-14"
+  },
+  {
+    "job_id": "jsp_naukri_nk-191126025874",
+    "title": "GCP Infrastructure Architect & GCP CLOUD Engineers",
+    "company": "Theksconsultants",
+    "location": "Gurugram, India",
+    "salary": "INR 1,800,000–2,000,000",
+    "posted_date": "2026-11-19",
+    "url": "https://www.naukri.com/job-listings-gcp-infrastructure-architect-gcp-cloud-engineers-theksconsultants-gurugram-9-to-12-years-191126025874",
+    "source": "Naukri",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 21,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: GCP.",
+        "Based in Delhi NCR (Gurugram, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 79,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Cloud Engineer”.",
+        "Seniority fits (Architect).",
+        "Based in Delhi NCR (Gurugram, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-19"
   },
   {
     "job_id": "li_b6fd77bfd9",
@@ -8040,6 +8117,42 @@
     "scanned_date": "2026-11-18"
   },
   {
+    "job_id": "li_a45f51f590",
+    "title": "Lead, Platform Engineering",
+    "company": "Bain & Company",
+    "location": "Delhi Cantonment, Delhi, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/lead-platform-engineering-at-bain-company-4491170756?position=3&pageNum=0&refId=TwNELHjBlRn%2FtPG9lge7cg%3D%3D&trackingId=gFY5bapuHidREy5BXKpK%2FQ%3D%3D",
+    "description": "Lead, Platform Engineering at Bain & Company — Delhi Cantonment, Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-17",
+    "suggested_profile": "diksha",
+    "vikas_score": 18,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Delhi Cantonment, Delhi, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 75,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Platform Engineer”.",
+        "Seniority fits (Lead).",
+        "Based in Delhi NCR (Delhi Cantonment, Delhi, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-19"
+  },
+  {
     "job_id": "li_93fa3f7b63",
     "title": "Cloud & Infrastructure Engineer — Azure",
     "company": "Vylqora Technologies Pvt Ltd",
@@ -8251,6 +8364,116 @@
     },
     "status": "new",
     "scanned_date": "2026-11-15"
+  },
+  {
+    "job_id": "fh_solutions-architect-cloud-generative-ai-erm-o33h35nl",
+    "title": "Solutions Architect - Cloud & Generative AI",
+    "company": "ERM",
+    "location": "Delhi",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-24",
+    "url": "https://www.hirist.tech/j/solutions-architect-cloud-generative-ai-1680122?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "hirist",
+    "description": "*Job Objective :*\n\nA Solutions Architect is responsible for designing, optimizing, and delivering comprehensive technology solutions that align with business objectives.\n\nThey play a key role in defining the software development architecture and leveraging cloud technologies to enhance scalability, performance, and efficiency.\n\nThe Solutions Architect collaborates with senior technical leaders, business stakeholders, and engineering teams to ensure the successful implementation of technology strategies in large organizational environments.\n\n*Key Accountabilities & Responsibilities :*\n\n- Solution Design & Architecture : Designs and delivers scalable, high-performance, and secure technology solutions that meet business and technical requirements.\n\n- Technology Optimization : Continuously evaluates and improves technology processes to ensure efficiency, maintainability, and cost-effectiveness.\n\n- Collaboration with Stakeholders : Works closely with product managers, software engineers, DevOps teams, and business leaders to define and refine technical requirements and align solutions with organizational goals.\n\n- Technology Selection & Integration : Assesses, selects, and integrates the best-fit technologies, frameworks, and tools, ensuring alignment with architectural best practices and industry standards.\n\n- Technical Leadership & Governance : Establishes and enforces architectural standards, best practices, and guidelines to ensure consistency and quality across development te",
+    "vikas_score": 36,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS, Azure.",
+        "Based in Delhi NCR (Delhi)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Python"
+      ]
+    },
+    "diksha_score": 74,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Cloud).",
+        "Seniority fits (Architect).",
+        "Posting asks for skills in the profile: DevOps.",
+        "Based in Delhi NCR (Delhi)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-18"
+  },
+  {
+    "job_id": "hml_https://himalayas.app/companies/99brightminds/jobs/salesforce-devops-engineer",
+    "title": "Salesforce DevOps Engineer",
+    "company": "99brightminds",
+    "location": "Remote (Egypt, India, Jordan)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-17",
+    "url": "https://himalayas.app/companies/99brightminds/jobs/salesforce-devops-engineer?utm_source=api",
+    "source": "Himalayas",
+    "description": "99BrightMinds provides offshore development centers, IT staff augmentation, managed software teams, and technology leadership services that help clients move their digital transformation initiatives forward. Working across the Information Technology and Services sector, the company supports complex software delivery needs with scalable engineering capability and hands-on technical leadership.  As a Salesforce DevOps Engineer, you will help strengthen the release and deployment foundation behind a large-scale Salesforce program. This role is focused on creating reliable, efficient delivery workflows that support multiple development teams, improve governance, and enable consistent change management in a fast-paced Agile environment.  Responsibilities  \n Build, maintain, and optimize CI/CD pipelines for Salesforce deployments. \n Manage source control repositories, branching strategies, and release management processes. \n Administer Salesforce sandbox environments and coordinate deployments across multiple Salesforce orgs. \n Automate testing, validation, and code-quality checks within deployment pipelines. \n Troubleshoot deployment and environment issues for development teams. \n Implement DevOps best practices to improve deployment reliability, speed, and governance. \n Monitor release activities and ensure successful delivery across environments. \n Collaborate with developers, QA teams, business stakeholders, and Agile delivery teams. \n  Requirements  Requirements  \n 4+ years of",
+    "vikas_score": 8,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Azure.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 74,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “DevOps Engineer”.",
+        "Posting asks for skills in the profile: Agile, DevOps, CI/CD.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-18"
+  },
+  {
+    "job_id": "jcy_162982",
+    "title": "Senior Cloud Infrastructure Engineer",
+    "company": "Inato",
+    "location": "Remote (France)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-17",
+    "url": "https://jobicy.com/jobs/162982-senior-cloud-infrastructure-engineer-2",
+    "source": "Jobicy",
+    "description": "Who We Are \n  Inato  is a  Tech for Good company  striving to bring clinical research to each and every patient, regardless of who they are or where they live. To do this, we’ve built an AI-powered platform that changes how pharmaceutical companies and doctors around the world collaborate to bring medical breakthroughs to patients. Leading companies and over 5,500 research sites rely on Inato to increase patient access, improve representation in trials, and deliver life-changing treatments to patients faster. \n Drug development is a challenging, intellectually complex, and rewarding endeavor. We are a growing team of passionate pharmaceutical experts, software and AI engineers, professional services members, and many more—all bringing their unique perspectives to solve the challenges facing clinical research. \n Inato is a recipient of Fast Company’s Most Innovative Companies, Fierce Healthcare’s Fierce 15, and Built In's Best Places to Work 2025 and 2026. \n The Role \n As our  Senior Cloud Infrastructure Engineer , you will own the  maintainability and scalability  of  the infrastructure that powers Inato's platform . Reporting to Bastien, our CTO, you will split your time between projects that strengthen our infrastructure and run work that keeps it healthy. \n Until now, infrastructure work has been a shared responsibility between all members of the tech department. Now that we have multiples teams, more complex services, and a rapidly growing volume of patient data and syste",
+    "vikas_score": 19,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: GCP, IAM.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 74,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Infrastructure Engineer”.",
+        "Seniority fits (Senior).",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-18"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/minfy-technologies/jobs/cloud-solution-architect-8338248031",
@@ -8813,6 +9036,42 @@
     "scanned_date": "2026-11-16"
   },
   {
+    "job_id": "jcy_162979",
+    "title": "Platform Engineer - Compute",
+    "company": "Supabase",
+    "location": "Remote (Anywhere)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-17",
+    "url": "https://jobicy.com/jobs/162979-platform-engineer-compute",
+    "source": "Jobicy",
+    "description": "About the Role  \n We are seeking a platform engineer to join our Compute team. This team owns the critical systems that power project provisioning, scaling, and the compute that our users rely on every day. \n You’ll work on the core platform that ensures  Supabase  can seamlessly scale across multiple regions, handle high-volume workloads, and provide low-latency, highly available compute services. \n You'll design, build, and operate systems that are both robust and highly automated — enabling us to provision new projects reliably at scale, optimize resource utilization, and deliver a seamless experience to the millions of databases which we manage. \n\n What You’ll Be Responsible For: \n \n \n Help build and maintain the Supabase Cloud offering; \n \n \n Design and implement systems to provision, scale, and manage the multi-region compute workloads powering Supabase projects; \n \n \n Own the full lifecycle of compute orchestration: project creation, warm pools, autoscaling, resizing, and resource optimization; \n \n \n Improve automation and observability across the compute stack to ensure high availability and performance; \n \n \n Improve our system architecture to reduce costs while balancing security, reliability, and performance; \n \n \n Collaborate cross-functionally with other teams to help leverage compute as a core platform offering; \n \n \n Participate in on-call rotations, incident response, and post-incident reviews; \n \n \n Resolve escalated support issues, while also identifying and",
+    "vikas_score": 31,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Incident Response, AWS, Azure, GCP.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Kubernetes"
+      ]
+    },
+    "diksha_score": 73,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Platform Engineer”.",
+        "Posting asks for skills in the profile: Automation, Observability.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-18"
+  },
+  {
     "job_id": "li_830c3518f7",
     "title": "Devops Engineer",
     "company": "NCR Atleos",
@@ -8883,6 +9142,46 @@
     },
     "status": "new",
     "scanned_date": "2026-11-18"
+  },
+  {
+    "job_id": "jsp_naukri_nk-191126023269",
+    "title": "Aws Devops Engineer ( Workspace Management)",
+    "company": "Absolutelabs",
+    "location": "India (Remote)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-19",
+    "url": "https://www.naukri.com/job-listings-aws-devops-engineer-workspace-management-absolutelabs-hyderabad-5-to-9-years-191126023269",
+    "source": "Naukri",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 8,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS.",
+        "Remote: workable from Delhi.",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 73,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “DevOps Engineer”.",
+        "Posting asks for skills in the profile: AWS, DevOps.",
+        "Remote: workable from Delhi.",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-19"
   },
   {
     "job_id": "fh_software-development-engineer-build-devops-esri-lzmulhsm",
@@ -10510,305 +10809,5 @@
     },
     "status": "new",
     "scanned_date": "2026-11-17"
-  },
-  {
-    "job_id": "jcy_153453",
-    "title": "Product Lead - Infrastructure",
-    "company": "Supabase",
-    "location": "Remote (Anywhere)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-18",
-    "url": "https://jobicy.com/jobs/153453-product-lead-infrastructure",
-    "source": "Jobicy",
-    "description": "Supabase is the open-source Postgres development platform that 10M+ developers and thousands of enterprises depend on every day. Database, Auth, Storage, Edge Functions, Realtime and Vector Search all run on one platform: the same  compute , the same  disks , the same network and control plane, in every region we operate. \n Supabase's hardest problems live in that platform. Millions of databases, growth that compounds every quarter, and a customer base running from a developer on a free project to a regulated enterprise routing traffic through  PrivateLink . Reliability, capacity, cost and the enterprise features that close deals all come back to the same primitives. We're hiring a Product Lead to own them. \n \n  About the role  \n You own the platform primitives every Supabase product runs on: compute, disks, networking, the API gateway, capacity and regions. You own the enterprise surfaces built on top of them too, including   read replicas  ,   custom domains  , PrivateLink and Bring Your Own Cloud. You report to the Head of Product and set direction for the whole area alongside the leads for our other product lines. You're the only product person on the platform today, and the team grows under you as the area does. \n \n  What you'll be responsible for:  \n \n \n  You talk to customers across the full spectrum.  Developers running a single small project, growing startups whose bill is mostly compute and disk, enterprises walking through a network architecture review, and partner",
-    "vikas_score": 13,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": []
-    },
-    "diksha_score": 69,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (Infrastructure).",
-        "Seniority fits (Lead).",
-        "Posting asks for skills in the profile: Storage.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Networking"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-18"
-  },
-  {
-    "job_id": "hml_https://himalayas.app/companies/akamai-technologies/jobs/site-reliability-engineer-ii-1915061588",
-    "title": "Site Reliability Engineer II",
-    "company": "Akamai Technologies",
-    "location": "Remote (India)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-10-03",
-    "url": "https://himalayas.app/companies/akamai-technologies/jobs/site-reliability-engineer-ii-1915061588?utm_source=api",
-    "source": "Himalayas",
-    "description": "Do you like collaborating across teams to solve complex problems?    Do you enjoy solving large scale distributed content delivery challenges?    Join our critical Platform and Reliability Engineering Team!   The Platform & Reliability Engineering team is responsible for defining, measuring, & optimizing the key performance indicators of delivery customers. Your expertise in software engineering and systems administration will be instrumental in building robust and resilient infrastructure.  Partner with the best  As a Site Reliability Engineer II, this role involves shaping product futures by ensuring system reliability, scalability, and performance. Collaboration with product teams starts early in development. Responsibilities include defining key performance indicators, improving monitoring and alerting processes, enhancing operational responses, and resolving complex performance challenges.  As a Site Reliability Engineer II, you will be responsible for:  \n Working on Internet technologies to improve the performance, availability, and scalability of large distributed content delivery systems. \n Collaborating with cross-functional teams to define and establish measurable Service Level Indicators (SLIs) and Service Level Objectives (SLOs). \n Providing technical expertise and feedback to ensure system designs and implementations align with reliability and performance requirements effectively. \n Monitoring platform availability and performance, analyzing data to resolve compl",
-    "vikas_score": 17,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python"
-      ]
-    },
-    "diksha_score": 68,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title matches a target role: “Site Reliability Engineer”.",
-        "Posting asks for skills in the profile: Monitoring.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "jsp_linkedin_li-4484649135",
-    "title": "Site Reliability Engineer",
-    "company": "RedHolt",
-    "location": "Delhi, India",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-03",
-    "url": "https://www.linkedin.com/jobs/view/4484649135",
-    "source": "LinkedIn",
-    "via": "JobSpy",
-    "apply_email": "",
-    "description": "",
-    "vikas_score": 10,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Based in Delhi NCR (Delhi, India).",
-        "Only the title was available; open the posting to confirm."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": []
-    },
-    "diksha_score": 68,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title matches a target role: “Site Reliability Engineer”.",
-        "Based in Delhi NCR (Delhi, India).",
-        "Only the title was available; open the posting to confirm."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "jsp_linkedin_li-4487252369",
-    "title": "Site Reliability Engineer",
-    "company": "IDEMIA Public Security",
-    "location": "Delhi, India",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-04",
-    "url": "https://www.linkedin.com/jobs/view/4487252369",
-    "source": "LinkedIn",
-    "via": "JobSpy",
-    "apply_email": "",
-    "description": "",
-    "vikas_score": 10,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Based in Delhi NCR (Delhi, India).",
-        "Only the title was available; open the posting to confirm."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": []
-    },
-    "diksha_score": 68,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title matches a target role: “Site Reliability Engineer”.",
-        "Based in Delhi NCR (Delhi, India).",
-        "Only the title was available; open the posting to confirm."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "jsp_linkedin_li-4487889653",
-    "title": "Founding Platform Engineer",
-    "company": "Weekday (YC W21)",
-    "location": "Delhi, Delhi, India",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-11",
-    "url": "https://www.linkedin.com/jobs/view/4487889653",
-    "source": "LinkedIn",
-    "via": "JobSpy",
-    "apply_email": "",
-    "description": "",
-    "vikas_score": 10,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Based in Delhi NCR (Delhi, Delhi, India).",
-        "Only the title was available; open the posting to confirm."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": []
-    },
-    "diksha_score": 68,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title matches a target role: “Platform Engineer”.",
-        "Based in Delhi NCR (Delhi, Delhi, India).",
-        "Only the title was available; open the posting to confirm."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-11"
-  },
-  {
-    "job_id": "hml_https://himalayas.app/companies/zensar/jobs/sre-offshore-rishab",
-    "title": "SRE offshore Rishab",
-    "company": "Zensar",
-    "location": "Remote (India)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-11",
-    "url": "https://himalayas.app/companies/zensar/jobs/sre-offshore-rishab?utm_source=api",
-    "source": "Himalayas",
-    "description": "The team is responsible for ensuring the reliability, availability, and performance of the Fraud Decision Management Platform (DMP), which provides critical authentication and fraud prevention capabilities. Our focus is on operating highly resilient systems in the cloud, improving observability, and driving automation across build, deployment, and runtime operations.  Originally posted on  Himalayas",
-    "vikas_score": 5,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": []
-    },
-    "diksha_score": 68,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title matches a target role: “SRE”.",
-        "Posting asks for skills in the profile: Automation, Observability, SRE.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-13"
-  },
-  {
-    "job_id": "jsp_naukri_nk-131126019061",
-    "title": "Devops Engineer",
-    "company": "Modern Ballistic",
-    "location": "India (Remote)",
-    "salary": "INR 2,250,000–3,750,000",
-    "posted_date": "2026-11-13",
-    "url": "https://www.naukri.com/job-listings-devops-engineer-modern-ballistic-bengaluru-1-to-6-years-131126019061",
-    "source": "Naukri",
-    "via": "JobSpy",
-    "apply_email": "",
-    "description": "",
-    "vikas_score": 5,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Remote: workable from Delhi.",
-        "Only the title was available; open the posting to confirm."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": []
-    },
-    "diksha_score": 68,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title matches a target role: “DevOps Engineer”.",
-        "Posting asks for skills in the profile: DevOps.",
-        "Remote: workable from Delhi.",
-        "Only the title was available; open the posting to confirm."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-13"
-  },
-  {
-    "job_id": "jsp_naukri_nk-141126009602",
-    "title": "Seniorr DevOps Engineer",
-    "company": "Iitjobs Inc.",
-    "location": "India (Remote)",
-    "salary": "INR 3,000,000–4,500,000",
-    "posted_date": "2026-11-14",
-    "url": "https://www.naukri.com/job-listings-seniorr-devops-engineer-iitjobs-inc-pune-8-to-13-years-141126009602",
-    "source": "Naukri",
-    "via": "JobSpy",
-    "apply_email": "",
-    "description": "",
-    "vikas_score": 5,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Remote: workable from Delhi.",
-        "Only the title was available; open the posting to confirm."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": []
-    },
-    "diksha_score": 68,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title matches a target role: “DevOps Engineer”.",
-        "Posting asks for skills in the profile: DevOps.",
-        "Remote: workable from Delhi.",
-        "Only the title was available; open the posting to confirm."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-14"
   }
 ]
