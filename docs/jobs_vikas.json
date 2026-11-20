@@ -123,6 +123,48 @@
     "scanned_date": "2026-11-16"
   },
   {
+    "job_id": "fh_cloudsufi-security-architect-cyber-security-cloudsufi-q76eir",
+    "title": "CloudSufi - Security Architect - Cyber Security",
+    "company": "CloudSufi",
+    "location": "Delhi, Delhi-NCR Region",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-05",
+    "url": "https://www.shine.com/jobs/cloudsufi-security-architect-cyber-security/cloudsufi/20026326?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "shine",
+    "description": "CloudSufi - Security Architect - Cyber Security Company: CloudSufi Job Location: New Delhi, Delhi, India Employment Type: Full-time Experience Required: 5+ years About Us: CLOUDSUFI is a Silicon Valley-based specialist Data Engineering & Cloud Technologies player. We pride ourselves in helping in the Data Discovery, Insights and Monetization for organizations. CLOUDSUFI is a Data Science and Product Engineering company building Products/Solutions for Technology and Enterprise industries leveraging the advent of Cloud Hyper Scalers and AI/ML, NLP technologies. What we need: 5+ years' experience with AWS orchestration via Terraform script 5+ years' experience with Cloud Watch/Cloud Trail/Guard Duty 5+ years' experience with AWS WAF 4+ years' experience with Cloud Flare 3+ years' experience with Data Dog Experience with Pager Duty Ability to make nuanced threat assessments Experience in SOPHOS Significant experience with PCI, SOC2, SOX, HIPAA, or other compliance regimes Experience in Infrastructure As Code - Ansible / Terraform/ CloudFormation Hands-on experience implementing various security tools in CI/CD pipeline Strong experience with any cloud service provider (AWS Preferred) Preferred Certification - AWS Security/CISSP/CISM (Certified Information Security Manager) Responsibilities: Implement and oversee technological upgrades, improvements and major changes to the cloud security environment. Develop solutions, install/configure/integrate IT tools and security processes wi",
+    "vikas_score": 90,
+    "vikas_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title matches a target role: “Security Architect”.",
+        "Posting asks for skills in the profile: DevSecOps, Cloud Security, AWS, WAF.",
+        "Based in Delhi NCR (Delhi, Delhi-NCR Region)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "CISSP",
+        "CISM",
+        "HIPAA"
+      ]
+    },
+    "diksha_score": 59,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Architect).",
+        "Posting asks for skills in the profile: AWS, Terraform, DevOps, CI/CD.",
+        "Based in Delhi NCR (Delhi, Delhi-NCR Region)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Ansible"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-20"
+  },
+  {
     "job_id": "fh_head-information-security-grc-data-privacy-hindusthan-engine",
     "title": "Head - Information Security/GRC & Data Privacy",
     "company": "Hindusthan Engineering & Industries",
@@ -446,45 +488,40 @@
     "scanned_date": "2026-11-18"
   },
   {
-    "job_id": "fh_security-grc-lead-national-e-governance-division-5zkrlt6c",
-    "title": "Security & GRC Lead",
-    "company": "National e-Governance Division",
-    "location": "New Delhi",
-    "salary": "INR 2,500,000–4,000,000",
+    "job_id": "fh_soc-lead-kyndryl-hwt7gv3x",
+    "title": "SOC Lead",
+    "company": "Kyndryl",
+    "location": "Noida, Uttar Pradesh, India",
+    "salary": "Not disclosed",
     "posted_date": "2026-11-19",
-    "url": "https://www.naukri.com/job-listings-security-grc-lead-national-e-governance-division-new-delhi-10-to-14-years-191126014214?utm_source=freehire.me",
+    "url": "https://www.linkedin.com/jobs/view/4486839100/?utm_source=freehire.me",
     "source": "FreeHire",
-    "via": "naukri",
-    "description": "#This is a contractual role\n\n*Security & GRC Lead*\n\n*Experience:* 10-14 years\n\n*Budget:* 39,67,678/yr (GST-incl.)\n\n*Location:* New Delhi (on-site)\n\n*About the Role*\n\nSIDH handles Aadhaar-linked identity, financial disbursements, learner PII, and certification data across national schemes. As of January 2026, it has zero CISO coverage, no GRC framework, and several procured security tools (Varonis, Cymulate, OPSWAT) that are not yet deployed. This is one of the most urgent hires in the PMU.\n\n*Educational Qualification*\n\n*One of the following (Must have):*\n\n* B.Tech./B.E. in Computer Science, Information Technology, Cybersecurity, or related engineering discipline, *OR*\n* M.Tech./M.S. in Information Security, Cybersecurity, Applied Cryptography, or related field\n\n*At least one of the following certifications required at deployment (Must have):*\n\n* CISSP, CISM, CEH, OSCP, GWAPT, CSSLP, or CompTIA Security+\n\nISO 27001 Lead Auditor and privacy certifications (DCPP, DPO training) additionally desirable.\n\n*Key Responsibilities*\n\n* Establish the platform security governance framework, cyber risk register, policy baseline, and security architecture review process\n* Own privacy and compliance leadership for DPDP Act controls acting as the Data Protection Officer-equivalent function\n* Lead rollout governance for procured-but-undeployed tools: Varonis (DSPM), Cymulate (BAS), and OPSWAT (DAP/CIP)\n* Govern VAPT, application security testing, vulnerability management, and remediation tracki",
+    "via": "linkedin",
+    "description": "*Job Title: SOC CW n Dev Lead*\n\n*Location: Noida Sector 144*\n\n*Shift and Schedule: 5 Days Office (Rotational)*\n\n*Summary:*\n\nA cybersecurity engineer is responsible for protecting computer systems and networks from cyber threats, such as hacking, viruses, and other malicious attacks. Their job involves overseeing the implementation, deployment and maintenance of security solutions to ensure the confidentiality, integrity, and availability of data. Interacts with the Cybersecurity Architecture team to provide feedback on design and any areas in need of improvement.\n\nJob Qualifications: You’re good at what you do and possess the required experience to prove it. However, equally as important – you have a growth mindset; keen to drive your own personal and professional development. You are customer-focused – someone who prioritizes customer success in their work. And finally, you’re open and borderless – naturally inclusive in how you work with others.\n\n*Required Skills and Experience:*\n\n* Need 4 to 5 years of experience.\n* The SOC Lead cum Shift Incident Manager plays a dual role: as a senior technical expert, handling complex security incidents and as the shift lead responsible for managing SOC operations during their assigned shift. This role is critical in ensuring 24x7 incident response, operational continuity, and escalation governance.\n* Investigate and resolve escalated security incidents from L1 and L2 analysts.\n* Perform deep-dive forensic analysis, triage, and root caus",
     "vikas_score": 78,
     "vikas_fit": {
       "band": "Good fit",
       "reasons": [
-        "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: DSPM, Vulnerability Management, ISO 27001, GRC, Security Architecture.",
-        "Based in Delhi NCR (New Delhi)."
+        "Title is in the right field (SOC).",
+        "Posting asks for skills in the profile: DLP, SOC Operations, SIEM, SOAR, EDR.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
       ],
       "red_flags": [],
-      "gaps": [
-        "CISSP",
-        "CISM",
-        "OSCP",
-        "DPDP"
-      ]
+      "gaps": []
     },
-    "diksha_score": 42,
+    "diksha_score": 47,
     "diksha_fit": {
       "band": "Poor fit",
       "reasons": [
         "Seniority fits (Lead).",
-        "Posting asks for skills in the profile: Monitoring.",
-        "Based in Delhi NCR (New Delhi)."
+        "Posting asks for skills in the profile: Automation, Monitoring.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
       ],
       "red_flags": [],
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-19"
+    "scanned_date": "2026-11-20"
   },
   {
     "job_id": "fh_security-architect-government-digital-transformation-coforge",
@@ -636,6 +673,47 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "fh_security-grc-lead-national-e-governance-division-5zkrlt6c",
+    "title": "Security & GRC Lead",
+    "company": "National e-Governance Division",
+    "location": "New Delhi",
+    "salary": "INR 2,500,000–4,000,000",
+    "posted_date": "2026-11-19",
+    "url": "https://www.naukri.com/job-listings-security-grc-lead-national-e-governance-division-new-delhi-10-to-14-years-191126014214?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "naukri",
+    "description": "#This is a contractual role\n\n*Security & GRC Lead*\n\n*Experience:* 10-14 years\n\n*Budget:* 39,67,678/yr (GST-incl.)\n\n*Location:* New Delhi (on-site)\n\n*About the Role*\n\nSIDH handles Aadhaar-linked identity, financial disbursements, learner PII, and certification data across national schemes. As of January 2026, it has zero CISO coverage, no GRC framework, and several procured security tools (Varonis, Cymulate, OPSWAT) that are not yet deployed. This is one of the most urgent hires in the PMU.\n\n*Educational Qualification*\n\n*One of the following (Must have):*\n\n* B.Tech./B.E. in Computer Science, Information Technology, Cybersecurity, or related engineering discipline, *OR*\n* M.Tech./M.S. in Information Security, Cybersecurity, Applied Cryptography, or related field\n\n*At least one of the following certifications required at deployment (Must have):*\n\n* CISSP, CISM, CEH, OSCP, GWAPT, CSSLP, or CompTIA Security+\n\nISO 27001 Lead Auditor and privacy certifications (DCPP, DPO training) additionally desirable.\n\n*Key Responsibilities*\n\n* Establish the platform security governance framework, cyber risk register, policy baseline, and security architecture review process\n* Own privacy and compliance leadership for DPDP Act controls acting as the Data Protection Officer-equivalent function\n* Lead rollout governance for procured-but-undeployed tools: Varonis (DSPM), Cymulate (BAS), and OPSWAT (DAP/CIP)\n* Govern VAPT, application security testing, vulnerability management, and remediation tracki",
+    "vikas_score": 75,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: DSPM, Vulnerability Management, ISO 27001, GRC, Security Architecture.",
+        "Based in Delhi NCR (New Delhi)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "CISSP",
+        "CISM",
+        "OSCP",
+        "DPDP"
+      ]
+    },
+    "diksha_score": 42,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Lead).",
+        "Posting asks for skills in the profile: Monitoring.",
+        "Based in Delhi NCR (New Delhi)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-19"
+  },
+  {
     "job_id": "fh_manager-global-it-security-operations-lonza-z63qf5iv",
     "title": "Manager, Global IT Security Operations",
     "company": "Lonza",
@@ -747,7 +825,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-19"
+    "scanned_date": "2026-11-20"
   },
   {
     "job_id": "li_13520ed6f3",
@@ -785,6 +863,46 @@
     },
     "status": "new",
     "scanned_date": "2026-11-15"
+  },
+  {
+    "job_id": "fh_security-operations-center-architect-d-genminds-talent-group",
+    "title": "Security Operations Center Architect",
+    "company": "D'GenMinds Talent Group Pvt. Ltd",
+    "location": "Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-19",
+    "url": "https://www.linkedin.com/jobs/view/4489098889/?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "linkedin",
+    "description": "Job Description\n\nOrganization - Global Leader in Vacuum Industry - Client of D'GenMinds\n\nDepartment: *Network & Security*\n\nRole description:\n\n*Senior IT Security Engineer* We are looking for a highly experienced, hands-on Senior IT Security Engineer to support our operations in Delhi. The role focuses on security incident investigation, network security operations, technical risk assessment, and continuous improvement of the organization’s security posture. The successful candidate will assess findings based on actual business risk and operational impact, challenge assumptions when needed, and provide practical recommendations. We are also looking for a collaborative team player who can work effectively across technical and business teams, build positive working relationships, and contribute to a culture of shared ownership and continuous learning.\n\nSalary indication:\n\nResponsibilities:\n\n* Investigate security incidents, identify root causes, coordinate remediation, and document impact and resolution.\n* Configure, maintain, monitor, and troubleshoot network and security infrastructure, including firewalls, routers, switches, VPNs, and monitoring tools.\n* Support vulnerability management, security hardening, compliance requirements, and operational security standards.\n* Perform risk-based assessments considering threat exposure, attack paths, business criticality, and operational impact.\n* Maintain clear documentation and communicate recommendations to technical and non-techni",
+    "vikas_score": 72,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: SIEM, Incident Response, Vulnerability Management, Security Architecture.",
+        "Based in Delhi NCR (Delhi, India)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Palo Alto"
+      ]
+    },
+    "diksha_score": 42,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Architect).",
+        "Posting asks for skills in the profile: Monitoring.",
+        "Based in Delhi NCR (Delhi, India)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Networking"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-20"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/majesco/jobs/senior-lead-engineer-information-security",
@@ -1087,7 +1205,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-19"
+    "scanned_date": "2026-11-20"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/mashreq/jobs/manager-security-assurance-information-security-group-isg",
@@ -1690,6 +1808,84 @@
     "scanned_date": "2026-11-18"
   },
   {
+    "job_id": "jcy_163373",
+    "title": "Senior Security Engineer | InfoSec",
+    "company": "Wellhub",
+    "location": "Remote (Brazil)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-19",
+    "url": "https://jobicy.com/jobs/163373-senior-security-engineer-infosec",
+    "source": "Jobicy",
+    "description": "Your wellbeing, our mission. Join a company shaping a healthier world.  \n  GET TO KNOW US  \n At  Wellhub  we're revolutionizing workplace wellness. Our platform connects employees worldwide to the best partners for fitness, mindfulness, therapy, nutrition, and sleep—all in one simple subscription. Headquartered in NYC with team members in Europe, North America and South America, we’re on a mission to make every company a wellness company. \n We believe work should be fulfilling, inspiring, and balanced. Here, you’ll find a team that values wellbeing, collaboration, and different perspectives, where passion and creativity push boundaries to create real impact. Your contributions will help shape a healthier, more balanced world for you and millions of people globally.  \n  Join us in redefining the future of wellbeing!  \n\n  THE OPPORTUNITY  \n We are hiring a  Senior Security Engineer    in our  InfoSec  area in  Brazil ! This is a  Remote – Brazil  position, meaning you can work from anywhere within the country. Please note that this role is only open to candidates in Brazil.  \n The mission of the Infosec team is to make Wellhub a safer company for its customers, partners, end users, and employees by protecting the entire ecosystem from internal and external threats and contributing to the creation of safe and secure products. This role is focused on investigating and responding to security incidents and threat attempts to protect our cloud-based environment. You will collaborate",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: SIEM, Incident Response, Cloud Security, AWS.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "SOC 2",
+        "HIPAA"
+      ]
+    },
+    "diksha_score": 50,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: AWS, Automation, Monitoring, Observability.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-20"
+  },
+  {
+    "job_id": "jsp_linkedin_li-4492778313",
+    "title": "VP, IS Risk - Assurance (L12)",
+    "company": "Synchrony",
+    "location": "Delhi, Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-20",
+    "url": "https://www.linkedin.com/jobs/view/4492778313",
+    "source": "LinkedIn",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Risk).",
+        "Seniority fits (VP).",
+        "Based in Delhi NCR (Delhi, Delhi, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 0,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Delhi, Delhi, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [
+        "The posting isn't about this field.",
+        "A stretch: the title is a step or two above Deputy Manager."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-20"
+  },
+  {
     "job_id": "hml_https://himalayas.app/companies/canonical/jobs/head-of-security-operations",
     "title": "Head of Security Operations",
     "company": "Canonical",
@@ -1851,12 +2047,86 @@
     "scanned_date": "2026-11-09"
   },
   {
+    "job_id": "fh_delivery-lead-sales-careers-inc-nttdata-com-rgfbckko",
+    "title": "Systems Engineering Advisor-Technical Lead - Endpoint Application Security & Governance",
+    "company": "careers-inc.nttdata.com",
+    "location": "Noida, UP, IN",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-14",
+    "url": "https://careers-inc.nttdata.com/job/Noida-Systems-Engineering-Advisor-Technical-Lead-Endpoint-Application-Security-&-Governance-UP/1396286200/?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "successfactors",
+    "description": "NTT DATA strives to hire exceptional, innovative and passionate individuals who want to grow with us. If you want to be part of an inclusive, adaptable, and forward-thinking organization, apply now.\n\nWe are currently seeking a Systems Engineering Advisor-Technical Lead - Endpoint Application Security & Governance to join our team in Noida, Uttar Pradesh (IN-UP), India (IN).\n\n*Offshore Technical Lead – Endpoint Application Security & Governance*\n\n*Role Overview*\n\nExperienced Offshore Technical Lead to support Enlyte’s 2026 security initiatives covering endpoint application governance, vulnerability remediation, compliance, application rationalization, and security risk reduction. The role will coordinate across Cybersecurity, Endpoint, Infrastructure, Service Management, and Application teams.\n\n*Key Responsibilities*\n\n* Lead application discovery, classification, governance, and lifecycle management across enterprise endpoints.\n* Establish governance for sanctioned, unsanctioned, and unauthorized applications, including ownership and custodianship.\n* Lead endpoint vulnerability remediation, patch compliance, application updates, and endpoint hardening.\n* Analyze vulnerability and security data to prioritize critical/high-risk issues and drive remediation within agreed SLAs.\n* Coordinate with Application Owners, Cybersecurity, Infrastructure, and Endpoint teams to deliver remediation outcomes.\n* Correlate application, vulnerability, endpoint, and security telemetry across Palo ",
+    "vikas_score": 65,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: CrowdStrike, Vulnerability Management, PAM.",
+        "Based in Delhi NCR (Noida, UP, IN)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "CISSP",
+        "Palo Alto"
+      ]
+    },
+    "diksha_score": 48,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Lead).",
+        "Posting asks for skills in the profile: Automation.",
+        "Based in Delhi NCR (Noida, UP, IN)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-20"
+  },
+  {
+    "job_id": "fh_group-general-manager-ingram-micro-pwm73ghr",
+    "title": "Group General Manager",
+    "company": "Ingram Micro",
+    "location": "New Delhi, South Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-19",
+    "url": "https://ingrammicro.wd5.myworkdayjobs.com/IngramMicro/job/New-Delhi-South-Delhi-India/Group-General-Manager_R-115240?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "workday",
+    "description": "*It's fun to work in a company where people truly BELIEVE in what they're doing!*\n\nJob Description:\n\nIngram Micro is a leading technology company within the global information technology ecosystem. With the ability to reach nearly 90% of the world's population, we play a critical role in the IT sales channel, connecting technology manufacturers and cloud providers with business-to-business technology experts worldwide.\n\nKey Responsibilities\n\n* Own the CISO/Cybersecurity product category, including revenue, margin and growth targets.\n* Develop and execute the category business plan and go-to-market strategy.\n* Manage relationships with leading cybersecurity vendors and technology partners.\n* Build and strengthen relationships with resellers, system integrators, MSSPs and enterprise partners.\n* Identify new vendors, technologies and market opportunities.\n* Drive partner acquisition, enablement, certifications and business development.\n* Lead vendor negotiations, pricing, schemes, promotions and business reviews.\n* Develop pipeline and support large enterprise/security opportunities.\n* Track market trends, competitor activities and cybersecurity technology developments.\n* Work closely with sales, presales, marketing, finance and supply chain teams.\n* Prepare forecasts, MIS and regular category performance reviews.\n\n*Product / Solution Exposure*\n\n* Network Security & Firewalls\n* Endpoint Security / EDR / XDR\n* Identity & Access Management\n* Cloud Security\n* Data Security / DLP\n* ",
+    "vikas_score": 65,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Group).",
+        "Posting asks for skills in the profile: DLP, SIEM, EDR, XDR, Cloud Security.",
+        "Based in Delhi NCR (New Delhi, South Delhi, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 39,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Manager).",
+        "Based in Delhi NCR (New Delhi, South Delhi, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-20"
+  },
+  {
     "job_id": "hml_https://himalayas.app/companies/photon-interactive-uk-limited/jobs/security-and-compliance-engineer_offshore",
     "title": "Security and Compliance Engineer_Offshore",
     "company": "Photon Interactive UK Limited",
     "location": "Remote (India)",
     "salary": "Not disclosed",
-    "posted_date": "2026-10-25",
+    "posted_date": "2026-11-19",
     "url": "https://himalayas.app/companies/photon-interactive-uk-limited/jobs/security-and-compliance-engineer_offshore?utm_source=api",
     "source": "Himalayas",
     "description": "About the Role  We're seeking a hands-on and detail-oriented Security and Compliance Engineer to drive security across our applications, infrastructure, and compliance programs-especially in a healthcare environment. This role combines security engineering, DevSecOps, and risk management with a strong focus on application, cloud, AI, and data security.  You will work closely with engineering, DevOps, and compliance teams to embed security into the development lifecycle, support regulatory frameworks, and ensure cloud-native environments and AI technologies are secure by design.  Responsibilities  \n Conduct web and mobile application penetration testing, vulnerability scanning, and remediation support across our platforms. \n Integrate DevSecOps practices into CI/CD pipelines, using tools like Snyk, Terraform, and container security scanners. \n Implement and monitor Cloud Security Posture Management (CSPM) tools such as Wiz to secure cloud configurations and infrastructure. \n Partner with DevOps to enforce secure provisioning via Infrastructure as Code (IaC). \n Lead and support compliance initiatives (HIPAA, SOC 2, HITRUST) using platforms like Drata (Compliance-as-a-Service). \n Design and enhance email gateway security (e.g., Barracuda) and bot protection (e.g., WatchGuard) to defend against phishing and automated threats. \n Evaluate and secure chatbots and AI systems, addressing risks like prompt injection, data leakage, and model integrity. \n Drive data security best practic",
@@ -1892,7 +2162,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-19"
+    "scanned_date": "2026-11-20"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/photon/jobs/security-and-compliance-engineer_offshore",
@@ -1900,7 +2170,7 @@
     "company": "Photon",
     "location": "Remote (India)",
     "salary": "Not disclosed",
-    "posted_date": "2026-10-03",
+    "posted_date": "2026-11-19",
     "url": "https://himalayas.app/companies/photon/jobs/security-and-compliance-engineer_offshore?utm_source=api",
     "source": "Himalayas",
     "description": "About the Role  We're seeking a hands-on and detail-oriented Security and Compliance Engineer to drive security across our applications, infrastructure, and compliance programs-especially in a healthcare environment. This role combines security engineering, DevSecOps, and risk management with a strong focus on application, cloud, AI, and data security.  You will work closely with engineering, DevOps, and compliance teams to embed security into the development lifecycle, support regulatory frameworks, and ensure cloud-native environments and AI technologies are secure by design.  Responsibilities  \n Conduct web and mobile application penetration testing, vulnerability scanning, and remediation support across our platforms. \n Integrate DevSecOps practices into CI/CD pipelines, using tools like Snyk, Terraform, and container security scanners. \n Implement and monitor Cloud Security Posture Management (CSPM) tools such as Wiz to secure cloud configurations and infrastructure. \n Partner with DevOps to enforce secure provisioning via Infrastructure as Code (IaC). \n Lead and support compliance initiatives (HIPAA, SOC 2, HITRUST) using platforms like Drata (Compliance-as-a-Service). \n Design and enhance email gateway security (e.g., Barracuda) and bot protection (e.g., WatchGuard) to defend against phishing and automated threats. \n Evaluate and secure chatbots and AI systems, addressing risks like prompt injection, data leakage, and model integrity. \n Drive data security best practic",
@@ -1936,7 +2206,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-19"
+    "scanned_date": "2026-11-20"
   },
   {
     "job_id": "fh_devsecops-sre-lead-national-e-governance-division-negd-digit",
@@ -2016,46 +2286,44 @@
     "scanned_date": "2026-11-14"
   },
   {
-    "job_id": "hml_https://himalayas.app/companies/xtium/jobs/security-engineer-secure-development",
-    "title": "Security Engineer - Secure Development",
-    "company": "XTIUM",
-    "location": "Remote (India, Pakistan)",
+    "job_id": "jsp_indeed_in-1d5e1e1872848677",
+    "title": "Governance, Risk and Compliance (GRC) Program Manager (India)",
+    "company": "Worldwide Clinical Trials",
+    "location": "DL, India (Remote)",
     "salary": "Not disclosed",
-    "posted_date": "2026-11-01",
-    "url": "https://himalayas.app/companies/xtium/jobs/security-engineer-secure-development?utm_source=api",
-    "source": "Himalayas",
-    "description": "The  XTIUM  global team is made up of a group of diverse and talented professionals who are all driven by the same goal: excellence and continuous improvement. We are all about embracing challenges, keeping the lines of communication open and working together. We take ownership of our work, focus on learning and growing and hold ourselves accountable to our colleagues and customers. Together, we strive to push boundaries, make an impact and inspire each other to reach our full potential.      Job Description:   About the Role  The  Security Engineer, Secure Development  is responsible for establishing, leading, and enforcing security standards for all internally developed software, automation, and AI‑enabled solutions prior to customer delivery or internal production use. This role serves as the primary technical lead and designated expert to ensure that applications, APIs, infrastructure‑as‑code, and AI models meet security, privacy, and compliance requirements before release. This is an individual contributor role within the security organization, focused on hands‑on execution, technical depth, and influence through standards, tooling, and partnership with development teams.  As a Managed Services Provider with proprietary platforms and customer‑facing systems,  XTIUM  requires strong governance over secure development practices. This role works closely with  engineering, platform, infrastructure, and compliance teams  to embed security into the software development lifecyc",
-    "vikas_score": 63,
+    "posted_date": "2026-11-20",
+    "url": "https://worldwide.wd1.myworkdayjobs.com/en-US/External/job/New-Delhi-India/Governance--Risk-and-Compliance--GRC--Program-Manager--India-_JR103415",
+    "source": "Indeed",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "Join a global Contract Resource Organization (CRO) where innovation meets purpose. At **Worldwide Clinical Trials** , we're driven by a shared commitment to improving lives through high-quality clinical research. Our teams are empowered to think creatively, take ownership, and deliver meaningful work that helps bring life-changing therapies to patients around the world.\n\n  \n\nWith more than 4,000 professionals across the globe, we foster a collaborative and inclusive environment where diverse perspectives are valued, growth is encouraged, and every contribution makes an impact. Whether you're building your career or bringing years of experience, you'll have the opportunity to learn, grow, and help shape the future of clinical research.\n\n  \n\n**Make an Impact as a Governance, Risk and Compliance (GRC) Program Manager at Worldwide**\n\n  \n\nAs a Governance, Risk and Compliance (GRC) Program Manager, you'll play a critical role in advancing key information security initiatives that support business goals, regulatory commitments, and risk reduction objectives. Working within the Governance, Risk and Compliance team and reporting to the Senior Director of Governance, Risk and Compliance, you'll lead complex programs that drive meaningful security and operational outcomes across the organization.\n\nIn this highly visible role, you'll provide end-to-end leadership for a portfolio of information security and GRC programs, guiding strategy, governance, planning, execution, and long-term ado",
+    "vikas_score": 64,
     "vikas_fit": {
       "band": "Possible fit",
       "reasons": [
-        "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: DevSecOps, SAST, DAST, AWS, Azure.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "This reads as an individual-contributor role well below 14 years of security leadership."
-      ],
-      "gaps": [
-        "SOC 2",
-        "Python"
-      ]
-    },
-    "diksha_score": 47,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: AWS, Automation, DevOps, CI/CD.",
+        "Title is in the right field (Risk).",
+        "Posting asks for skills in the profile: Vulnerability Management, Cloud Security, GRC.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [],
       "gaps": [
-        "Python",
-        "Java"
+        "CISSP",
+        "CISM",
+        "CRISC"
       ]
     },
+    "diksha_score": 34,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Manager).",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
     "status": "new",
-    "scanned_date": "2026-11-19"
+    "scanned_date": "2026-11-20"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/rsa-security/jobs/principal-application-security-engineer-i",
@@ -2139,7 +2407,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-19"
+    "scanned_date": "2026-11-20"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/sun-king/jobs/application-security-engineer",
@@ -2260,5 +2528,52 @@
     },
     "status": "new",
     "scanned_date": "2026-11-09"
+  },
+  {
+    "job_id": "fh_senior-cloud-infrastructure-automation-engineer-tufin-yot6xp",
+    "title": "Senior Cloud Infrastructure & Automation Engineer",
+    "company": "Tufin",
+    "location": "Gurugram",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-19",
+    "url": "https://www.tufin.com/open-position?uid=09.47E&utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "comeet",
+    "description": "As a Senior Cloud Infrastructure and Automation Engineer at Tufin, you will join our Infrastructure and Cloud team and lead the design and evolution of our multi-cloud platform across AWS, Azure and GCP, from architecture and delivery pipelines to day-2 operations. You will use Infrastructure as Code, Kubernetes and AI-driven automation to make it more reliable, secure and cost-efficient as the business scales, working closely with R&D, Security and IT. This is a chance to shape how the platform is built and run, and to set the standards others build on.\n\n----------------\nResponsibilities\n----------------\n\n* Design, implement and operate Tufin's multi-cloud services across AWS, Azure and GCP (compute, storage, networking and security), including monitoring and lifecycle management\n* Build and maintain Infrastructure as Code and CI/CD pipelines that deliver infrastructure and platform changes in an automated, repeatable and auditable way\n* Lead complex multi-technology solutions using cloud-native services, from concept and scoping through production, including architecture sessions, design planning and reviews\n* Define and document internal cloud service offerings, standards and reference architectures\n* Share knowledge and mentor teammates through documentation, pairing and hands-on guidance\n* Drive reliability, observability and security best practices (IAM, secrets management, hardening, patching, backup/DR) across all cloud environments\n* Build AI-driven automation and ag",
+    "vikas_score": 60,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Posting asks for skills in the profile: DevSecOps, Incident Response, Cloud Security, AWS, Azure.",
+        "Based in Delhi NCR (Gurugram)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "SOC 2",
+        "Kubernetes",
+        "Python"
+      ]
+    },
+    "diksha_score": 97,
+    "diksha_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title is in the right field (Cloud).",
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: AWS, Multi-Cloud, Terraform, Bash, Automation.",
+        "Based in Delhi NCR (Gurugram)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
+        "AKS",
+        "EKS",
+        "Ansible",
+        "Jenkins",
+        "GitLab"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-20"
   }
 ]
