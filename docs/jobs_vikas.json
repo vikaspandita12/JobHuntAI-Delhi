@@ -123,6 +123,47 @@
     "scanned_date": "2026-11-16"
   },
   {
+    "job_id": "hml_https://himalayas.app/companies/bjak/jobs/security-architect",
+    "title": "Security Architect",
+    "company": "Bjak",
+    "location": "Remote (Worldwide)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-09-30",
+    "url": "https://himalayas.app/companies/bjak/jobs/security-architect?utm_source=api",
+    "source": "Himalayas",
+    "description": "About BJAK   The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name.  Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia.  Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day.  We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few.  If you're this person, we'd love to talk to you.  The Role  Define security architecture across BJAK products, applications, cloud platforms, and infrastructure. Partner with Engineering, Product, Cloud, Compliance, and Security to build secure systems and meet regulatory requirements.   What You Will Build   \n  Define security architecture, patterns, and standards across products, applications, APIs, cloud environments, and integrations.  \n  Own architecture implementation and ongoin",
+    "vikas_score": 91,
+    "vikas_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title matches a target role: “Security Architect”.",
+        "Posting asks for skills in the profile: AWS, GCP, ISO 27001, NIST, Security Architecture.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Python"
+      ]
+    },
+    "diksha_score": 44,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Architect).",
+        "Posting asks for skills in the profile: AWS, IAM.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
+        "Python",
+        "Networking"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-22"
+  },
+  {
     "job_id": "fh_head-information-security-grc-data-privacy-hindusthan-engine",
     "title": "Head - Information Security/GRC & Data Privacy",
     "company": "Hindusthan Engineering & Industries",
@@ -159,41 +200,6 @@
     },
     "status": "new",
     "scanned_date": "2026-11-09"
-  },
-  {
-    "job_id": "hml_https://himalayas.app/companies/zoom-communications-inc/jobs/principal-security-engineer",
-    "title": "Principal Security Engineer",
-    "company": "Zoom Communications, Inc.",
-    "location": "Remote (India)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-19",
-    "url": "https://himalayas.app/companies/zoom-communications-inc/jobs/principal-security-engineer?utm_source=api",
-    "source": "Himalayas",
-    "description": "What You Can Expect  As a Senior Security Engineer on Zoom's Enterprise Security team, you will own the AI Governance program end to end, defining the technical standards and risk posture that determine how Zoom adopts AI safely and at scale. On any given day, you will be assessing emerging AI use cases, building security frameworks for GenAI and agentic systems, and serving as the trusted technical voice on AI security for engineering and enterprise stakeholders across four critical domains. This is a hands-on, highly autonomous role that calls for real depth in both AI/ML systems and security engineering; candidates without working familiarity with how modern AI introduces security risk will not be set up for success here. You will work as part of a globally distributed, multi-domain security engineering team, collaborating closely with colleagues across time zones and contributing across adjacent security domains beyond AI.   About the Team  Zoom's Enterprise Security team is the engineering foundation behind how the company identifies, contains, and gets ahead of risk across its most critical systems. Working across AI, data, network, endpoint, and cloud security, the team builds the controls, standards, and architectures that let Zoom move quickly without creating unacceptable exposure. As Zoom deepens its investment in AI across Zoom Workplace and its broader platform, this team's work is increasingly central to how the company grows responsibly.   Responsibilities  \n O",
-    "vikas_score": 87,
-    "vikas_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Seniority fits (Principal).",
-        "Posting asks for skills in the profile: AI Governance, DLP, Incident Response, Cloud Security, Security Architecture.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "diksha_score": 30,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Monitoring.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-21"
   },
   {
     "job_id": "fh_senior-security-architect-talent-destination-private-limited",
@@ -453,46 +459,6 @@
     },
     "status": "new",
     "scanned_date": "2026-11-14"
-  },
-  {
-    "job_id": "fh_senior-manager-application-security-cvent-vjrf2rns",
-    "title": "Senior Manager Application Security",
-    "company": "Cvent",
-    "location": "Gurugram",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-20",
-    "url": "https://www.naukri.com/job-listings-senior-manager-application-security-cvent-gurugram-11-to-16-years-201126022914?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "naukri",
-    "description": "*About the role:*\n\nWe are seeking an AI-first Senior Application Security Manager to lead our India Application Security team. Reporting to the Director of Information Security, India, with a reporting line to the functional head of Application Security, you will reimagine how AppSec works at Cvent: AI agents that find, verify, prioritize, and fix vulnerabilities, with security engineers who direct, tune, and govern them.\n\nThe ideal candidate is a security leader who reaches for AI and automation, has hands-on experience putting agentic workflows into production, and can still judge a finding, review a threat model, or challenge a risk decision.\n\n*What you will be doing:*\n\n* Own and drive the multi-year vision, strategy, and roadmap for an AI-first Application Security program in partnership with the Head of Application Security and be accountable for its delivery and outcomes.\n* Build, scale, and lead a multi-level organization of Application Security Engineers and team leads who design, operate, and improve AI agents, owning org design, workforce planning, hiring, development, succession, and performance.\n* Lead the org-wide move from manual review to agentic security, with AI agents that discover, triage, prioritize, and fix vulnerabilities across the entire product portfolio.\n* Shape the AppSec tooling strategy and vendor relationships, recommend build-vs-buy decisions and investment needs, and manage the India program within the approved budget.\n* Define the governance m",
-    "vikas_score": 80,
-    "vikas_fit": {
-      "band": "Good fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: LLM Security, SAST, DAST, Incident Response, Vulnerability Management.",
-        "Based in Delhi NCR (Gurugram)."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "CISSP",
-        "OSCP",
-        "SOC 2"
-      ]
-    },
-    "diksha_score": 50,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: Automation, SRE, CI/CD.",
-        "Based in Delhi NCR (Gurugram)."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-21"
   },
   {
     "job_id": "rok_1131111",
@@ -864,50 +830,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-21"
-  },
-  {
-    "job_id": "jcy_156123",
-    "title": "Senior Product Security Engineer",
-    "company": "AlphaSense",
-    "location": "Remote (Ireland)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-21",
-    "url": "https://jobicy.com/jobs/156123-senior-product-security-engineer",
-    "source": "Jobicy",
-    "description": "About AlphaSense:   \n AlphaSense is the AI platform redefining market intelligence and workflow orchestration, trusted by thousands of leading organizations to drive faster, more confident decisions in business and finance. The platform combines domain-specific AI with a vast content universe of over 500 million premium business documents — including equity research, earnings calls, expert interviews, filings, news, and internal proprietary content. Purpose-built for speed, accuracy, and enterprise-grade security, AlphaSense helps teams extract critical insights, uncover market-moving trends, and automate complex workflows with high-quality outputs. With AI solutions like Generative Search, Generative Grid, and Deep Research, AlphaSense delivers the clarity and depth professionals need to navigate complexity and obtain accurate, real-time information quickly. For more information, visit  www.alpha-sense.com . Come join us. \n  About the Role  \n We're looking for a Senior Product Security Engineer to lead the design and implementation of secure, scalable, and trustworthy products across AlphaSense's AI-native platform. You'll work closely with architects, engineering, and product teams to embed security by design throughout the software development lifecycle. \n This role sits at the intersection of AI/ML security, secure architecture, threat modeling, and customer-facing assurance — defining the standards, automation, and frameworks that enable secure, intelligent products at s",
-    "vikas_score": 73,
-    "vikas_fit": {
-      "band": "Good fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: LLM Security, DevSecOps, Secure SDLC, Cloud Security, ISO 27001.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "CISSP",
-        "SOC 2",
-        "Kubernetes",
-        "Python"
-      ]
-    },
-    "diksha_score": 57,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: Multi-Cloud, Automation, RBAC, Kubernetes, CI/CD.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python",
-        "Java"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-21"
+    "scanned_date": "2026-11-22"
   },
   {
     "job_id": "li_13520ed6f3",
@@ -947,41 +870,36 @@
     "scanned_date": "2026-11-15"
   },
   {
-    "job_id": "fh_security-operations-center-architect-d-genminds-talent-group",
-    "title": "Security Operations Center Architect",
-    "company": "D'GenMinds Talent Group Pvt. Ltd",
-    "location": "Delhi, India",
+    "job_id": "hml_https://himalayas.app/companies/zoom-communications-inc/jobs/principal-security-engineer",
+    "title": "Principal Security Engineer",
+    "company": "Zoom Communications, Inc.",
+    "location": "Remote (India)",
     "salary": "Not disclosed",
     "posted_date": "2026-11-19",
-    "url": "https://www.linkedin.com/jobs/view/4489098889/?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "linkedin",
-    "description": "Job Description\n\nOrganization - Global Leader in Vacuum Industry - Client of D'GenMinds\n\nDepartment: *Network & Security*\n\nRole description:\n\n*Senior IT Security Engineer* We are looking for a highly experienced, hands-on Senior IT Security Engineer to support our operations in Delhi. The role focuses on security incident investigation, network security operations, technical risk assessment, and continuous improvement of the organization’s security posture. The successful candidate will assess findings based on actual business risk and operational impact, challenge assumptions when needed, and provide practical recommendations. We are also looking for a collaborative team player who can work effectively across technical and business teams, build positive working relationships, and contribute to a culture of shared ownership and continuous learning.\n\nSalary indication:\n\nResponsibilities:\n\n* Investigate security incidents, identify root causes, coordinate remediation, and document impact and resolution.\n* Configure, maintain, monitor, and troubleshoot network and security infrastructure, including firewalls, routers, switches, VPNs, and monitoring tools.\n* Support vulnerability management, security hardening, compliance requirements, and operational security standards.\n* Perform risk-based assessments considering threat exposure, attack paths, business criticality, and operational impact.\n* Maintain clear documentation and communicate recommendations to technical and non-techni",
+    "url": "https://himalayas.app/companies/zoom-communications-inc/jobs/principal-security-engineer?utm_source=api",
+    "source": "Himalayas",
+    "description": "What You Can Expect  As a Senior Security Engineer on Zoom's Enterprise Security team, you will own the AI Governance program end to end, defining the technical standards and risk posture that determine how Zoom adopts AI safely and at scale. On any given day, you will be assessing emerging AI use cases, building security frameworks for GenAI and agentic systems, and serving as the trusted technical voice on AI security for engineering and enterprise stakeholders across four critical domains. This is a hands-on, highly autonomous role that calls for real depth in both AI/ML systems and security engineering; candidates without working familiarity with how modern AI introduces security risk will not be set up for success here. You will work as part of a globally distributed, multi-domain security engineering team, collaborating closely with colleagues across time zones and contributing across adjacent security domains beyond AI.   About the Team  Zoom's Enterprise Security team is the engineering foundation behind how the company identifies, contains, and gets ahead of risk across its most critical systems. Working across AI, data, network, endpoint, and cloud security, the team builds the controls, standards, and architectures that let Zoom move quickly without creating unacceptable exposure. As Zoom deepens its investment in AI across Zoom Workplace and its broader platform, this team's work is increasingly central to how the company grows responsibly.   Responsibilities  \n O",
     "vikas_score": 72,
     "vikas_fit": {
       "band": "Good fit",
       "reasons": [
         "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: SIEM, Incident Response, Vulnerability Management, Security Architecture.",
-        "Based in Delhi NCR (Delhi, India)."
+        "Seniority fits (Principal).",
+        "Posting asks for skills in the profile: AI Governance, Cloud Security.",
+        "Remote: workable from Delhi."
       ],
       "red_flags": [],
-      "gaps": [
-        "Palo Alto"
-      ]
+      "gaps": []
     },
-    "diksha_score": 42,
+    "diksha_score": 30,
     "diksha_fit": {
       "band": "Poor fit",
       "reasons": [
-        "Seniority fits (Architect).",
         "Posting asks for skills in the profile: Monitoring.",
-        "Based in Delhi NCR (Delhi, India)."
+        "Remote: workable from Delhi."
       ],
       "red_flags": [],
-      "gaps": [
-        "Networking"
-      ]
+      "gaps": []
     },
     "status": "new",
     "scanned_date": "2026-11-21"
@@ -1025,6 +943,46 @@
     },
     "status": "new",
     "scanned_date": "2026-11-21"
+  },
+  {
+    "job_id": "fh_security-operations-center-architect-d-genminds-talent-group",
+    "title": "Security Operations Center Architect",
+    "company": "D'GenMinds Talent Group Pvt. Ltd",
+    "location": "Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-19",
+    "url": "https://www.linkedin.com/jobs/view/4489098889/?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "linkedin",
+    "description": "Job Description\n\nOrganization - Global Leader in Vacuum Industry - Client of D'GenMinds\n\nDepartment: *Network & Security*\n\nRole description:\n\n*Senior IT Security Engineer* We are looking for a highly experienced, hands-on Senior IT Security Engineer to support our operations in Delhi. The role focuses on security incident investigation, network security operations, technical risk assessment, and continuous improvement of the organization’s security posture. The successful candidate will assess findings based on actual business risk and operational impact, challenge assumptions when needed, and provide practical recommendations. We are also looking for a collaborative team player who can work effectively across technical and business teams, build positive working relationships, and contribute to a culture of shared ownership and continuous learning.\n\nSalary indication:\n\nResponsibilities:\n\n* Investigate security incidents, identify root causes, coordinate remediation, and document impact and resolution.\n* Configure, maintain, monitor, and troubleshoot network and security infrastructure, including firewalls, routers, switches, VPNs, and monitoring tools.\n* Support vulnerability management, security hardening, compliance requirements, and operational security standards.\n* Perform risk-based assessments considering threat exposure, attack paths, business criticality, and operational impact.\n* Maintain clear documentation and communicate recommendations to technical and non-techni",
+    "vikas_score": 72,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: SIEM, Incident Response, Vulnerability Management, Security Architecture.",
+        "Based in Delhi NCR (Delhi, India)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Palo Alto"
+      ]
+    },
+    "diksha_score": 42,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Architect).",
+        "Posting asks for skills in the profile: Monitoring.",
+        "Based in Delhi NCR (Delhi, India)."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Networking"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-22"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/majesco/jobs/senior-lead-engineer-information-security",
@@ -1284,50 +1242,6 @@
     },
     "status": "new",
     "scanned_date": "2026-11-15"
-  },
-  {
-    "job_id": "jcy_162434",
-    "title": "Senior Security Engineer",
-    "company": "Caylent",
-    "location": "Remote (Brazil)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-15",
-    "url": "https://jobicy.com/jobs/162434-senior-security-engineer-4",
-    "source": "Jobicy",
-    "description": "Caylent  is an AI-first cloud services company that helps organizations turn ambitious ideas into meaningful business impact. As an AWS Premier Tier Services Partner and a charter member of Anthropic’s Claude Partner Network, we combine deep expertise in AWS, artificial intelligence, and Anthropic’s Claude platform to help customers modernize their technology, build intelligent products, and move AI from experimentation into production. \n Our capabilities span generative and agentic AI, cloud migration and modernization, cloud-native application development, data and analytics, DevOps, managed services, security and compliance, and customer experience transformation. At Caylent, our people always come first. \n We are a fully remote global company with employees in Canada, the United States and Latin America. We celebrate the culture of each of our team members and foster a community of technological curiosity. Come talk to us to learn more about what it means to be a Caylien! \n The Mission \n We are seeking a talented Security Engineer to join our growing Security team. The right candidate is someone who has a mix of AWS skills, networking familiarity, curiosity in emerging AI technologies, and a knack for tying it all together securely. ... Your mission will be helping improve Caylent’s security and compliance posture across AWS and various SaaS environments, improving our vulnerability management processes, and keeping Caylent safe against an onslaught of ever-evolving actor",
-    "vikas_score": 70,
-    "vikas_fit": {
-      "band": "Good fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: Incident Response, Vulnerability Management, AWS, NIST, Security Architecture.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Kubernetes",
-        "Python"
-      ]
-    },
-    "diksha_score": 62,
-    "diksha_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: AWS, Terraform, IaC, Cloud Migration, PowerShell.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "EKS",
-        "Python",
-        "Java",
-        "Datadog",
-        "Networking"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-21"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/mashreq/jobs/manager-security-assurance-information-security-group-isg",
@@ -2284,7 +2198,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-21"
+    "scanned_date": "2026-11-22"
   },
   {
     "job_id": "fh_group-general-manager-ingram-micro-pwm73ghr",
@@ -2319,7 +2233,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-21"
+    "scanned_date": "2026-11-22"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/photon-interactive-uk-limited/jobs/security-and-compliance-engineer_offshore",
@@ -2363,7 +2277,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-21"
+    "scanned_date": "2026-11-22"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/photon/jobs/security-and-compliance-engineer_offshore",
@@ -2407,7 +2321,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-21"
+    "scanned_date": "2026-11-22"
   },
   {
     "job_id": "fh_devsecops-sre-lead-national-e-governance-division-negd-digit",
@@ -2525,7 +2439,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-21"
+    "scanned_date": "2026-11-22"
   },
   {
     "job_id": "jsp_indeed_in-1d5e1e1872848677",
@@ -2565,7 +2479,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-21"
+    "scanned_date": "2026-11-22"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/rsa-security/jobs/principal-application-security-engineer-i",
@@ -2685,7 +2599,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-21"
+    "scanned_date": "2026-11-22"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/sun-king/jobs/application-security-engineer",
