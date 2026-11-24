@@ -680,6 +680,81 @@
     "scanned_date": "2026-11-19"
   },
   {
+    "job_id": "jcy_156714",
+    "title": "Principal AI Security Specialist, BeNeLux & Nordics",
+    "company": "Zscaler",
+    "location": "Remote (Belgium,  Netherlands)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-24",
+    "url": "https://jobicy.com/jobs/156714-principal-ai-security-specialist-benelux-nordics",
+    "source": "Jobicy",
+    "description": "Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattacks and data loss by securely connecting users, devices, and applications in any location. Distributed across 200+ public data centers globally and thousands of private sites at the edge, the SASE-based Zero Trust Exchange is the world’s largest in-line cloud security platform. \r\n We believe the future of work is Human + AI and are building an AI-native enterprise where human potential is amplified by machine intelligence to solve the world’s hardest security challenges. Driven by deep customer obsession, we are committed to the mission, outcome, and to each other. We bring these commitments to life through three core behaviors: ownership and collaboration, trust through outcomes and impact, and a challenge culture with ongoing feedback. Ready to make an impact at the company pioneering security transformation in the AI era? Join us at Zscaler. \r\n  About the Role  \r\n The AI revolution is here, and enterprises are racing to adopt GenAI - but they cannot deploy what they cannot secure. Zscaler is seeking an experienced  Principal AI Security Specialist  to bridge the gap between cutting-edge AI innovation and robust enterprise security. \r\n In this highly strategic, field-facing role, you will combine the elite consultative strengths of a Solutions Engineer with deep expert",
+    "vikas_score": 77,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Principal).",
+        "Posting asks for skills in the profile: Zero Trust Architecture, DLP, Cloud Security.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Zscaler"
+      ]
+    },
+    "diksha_score": 44,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Specialist).",
+        "Posting asks for skills in the profile: Automation, Agile.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-24"
+  },
+  {
+    "job_id": "li_156c23067c",
+    "title": "Chief Information Security Officer",
+    "company": "Biz2X",
+    "location": "Noida, Uttar Pradesh, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/chief-information-security-officer-at-biz2x-4494111438?position=6&pageNum=0&refId=FLVK%2FIBQ1SaeXbP9Rqzqvw%3D%3D&trackingId=tKjIwqoJVo6VSlpNjLQM1g%3D%3D",
+    "description": "Chief Information Security Officer at Biz2X — Noida, Uttar Pradesh, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-24",
+    "suggested_profile": "vikas",
+    "vikas_score": 77,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Chief Information Security Officer”.",
+        "Seniority fits (Chief).",
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 0,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field.",
+        "A stretch: the title is a step or two above Deputy Manager."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-24"
+  },
+  {
     "job_id": "hml_https://himalayas.app/companies/one-identity/jobs/principal-security-engineer-cloud-and-infrastructure-security",
     "title": "Principal Security Engineer Cloud and Infrastructure Security",
     "company": "One Identity",
@@ -868,7 +943,50 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-23"
+    "scanned_date": "2026-11-24"
+  },
+  {
+    "job_id": "jcy_156123",
+    "title": "Senior Product Security Engineer",
+    "company": "AlphaSense",
+    "location": "Remote (Ireland)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-21",
+    "url": "https://jobicy.com/jobs/156123-senior-product-security-engineer",
+    "source": "Jobicy",
+    "description": "About AlphaSense:   \n AlphaSense is the AI platform redefining market intelligence and workflow orchestration, trusted by thousands of leading organizations to drive faster, more confident decisions in business and finance. The platform combines domain-specific AI with a vast content universe of over 500 million premium business documents — including equity research, earnings calls, expert interviews, filings, news, and internal proprietary content. Purpose-built for speed, accuracy, and enterprise-grade security, AlphaSense helps teams extract critical insights, uncover market-moving trends, and automate complex workflows with high-quality outputs. With AI solutions like Generative Search, Generative Grid, and Deep Research, AlphaSense delivers the clarity and depth professionals need to navigate complexity and obtain accurate, real-time information quickly. For more information, visit  www.alpha-sense.com . Come join us. \n  About the Role  \n We're looking for a Senior Product Security Engineer to lead the design and implementation of secure, scalable, and trustworthy products across AlphaSense's AI-native platform. You'll work closely with architects, engineering, and product teams to embed security by design throughout the software development lifecycle. \n This role sits at the intersection of AI/ML security, secure architecture, threat modeling, and customer-facing assurance — defining the standards, automation, and frameworks that enable secure, intelligent products at s",
+    "vikas_score": 73,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: LLM Security, DevSecOps, Secure SDLC, Cloud Security, ISO 27001.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "CISSP",
+        "SOC 2",
+        "Kubernetes",
+        "Python"
+      ]
+    },
+    "diksha_score": 57,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: Multi-Cloud, Automation, RBAC, Kubernetes, CI/CD.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Python",
+        "Java"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-24"
   },
   {
     "job_id": "li_13520ed6f3",
@@ -1020,7 +1138,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-23"
+    "scanned_date": "2026-11-24"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/majesco/jobs/senior-lead-engineer-information-security",
@@ -2118,6 +2236,158 @@
     "scanned_date": "2026-11-23"
   },
   {
+    "job_id": "jcy_163373",
+    "title": "Senior Security Engineer | InfoSec",
+    "company": "Wellhub",
+    "location": "Remote (Brazil)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-19",
+    "url": "https://jobicy.com/jobs/163373-senior-security-engineer-infosec",
+    "source": "Jobicy",
+    "description": "Your wellbeing, our mission. Join a company shaping a healthier world.  \n  GET TO KNOW US  \n At  Wellhub  we're revolutionizing workplace wellness. Our platform connects employees worldwide to the best partners for fitness, mindfulness, therapy, nutrition, and sleep—all in one simple subscription. Headquartered in NYC with team members in Europe, North America and South America, we’re on a mission to make every company a wellness company. \n We believe work should be fulfilling, inspiring, and balanced. Here, you’ll find a team that values wellbeing, collaboration, and different perspectives, where passion and creativity push boundaries to create real impact. Your contributions will help shape a healthier, more balanced world for you and millions of people globally.  \n  Join us in redefining the future of wellbeing!  \n\n  THE OPPORTUNITY  \n We are hiring a  Senior Security Engineer    in our  InfoSec  area in  Brazil ! This is a  Remote – Brazil  position, meaning you can work from anywhere within the country. Please note that this role is only open to candidates in Brazil.  \n The mission of the Infosec team is to make Wellhub a safer company for its customers, partners, end users, and employees by protecting the entire ecosystem from internal and external threats and contributing to the creation of safe and secure products. This role is focused on investigating and responding to security incidents and threat attempts to protect our cloud-based environment. You will collaborate",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: SIEM, Incident Response, Cloud Security, AWS.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "SOC 2",
+        "HIPAA"
+      ]
+    },
+    "diksha_score": 50,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: AWS, Automation, Monitoring, Observability.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-24"
+  },
+  {
+    "job_id": "jcy_163430",
+    "title": "Director of Security Research, Cribl Detect",
+    "company": "Cribl",
+    "location": "Remote (Israel)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-20",
+    "url": "https://jobicy.com/jobs/163430-director-of-security-research-cribl-detect",
+    "source": "Jobicy",
+    "description": "Join the company that’s building the telemetry infrastructure for the AI era. At  Cribl , we partner with IT and Security teams at many of the world’s biggest enterprises, including half of the Fortune 100, to bridge the gap between AI ambition and infrastructure reality. As the AI Platform for Telemetry, we give customers the choice, control, and flexibility to manage and analyze telemetry for both humans and agents, so they can build what’s next. \n We’re one of the fastest‑growing private companies and a leading player in a massive, fast‑moving market. With a global workforce, we’re remote‑first and grounded in a simple idea: software is a people business. Cribl is the place where curious, collaborative people can do their best work, grow fast, and bring their full selves to the herd. \n  Why You’ll Love This Role  \n Cribl Detect brings Cribl’s telemetry platform and security expertise together to help customers improve detection coverage, reduce alert noise, and speed investigations—while keeping the flexibility to use the tools they already have. As Director of Security Research, you’ll build and lead a research organization across detection engineering, threat hunting, and AI-driven triage and investigation. You’ll develop the team, set research priorities, and partner with Product and Engineering to shape Cribl Detect. You’ll also publish technical research and collaborate with Cribl’s internal SOC to strengthen Cribl’s defenses. \n Based in Israel, this hybrid role works",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Director).",
+        "Posting asks for skills in the profile: MITRE ATT&CK.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 14,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Scripting.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [
+        "A stretch: the title is a step or two above Deputy Manager."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-24"
+  },
+  {
+    "job_id": "jsp_linkedin_li-4493982173",
+    "title": "Staff / Principal Offensive Security Engineer",
+    "company": "Flexiple",
+    "location": "Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-24",
+    "url": "https://www.linkedin.com/jobs/view/4493982173",
+    "source": "LinkedIn",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Principal).",
+        "Based in Delhi NCR (Delhi, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 25,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Seniority fits (Staff).",
+        "Based in Delhi NCR (Delhi, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-24"
+  },
+  {
+    "job_id": "li_beb1f0d56d",
+    "title": "Head of Infomation Security",
+    "company": "Group Bayport",
+    "location": "Gurugram, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/head-of-infomation-security-at-group-bayport-4493994952?position=2&pageNum=0&refId=FLVK%2FIBQ1SaeXbP9Rqzqvw%3D%3D&trackingId=C7uzqqU9qb4W%2Fe0kv8PvEA%3D%3D",
+    "description": "Head of Infomation Security at Group Bayport — Gurugram, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-24",
+    "suggested_profile": "vikas",
+    "vikas_score": 67,
+    "vikas_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Seniority fits (Head).",
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 0,
+    "diksha_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field.",
+        "A stretch: the title is a step or two above Deputy Manager."
+      ],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-24"
+  },
+  {
     "job_id": "hml_https://himalayas.app/companies/canonical/jobs/head-of-security-operations",
     "title": "Head of Security Operations",
     "company": "Canonical",
@@ -2315,7 +2585,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-23"
+    "scanned_date": "2026-11-24"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/photon-interactive-uk-limited/jobs/security-and-compliance-engineer_offshore",
@@ -2359,7 +2629,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-23"
+    "scanned_date": "2026-11-24"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/photon/jobs/security-and-compliance-engineer_offshore",
@@ -2403,7 +2673,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-23"
+    "scanned_date": "2026-11-24"
   },
   {
     "job_id": "fh_devsecops-sre-lead-national-e-governance-division-negd-digit",
@@ -2521,7 +2791,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-23"
+    "scanned_date": "2026-11-24"
   },
   {
     "job_id": "jsp_indeed_in-1d5e1e1872848677",
@@ -2561,7 +2831,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-23"
+    "scanned_date": "2026-11-24"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/rsa-security/jobs/principal-application-security-engineer-i",
@@ -2681,7 +2951,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-23"
+    "scanned_date": "2026-11-24"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/sun-king/jobs/application-security-engineer",
