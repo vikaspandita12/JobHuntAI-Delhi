@@ -1029,49 +1029,6 @@
     "scanned_date": "2026-11-21"
   },
   {
-    "job_id": "jcy_156984",
-    "title": "Senior Site Reliability Engineer",
-    "company": "Ping Identity",
-    "location": "Remote (Italy)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-25",
-    "url": "https://jobicy.com/jobs/156984-senior-site-reliability-engineer-6",
-    "source": "Jobicy",
-    "description": "About Ping Identity:   \n At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it's not just something we provide our customers. It's something that inspires our company. People don't come here to join a culture that's built on digital freedom. They come to cultivate it.  \n Our intelligent, cloud identity platform lets people shop, work, bank, and interact wherever and however they want. Without friction. Without fear.  \n While protecting digital identities is at the core of our technology, protecting individual identities is at the core of our culture.  We champion every identity.  One of our core values, Respect Individuality, reminds us to celebrate differences so you are empowered to bring your authentic self to work.  \n We're headquartered in Denver, Colorado and we have offices and employees around the globe. We serve the largest, most demanding enterprises worldwide, including more than half of the Fortune 100. At Ping Identity, we're changing the way people and businesses think about cybersecurity, digital experiences, and identity and access management.  \n We are seeking a Senior Site Reliability Engineer to join the Recognize Platform team at Ping Identity. Reporting to the Senior SRE Manager, you will own the infrastructure that powers Ping's authentication and authorization services across production EKS clusters globally. Working within a small, senior team of 3 eng",
-    "vikas_score": 33,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: AWS, Splunk.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Kubernetes",
-        "Python"
-      ]
-    },
-    "diksha_score": 100,
-    "diksha_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title matches a target role: “Site Reliability Engineer”.",
-        "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: AWS, Terraform, Scripting, Automation, Prompt Engineering.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "EKS",
-        "ArgoCD",
-        "Helm",
-        "Python"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-25"
-  },
-  {
     "job_id": "fh_data-platform-engineer-yotta-infrastructure-phbhum3o",
     "title": "Data Platform Engineer",
     "company": "Yotta Infrastructure",
@@ -2136,88 +2093,6 @@
     "scanned_date": "2026-11-24"
   },
   {
-    "job_id": "hml_https://himalayas.app/companies/mondelez-international/jobs/senior-cloud-engineer",
-    "title": "Senior Cloud Engineer",
-    "company": "Mondelēz International",
-    "location": "Remote (India)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-23",
-    "url": "https://himalayas.app/companies/mondelez-international/jobs/senior-cloud-engineer?utm_source=api",
-    "source": "Himalayas",
-    "description": "Job Description   Are You Ready to Make It Happen at  Mondelēz International ?    Join our Mission to Lead the Future of Snacking. Make It Uniquely Yours.   You work with business and IT stakeholders to support a future-state vision in terms of requirements, principles and models in a specific technology, process or function.  How you will contribute  You will work closely with the enterprise architecture team to chart technology roadmaps, standards, best practices and guiding principles, providing your subject matter expertise and technical capabilities to oversee specific applications in architecture forums and when participating in workshops for business function requirements. In collaboration with the enterprise architecture and solution teams, you will help evaluate specific applications with a goal to bring in new capabilities based on the strategic roadmap. You will also deliver seamless integration with the existing ecosystem and support project teams in implementing these new technologies, offer input regarding decisions on key technology purchases to align IT investments with business strategies while reducing risk and participate in technology product evaluation processes and Architecture Review Board governance for project solutions.  What you will bring  A desire to drive your future and accelerate your career. You will bring experience and knowledge in:  \n Defining and driving successful solution architecture strategy and standards \n Components of holistic enter",
-    "vikas_score": 39,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Incident Response, AWS, Azure, GCP.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python",
-        "Data Privacy"
-      ]
-    },
-    "diksha_score": 98,
-    "diksha_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title matches a target role: “Cloud Engineer”.",
-        "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: AWS, Terraform, Automation, Cost Optimization, Cloud Governance.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "GCP",
-        "Python"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-25"
-  },
-  {
-    "job_id": "jcy_149557",
-    "title": "Senior Site Reliability Engineer",
-    "company": "Canonical",
-    "location": "Remote (Anywhere)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-25",
-    "url": "https://jobicy.com/jobs/149557-senior-site-reliability-engineer-5",
-    "source": "Jobicy",
-    "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.  The company is founder led, profitable and growing.   We are hiring a Senior Site Reliability Engineer   Next-gen operations at scale, with pure Python infra-as-code, from bare metal to containers and applications. Our goal is to perfect enterprise infrastructure devops.  We run hundreds of private cloud, Kubernetes, and application clusters for customers across physical and public cloud estate, and we are raising the bar on what's possible with automation by embracing a universal operator pattern and model-driven operations.  To succeed in this role you need to believe in automation as a pure software engineering problem, not a hack-it-till-it-works-for-me problem. You need to be interested in the scientific approach to operations at scale, driven by metrics and code, and you need to be able to learn the entire stack, from bare me",
-    "vikas_score": 30,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: DevSecOps.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Kubernetes",
-        "Python"
-      ]
-    },
-    "diksha_score": 98,
-    "diksha_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title matches a target role: “Site Reliability Engineer”.",
-        "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: Automation, Storage, Ubuntu, Kubernetes, Containers.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python",
-        "Networking"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-25"
-  },
-  {
     "job_id": "fh_azure-cloud-architect-aliqan-services-pg46gwgi",
     "title": "Azure Cloud Architect",
     "company": "Aliqan Services",
@@ -2611,7 +2486,7 @@
       "reasons": [
         "Title is in the right field (Cloud).",
         "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: AWS, Terraform, IaC, Cloud Migration, PowerShell.",
+        "Posting asks for skills in the profile: Terraform, IaC, Cloud Migration, Automation, Storage.",
         "Based in Delhi NCR (Delhi, Delhi-NCR Region)."
       ],
       "red_flags": [],
@@ -2619,7 +2494,6 @@
         "GCP",
         "Jenkins",
         "GitLab",
-        "Python",
         "Networking"
       ]
     },
@@ -2906,46 +2780,40 @@
     "scanned_date": "2026-11-19"
   },
   {
-    "job_id": "fh_head-it-infrastructure-security-manager-perfect-placers-lklv",
-    "title": "Head - IT Infrastructure & Security Manager",
-    "company": "Perfect Placers",
-    "location": "Delhi / NCR",
+    "job_id": "jcy_149557",
+    "title": "Senior Site Reliability Engineer",
+    "company": "Canonical",
+    "location": "Remote (Anywhere)",
     "salary": "Not disclosed",
-    "posted_date": "2026-11-11",
-    "url": "https://www.naukri.com/job-listings-head-it-infrastructure-security-manager-perfect-placers-delhi-ncr-12-to-18-years-111126016222?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "naukri",
-    "description": "*Role & responsibilities*\n\n*Our clients are leading MNC & Industrial Conglomerates (AUTOMOBILES, FMCG, CONSUMER DURABLES, MANAUFACTURING, RETAIL, EPC, INFRASTRUCTURE (POWER, ENERGY, OIL & GAS, PORTS), INFORMATION TECHNOLOGY, BPO, PHARMA & TELECOM with a Turnover of US $ 1 Bn to US $ 100 Bn with exponential growth potential. Our client’s reach span across several countries across the globe.*\n\n*PERFECT PLACER (www.perfectplacer.com),* *Promoted by a team of dedicated professionals with varied background, having comprehensive and extensive industry and consultancy exposure, is “One of the most preferred* *and referred consultants” today in Executive Search & Placement.*\n\n*PERFECT PLACER* *in less than half a decade has grown to be a force to* *reckon with, having offices in* *Mumbai, Chennai, Bangalore, and New Delhi.*\n\n*Perfect Placer along with its associate services has a long and prestigious list of leading Indian and Multinational Corporates in India and Outside across Managerial levels, functions, and Industries, covering both IT and Non-IT* *specialized in chief executive, board member and senior-level management search assignments.*\n\n*Head - IT Infrastructure & Security Manager*\n\n* You will be responsible for leading and managing the organization's IT infrastructure, cloud environments, cybersecurity operations, and overall information security posture and ensuring high availability of critical systems and engaging directly with clients and external technology stakeholde",
-    "vikas_score": 97,
+    "posted_date": "2026-11-25",
+    "url": "https://jobicy.com/jobs/149557-senior-site-reliability-engineer-5",
+    "source": "Jobicy",
+    "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.  The company is founder led, profitable and growing.   We are hiring a Senior Site Reliability Engineer   Next-gen operations at scale, with pure Python infra-as-code, from bare metal to containers and applications. Our goal is to perfect enterprise infrastructure devops.  We run hundreds of private cloud, Kubernetes, and application clusters for customers across physical and public cloud estate, and we are raising the bar on what's possible with automation by embracing a universal operator pattern and model-driven operations.  To succeed in this role you need to believe in automation as a pure software engineering problem, not a hack-it-till-it-works-for-me problem. You need to be interested in the scientific approach to operations at scale, driven by metrics and code, and you need to be able to learn the entire stack, from bare me",
+    "vikas_score": 30,
     "vikas_fit": {
-      "band": "Excellent fit",
+      "band": "Poor fit",
       "reasons": [
-        "Title is in the right field (Security).",
-        "Seniority fits (Head).",
-        "Posting asks for skills in the profile: EDR, Incident Response, Vulnerability Management, AWS, Azure.",
-        "Based in Delhi NCR (Delhi / NCR)."
+        "Posting asks for skills in the profile: DevSecOps.",
+        "Remote: workable from Delhi."
       ],
       "red_flags": [],
       "gaps": [
-        "CISSP",
-        "CISM",
-        "CCSP",
-        "SOC 2",
-        "GDPR"
+        "Kubernetes",
+        "Python"
       ]
     },
     "diksha_score": 95,
     "diksha_fit": {
       "band": "Excellent fit",
       "reasons": [
-        "Title is in the right field (Infrastructure).",
-        "Seniority fits (Manager).",
-        "Posting asks for skills in the profile: Microsoft Azure, AWS, Automation, Storage, Windows Server.",
-        "Based in Delhi NCR (Delhi / NCR)."
+        "Title matches a target role: “Site Reliability Engineer”.",
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: Automation, Ubuntu, Kubernetes, Containers, DevOps.",
+        "Remote: workable from Delhi."
       ],
       "red_flags": [],
       "gaps": [
-        "Networking"
+        "Python"
       ]
     },
     "status": "new",
@@ -3229,20 +3097,64 @@
     "scanned_date": "2026-11-19"
   },
   {
-    "job_id": "hml_https://himalayas.app/companies/pradeepit-consulting-services-pvt-ltd/jobs/azure-devops-engineer-1268829661",
-    "title": "Azure DevOps Engineer",
+    "job_id": "hml_https://himalayas.app/companies/drivetrain/jobs/site-reliability-engineer-sre",
+    "title": "Site Reliability Engineer - SRE",
+    "company": "Drivetrain",
+    "location": "Remote (India)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-10-06",
+    "url": "https://himalayas.app/companies/drivetrain/jobs/site-reliability-engineer-sre?utm_source=api",
+    "source": "Himalayas",
+    "description": "Drivetrain  is on a mission to empower businesses to make better decisions. Our financial planning & decision-making platform helps companies scale and achieve their targets predictably.   \n Drivetrain  is a remote-first company headquartered in the San Francisco Bay Area. Founded in 2021 by a couple of ex-Googlers,  Drivetrain  is a fast-growing company on a trajectory for success with backing from leading venture capital firms.    Drivetrain  provides a great culture for its employees to thrive in and be happy.    \n 💜 Remote-friendly:   Drivetrain  brings together the best and the brightest, no matter where they are and provides them a great degree of autonomy. We trust our people.  \n 🗣️ Open & transparent:   We know that when our creators have access to all the information they need, their best work will emerge.  \n 👏 Idea-friendly:   We provide an environment to explore new ideas, to take risks, to make mistakes, and to learn, so you can succeed. Anyone in the company can come up with great ideas and become a catalyst for positive change. We let the best ideas win.  \n 👥 Customer-centric:   We follow a product-led growth strategy, continuously  learning from our customers and collaborating to build the amazing software that  Drivetrain  is.  As a Senior Site Reliability Engineer at  Drivetrain , you will be a cornerstone of our engineering organization, ensuring our fast-growing SaaS platform remains highly available, performant, and secure. At this stage of our growth, sca",
+    "vikas_score": 31,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: Incident Response, AWS, GCP, IAM.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Kubernetes",
+        "Python"
+      ]
+    },
+    "diksha_score": 93,
+    "diksha_fit": {
+      "band": "Excellent fit",
+      "reasons": [
+        "Title matches a target role: “Site Reliability Engineer”.",
+        "Posting asks for skills in the profile: AWS, Multi-Cloud, Terraform, IaC, Automation.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "GCP",
+        "EKS",
+        "Jenkins",
+        "Python",
+        "Prometheus",
+        "Grafana"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-26"
+  },
+  {
+    "job_id": "hml_https://himalayas.app/companies/pradeepit-consulting-services-pvt-ltd/jobs/aws-devops-engineer",
+    "title": "Aws DevOps Engineer",
     "company": "PradeepIT Consulting Services Pvt Ltd",
     "location": "Remote (India)",
     "salary": "Not disclosed",
-    "posted_date": "2026-10-01",
-    "url": "https://himalayas.app/companies/pradeepit-consulting-services-pvt-ltd/jobs/azure-devops-engineer-1268829661?utm_source=api",
+    "posted_date": "2026-10-02",
+    "url": "https://himalayas.app/companies/pradeepit-consulting-services-pvt-ltd/jobs/aws-devops-engineer?utm_source=api",
     "source": "Himalayas",
-    "description": "About the﻿ job  Accelerate ﻿your career with PradeepIT  PradeepIT is one of the largest, globally recognized IT Consulting firm to connect Indias deeply vetted talent team to global customer.  Were headquartered in Bengaluru, Silicon Valley of India. PradeepITs customers include SAP Lab, Bosch, Rolls-Royce, Daikin, Daimler and J&J and hundreds of other Fortune 500 companies and fast-growing startups.  With continuous hard work and working remotely by choice, PradeepIT is certified as a Great Place to Work! Trusted by leading brands and fortune 500 companies from around the world, we have achieved:  6+ Years of Experience  580+ Open source technology Consultant  120+ SAP Consultant  40+ Salesforce Consultant  60+ Adobe Consultant  100+ Mobility Consultant  890+ Clients in APAC, EMEA & USA  Our Beliefs  PradeepIT believes in connecting people across the globe and provide them an opportunity work on remotely. Being a people-first organization, PradeepIT constantly strives for individuals who won't just keep up, but break new ground, work with cutting edge technology and ramp-up their skills with course created by our Vertical Heads, Senior Architect for freely with help of PradeepIT Academy.  What You will do  We're looking for bright Senior DevOps engineers that are deeply experienced individual contributors and dynamic team leaders, to join our dedicated  DevOps Practice Group . As a Senior DevOps practitioner at Zemoso youll use your expertise to provide DevSecOps services to",
+    "description": "About the job  Accelerate your career with PradeepIT  PradeepIT is one of the largest, globally recognized IT Consulting firm to connect Indias deeply vetted talent team to global customer.  Were headquartered in Bengaluru, Silicon Valley of India. PradeepITs customers include SAP Lab, Bosch, Rolls-Royce, Daikin, Daimler and J&J and hundreds of other Fortune 500 companies and fast-growing startups.  With continuous hard work and working remotely by choice, PradeepIT is certified as a Great Place to Work! Trusted by leading brands and fortune 500 companies from around the world, we have achieved:  6+ Years of Experience  580+ Open source technology Consultant  120+ SAP Consultant  40+ Salesforce Consultant  60+ Adobe Consultant  100+ Mobility Consultant  890+ Clients in APAC, EMEA & USA  Our Beliefs  PradeepIT believes in connecting people across the globe and provide them an opportunity work on remotely. Being a people-first organization, PradeepIT constantly strives for individuals who won't just keep up, but break new ground, work with cutting edge technology and ramp-up their skills with course created by our Vertical Heads, Senior Architect for freely with help of PradeepIT Academy.  Job Description:  Aws DevOps Engineer  What You will do  We're looking for bright Senior DevOps engineers that are deeply experienced individual contributors and dynamic team leaders, to join our dedicated  DevOps Practice Group . As a Senior DevOps practitioner at Zemoso youll use your exper",
     "vikas_score": 25,
     "vikas_fit": {
       "band": "Poor fit",
       "reasons": [
-        "Posting asks for skills in the profile: DevSecOps, Azure.",
+        "Posting asks for skills in the profile: DevSecOps, AWS.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [],
@@ -3256,104 +3168,56 @@
       "band": "Excellent fit",
       "reasons": [
         "Title matches a target role: “DevOps Engineer”.",
-        "Posting asks for skills in the profile: Terraform, IaC, PowerShell, Bash, Scripting.",
+        "Posting asks for skills in the profile: AWS, IaC, PowerShell, Bash, Scripting.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [],
       "gaps": [
+        "Ansible",
         "Jenkins",
-        "Azure DevOps",
         "Python",
         "Java"
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-25"
+    "scanned_date": "2026-11-26"
   },
   {
-    "job_id": "jcy_153737",
-    "title": "Infrastructure Engineer",
-    "company": "Airtm",
-    "location": "Remote (LATAM)",
+    "job_id": "hml_https://himalayas.app/companies/supersourcing/jobs/sre-site-reliability-engineer",
+    "title": "SRE (Site Reliability Engineer)",
+    "company": "Supersourcing",
+    "location": "Remote (India)",
     "salary": "Not disclosed",
-    "posted_date": "2026-11-22",
-    "url": "https://jobicy.com/jobs/153737-infrastructure-engineer-4",
-    "source": "Jobicy",
-    "description": "This role is open for LATAM based candidates   \n  About us:  \n Airtm is a financial-infrastructure company building the future of the online-work economy. We are on a mission to empower the world's growing number of Digital Entrepreneurs in the Global South, giving them the financial freedom to thrive. \n The problem is clear: in emerging markets, accessing the dollar economy is difficult. Cross-border payments are slow, expensive, and often lose value to inflation. This limits the potential of millions of talented individuals. \n Airtm’s solution is a swift and comprehensive financial platform that facilitates low-value cross-border payments and local cash-outs. As pioneers in stablecoin-payment infrastructure, Airtm has built the most advanced cross-border payment system available on the market. \n As a company married to the world of online work, Airtm will go beyond payments to build the necessary infrastructure the online-work economy needs to thrive. We are fostering an entirely new economy, giving individuals, communities, and countries the tools to take control of their financial destinies.  \n  About the Role  \n We're looking for an Infrastructure Engineer to design, build, and maintain our cloud infrastructure and platform systems. You'll work closely with development teams to create scalable, reliable, and secure infrastructure that powers our products. \n  Essential Duties and Responsibilities  \n \n \n  Designs, implements, and manages  AWS cloud infrastructure, includin",
-    "vikas_score": 28,
+    "posted_date": "2026-10-11",
+    "url": "https://himalayas.app/companies/supersourcing/jobs/sre-site-reliability-engineer?utm_source=api",
+    "source": "Himalayas",
+    "description": "About the job  Site Reliability Engineering (SRE) combines software and systems engineering to build and run large-scale, massively distributed, fault-tolerant systems. SRE ensures that the servicesboth our internally critical and our externally-visible systemshave reliability, uptime appropriate to customer's needs and a fast rate of improvement. Additionally, SREs will keep an ever-watchful eye on our systems capacity and performance.  As a Site Reliability Engineer, you will have the opportunity to manage the complex challenges of scale which are unique to Digitization, while using your expertise in coding, algorithms, complexity analysis and large-scale system design. You will provide scalable, reliable, durable, and secure applications for our customers and internal users. You will help build highly reliable applications using a customer-first approach while innovating technically. You will understand our customer's needs and how we can meet them.   Responsibilities  \n   Work with the Site Reliability Engineering team, Development team, and other partner teams to ensure that applications reliability, efficiency, and performance meets our customer's needs, while keeping the service's operation's reliable, scalable, and automated.   \n  Develop and implement projects that improve system reliability, efficiency, and performance   \n  Partner with development teams on feature launches to ensure our customers are delivered reliable and scalable functionality.   \n  Build a deep ",
+    "vikas_score": 26,
     "vikas_fit": {
       "band": "Poor fit",
       "reasons": [
-        "Posting asks for skills in the profile: Incident Response, AWS, IAM.",
+        "Posting asks for skills in the profile: AWS, Splunk, IAM.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [],
-      "gaps": [
-        "Kubernetes"
-      ]
+      "gaps": []
     },
     "diksha_score": 93,
     "diksha_fit": {
       "band": "Excellent fit",
       "reasons": [
-        "Title matches a target role: “Infrastructure Engineer”.",
-        "Posting asks for skills in the profile: AWS, Terraform, IaC, Bash, Scripting.",
+        "Title matches a target role: “Site Reliability Engineer”.",
+        "Posting asks for skills in the profile: AWS, Terraform, Agile, EC2, S3.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [],
       "gaps": [
         "EKS",
-        "GitLab",
-        "ArgoCD",
-        "Helm",
-        "Prometheus",
-        "Grafana"
+        "Java"
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-25"
-  },
-  {
-    "job_id": "jcy_156946",
-    "title": "Platform Engineer - Compute Capacity",
-    "company": "Supabase",
-    "location": "Remote (Anywhere)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-25",
-    "url": "https://jobicy.com/jobs/156946-platform-engineer-compute-capacity",
-    "source": "Jobicy",
-    "description": "About Supabase  \n Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. \n \n  About the Role  \n We are seeking a platform engineer to join our Compute Capacity team. This team owns the capacity plan that keeps compute supply ahead of demand across every region we operate in — the forecasting, buffer policy, and provisioning systems that make sure a project never runs into a wall it didn't know was there. \n You'll work on the systems that turn a capacity plan into provisioned reality: reservation acquisition, fleet reconciliation, and the automation that keeps what we've committed to in sync with what we're actually running. You'll help build the metrics and alerting that let capacity problems surface months out, on vendor lead time, rather than at the moment someone needs the room. \n You'll design, build, and operate systems that are both robust and highly automated — helping us hold the right buffer at the right cost, catch drift before it becomes a shortage, and give every team a single, trustworthy view of how much room we have across the millions of databases we manage. \n \n  What You'll Be Responsible For  \n \n \n Help build and maintain the capacity plan that keeps Supabase's compute supply ahead of demand across regions and instance families \n \n \n Support buffer policy",
-    "vikas_score": 13,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Incident Response, AWS.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": [
-        "Python"
-      ]
-    },
-    "diksha_score": 93,
-    "diksha_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title matches a target role: “Platform Engineer”.",
-        "Posting asks for skills in the profile: AWS, Terraform, Automation, Storage, EC2.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python",
-        "Prometheus",
-        "Grafana"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-25"
+    "scanned_date": "2026-11-26"
   },
   {
     "job_id": "rok_1133025",
@@ -3699,46 +3563,6 @@
     },
     "status": "new",
     "scanned_date": "2026-11-24"
-  },
-  {
-    "job_id": "jcy_149547",
-    "title": "Site Reliability Engineer",
-    "company": "Canonical",
-    "location": "Remote (Anywhere)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-25",
-    "url": "https://jobicy.com/jobs/149547-site-reliability-engineer",
-    "source": "Jobicy",
-    "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of globally distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.  The company is founder-led, profitable, and growing.   We are hiring a Site Reliability Engineer   Our goal is to perfect enterprise infrastructure DevOps practices, raising the bar on what's possible with automation by embracing a model-driven approach, whether on-premise or on public clouds.  We run hundreds of private cloud, Kubernetes clusters, and applications for customers across both physical and public cloud estates. We identify and address incidents, monitor and observe applications, anticipate potential issues, and enable product refinement to ultimately achieve high-quality standards in our open source portfolio.  To succeed in this role, you need to have a strong background in Linux, Python, networking, and knowledge of how clouds work. Your work will encompass the entire stack, from bare-metal networking and kernel up to",
-    "vikas_score": 17,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Kubernetes",
-        "Python"
-      ]
-    },
-    "diksha_score": 91,
-    "diksha_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title matches a target role: “Site Reliability Engineer”.",
-        "Posting asks for skills in the profile: Automation, Storage, Ubuntu, Kubernetes, Containers.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python",
-        "Networking",
-        "Kafka"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-25"
   },
   {
     "job_id": "fh_devops-engineer-kafka-postgresql-mirantis-e5ep7vuf",
@@ -4627,92 +4451,6 @@
     "scanned_date": "2026-11-20"
   },
   {
-    "job_id": "jcy_149568",
-    "title": "Cloud Solutions Architect - Alliances",
-    "company": "Canonical",
-    "location": "Remote (Anywhere)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-25",
-    "url": "https://jobicy.com/jobs/149568-cloud-solutions-architect-alliances",
-    "source": "Jobicy",
-    "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1000+ colleagues in 70+ countries and very few roles based in offices. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.  The company is founder led, profitable and growing. We are hiring an  Cloud Solutions Architect in our Alliances team  to help our biggest partners (companies like Intel, Nvidia, Google, Dell, HP, Accenture, Tata and the like) understand and embrace our open source platform for themselves and their customers.  Our worldwide field engineering team apply expert insights to real-world customer problems, enabling the enterprise adoption of Ubuntu, OpenStack, Kubernetes, AI/MLOps and a wide range of associated technologies. We are experts in the whole open source stack, from kernel to desktop, from cloud to the edge. Our team is also interested in business problems - building things reliably, efficiently and cost-effectively, and we have to learn to speak the language of our customers and their industries.  We help global companies ",
-    "vikas_score": 19,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: AWS, Azure.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": [
-        "Kubernetes",
-        "Python"
-      ]
-    },
-    "diksha_score": 87,
-    "diksha_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title is in the right field (Cloud).",
-        "Seniority fits (Architect).",
-        "Posting asks for skills in the profile: AWS, Bash, Automation, Ubuntu, Kubernetes.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python",
-        "Networking",
-        "Kafka"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-25"
-  },
-  {
-    "job_id": "jcy_149569",
-    "title": "Cloud Engineering Manager",
-    "company": "Canonical",
-    "location": "Remote (Anywhere)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-25",
-    "url": "https://jobicy.com/jobs/149569-cloud-engineering-manager",
-    "source": "Jobicy",
-    "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.  The company is founder-led, profitable, and growing.  We are hiring an  Engineering Manager  ...  This role is an opportunity for a technologist with a passion for Linux and Cloud technologies to build a career with Canonical and drive the success with those leveraging Ubuntu and open source products. If you have an affinity for open source development and a passion for technology, then you will enjoy working with some of the best people in the industry at Canonical.  The BootStack team designs, builds, and operates modern distributed systems on private infrastructure for customers. From Kubernetes to OpenStack and everything in-between, you’ll be working with the latest technology in a fast-paced engineering environment. As a Cloud Engineering Manager for the BootStack team, you will be responsible for managing the engineers that",
-    "vikas_score": 13,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": [
-        "Kubernetes",
-        "Python"
-      ]
-    },
-    "diksha_score": 87,
-    "diksha_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title matches a target role: “Cloud Engineer”.",
-        "Seniority fits (Manager).",
-        "Posting asks for skills in the profile: Agile, Ubuntu, Kubernetes.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python",
-        "Java"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-25"
-  },
-  {
     "job_id": "hml_https://himalayas.app/companies/akamai-technologies/jobs/senior-site-reliability-engineer-3720683365",
     "title": "Senior Site Reliability Engineer",
     "company": "Akamai Technologies",
@@ -5311,25 +5049,22 @@
     "scanned_date": "2026-11-24"
   },
   {
-    "job_id": "hml_https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/sre-processing-core-team",
-    "title": "SRE [Processing Core Team]",
-    "company": "Banco Plata, S.A., Institución de Banca Múltiple",
-    "location": "Remote (Worldwide)",
+    "job_id": "jcy_149547",
+    "title": "Site Reliability Engineer",
+    "company": "Canonical",
+    "location": "Remote (Anywhere)",
     "salary": "Not disclosed",
-    "posted_date": "2026-11-19",
-    "url": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/sre-processing-core-team?utm_source=api",
-    "source": "Himalayas",
-    "description": "We are looking for a  SRE  to join our Processing Core team.  The  Processing Core  team is responsible for building and maintaining the core platform that powers our credit card products. We develop solutions for card issuance and management, tariff configuration, transaction processing, and integrations with global payment networks, ensuring the platform remains reliable, scalable, and efficient.  As a  SRE , you will contribute to the development and evolution of our core processing platform, working on business-critical systems that support the entire card lifecycle. You’ll collaborate with cross-functional teams to build reliable and scalable solutions, improve existing processes, and ensure seamless interactions with global payment networks.  Challenges that await you:  \n Managing the reliability and availability of payments processing solutions, ensuring the performance of applications \n Assisting in the design, implementation, and maintenance of payments processing solutions with a focus on reliability and scalability \n Monitoring technological metrics of services and collaborating with DevOps engineers \n Writing and maintaining deployment scripts, configs, helm charts and CI/CD jobs \n Addressing infrastructure issues and resolving product failures \n Participating in incident investigations to identify and eliminate root causes \n Maintaining technical documentation \n  What makes you a great fit:  \n Minimum of 3 years of experience in a similar position \n Understanding",
-    "vikas_score": 11,
+    "posted_date": "2026-11-25",
+    "url": "https://jobicy.com/jobs/149547-site-reliability-engineer",
+    "source": "Jobicy",
+    "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of globally distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.  The company is founder-led, profitable, and growing.   We are hiring a Site Reliability Engineer   Our goal is to perfect enterprise infrastructure DevOps practices, raising the bar on what's possible with automation by embracing a model-driven approach, whether on-premise or on public clouds.  We run hundreds of private cloud, Kubernetes clusters, and applications for customers across both physical and public cloud estates. We identify and address incidents, monitor and observe applications, anticipate potential issues, and enable product refinement to ultimately achieve high-quality standards in our open source portfolio.  To succeed in this role, you need to have a strong background in Linux, Python, networking, and knowledge of how clouds work. Your work will encompass the entire stack, from bare-metal networking and kernel up to",
+    "vikas_score": 17,
     "vikas_fit": {
       "band": "Poor fit",
       "reasons": [
-        "Posting asks for skills in the profile: AWS, GCP.",
         "Remote: workable from Delhi."
       ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
+      "red_flags": [],
       "gaps": [
         "Kubernetes",
         "Python"
@@ -5339,59 +5074,14 @@
     "diksha_fit": {
       "band": "Excellent fit",
       "reasons": [
-        "Title matches a target role: “SRE”.",
-        "Posting asks for skills in the profile: AWS, Bash, Scripting, Automation, Kubernetes.",
+        "Title matches a target role: “Site Reliability Engineer”.",
+        "Posting asks for skills in the profile: Automation, Ubuntu, Kubernetes, DevOps.",
         "Remote: workable from Delhi."
       ],
       "red_flags": [],
       "gaps": [
-        "GCP",
-        "Jenkins",
-        "GitLab",
-        "Helm",
         "Python",
-        "Prometheus"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-25"
-  },
-  {
-    "job_id": "hml_https://himalayas.app/companies/nexcess-com/jobs/platform-sre",
-    "title": "Platform SRE",
-    "company": "Nexcess",
-    "location": "Remote (India)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-19",
-    "url": "https://himalayas.app/companies/nexcess-com/jobs/platform-sre?utm_source=api",
-    "source": "Himalayas",
-    "description": "About  Nexcess    \n  Nexcess  provides specialty cloud solutions for organizations where performance and compliance have to coexist. We serve businesses worldwide, from agencies scaling client sites to enterprises running mission-critical operations. We've built our reputation on deep technical expertise and genuine partnership with every client we work with. Behind every environment we manage is a team of people who take the craft seriously and keep showing up when it matters. \n  \n The Platform SRE is a member of the Platform SRE team, the group responsible for the operational health, resiliency, and modernization of our hosting and cloud infrastructure. This role sits at the intersection of systems engineering, site reliability engineering, and automation : combining hands-on technical debt remediation with large-scale automation and reliability practice. \n The Platform SRE team owns three core mandates: \n   1. Technical debt reduction :   systematically identifying and remediating aging firmware, kernels, operating systems, and software across the managed hosting fleet and managed application environments. \n   2. Automation of critical operational workflows :   provisioning, patching, remediation, and release processes across both managed apps and managed hosting fleets, with automated release planning and execution under human supervision (not “automation for automation’s sake,” but automation with a human checkpoint before production impact). \n   3. Reliability and incid",
-    "vikas_score": 22,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: Incident Response.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Kubernetes"
-      ]
-    },
-    "diksha_score": 85,
-    "diksha_fit": {
-      "band": "Excellent fit",
-      "reasons": [
-        "Title matches a target role: “SRE”.",
-        "Posting asks for skills in the profile: Terraform, Infrastructure-as-Code, Scripting, Automation, Kubernetes.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Ansible",
-        "Prometheus",
-        "Grafana",
-        "Datadog"
+        "Networking"
       ]
     },
     "status": "new",
@@ -5604,6 +5294,80 @@
     },
     "status": "new",
     "scanned_date": "2026-11-22"
+  },
+  {
+    "job_id": "jcy_149569",
+    "title": "Cloud Engineering Manager",
+    "company": "Canonical",
+    "location": "Remote (Anywhere)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-25",
+    "url": "https://jobicy.com/jobs/149569-cloud-engineering-manager",
+    "source": "Jobicy",
+    "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.  The company is founder-led, profitable, and growing.  We are hiring an  Engineering Manager  ...  This role is an opportunity for a technologist with a passion for Linux and Cloud technologies to build a career with Canonical and drive the success with those leveraging Ubuntu and open source products. If you have an affinity for open source development and a passion for technology, then you will enjoy working with some of the best people in the industry at Canonical.  The BootStack team designs, builds, and operates modern distributed systems on private infrastructure for customers. From Kubernetes to OpenStack and everything in-between, you’ll be working with the latest technology in a fast-paced engineering environment. As a Cloud Engineering Manager for the BootStack team, you will be responsible for managing the engineers that",
+    "vikas_score": 13,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": [
+        "Kubernetes",
+        "Python"
+      ]
+    },
+    "diksha_score": 84,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Cloud Engineer”.",
+        "Seniority fits (Manager).",
+        "Posting asks for skills in the profile: Ubuntu, Kubernetes.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-25"
+  },
+  {
+    "job_id": "hml_https://himalayas.app/companies/minfy-technologies/jobs/cloud-solution-architect-8338248031",
+    "title": "Cloud Solution Architect",
+    "company": "Minfy Technologies",
+    "location": "Remote (India)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-19",
+    "url": "https://himalayas.app/companies/minfy-technologies/jobs/cloud-solution-architect-8338248031?utm_source=api",
+    "source": "Himalayas",
+    "description": "This is a remote position.  ROLE  \n The successful candidate will have a background in leading a Presales / Architecture / Consultancy Team at a Solutions or Service Provider, Consultancy, IT Reseller or Systems Integrator. \n Provide our diverse range of customers with cloud agnostic, industry-leading advice and expertise to help them select the right technology solutions and make the most of them \n Lead presales cloud migration, Green field, Disaster Recovery, Cloud native application development opportunities across public, private and hybrid platforms from inception through to handover to sales with solution and commercial documentation for closure. \n Excellent in optimizing the Cloud infra Bill of material to create commercially viable and winnable bids \n Proven experience working on Govt & Commercial bids/RFPs \n Own cloud GTM message, driving and evangelising our opinion, breadth of capability and experiences to internal teams, customers and partners. \n   Requirements 20% - Engage with customer CXOs and IT Heads to represent cloud technology expertise using a combination of your own depth of cloud experience as well as the wider team to prove our capability, lead high-value opportunities and win profitable business  50% - Lead the development of the cloud business by working closely with internal teams and partners to build brand, create and build pipeline, develop services and drive standards and practices. Maintain documentation best practices and identify business ris",
+    "vikas_score": 28,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "diksha_score": 84,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Cloud).",
+        "Seniority fits (Architect).",
+        "Posting asks for skills in the profile: AWS, Cloud Migration, Agile, Scrum.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-26"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/brightedge/jobs/devops-engineer",
@@ -6425,47 +6189,6 @@
     "scanned_date": "2026-11-19"
   },
   {
-    "job_id": "jcy_149561",
-    "title": "Engineering Manager - Data Platform",
-    "company": "Canonical",
-    "location": "Remote (Anywhere)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-25",
-    "url": "https://jobicy.com/jobs/149561-engineering-manager-data-platform",
-    "source": "Jobicy",
-    "description": "Canonical is building a comprehensive suite of multi-cloud and on-premise data solutions for the enterprise. We want to make it easy to operate any database on any cloud, or on premise. The data platform team covers the full range of data stores and data technologies, spanning from big data, NoSQL, cache-layer capabilities, and analytics; all the way to structured SQL engines like Postgres and MySQL. We aim to deliver fault-tolerant mission-critical distributed systems, and the world’s best data platform.   We are looking for technical Engineering Managers to lead teams focused on Big Data and MySQL databases. We write code in Python and encode modern operational practices for data applications at scale on Kubernetes and cloud machines.   Location:   This role can be filled in European, Middle East, African or any American region / time zone.   What your day will look like  \n You will lead a team building scalable data solutions for Kubernetes and cloud machines \n You will hire, coach, mentor, provide feedback, and lead your team by example \n You will demonstrate sound engineering skill by directly contributing code when needed \n Effectively set and manage expectations with other engineering teams, senior management, and external stakeholders \n Advocate modern, agile software development practices \n Develop and evangelize great engineering and organizational practices \n Ensure that your team delivers excellent products that users love by maintaining a culture of quality and e",
-    "vikas_score": 13,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": [
-        "Kubernetes",
-        "Python"
-      ]
-    },
-    "diksha_score": 82,
-    "diksha_fit": {
-      "band": "Good fit",
-      "reasons": [
-        "Title is in the right field (Platform).",
-        "Seniority fits (Manager).",
-        "Posting asks for skills in the profile: Multi-Cloud, Agile, Ubuntu, Kubernetes.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-25"
-  },
-  {
     "job_id": "fh_solution-architect-aws-snowflake-human-development-research-",
     "title": "Solution Architect - AWS / Snowflake",
     "company": "Human Development & Research Foundation",
@@ -6654,50 +6377,6 @@
     },
     "status": "new",
     "scanned_date": "2026-11-24"
-  },
-  {
-    "job_id": "jcy_149548",
-    "title": "Cloud Professional Services Manager",
-    "company": "Canonical",
-    "location": "Remote (Anywhere)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-25",
-    "url": "https://jobicy.com/jobs/149548-cloud-professional-services-manager",
-    "source": "Jobicy",
-    "description": "This is an opportunity to run a Professional Services team (also known as Field Engineering) team, helping customers understand and implement Canonical's open source solutions in public clouds and in their own data centers. We work across the entire spectrum of cloud offerings, from Ubuntu itself to virtualisation and private cloud, Kubernetes, and the implementation of sophisticated open source solutions such as MLops platforms, data platforms and more. We are rapidly expanding the range of open source solutions we offer and deliver to customers, as we move into new industries like telco, finance, health care and media we design and develop new open source solutions to meet their needs.  We believe that Engineering Managers should be outstanding engineers themselves. They should feel completely at home troubleshooting technical issues and having technical presales conversations with customers. They should contribute to project delivery themselves, but know that the technical contributions they bring are far less significant than their ability to shape the whole team’s direction, focus and delivery. We grow management skills and train engineers, who are interested in soft skills, to be managers.  We believe that open source is just starting to transform the tech sector and enterprise compute. Our goal is to make open source easier, more reliable and more secure for deployment and development. We strive to be the provider of ‘most software to most companies’. To deliver on tha",
-    "vikas_score": 22,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Posting asks for skills in the profile: AWS, Azure, GCP.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [
-        "The posting isn't about this field."
-      ],
-      "gaps": [
-        "Kubernetes",
-        "Python"
-      ]
-    },
-    "diksha_score": 81,
-    "diksha_fit": {
-      "band": "Good fit",
-      "reasons": [
-        "Title is in the right field (Cloud).",
-        "Seniority fits (Manager).",
-        "Posting asks for skills in the profile: AWS, Ubuntu, Kubernetes.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "GCP",
-        "Python",
-        "Networking"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-25"
   },
   {
     "job_id": "rok_1131484",
@@ -7260,45 +6939,6 @@
     },
     "status": "new",
     "scanned_date": "2026-11-24"
-  },
-  {
-    "job_id": "jcy_149574",
-    "title": "Linux Platform Integration - Ubuntu Systems Senior Engineer",
-    "company": "Canonical",
-    "location": "Remote (Anywhere)",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-25",
-    "url": "https://jobicy.com/jobs/149574-linux-platform-integration-ubuntu-systems-senior-engineer",
-    "source": "Jobicy",
-    "description": "You will work across the full Linux stack from kernel through networking, virtualization and graphics to optimise Ubuntu, the world’s most widely used Linux desktop and server, for the latest silicon.   Our teams partner with specialist engineers from major silicon companies to integrate next-generation features and performance enhancements for upcoming hardware.  This is an excellent opportunity for someone who wants to have a meaningful impact on the adoption of Linux across multiple industries. The right candidate must be resourceful, articulate, and able to deliver on a wide variety of solutions across server, desktop and IoT technologies. Canonical offers a fun, fast-paced team environment and a career full of learning and development opportunities.   Location: This is a Globally remote role  What your day will look like  \n Design and implement the best Ubuntu integration for the latest IoT desktop and server-class hardware platforms and software stacks \n Work with partners to deliver an optimised, first class Ubuntu experience on their platforms \n Take a holistic approach to the Ubuntu experience on partner platforms with inputs on technical plans, testing strategy, quality metrics \n Participate as technical lead on customer engagements involving complete system architectures from cloud to edge \n Help our partners integrate their apps, SDKs, build device OS images, and optimize applications with Ubuntu Core, Desktop and Server \n Work with the most advanced operating sys",
-    "vikas_score": 27,
-    "vikas_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python"
-      ]
-    },
-    "diksha_score": 80,
-    "diksha_fit": {
-      "band": "Good fit",
-      "reasons": [
-        "Title is in the right field (Platform).",
-        "Seniority fits (Senior).",
-        "Posting asks for skills in the profile: Automation, Ubuntu, Docker, Containers.",
-        "Remote: workable from Delhi."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "Python",
-        "Networking"
-      ]
-    },
-    "status": "new",
-    "scanned_date": "2026-11-25"
   },
   {
     "job_id": "fh_site-reliability-engineer-avp-natwest-digitalx-w4on7nbw",
@@ -8061,45 +7701,44 @@
     "scanned_date": "2026-11-24"
   },
   {
-    "job_id": "fh_inbound-voip-platform-engineer-cc33-global-limited-rfxu2sxo",
-    "title": "Inbound VoIP Platform Engineer",
-    "company": "CC33 Global Limited",
-    "location": "Noida, Uttar Pradesh, India",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-24",
-    "url": "https://www.linkedin.com/jobs/view/4492640111/?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "linkedin",
-    "description": "We're hiring: Inbound VoIP Platform Engineer\n\nLocation: Noida, Delhi NCR (Work from office)\n\nAbout ADPCX\n\nADPCX builds call centre CRM, AI-powered service automation and multichannel interaction technology for BPOs, contact centres and enterprises, handling 40 million+ customer interactions a month. We're the engineering backbone of the Adhki.ai ecosystem and part of the iCXperience group alongside CC33, with product teams across India, Asia and Europe. www.adpcx.com\n\nThe role\n\nWe're looking for a hands-on VoIP engineer to build and run the inbound telephony platform behind large contact centres: SIP routing, IVRs, queues, skills-based routing and failover. You'll own it end to end in a small team, from architecture to live operations, on a platform carrying thousands of concurrent calls for 1,000+ agents.\n\nWhat you'll do\n\n• Design SIP routing from carrier ingress and DID mapping through to agent delivery\n\n• Build IVRs, queues and skills-based routing, including priorities, overflow and callbacks\n\n• Design failover across servers, sites and carriers\n\n• Diagnose signalling, media and call-quality issues such as one-way audio, jitter, packet loss and NAT\n\n• Plan and test capacity for peak volumes across thousands of concurrent calls\n\n• Deploy safely, support live operations and keep runbooks current\n\nWhat you'll bring\n\n• Hands-on experience building and operating inbound telephony for large contact centres, ideally on Asterisk, FreeSWITCH, Kamailio or OpenSIPS\n\n• Proven deliver",
-    "vikas_score": 15,
+    "job_id": "jsp_naukri_nk-261126034076",
+    "title": "Azure Devops Engineer-(SRE)",
+    "company": "Venpa Staffing",
+    "location": "Noida, Hyderabad, India",
+    "salary": "INR 1,000,000–2,000,000",
+    "posted_date": "2026-11-26",
+    "url": "https://www.naukri.com/job-listings-azure-devops-engineer-sre-venpa-staffing-noida-hyderabad-7-to-12-years-261126034076",
+    "source": "Naukri",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 13,
     "vikas_fit": {
       "band": "Poor fit",
       "reasons": [
-        "Posting asks for skills in the profile: PCI DSS.",
-        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+        "Posting asks for skills in the profile: Azure.",
+        "Based in Delhi NCR (Noida, Hyderabad, India).",
+        "Only the title was available; open the posting to confirm."
       ],
       "red_flags": [
         "The posting isn't about this field."
       ],
-      "gaps": [
-        "Python"
-      ]
+      "gaps": []
     },
     "diksha_score": 78,
     "diksha_fit": {
       "band": "Good fit",
       "reasons": [
-        "Title matches a target role: “Platform Engineer”.",
-        "Posting asks for skills in the profile: Automation, Monitoring.",
-        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+        "Title matches a target role: “DevOps Engineer”.",
+        "Posting asks for skills in the profile: SRE, DevOps.",
+        "Based in Delhi NCR (Noida, Hyderabad, India).",
+        "Only the title was available; open the posting to confirm."
       ],
       "red_flags": [],
-      "gaps": [
-        "Python"
-      ]
+      "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-25"
+    "scanned_date": "2026-11-26"
   },
   {
     "job_id": "li_40c2ffd512",
@@ -8787,6 +8426,126 @@
     },
     "status": "new",
     "scanned_date": "2026-11-22"
+  },
+  {
+    "job_id": "jcy_149561",
+    "title": "Engineering Manager - Data Platform",
+    "company": "Canonical",
+    "location": "Remote (Anywhere)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-25",
+    "url": "https://jobicy.com/jobs/149561-engineering-manager-data-platform",
+    "source": "Jobicy",
+    "description": "Canonical is building a comprehensive suite of multi-cloud and on-premise data solutions for the enterprise. We want to make it easy to operate any database on any cloud, or on premise. The data platform team covers the full range of data stores and data technologies, spanning from big data, NoSQL, cache-layer capabilities, and analytics; all the way to structured SQL engines like Postgres and MySQL. We aim to deliver fault-tolerant mission-critical distributed systems, and the world’s best data platform.   We are looking for technical Engineering Managers to lead teams focused on Big Data and MySQL databases. We write code in Python and encode modern operational practices for data applications at scale on Kubernetes and cloud machines.   Location:   This role can be filled in European, Middle East, African or any American region / time zone.   What your day will look like  \n You will lead a team building scalable data solutions for Kubernetes and cloud machines \n You will hire, coach, mentor, provide feedback, and lead your team by example \n You will demonstrate sound engineering skill by directly contributing code when needed \n Effectively set and manage expectations with other engineering teams, senior management, and external stakeholders \n Advocate modern, agile software development practices \n Develop and evangelize great engineering and organizational practices \n Ensure that your team delivers excellent products that users love by maintaining a culture of quality and e",
+    "vikas_score": 13,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": [
+        "Kubernetes",
+        "Python"
+      ]
+    },
+    "diksha_score": 77,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Platform).",
+        "Seniority fits (Manager).",
+        "Posting asks for skills in the profile: Multi-Cloud, Agile, Kubernetes.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Python"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-25"
+  },
+  {
+    "job_id": "jcy_156984",
+    "title": "Senior Site Reliability Engineer",
+    "company": "Ping Identity",
+    "location": "Remote (Italy)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-25",
+    "url": "https://jobicy.com/jobs/156984-senior-site-reliability-engineer-6",
+    "source": "Jobicy",
+    "description": "About Ping Identity:   \n At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it's not just something we provide our customers. It's something that inspires our company. People don't come here to join a culture that's built on digital freedom. They come to cultivate it.  \n Our intelligent, cloud identity platform lets people shop, work, bank, and interact wherever and however they want. Without friction. Without fear.  \n While protecting digital identities is at the core of our technology, protecting individual identities is at the core of our culture.  We champion every identity.  One of our core values, Respect Individuality, reminds us to celebrate differences so you are empowered to bring your authentic self to work.  \n We're headquartered in Denver, Colorado and we have offices and employees around the globe. We serve the largest, most demanding enterprises worldwide, including more than half of the Fortune 100. At Ping Identity, we're changing the way people and businesses think about cybersecurity, digital experiences, and identity and access management.  \n We are seeking a Senior Site Reliability Engineer to join the Recognize Platform team at Ping Identity. Reporting to the Senior SRE Manager, you will own the infrastructure that powers Ping's authentication and authorization services across production EKS clusters globally. Working within a small, senior team of 3 eng",
+    "vikas_score": 33,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: AWS, Splunk.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Kubernetes",
+        "Python"
+      ]
+    },
+    "diksha_score": 77,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Site Reliability Engineer”.",
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: SRE.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "EKS"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-25"
+  },
+  {
+    "job_id": "jsp_linkedin_li-4493443298",
+    "title": "Infrastructure Specialist-Platform Engineering Services",
+    "company": "IBM",
+    "location": "Delhi, Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-25",
+    "url": "https://www.linkedin.com/jobs/view/4493443298",
+    "source": "LinkedIn",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 10,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Delhi, Delhi, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 77,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Platform Engineer”.",
+        "Seniority fits (Specialist).",
+        "Based in Delhi NCR (Delhi, Delhi, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-26"
   },
   {
     "job_id": "fh_it-infrastructure-manager-vouchagram-india-oajmnjrs",
@@ -10527,6 +10286,81 @@
     "scanned_date": "2026-11-24"
   },
   {
+    "job_id": "jsp_naukri_nk-261126036115",
+    "title": "DevOps/Infrastructure Engineer(DevOps+SecOps)",
+    "company": "THE Hire Arc",
+    "location": "New Delhi(Connaught Place), India",
+    "salary": "INR 1,200,000–2,200,000",
+    "posted_date": "2026-11-26",
+    "url": "https://www.naukri.com/job-listings-devops-infrastructure-engineer-devops-secops-the-hire-arc-new-delhi-2-to-5-years-261126036115",
+    "source": "Naukri",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 10,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (New Delhi(Connaught Place), India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 75,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Infrastructure Engineer”.",
+        "Posting asks for skills in the profile: DevOps.",
+        "Based in Delhi NCR (New Delhi(Connaught Place), India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-26"
+  },
+  {
+    "job_id": "li_e1864d9fb4",
+    "title": "Delivery Lead- Platform Engineer",
+    "company": "Acuity Analytics",
+    "location": "Gurugram, Haryana, India",
+    "source": "LinkedIn",
+    "url": "https://in.linkedin.com/jobs/view/delivery-lead-platform-engineer-at-acuity-analytics-4492648305?position=10&pageNum=0&refId=9FcZFPkmSrzkQJoucBjkwQ%3D%3D&trackingId=XZjy%2BLYqrPmA8Ev%2FQsuqTQ%3D%3D",
+    "description": "Delivery Lead- Platform Engineer at Acuity Analytics — Gurugram, Haryana, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-23",
+    "suggested_profile": "diksha",
+    "vikas_score": 18,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 75,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Platform Engineer”.",
+        "Seniority fits (Lead).",
+        "Based in Delhi NCR (Gurugram, Haryana, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-26"
+  },
+  {
     "job_id": "li_93fa3f7b63",
     "title": "Cloud & Infrastructure Engineer — Azure",
     "company": "Vylqora Technologies Pvt Ltd",
@@ -10965,5 +10799,123 @@
     },
     "status": "new",
     "scanned_date": "2026-11-24"
+  },
+  {
+    "job_id": "fh_inbound-voip-platform-engineer-cc33-global-limited-rfxu2sxo",
+    "title": "Inbound VoIP Platform Engineer",
+    "company": "CC33 Global Limited",
+    "location": "Noida, Uttar Pradesh, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-24",
+    "url": "https://www.linkedin.com/jobs/view/4492640111/?utm_source=freehire.me",
+    "source": "FreeHire",
+    "via": "linkedin",
+    "description": "We're hiring: Inbound VoIP Platform Engineer\n\nLocation: Noida, Delhi NCR (Work from office)\n\nAbout ADPCX\n\nADPCX builds call centre CRM, AI-powered service automation and multichannel interaction technology for BPOs, contact centres and enterprises, handling 40 million+ customer interactions a month. We're the engineering backbone of the Adhki.ai ecosystem and part of the iCXperience group alongside CC33, with product teams across India, Asia and Europe. www.adpcx.com\n\nThe role\n\nWe're looking for a hands-on VoIP engineer to build and run the inbound telephony platform behind large contact centres: SIP routing, IVRs, queues, skills-based routing and failover. You'll own it end to end in a small team, from architecture to live operations, on a platform carrying thousands of concurrent calls for 1,000+ agents.\n\nWhat you'll do\n\n• Design SIP routing from carrier ingress and DID mapping through to agent delivery\n\n• Build IVRs, queues and skills-based routing, including priorities, overflow and callbacks\n\n• Design failover across servers, sites and carriers\n\n• Diagnose signalling, media and call-quality issues such as one-way audio, jitter, packet loss and NAT\n\n• Plan and test capacity for peak volumes across thousands of concurrent calls\n\n• Deploy safely, support live operations and keep runbooks current\n\nWhat you'll bring\n\n• Hands-on experience building and operating inbound telephony for large contact centres, ideally on Asterisk, FreeSWITCH, Kamailio or OpenSIPS\n\n• Proven deliver",
+    "vikas_score": 15,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: PCI DSS.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": [
+        "Python"
+      ]
+    },
+    "diksha_score": 73,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “Platform Engineer”.",
+        "Posting asks for skills in the profile: Automation.",
+        "Based in Delhi NCR (Noida, Uttar Pradesh, India)."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-25"
+  },
+  {
+    "job_id": "jsp_linkedin_li-4481874076",
+    "title": "DevOps Engineer",
+    "company": "TravClan",
+    "location": "New Delhi, Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-23",
+    "url": "https://www.linkedin.com/jobs/view/4481874076",
+    "source": "LinkedIn",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 10,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Based in Delhi NCR (New Delhi, Delhi, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 73,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “DevOps Engineer”.",
+        "Posting asks for skills in the profile: DevOps.",
+        "Based in Delhi NCR (New Delhi, Delhi, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-26"
+  },
+  {
+    "job_id": "jsp_linkedin_li-4491620434",
+    "title": "GCP DevOps Engineer",
+    "company": "Deloitte",
+    "location": "Delhi, India",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-19",
+    "url": "https://www.linkedin.com/jobs/view/4491620434",
+    "source": "LinkedIn",
+    "via": "JobSpy",
+    "apply_email": "",
+    "description": "",
+    "vikas_score": 13,
+    "vikas_fit": {
+      "band": "Poor fit",
+      "reasons": [
+        "Posting asks for skills in the profile: GCP.",
+        "Based in Delhi NCR (Delhi, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [
+        "The posting isn't about this field."
+      ],
+      "gaps": []
+    },
+    "diksha_score": 73,
+    "diksha_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title matches a target role: “DevOps Engineer”.",
+        "Posting asks for skills in the profile: DevOps.",
+        "Based in Delhi NCR (Delhi, India).",
+        "Only the title was available; open the posting to confirm."
+      ],
+      "red_flags": [],
+      "gaps": []
+    },
+    "status": "new",
+    "scanned_date": "2026-11-26"
   }
 ]

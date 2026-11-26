@@ -905,7 +905,50 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-25"
+    "scanned_date": "2026-11-26"
+  },
+  {
+    "job_id": "jcy_156123",
+    "title": "Senior Product Security Engineer",
+    "company": "AlphaSense",
+    "location": "Remote (Ireland)",
+    "salary": "Not disclosed",
+    "posted_date": "2026-11-21",
+    "url": "https://jobicy.com/jobs/156123-senior-product-security-engineer",
+    "source": "Jobicy",
+    "description": "About AlphaSense:   \n AlphaSense is the AI platform redefining market intelligence and workflow orchestration, trusted by thousands of leading organizations to drive faster, more confident decisions in business and finance. The platform combines domain-specific AI with a vast content universe of over 500 million premium business documents — including equity research, earnings calls, expert interviews, filings, news, and internal proprietary content. Purpose-built for speed, accuracy, and enterprise-grade security, AlphaSense helps teams extract critical insights, uncover market-moving trends, and automate complex workflows with high-quality outputs. With AI solutions like Generative Search, Generative Grid, and Deep Research, AlphaSense delivers the clarity and depth professionals need to navigate complexity and obtain accurate, real-time information quickly. For more information, visit  www.alpha-sense.com . Come join us. \n  About the Role  \n We're looking for a Senior Product Security Engineer to lead the design and implementation of secure, scalable, and trustworthy products across AlphaSense's AI-native platform. You'll work closely with architects, engineering, and product teams to embed security by design throughout the software development lifecycle. \n This role sits at the intersection of AI/ML security, secure architecture, threat modeling, and customer-facing assurance — defining the standards, automation, and frameworks that enable secure, intelligent products at s",
+    "vikas_score": 73,
+    "vikas_fit": {
+      "band": "Good fit",
+      "reasons": [
+        "Title is in the right field (Security).",
+        "Posting asks for skills in the profile: LLM Security, DevSecOps, Secure SDLC, Cloud Security, ISO 27001.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "CISSP",
+        "SOC 2",
+        "Kubernetes",
+        "Python"
+      ]
+    },
+    "diksha_score": 57,
+    "diksha_fit": {
+      "band": "Possible fit",
+      "reasons": [
+        "Seniority fits (Senior).",
+        "Posting asks for skills in the profile: Multi-Cloud, Automation, RBAC, Kubernetes, CI/CD.",
+        "Remote: workable from Delhi."
+      ],
+      "red_flags": [],
+      "gaps": [
+        "Python",
+        "Java"
+      ]
+    },
+    "status": "new",
+    "scanned_date": "2026-11-26"
   },
   {
     "job_id": "li_13520ed6f3",
@@ -1057,7 +1100,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-25"
+    "scanned_date": "2026-11-26"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/majesco/jobs/senior-lead-engineer-information-security",
@@ -2431,45 +2474,6 @@
     "scanned_date": "2026-11-09"
   },
   {
-    "job_id": "fh_delivery-lead-sales-careers-inc-nttdata-com-rgfbckko",
-    "title": "Systems Engineering Advisor-Technical Lead - Endpoint Application Security & Governance",
-    "company": "careers-inc.nttdata.com",
-    "location": "Noida, UP, IN",
-    "salary": "Not disclosed",
-    "posted_date": "2026-11-14",
-    "url": "https://careers-inc.nttdata.com/job/Noida-Systems-Engineering-Advisor-Technical-Lead-Endpoint-Application-Security-&-Governance-UP/1396286200/?utm_source=freehire.me",
-    "source": "FreeHire",
-    "via": "successfactors",
-    "description": "NTT DATA strives to hire exceptional, innovative and passionate individuals who want to grow with us. If you want to be part of an inclusive, adaptable, and forward-thinking organization, apply now.\n\nWe are currently seeking a Systems Engineering Advisor-Technical Lead - Endpoint Application Security & Governance to join our team in Noida, Uttar Pradesh (IN-UP), India (IN).\n\n*Offshore Technical Lead – Endpoint Application Security & Governance*\n\n*Role Overview*\n\nExperienced Offshore Technical Lead to support Enlyte’s 2026 security initiatives covering endpoint application governance, vulnerability remediation, compliance, application rationalization, and security risk reduction. The role will coordinate across Cybersecurity, Endpoint, Infrastructure, Service Management, and Application teams.\n\n*Key Responsibilities*\n\n* Lead application discovery, classification, governance, and lifecycle management across enterprise endpoints.\n* Establish governance for sanctioned, unsanctioned, and unauthorized applications, including ownership and custodianship.\n* Lead endpoint vulnerability remediation, patch compliance, application updates, and endpoint hardening.\n* Analyze vulnerability and security data to prioritize critical/high-risk issues and drive remediation within agreed SLAs.\n* Coordinate with Application Owners, Cybersecurity, Infrastructure, and Endpoint teams to deliver remediation outcomes.\n* Correlate application, vulnerability, endpoint, and security telemetry across Palo ",
-    "vikas_score": 65,
-    "vikas_fit": {
-      "band": "Possible fit",
-      "reasons": [
-        "Title is in the right field (Security).",
-        "Posting asks for skills in the profile: CrowdStrike, Vulnerability Management, PAM.",
-        "Based in Delhi NCR (Noida, UP, IN)."
-      ],
-      "red_flags": [],
-      "gaps": [
-        "CISSP",
-        "Palo Alto"
-      ]
-    },
-    "diksha_score": 48,
-    "diksha_fit": {
-      "band": "Poor fit",
-      "reasons": [
-        "Seniority fits (Lead).",
-        "Posting asks for skills in the profile: Automation.",
-        "Based in Delhi NCR (Noida, UP, IN)."
-      ],
-      "red_flags": [],
-      "gaps": []
-    },
-    "status": "new",
-    "scanned_date": "2026-11-25"
-  },
-  {
     "job_id": "hml_https://himalayas.app/companies/photon-interactive-uk-limited/jobs/security-and-compliance-engineer_offshore",
     "title": "Security and Compliance Engineer_Offshore",
     "company": "Photon Interactive UK Limited",
@@ -2511,7 +2515,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-25"
+    "scanned_date": "2026-11-26"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/photon/jobs/security-and-compliance-engineer_offshore",
@@ -2555,7 +2559,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-25"
+    "scanned_date": "2026-11-26"
   },
   {
     "job_id": "fh_devsecops-sre-lead-national-e-governance-division-negd-digit",
@@ -2709,7 +2713,7 @@
       ]
     },
     "status": "new",
-    "scanned_date": "2026-11-25"
+    "scanned_date": "2026-11-26"
   },
   {
     "job_id": "jsp_indeed_in-1d5e1e1872848677",
@@ -2749,7 +2753,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-25"
+    "scanned_date": "2026-11-26"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/rsa-security/jobs/principal-application-security-engineer-i",
@@ -2869,7 +2873,7 @@
       "gaps": []
     },
     "status": "new",
-    "scanned_date": "2026-11-25"
+    "scanned_date": "2026-11-26"
   },
   {
     "job_id": "hml_https://himalayas.app/companies/sun-king/jobs/application-security-engineer",
